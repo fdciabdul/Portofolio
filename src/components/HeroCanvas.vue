@@ -53,15 +53,18 @@ function makeHorizLines(): THREE.LineSegments {
 }
 
 function updateHoriz(dt: number) {
-  const pa = horizGeo.attributes.position.array as Float32Array
-  const ca = horizGeo.attributes.color.array as Float32Array
+  const posAttr = horizGeo.attributes.position
+  const colAttr = horizGeo.attributes.color
+  if (!posAttr || !colAttr) return
+  const pa = posAttr.array as Float32Array
+  const ca = colAttr.array as Float32Array
   const hw = GRID_WIDTH / 2
 
   for (let i = 0; i < HORIZ_COUNT; i++) {
-    horizZ[i] += SPEED * dt
-    if (horizZ[i] > 0.5) horizZ[i] -= GRID_DEPTH
+    let z = (horizZ[i] ?? 0) + SPEED * dt
+    if (z > 0.5) z -= GRID_DEPTH
+    horizZ[i] = z
 
-    const z = horizZ[i]
     const idx = i * 6
     pa[idx]     = -hw; pa[idx+1] = Y_PLANE; pa[idx+2] = z
     pa[idx+3]   =  hw; pa[idx+4] = Y_PLANE; pa[idx+5] = z
@@ -73,8 +76,8 @@ function updateHoriz(dt: number) {
     ca[idx]=r; ca[idx+1]=g; ca[idx+2]=0
     ca[idx+3]=r; ca[idx+4]=g; ca[idx+5]=0
   }
-  horizGeo.attributes.position.needsUpdate = true
-  horizGeo.attributes.color.needsUpdate    = true
+  posAttr.needsUpdate = true
+  colAttr.needsUpdate = true
 }
 
 function onMouseMove(e: MouseEvent) {
