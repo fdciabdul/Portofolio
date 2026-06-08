@@ -1,0 +1,358 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]:
+        - text: /
+        - link "Open Source Project" [ref=e38] [cursor=pointer]:
+          - /url: /category/open-source-project
+      - listitem [ref=e39]: / Auto-Bid Bot for Projects.co.id
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - link "PROJECTS" [ref=e46] [cursor=pointer]:
+                - /url: /category/projects
+              - link "Open Source Project" [ref=e47] [cursor=pointer]:
+                - /url: /category/open-source-project
+            - heading "Auto-Bid Bot for Projects.co.id" [level=1] [ref=e48]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: 
+                - link "Administrator" [ref=e52] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e53]:
+                - generic [ref=e54]: 
+                - time [ref=e55]: May 2, 2026
+              - generic "This article was updated" [ref=e56]:
+                - generic [ref=e57]: 
+                - text: Updated
+                - time [ref=e58]: Jun 1, 2026
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: 1 min read
+            - generic [ref=e61]:
+              - button " 0 likes" [ref=e62] [cursor=pointer]:
+                - generic [ref=e63]: 
+                - text: 0 likes
+              - generic [ref=e64]:
+                - generic [ref=e65]: 
+                - text: 181 views
+          - img "Auto-Bid Bot for Projects.co.id" [ref=e67]
+          - navigation "Table of contents" [ref=e68]:
+            - button " Contents ▾" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: 
+              - strong [ref=e71]: Contents
+              - generic [ref=e72]: ▾
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "What it does" [ref=e75] [cursor=pointer]:
+                  - /url: "#what-it-does"
+              - listitem [ref=e76]:
+                - link "Configuration" [ref=e77] [cursor=pointer]:
+                  - /url: "#configuration"
+              - listitem [ref=e78]:
+                - link "Run" [ref=e79] [cursor=pointer]:
+                  - /url: "#run"
+          - generic [ref=e80]:
+            - paragraph [ref=e81]:
+              - text: Auto-bid bot for
+              - link "Projects" [ref=e82] [cursor=pointer]:
+                - /url: /machine-learning-projects-beginner-to-pro-ideas-examples
+              - text: .co.id. Grok solves the captcha, scans listings by keyword, loops 24/7 in the terminal.
+            - paragraph [ref=e83]:
+              - img "Auto-bid TUI dashboard"
+            - paragraph [ref=e84]:
+              - strong [ref=e85]: "Code:"
+              - link "github.com/ReverserID/Projects.co.id-Auto-Bid" [ref=e86] [cursor=pointer]:
+                - /url: https://github.com/ReverserID/Projects.co.id-Auto-Bid
+            - paragraph [ref=e87]:
+              - strong [ref=e88]: "Stack:"
+              - link "TypeScript" [ref=e89] [cursor=pointer]:
+                - /url: /hermes-web-ui-the-essential-dashboard-for-hermes-agent
+              - text: ","
+              - link "OpenRouter" [ref=e90] [cursor=pointer]:
+                - /url: /honcho-self-hosted-self-host-honcho-memory-with-redis-in-minutes
+              - text: (Grok), Rezi TUI, HTTP Toolkit
+            - heading "What it does" [level=2] [ref=e91]
+            - list [ref=e92]:
+              - listitem [ref=e93]: Scans the Projects.co.id listing on a schedule, filtered by your keywords.
+              - listitem [ref=e94]: Auto-generates a bid message in your voice with Grok.
+              - listitem [ref=e95]: Solves the captcha via Grok Vision.
+              - listitem [ref=e96]: Submits the bid through a TLS-impersonated client that gets through Cloudflare.
+              - listitem [ref=e97]: Persists which projects it has already bid on, with per-day and per-cycle caps.
+              - listitem [ref=e98]: Renders a live dashboard in the terminal so you can watch it work.
+            - complementary "Related articles" [ref=e99]:
+              - generic [ref=e101]: You may also like
+              - link "Driver Booster Pro - Open Source Windows Driver Manager Built with Go" [ref=e104] [cursor=pointer]:
+                - /url: /driver-booster-pro-open-source-windows-driver-manager
+                - generic [ref=e106]: Driver Booster Pro - Open Source Windows Driver Manager Built with Go
+            - heading "Configuration" [level=2] [ref=e107]
+            - paragraph [ref=e108]: Everything is driven by a single JSON config — no flag soup.
+            - code [ref=e110]: "{ \"keywords\": [\"scrap\", \"scraping\", \"automation\", \"bot\", \"web\"], \"pollIntervalMs\": 600000, \"jitterMs\": 120000, \"maxBidsPerCycle\": 3, \"maxBidsPerDay\": 25, \"pagesPerKeyword\": 2, \"minBudget\": 500000, \"skipIfBidsOver\": 30, \"delayMs\": 15000, \"captchaRetries\": 3, \"stateFile\": \".auto-bid-state.json\", \"tui\": true, \"dryRun\": false }"
+            - heading "Run" [level=2] [ref=e111]
+            - code [ref=e113]: npm run dev -- auto-bid-daemon
+            - paragraph [ref=e114]:
+              - text: Press
+              - code [ref=e115]: q
+              - text: to quit.
+            - paragraph [ref=e116]: Use it however you want.
+          - complementary "Project resources" [ref=e117]:
+            - generic [ref=e119]: Project resources
+            - generic [ref=e121]:
+              - link "View on GitHub" [ref=e122] [cursor=pointer]:
+                - /url: https://github.com/reverserid/projects.co.id-auto-bid
+                - img [ref=e123]
+                - generic [ref=e125]: View on GitHub
+              - link "Visit project site" [ref=e126] [cursor=pointer]:
+                - /url: https://raw.githubusercontent.com/ReverserID/Projects.co.id-Auto-Bid/main/screenshot.PNG
+                - img [ref=e127]
+                - generic [ref=e130]: Visit project site
+          - generic [ref=e131]:
+            - strong [ref=e132]:
+              - generic [ref=e133]: 
+              - text: "Tags:"
+            - generic [ref=e134]:
+              - link "AI" [ref=e135] [cursor=pointer]:
+                - /url: /tag/ai
+              - link "automation" [ref=e136] [cursor=pointer]:
+                - /url: /tag/automation
+              - link "TypeScript" [ref=e137] [cursor=pointer]:
+                - /url: /tag/typescript
+              - link "OpenRouter" [ref=e138] [cursor=pointer]:
+                - /url: /tag/openrouter
+              - link "tui" [ref=e139] [cursor=pointer]:
+                - /url: /tag/tui
+              - link "grok" [ref=e140] [cursor=pointer]:
+                - /url: /tag/grok
+              - link "rezi" [ref=e141] [cursor=pointer]:
+                - /url: /tag/rezi
+              - link "reverse-engineering" [ref=e142] [cursor=pointer]:
+                - /url: /tag/reverse-engineering
+              - link "freelance" [ref=e143] [cursor=pointer]:
+                - /url: /tag/freelance
+        - complementary [ref=e144]:
+          - img "imtaqin" [ref=e146]
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - strong [ref=e149]: imtaqin
+              - generic [ref=e150]: Author
+            - paragraph [ref=e151]: Writes about self-hosted apps, AI tools, cybersecurity, and homelab projects. Sharing tools and notes from real-world deployments.
+            - link "More posts by imtaqin ›" [ref=e153] [cursor=pointer]:
+              - /url: /author/administrator
+        - generic [ref=e154]:
+          - strong [ref=e155]: "Share this post:"
+          - generic [ref=e156]:
+            - link " Twitter" [ref=e157] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=Auto-Bid%20Bot%20for%20Projects.co.id&url=https%3A%2F%2Fimtaqin.id%2Fauto-bid-bot-projects-co-id
+              - generic [ref=e158]: 
+              - text: Twitter
+            - link " Facebook" [ref=e159] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fimtaqin.id%2Fauto-bid-bot-projects-co-id
+              - generic [ref=e160]: 
+              - text: Facebook
+            - link " LinkedIn" [ref=e161] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fimtaqin.id%2Fauto-bid-bot-projects-co-id&title=Auto-Bid%20Bot%20for%20Projects.co.id
+              - generic [ref=e162]: 
+              - text: LinkedIn
+        - generic [ref=e163]:
+          - heading " Comments 1" [level=2] [ref=e164]:
+            - generic [ref=e165]: 
+            - text: Comments
+            - generic [ref=e166]: "1"
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - textbox "Your Name *" [ref=e172]
+              - textbox "Your Email *" [ref=e175]
+            - textbox "Write a comment..." [ref=e177]
+            - button " Post Comment" [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]: 
+              - text: Post Comment
+            - text: Your email will not be published.
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - strong [ref=e183]: taqin
+              - generic [ref=e184]: May 2, 2026, 08:16 PM
+            - paragraph [ref=e185]: nice ahh
+            - button " Reply" [ref=e186] [cursor=pointer]:
+              - generic [ref=e187]: 
+              - text: Reply
+            - text: 
+        - generic [ref=e188]:
+          - heading "Related Posts" [level=2] [ref=e189]
+          - generic [ref=e193]:
+            - heading "Driver Booster Pro - Open Source Windows Driver Manager Built with Go" [level=4] [ref=e194]:
+              - link "Driver Booster Pro - Open Source Windows Driver Manager Built with Go" [ref=e195] [cursor=pointer]:
+                - /url: /driver-booster-pro-open-source-windows-driver-manager
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - generic [ref=e198]: 
+                - text: Administrator
+              - generic [ref=e199]:
+                - generic [ref=e200]: 
+                - text: "0"
+      - complementary [ref=e201]:
+        - generic [ref=e202]:
+          - heading "Post Info" [level=4] [ref=e203]
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - strong [ref=e206]: "Author:"
+              - link "Administrator" [ref=e207] [cursor=pointer]:
+                - /url: /author/administrator
+            - listitem [ref=e208]:
+              - strong [ref=e209]: "Likes:"
+              - text: 0 |
+              - strong [ref=e210]: "Views:"
+              - text: "180"
+            - listitem [ref=e211]:
+              - strong [ref=e212]: "Categories:"
+              - link "PROJECTS" [ref=e213] [cursor=pointer]:
+                - /url: /category/projects
+              - text: ","
+              - link "Open Source Project" [ref=e214] [cursor=pointer]:
+                - /url: /category/open-source-project
+            - listitem [ref=e215]:
+              - strong [ref=e216]: "Published:"
+              - text: 5/2/2026
+        - generic [ref=e217]:
+          - heading "Categories" [level=4] [ref=e218]
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - link "AI & Machine Learning" [ref=e221] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+            - listitem [ref=e222]:
+              - link "Automation" [ref=e223] [cursor=pointer]:
+                - /url: /category/automation
+            - listitem [ref=e224]:
+              - link "C#" [ref=e225] [cursor=pointer]:
+                - /url: /category/c
+            - listitem [ref=e226]:
+              - link "Cybersecurity" [ref=e227] [cursor=pointer]:
+                - /url: /category/cybersecurity
+            - listitem [ref=e228]:
+              - link "Data & Analytics" [ref=e229] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+            - listitem [ref=e230]:
+              - link "Exploits & CVE" [ref=e231] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+            - listitem [ref=e232]:
+              - link "Go" [ref=e233] [cursor=pointer]:
+                - /url: /category/go
+            - listitem [ref=e234]:
+              - link "IoT & Smart Home" [ref=e235] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+        - generic [ref=e236]:
+          - heading "Tags" [level=4] [ref=e237]
+          - generic [ref=e238]:
+            - link "0xabcd01/cve-2026-41089" [ref=e239] [cursor=pointer]:
+              - /url: /tag/0xabcd01-cve-2026-41089
+            - link "0xchasercat/mochi" [ref=e240] [cursor=pointer]:
+              - /url: /tag/0xchasercat-mochi
+            - link "1tamilmv-telegram-bot" [ref=e241] [cursor=pointer]:
+              - /url: /tag/1tamilmv-telegram-bot
+            - link "35gateway" [ref=e242] [cursor=pointer]:
+              - /url: /tag/35gateway
+            - link "3d reconstruction" [ref=e243] [cursor=pointer]:
+              - /url: /tag/3d-reconstruction
+            - link "3dcellforge" [ref=e244] [cursor=pointer]:
+              - /url: /tag/3dcellforge
+            - link "a-eye" [ref=e245] [cursor=pointer]:
+              - /url: /tag/a-eye
+            - link "a-share-trading" [ref=e246] [cursor=pointer]:
+              - /url: /tag/a-share-trading
+            - link "a-stock-data" [ref=e247] [cursor=pointer]:
+              - /url: /tag/a-stock-data
+            - link "aaron-kidwell/golol" [ref=e248] [cursor=pointer]:
+              - /url: /tag/aaron-kidwell-golol
+            - link "abgeo/mezz" [ref=e249] [cursor=pointer]:
+              - /url: /tag/abgeo-mezz
+            - link "accessibility-theme" [ref=e250] [cursor=pointer]:
+              - /url: /tag/accessibility-theme
+            - link "active-directory" [ref=e251] [cursor=pointer]:
+              - /url: /tag/active-directory
+            - link "activepieces" [ref=e252] [cursor=pointer]:
+              - /url: /tag/activepieces
+            - link "acunetix-crack-2026" [ref=e253] [cursor=pointer]:
+              - /url: /tag/acunetix-crack-2026
+        - generic [ref=e254]:
+          - heading "Quick Links" [level=4] [ref=e255]
+          - list [ref=e256]:
+            - listitem [ref=e257]:
+              - link " More by Administrator" [ref=e258] [cursor=pointer]:
+                - /url: /author/administrator
+                - generic [ref=e259]: 
+                - text: More by Administrator
+            - listitem [ref=e260]:
+              - link " Browse All Posts" [ref=e261] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e262]: 
+                - text: Browse All Posts
+            - listitem [ref=e263]:
+              - link " RSS Feed" [ref=e264] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e265]: 
+                - text: RSS Feed
+  - contentinfo [ref=e266]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - heading "IMTAQIN" [level=4] [ref=e270]
+          - paragraph [ref=e271]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e272]:
+          - link "Home" [ref=e273] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e274] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e275] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e276] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e277] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e278] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e279] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e280] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e282]: © 2026 IMTAQIN. All rights reserved.

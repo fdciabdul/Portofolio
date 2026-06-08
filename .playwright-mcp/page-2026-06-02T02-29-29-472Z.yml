@@ -1,0 +1,562 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]:
+        - text: /
+        - link "Programming" [ref=e38] [cursor=pointer]:
+          - /url: /category/programming
+      - listitem [ref=e39]: / WA-KLINIK - WhatsApp Clinic Management System
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - link "Programming" [ref=e46] [cursor=pointer]:
+                - /url: /category/programming
+              - link "PROJECTS" [ref=e47] [cursor=pointer]:
+                - /url: /category/projects
+            - heading "WA-KLINIK - WhatsApp Clinic Management System" [level=1] [ref=e48]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: 
+                - link "Administrator" [ref=e52] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e53]:
+                - generic [ref=e54]: 
+                - time [ref=e55]: December 17, 2025
+              - generic "This article was updated" [ref=e56]:
+                - generic [ref=e57]: 
+                - text: Updated
+                - time [ref=e58]: Jun 2, 2026
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: 3 min read
+            - generic [ref=e61]:
+              - button " 2 likes" [ref=e62] [cursor=pointer]:
+                - generic [ref=e63]: 
+                - text: 2 likes
+              - generic [ref=e64]:
+                - generic [ref=e65]: 
+                - text: 891 views
+          - img "WA-KLINIK - WhatsApp Clinic Management System" [ref=e67]
+          - navigation "Table of contents" [ref=e68]:
+            - button " Contents ▾" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: 
+              - strong [ref=e71]: Contents
+              - generic [ref=e72]: ▾
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Core Features" [ref=e75] [cursor=pointer]:
+                  - /url: "#core-features"
+              - listitem [ref=e76]:
+                - link "1. AI-Powered WhatsApp Bot" [ref=e77] [cursor=pointer]:
+                  - /url: "#1-ai-powered-whatsapp-bot"
+              - listitem [ref=e78]:
+                - link "2. Schedule Management" [ref=e79] [cursor=pointer]:
+                  - /url: "#2-schedule-management"
+              - listitem [ref=e80]:
+                - link "3. Patient Management" [ref=e81] [cursor=pointer]:
+                  - /url: "#3-patient-management"
+              - listitem [ref=e82]:
+                - link "4. Multi-Instance Support" [ref=e83] [cursor=pointer]:
+                  - /url: "#4-multi-instance-support"
+              - listitem [ref=e84]:
+                - link "Tech Stack" [ref=e85] [cursor=pointer]:
+                  - /url: "#tech-stack"
+              - listitem [ref=e86]:
+                - link "Screenshots" [ref=e87] [cursor=pointer]:
+                  - /url: "#screenshots"
+              - listitem [ref=e88]:
+                - link "Login Page" [ref=e89] [cursor=pointer]:
+                  - /url: "#login-page"
+              - listitem [ref=e90]:
+                - link "Dashboard" [ref=e91] [cursor=pointer]:
+                  - /url: "#dashboard"
+              - listitem [ref=e92]:
+                - link "Chat History" [ref=e93] [cursor=pointer]:
+                  - /url: "#chat-history"
+              - listitem [ref=e94]:
+                - link "Patient Management" [ref=e95] [cursor=pointer]:
+                  - /url: "#patient-management"
+              - listitem [ref=e96]:
+                - link "Schedule (Jadwal Praktik)" [ref=e97] [cursor=pointer]:
+                  - /url: "#schedule-jadwal-praktik"
+              - listitem [ref=e98]:
+                - link "Reports (Laporan)" [ref=e99] [cursor=pointer]:
+                  - /url: "#reports-laporan"
+              - listitem [ref=e100]:
+                - link "Instances (WhatsApp Instances)" [ref=e101] [cursor=pointer]:
+                  - /url: "#instances-whatsapp-instances"
+              - listitem [ref=e102]:
+                - link "Bot Settings (Pengaturan AI)" [ref=e103] [cursor=pointer]:
+                  - /url: "#bot-settings-pengaturan-ai"
+              - listitem [ref=e104]:
+                - link "Mobile Responsive" [ref=e105] [cursor=pointer]:
+                  - /url: "#mobile-responsive"
+              - listitem [ref=e106]:
+                - link "Mobile Dashboard" [ref=e107] [cursor=pointer]:
+                  - /url: "#mobile-dashboard"
+              - listitem [ref=e108]:
+                - link "Mobile Schedule" [ref=e109] [cursor=pointer]:
+                  - /url: "#mobile-schedule"
+              - listitem [ref=e110]:
+                - link "Key Implementation Details" [ref=e111] [cursor=pointer]:
+                  - /url: "#key-implementation-details"
+              - listitem [ref=e112]:
+                - link "Phone Number Normalization" [ref=e113] [cursor=pointer]:
+                  - /url: "#phone-number-normalization"
+              - listitem [ref=e114]:
+                - link "Holiday Calendar Blocking" [ref=e115] [cursor=pointer]:
+                  - /url: "#holiday-calendar-blocking"
+              - listitem [ref=e116]:
+                - link "Searchable Model Dropdown" [ref=e117] [cursor=pointer]:
+                  - /url: "#searchable-model-dropdown"
+              - listitem [ref=e118]:
+                - link "Deployment" [ref=e119] [cursor=pointer]:
+                  - /url: "#deployment"
+              - listitem [ref=e120]:
+                - link "Docker Support" [ref=e121] [cursor=pointer]:
+                  - /url: "#docker-support"
+              - listitem [ref=e122]:
+                - link "Manual Setup" [ref=e123] [cursor=pointer]:
+                  - /url: "#manual-setup"
+              - listitem [ref=e124]:
+                - link "API Endpoints" [ref=e125] [cursor=pointer]:
+                  - /url: "#api-endpoints"
+              - listitem [ref=e126]:
+                - link "Conclusion" [ref=e127] [cursor=pointer]:
+                  - /url: "#conclusion"
+          - generic [ref=e128]:
+            - paragraph [ref=e129]:
+              - strong [ref=e130]: WA-KLINIK
+              - text: adalah sistem manajemen klinik terintegrasi dengan WhatsApp yang dirancang khusus untuk Klinik dr. Angga (Chiropractic & Chronic Pain Management). Sistem ini menggabungkan kemampuan AI untuk berinteraksi dengan pasien melalui WhatsApp, manajemen jadwal praktik, dan pengelolaan data pasien dalam satu platform yang mudah digunakan.
+            - heading "Core Features" [level=2] [ref=e131]
+            - heading "1. AI-Powered WhatsApp Bot" [level=3] [ref=e132]
+            - list [ref=e133]:
+              - listitem [ref=e134]:
+                - text: Chatbot cerdas dengan integrasi
+                - link "OpenRouter" [ref=e135] [cursor=pointer]:
+                  - /url: /honcho-self-hosted-self-host-honcho-memory-with-redis-in-minutes
+                - text: /OpenAI
+              - listitem [ref=e136]: Respons otomatis untuk pertanyaan umum pasien
+              - listitem [ref=e137]: Pembuatan jadwal appointment via chat
+              - listitem [ref=e138]: Normalisasi nomor telepon otomatis untuk mencegah duplikasi
+            - heading "2. Schedule Management" [level=3] [ref=e139]
+            - list [ref=e140]:
+              - listitem [ref=e141]: Kalender mingguan interaktif dengan drag-and-drop
+              - listitem [ref=e142]: Pengaturan jam praktik, istirahat, dan hari libur
+              - listitem [ref=e143]: Blokir otomatis untuk tanggal libur nasional
+              - listitem [ref=e144]: Statistik harian (total appointment, gender, kontrol/reservasi)
+            - heading "3. Patient Management" [level=3] [ref=e145]
+            - list [ref=e146]:
+              - listitem [ref=e147]: Database pasien terintegrasi
+              - listitem [ref=e148]: Riwayat keluhan dan kunjungan
+              - listitem [ref=e149]: Pencarian dengan normalisasi nomor HP
+              - listitem [ref=e150]: Laporan per periode
+            - heading "4. Multi-Instance Support" [level=3] [ref=e151]
+            - list [ref=e152]:
+              - listitem [ref=e153]: Kelola multiple WhatsApp instances
+              - listitem [ref=e154]: Role-based access (superadmin, admin)
+              - listitem [ref=e155]: Filter data per instance
+            - complementary "Related articles" [ref=e156]:
+              - generic [ref=e158]: You may also like
+              - generic [ref=e160]:
+                - 'link "sass-king: Reverse Engineers NVIDIA SASS for Blackwell GPUs" [ref=e161] [cursor=pointer]':
+                  - /url: /sass-king-reverse-engineers-nvidia-sass-for-blackwell-gpus
+                  - generic [ref=e163]: "sass-king: Reverse Engineers NVIDIA SASS for Blackwell GPUs"
+                - 'link "Portscope: CLI Tool for Viewing and Managing Network Port Processes" [ref=e164] [cursor=pointer]':
+                  - /url: /portscope-cli-tool-for-viewing-and-managing-network-port-processes
+                  - generic [ref=e166]: "Portscope: CLI Tool for Viewing and Managing Network Port Processes"
+                - 'link "Splashboard: Customizable Terminal Dashboard on Shell Start or CD" [ref=e167] [cursor=pointer]':
+                  - /url: /splashboard-customizable-terminal-dashboard-on-shell-start-or-cd
+                  - generic [ref=e169]: "Splashboard: Customizable Terminal Dashboard on Shell Start or CD"
+            - heading "Tech Stack" [level=2] [ref=e170]
+            - table [ref=e171]:
+              - rowgroup [ref=e172]:
+                - row "Component Technology" [ref=e173]:
+                  - columnheader "Component" [ref=e174]
+                  - columnheader "Technology" [ref=e175]:
+                    - link "Technology" [ref=e176] [cursor=pointer]:
+                      - /url: /oracle-stock-is-this-tech-giant-a-secret-ai-investment
+              - rowgroup [ref=e177]:
+                - row "Backend Node.js + Express.js" [ref=e178]:
+                  - cell "Backend" [ref=e179]
+                  - cell "Node.js + Express.js" [ref=e180]
+                - row "Database MySQL + Sequelize ORM" [ref=e181]:
+                  - cell "Database" [ref=e182]
+                  - cell "MySQL + Sequelize ORM" [ref=e183]
+                - row "Cache Redis" [ref=e184]:
+                  - cell "Cache" [ref=e185]
+                  - cell "Redis" [ref=e186]
+                - row "WhatsApp WUZAPI Integration" [ref=e187]:
+                  - cell "WhatsApp" [ref=e188]
+                  - cell "WUZAPI Integration" [ref=e189]
+                - row "AI OpenRouter / OpenAI API" [ref=e190]:
+                  - cell "AI" [ref=e191]
+                  - cell "OpenRouter / OpenAI API" [ref=e192]:
+                    - text: OpenRouter /
+                    - link "OpenAI API" [ref=e193] [cursor=pointer]:
+                      - /url: /localai-self-hosted-run-openai-compatible-llms-locally-for-free
+                - row "Frontend EJS Templates + Vanilla JS" [ref=e194]:
+                  - cell "Frontend" [ref=e195]
+                  - cell "EJS Templates + Vanilla JS" [ref=e196]
+                - row "Realtime Socket.IO" [ref=e197]:
+                  - cell "Realtime" [ref=e198]
+                  - cell "Socket.IO" [ref=e199]
+            - heading "Screenshots" [level=2] [ref=e200]
+            - heading "Login Page" [level=3] [ref=e201]
+            - paragraph [ref=e202]: Halaman login dengan desain modern dan aman.
+            - paragraph [ref=e203]:
+              - img "Login Page"
+            - heading "Dashboard" [level=3] [ref=e204]
+            - paragraph [ref=e205]: Overview statistik klinik dengan grafik dan quick actions.
+            - paragraph [ref=e206]:
+              - img "Dashboard"
+            - heading "Chat History" [level=3] [ref=e207]
+            - paragraph [ref=e208]: Riwayat percakapan WhatsApp dengan pasien, terintegrasi dengan AI.
+            - paragraph [ref=e209]:
+              - img "Chat History"
+            - heading "Patient Management" [level=3] [ref=e210]
+            - paragraph [ref=e211]: Manajemen data pasien dengan pencarian dan filter.
+            - paragraph [ref=e212]:
+              - img "Patients"
+            - heading "Schedule (Jadwal Praktik)" [level=3] [ref=e213]
+            - paragraph [ref=e214]: Kalender interaktif dengan drag-and-drop untuk mengatur jadwal.
+            - paragraph [ref=e215]:
+              - img "Schedule"
+            - heading "Reports (Laporan)" [level=3] [ref=e216]
+            - paragraph [ref=e217]: Laporan kehadiran dan statistik per periode.
+            - paragraph [ref=e218]:
+              - img "Reports"
+            - heading "Instances (WhatsApp Instances)" [level=3] [ref=e219]
+            - paragraph [ref=e220]: Kelola multiple WhatsApp instances dengan status koneksi.
+            - paragraph [ref=e221]:
+              - img "Instances"
+            - heading "Bot Settings (Pengaturan AI)" [level=3] [ref=e222]
+            - paragraph [ref=e223]: Konfigurasi AI provider, model selection dengan search, dan system prompt.
+            - paragraph [ref=e224]:
+              - img "Bot Settings"
+            - heading "Mobile Responsive" [level=2] [ref=e225]
+            - paragraph [ref=e226]: Sistem ini fully responsive untuk penggunaan di mobile.
+            - heading "Mobile Dashboard" [level=3] [ref=e227]
+            - paragraph [ref=e228]:
+              - img "Mobile Dashboard"
+            - heading "Mobile Schedule" [level=3] [ref=e229]
+            - paragraph [ref=e230]:
+              - img "Mobile Schedule"
+            - heading "Key Implementation Details" [level=2] [ref=e231]
+            - heading "Phone Number Normalization" [level=3] [ref=e232]
+            - paragraph [ref=e233]: "Sistem menggunakan normalisasi nomor telepon untuk mencegah duplikasi data pasien:"
+            - code [ref=e235]:
+              - text: "function normalizePhone(phone) { // Remove WhatsApp suffixes let normalized = phone.replace("
+              - generic [ref=e236]: /@s\.whatsapp\.net|@c\.us/g
+              - text: ", ''); // Remove non-digits except + normalized = normalized.replace("
+              - generic [ref=e237]: /[^\d+]/g
+              - text: ", ''); // Handle Indonesian formats if (normalized.startsWith('+62')) { normalized = normalized.slice(1); } else if (normalized.startsWith('0')) { normalized = '62' + normalized.slice(1); } return normalized; }"
+            - heading "Holiday Calendar Blocking" [level=3] [ref=e238]
+            - paragraph [ref=e239]: "Jadwal praktik otomatis memblokir tanggal libur yang sudah di-setting:"
+            - code [ref=e241]: "// Load holidays and block calendar cells const holiday = calendarHolidays.find(h => h.date === dateStr); if (holiday) { isUnavailable = true; unavailableReason = holiday.name; }"
+            - heading "Searchable Model Dropdown" [level=3] [ref=e242]
+            - paragraph [ref=e243]: "Fitur pencarian model AI untuk memudahkan pemilihan dari 100+ model OpenRouter:"
+            - list [ref=e244]:
+              - listitem [ref=e245]: Filter real-time saat mengetik
+              - listitem [ref=e246]: Grouping berdasarkan tier harga (GRATIS, BUDGET, STANDARD, PREMIUM)
+              - listitem [ref=e247]: Informasi harga dan context length
+            - heading "Deployment" [level=2] [ref=e248]
+            - heading "Docker Support" [level=3] [ref=e249]
+            - code [ref=e251]: docker-compose up -d
+            - heading "Manual Setup" [level=3] [ref=e252]
+            - code [ref=e254]: "npm install cp .env.example .env # Configure .env npm start"
+            - heading "API Endpoints" [level=2] [ref=e255]
+            - table [ref=e256]:
+              - rowgroup [ref=e257]:
+                - row "Endpoint Method Description" [ref=e258]:
+                  - columnheader "Endpoint" [ref=e259]
+                  - columnheader "Method" [ref=e260]
+                  - columnheader "Description" [ref=e261]
+              - rowgroup [ref=e262]:
+                - row "/auth/login POST User authentication" [ref=e263]:
+                  - cell "/auth/login" [ref=e264]:
+                    - code [ref=e265]: /auth/login
+                  - cell "POST" [ref=e266]
+                  - cell "User authentication" [ref=e267]:
+                    - text: User
+                    - link "authentication" [ref=e268] [cursor=pointer]:
+                      - /url: /authentik-sso
+                - row "/schedule/api/appointments GET/POST Manage appointments" [ref=e269]:
+                  - cell "/schedule/api/appointments" [ref=e270]:
+                    - code [ref=e271]: /schedule/api/appointments
+                  - cell "GET/POST" [ref=e272]
+                  - cell "Manage appointments" [ref=e273]
+                - row "/patients/api GET/POST Patient CRUD" [ref=e274]:
+                  - cell "/patients/api" [ref=e275]:
+                    - code [ref=e276]: /patients/api
+                  - cell "GET/POST" [ref=e277]
+                  - cell "Patient CRUD" [ref=e278]
+                - row "/bot/webhook/:token POST WhatsApp webhook" [ref=e279]:
+                  - cell "/bot/webhook/:token" [ref=e280]:
+                    - code [ref=e281]: /bot/webhook/:token
+                  - cell "POST" [ref=e282]
+                  - cell "WhatsApp webhook" [ref=e283]
+                - row "/chat-history/api/conversations GET Chat history" [ref=e284]:
+                  - cell "/chat-history/api/conversations" [ref=e285]:
+                    - code [ref=e286]: /chat-history/api/conversations
+                  - cell "GET" [ref=e287]
+                  - cell "Chat history" [ref=e288]
+            - heading "Conclusion" [level=2] [ref=e289]
+            - paragraph [ref=e290]: WA-KLINIK adalah solusi lengkap untuk manajemen klinik modern yang mengintegrasikan komunikasi WhatsApp dengan AI. Sistem ini dirancang untuk meningkatkan efisiensi operasional klinik dan pengalaman pasien.
+            - separator [ref=e291]
+            - paragraph [ref=e292]:
+              - emphasis [ref=e293]: Built with Node.js, Express, MySQL, Redis, and AI-powered by OpenRouter
+        - complementary [ref=e294]:
+          - img "imtaqin" [ref=e296]
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - strong [ref=e299]: imtaqin
+              - generic [ref=e300]: Author
+            - paragraph [ref=e301]: Writes about self-hosted apps, AI tools, cybersecurity, and homelab projects. Sharing tools and notes from real-world deployments.
+            - link "More posts by imtaqin ›" [ref=e303] [cursor=pointer]:
+              - /url: /author/administrator
+        - generic [ref=e304]:
+          - strong [ref=e305]: "Share this post:"
+          - generic [ref=e306]:
+            - link " Twitter" [ref=e307] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=WA-KLINIK%20-%20WhatsApp%20Clinic%20Management%20System&url=https%3A%2F%2Fimtaqin.id%2Fwa-klinik-whatsapp-clinic-management-system
+              - generic [ref=e308]: 
+              - text: Twitter
+            - link " Facebook" [ref=e309] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fimtaqin.id%2Fwa-klinik-whatsapp-clinic-management-system
+              - generic [ref=e310]: 
+              - text: Facebook
+            - link " LinkedIn" [ref=e311] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fimtaqin.id%2Fwa-klinik-whatsapp-clinic-management-system&title=WA-KLINIK%20-%20WhatsApp%20Clinic%20Management%20System
+              - generic [ref=e312]: 
+              - text: LinkedIn
+        - generic [ref=e313]:
+          - heading " Comments" [level=2] [ref=e314]:
+            - generic [ref=e315]: 
+            - text: Comments
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - textbox "Your Name *" [ref=e321]
+              - textbox "Your Email *" [ref=e324]
+            - textbox "Write a comment..." [ref=e326]
+            - button " Post Comment" [ref=e327] [cursor=pointer]:
+              - generic [ref=e328]: 
+              - text: Post Comment
+            - text: Your email will not be published.
+          - generic [ref=e330]:
+            - generic [ref=e331]: 
+            - text: Loading comments...
+        - generic [ref=e332]:
+          - heading "Related Posts" [level=2] [ref=e333]
+          - generic [ref=e334]:
+            - generic [ref=e337]:
+              - 'heading "sass-king: Reverse Engineers NVIDIA SASS for Blackwell GPUs" [level=4] [ref=e338]':
+                - 'link "sass-king: Reverse Engineers NVIDIA SASS for Blackwell GPUs" [ref=e339] [cursor=pointer]':
+                  - /url: /sass-king-reverse-engineers-nvidia-sass-for-blackwell-gpus
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - generic [ref=e342]: 
+                  - text: Administrator
+                - generic [ref=e343]:
+                  - generic [ref=e344]: 
+                  - text: "0"
+            - generic [ref=e347]:
+              - 'heading "Portscope: CLI Tool for Viewing and Managing Network Port Processes" [level=4] [ref=e348]':
+                - 'link "Portscope: CLI Tool for Viewing and Managing Network Port Processes" [ref=e349] [cursor=pointer]':
+                  - /url: /portscope-cli-tool-for-viewing-and-managing-network-port-processes
+              - generic [ref=e350]:
+                - generic [ref=e351]:
+                  - generic [ref=e352]: 
+                  - text: Administrator
+                - generic [ref=e353]:
+                  - generic [ref=e354]: 
+                  - text: "0"
+            - generic [ref=e357]:
+              - 'heading "Splashboard: Customizable Terminal Dashboard on Shell Start or CD" [level=4] [ref=e358]':
+                - 'link "Splashboard: Customizable Terminal Dashboard on Shell Start or CD" [ref=e359] [cursor=pointer]':
+                  - /url: /splashboard-customizable-terminal-dashboard-on-shell-start-or-cd
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]: 
+                  - text: Administrator
+                - generic [ref=e363]:
+                  - generic [ref=e364]: 
+                  - text: "0"
+            - generic [ref=e367]:
+              - 'heading "git-newspaper: Turns Git Commit History into Victorian Newspaper" [level=4] [ref=e368]':
+                - 'link "git-newspaper: Turns Git Commit History into Victorian Newspaper" [ref=e369] [cursor=pointer]':
+                  - /url: /git-newspaper-turns-git-commit-history-into-victorian-newspaper
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: 
+                  - text: Administrator
+                - generic [ref=e373]:
+                  - generic [ref=e374]: 
+                  - text: "0"
+      - complementary [ref=e375]:
+        - generic [ref=e376]:
+          - heading "Post Info" [level=4] [ref=e377]
+          - list [ref=e378]:
+            - listitem [ref=e379]:
+              - strong [ref=e380]: "Author:"
+              - link "Administrator" [ref=e381] [cursor=pointer]:
+                - /url: /author/administrator
+            - listitem [ref=e382]:
+              - strong [ref=e383]: "Likes:"
+              - text: 2 |
+              - strong [ref=e384]: "Views:"
+              - text: "890"
+            - listitem [ref=e385]:
+              - strong [ref=e386]: "Categories:"
+              - link "Programming" [ref=e387] [cursor=pointer]:
+                - /url: /category/programming
+              - text: ","
+              - link "PROJECTS" [ref=e388] [cursor=pointer]:
+                - /url: /category/projects
+            - listitem [ref=e389]:
+              - strong [ref=e390]: "Published:"
+              - text: 12/17/2025
+        - generic [ref=e391]:
+          - heading "Categories" [level=4] [ref=e392]
+          - list [ref=e393]:
+            - listitem [ref=e394]:
+              - link "AI & Machine Learning" [ref=e395] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+            - listitem [ref=e396]:
+              - link "Automation" [ref=e397] [cursor=pointer]:
+                - /url: /category/automation
+            - listitem [ref=e398]:
+              - link "C#" [ref=e399] [cursor=pointer]:
+                - /url: /category/c
+            - listitem [ref=e400]:
+              - link "Cybersecurity" [ref=e401] [cursor=pointer]:
+                - /url: /category/cybersecurity
+            - listitem [ref=e402]:
+              - link "Data & Analytics" [ref=e403] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+            - listitem [ref=e404]:
+              - link "Exploits & CVE" [ref=e405] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+            - listitem [ref=e406]:
+              - link "Go" [ref=e407] [cursor=pointer]:
+                - /url: /category/go
+            - listitem [ref=e408]:
+              - link "IoT & Smart Home" [ref=e409] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+        - generic [ref=e410]:
+          - heading "Tags" [level=4] [ref=e411]
+          - generic [ref=e412]:
+            - link "0xabcd01/cve-2026-41089" [ref=e413] [cursor=pointer]:
+              - /url: /tag/0xabcd01-cve-2026-41089
+            - link "0xchasercat/mochi" [ref=e414] [cursor=pointer]:
+              - /url: /tag/0xchasercat-mochi
+            - link "1tamilmv-telegram-bot" [ref=e415] [cursor=pointer]:
+              - /url: /tag/1tamilmv-telegram-bot
+            - link "35gateway" [ref=e416] [cursor=pointer]:
+              - /url: /tag/35gateway
+            - link "3d reconstruction" [ref=e417] [cursor=pointer]:
+              - /url: /tag/3d-reconstruction
+            - link "3dcellforge" [ref=e418] [cursor=pointer]:
+              - /url: /tag/3dcellforge
+            - link "a-eye" [ref=e419] [cursor=pointer]:
+              - /url: /tag/a-eye
+            - link "a-share-trading" [ref=e420] [cursor=pointer]:
+              - /url: /tag/a-share-trading
+            - link "a-stock-data" [ref=e421] [cursor=pointer]:
+              - /url: /tag/a-stock-data
+            - link "aaron-kidwell/golol" [ref=e422] [cursor=pointer]:
+              - /url: /tag/aaron-kidwell-golol
+            - link "abgeo/mezz" [ref=e423] [cursor=pointer]:
+              - /url: /tag/abgeo-mezz
+            - link "accessibility-theme" [ref=e424] [cursor=pointer]:
+              - /url: /tag/accessibility-theme
+            - link "active-directory" [ref=e425] [cursor=pointer]:
+              - /url: /tag/active-directory
+            - link "activepieces" [ref=e426] [cursor=pointer]:
+              - /url: /tag/activepieces
+            - link "acunetix-crack-2026" [ref=e427] [cursor=pointer]:
+              - /url: /tag/acunetix-crack-2026
+        - generic [ref=e428]:
+          - heading "Quick Links" [level=4] [ref=e429]
+          - list [ref=e430]:
+            - listitem [ref=e431]:
+              - link " More by Administrator" [ref=e432] [cursor=pointer]:
+                - /url: /author/administrator
+                - generic [ref=e433]: 
+                - text: More by Administrator
+            - listitem [ref=e434]:
+              - link " Browse All Posts" [ref=e435] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e436]: 
+                - text: Browse All Posts
+            - listitem [ref=e437]:
+              - link " RSS Feed" [ref=e438] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e439]: 
+                - text: RSS Feed
+  - contentinfo [ref=e440]:
+    - generic [ref=e441]:
+      - generic [ref=e442]:
+        - generic [ref=e443]:
+          - heading "IMTAQIN" [level=4] [ref=e444]
+          - paragraph [ref=e445]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e446]:
+          - link "Home" [ref=e447] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e448] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e449] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e450] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e451] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e452] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e453] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e454] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e456]: © 2026 IMTAQIN. All rights reserved.

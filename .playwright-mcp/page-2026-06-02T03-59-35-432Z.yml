@@ -1,0 +1,572 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]:
+        - text: /
+        - link "Go" [ref=e38] [cursor=pointer]:
+          - /url: /category/go
+      - listitem [ref=e39]: / Building a Windows 11 Native Desktop App with Go a...
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - link "PROJECTS" [ref=e46] [cursor=pointer]:
+                - /url: /category/projects
+              - link "Go" [ref=e47] [cursor=pointer]:
+                - /url: /category/go
+              - link "Open Source Project" [ref=e48] [cursor=pointer]:
+                - /url: /category/open-source-project
+            - heading "Building a Windows 11 Native Desktop App with Go and WebView2" [level=1] [ref=e49]
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: 
+                - link "Administrator" [ref=e53] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e54]:
+                - generic [ref=e55]: 
+                - time [ref=e56]: April 14, 2026
+              - generic "This article was updated" [ref=e57]:
+                - generic [ref=e58]: 
+                - text: Updated
+                - time [ref=e59]: Jun 2, 2026
+              - generic [ref=e60]:
+                - generic [ref=e61]: 
+                - text: 6 min read
+            - generic [ref=e62]:
+              - button " 0 likes" [ref=e63] [cursor=pointer]:
+                - generic [ref=e64]: 
+                - text: 0 likes
+              - generic [ref=e65]:
+                - generic [ref=e66]: 
+                - text: 260 views
+          - img "Building a Windows 11 Native Desktop App with Go and WebView2" [ref=e68]
+          - navigation "Table of contents" [ref=e69]:
+            - button " Contents ▾" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: 
+              - strong [ref=e72]: Contents
+              - generic [ref=e73]: ▾
+            - list [ref=e74]:
+              - listitem [ref=e75]:
+                - link "Download Driver Booster Pro" [ref=e76] [cursor=pointer]:
+                  - /url: "#download-driver-booster-pro"
+              - listitem [ref=e77]:
+                - link "Why Go + WebView2?" [ref=e78] [cursor=pointer]:
+                  - /url: "#why-go-webview2"
+              - listitem [ref=e79]:
+                - link "The Architecture" [ref=e80] [cursor=pointer]:
+                  - /url: "#the-architecture"
+              - listitem [ref=e81]:
+                - link "Embedding the Entire UI in the EXE" [ref=e82] [cursor=pointer]:
+                  - /url: "#embedding-the-entire-ui-in-the-exe"
+              - listitem [ref=e83]:
+                - link "The \"Hidden CMD Window\" Problem" [ref=e84] [cursor=pointer]:
+                  - /url: "#the-hidden-cmd-window-problem"
+              - listitem [ref=e85]:
+                - link "1. Main app opens a console window" [ref=e86] [cursor=pointer]:
+                  - /url: "#1-main-app-opens-a-console-window"
+              - listitem [ref=e87]:
+                - link "2. Subprocess calls (PowerShell) flash a window" [ref=e88] [cursor=pointer]:
+                  - /url: "#2-subprocess-calls-powershell-flash-a-window"
+              - listitem [ref=e89]:
+                - 'link "Making It Look Native: Frameless Window" [ref=e90] [cursor=pointer]':
+                  - /url: "#making-it-look-native-frameless-window"
+              - listitem [ref=e91]:
+                - link "Custom window controls" [ref=e92] [cursor=pointer]:
+                  - /url: "#custom-window-controls"
+              - listitem [ref=e93]:
+                - link "Making the title bar draggable" [ref=e94] [cursor=pointer]:
+                  - /url: "#making-the-title-bar-draggable"
+              - listitem [ref=e95]:
+                - link "Collecting System Info via Win32 API" [ref=e96] [cursor=pointer]:
+                  - /url: "#collecting-system-info-via-win32-api"
+              - listitem [ref=e97]:
+                - link "Driver Enumeration via WMI" [ref=e98] [cursor=pointer]:
+                  - /url: "#driver-enumeration-via-wmi"
+              - listitem [ref=e99]:
+                - link "Windows Update via COM" [ref=e100] [cursor=pointer]:
+                  - /url: "#windows-update-via-com"
+              - listitem [ref=e101]:
+                - link "WinUI3 Dark Theme in CSS" [ref=e102] [cursor=pointer]:
+                  - /url: "#winui3-dark-theme-in-css"
+              - listitem [ref=e103]:
+                - link "Embedding the App Icon" [ref=e104] [cursor=pointer]:
+                  - /url: "#embedding-the-app-icon"
+              - listitem [ref=e105]:
+                - link "Lessons Learned" [ref=e106] [cursor=pointer]:
+                  - /url: "#lessons-learned"
+              - listitem [ref=e107]:
+                - link "Screenshots" [ref=e108] [cursor=pointer]:
+                  - /url: "#screenshots"
+              - listitem [ref=e109]:
+                - link "Source & Download" [ref=e110] [cursor=pointer]:
+                  - /url: "#source-download"
+          - generic [ref=e111]:
+            - text: I recently built
+            - strong [ref=e112]:
+              - link "Driver Booster Pro" [ref=e113] [cursor=pointer]:
+                - /url: /driver-booster-pro-open-source-windows-driver-manager
+            - text: ", an"
+            - link "open-source" [ref=e114] [cursor=pointer]:
+              - /url: /ghosthardware-2026-stable-kernel-mode-hwid-spoofing-for-windows-11
+            - text: Windows driver scanner and update manager. What started as a simple CLI tool grew into a full desktop app with a native
+            - link "Windows 11" [ref=e115] [cursor=pointer]:
+              - /url: /ghosthardware-2026-stable-kernel-mode-hwid-spoofing-for-windows-11
+            - text: look. Here's how I built it using
+            - strong [ref=e116]: Go
+            - text: and
+            - strong [ref=e117]: Microsoft WebView2
+            - text: ", and the Win32 API tricks that made it feel truly native."
+            - paragraph
+            - generic [ref=e118]:
+              - heading "Download Driver Booster Pro" [level=3] [ref=e119]
+              - paragraph [ref=e120]: Windows 10/11 • Portable EXE • No installer required
+              - link "Download EXE" [ref=e121] [cursor=pointer]:
+                - /url: https://git.imtaqin.id/fdciabdul/driver-booster/releases
+              - link "View Source" [ref=e122] [cursor=pointer]:
+                - /url: https://git.imtaqin.id/fdciabdul/driver-booster
+            - img "Driver Booster Pro - Main Dashboard" [ref=e123]
+            - heading "Why Go + WebView2?" [level=2] [ref=e124]
+            - paragraph [ref=e125]: "I wanted a few things from this project:"
+            - list [ref=e126]:
+              - listitem [ref=e127]:
+                - strong [ref=e128]: Single binary
+                - text: — no installer, no runtime dependencies to bundle
+              - listitem [ref=e129]:
+                - strong [ref=e130]: Web-tech UI
+                - text: — HTML/CSS/JS because I know it and it's flexible
+              - listitem [ref=e131]:
+                - strong [ref=e132]: Native feel
+                - text: — no Electron bloat, no obvious web view chrome
+              - listitem [ref=e133]:
+                - strong [ref=e134]: Full Win32 access
+                - text: — for driver enumeration, Windows Update, system info
+            - paragraph [ref=e135]:
+              - text: Go + WebView2 hits the sweet spot.
+              - code [ref=e136]: go-webview2
+              - text: by
+              - link "jchv" [ref=e137] [cursor=pointer]:
+                - /url: https://github.com/jchv/go-webview2
+              - text: wraps the Microsoft Edge WebView2 runtime, which is pre-installed on Windows 10+. The final binary is ~10 MB — compared to 150+ MB for an Electron app.
+            - complementary "Related articles" [ref=e138]:
+              - generic [ref=e140]: You may also like
+              - 'link "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [ref=e143] [cursor=pointer]':
+                - /url: /goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+                - generic [ref=e145]: "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK"
+            - heading "The Architecture" [level=2] [ref=e146]
+            - paragraph [ref=e147]: "The app is structured as a local HTTP server + WebView2 client:"
+            - code [ref=e149]: ┌─────────────────────────────────────┐ │ WebView2 Window (HTML/CSS/JS UI) │ │ ▲ │ │ │ fetch('/api/drivers') │ │ ▼ │ │ Local HTTP Server (Go) │ │ │ │ │ ▼ │ │ PowerShell / Win32 API calls │ └─────────────────────────────────────┘
+            - paragraph [ref=e150]:
+              - text: On startup, Go spins up an HTTP server on
+              - code [ref=e151]: 127.0.0.1:0
+              - text: (random free port), serves the
+              - link "embedded" [ref=e152] [cursor=pointer]:
+                - /url: /espforge-visual-tool-for-esphome-yaml-with-41-boards-and-99-components
+              - text: UI assets, and hands the URL to WebView2. The frontend calls
+              - code [ref=e153]: /api/*
+              - text: endpoints that execute Windows operations on the backend.
+            - heading "Embedding the Entire UI in the EXE" [level=2] [ref=e154]
+            - paragraph [ref=e155]:
+              - text: Go 1.16+ has
+              - code [ref=e156]: embed
+              - text: "built-in. One line pulls every UI file into the binary:"
+            - code [ref=e158]: "//go:embed ui/* var uiFS embed.FS func main() { uiContent, _ := fs.Sub(uiFS, \"ui\") mux.Handle(\"/\", http.FileServer(http.FS(uiContent))) // ... }"
+            - paragraph [ref=e159]: HTML, CSS, JS, and 27 PNG icons — all compiled into the EXE. Ship one file, no asset folders.
+            - heading "The \"Hidden CMD Window\" Problem" [level=2] [ref=e160]
+            - paragraph [ref=e161]: "This is where most Go Windows apps fall apart. Two issues:"
+            - heading "1. Main app opens a console window" [level=3] [ref=e162]
+            - paragraph [ref=e163]:
+              - text: By default,
+              - code [ref=e164]: go build
+              - text: "produces a console application. When you double-click the EXE, Windows shows a console window. The fix is the linker flag:"
+            - code [ref=e166]: go build -ldflags "-H windowsgui" -o driver-booster.exe .
+            - paragraph [ref=e167]:
+              - code [ref=e168]: "-H windowsgui"
+              - text: tells the PE header to use the Windows GUI subsystem — no console, no flash.
+            - heading "2. Subprocess calls (PowerShell) flash a window" [level=3] [ref=e169]
+            - paragraph [ref=e170]:
+              - text: Every
+              - code [ref=e171]: exec.Command("powershell", ...)
+              - text: call pops up a CMD window briefly. The fix is setting
+              - code [ref=e172]: SysProcAttr
+              - text: ":"
+            - code [ref=e174]: "func HiddenCommand(name string, args ...string) *exec.Cmd { cmd := exec.Command(name, args...) cmd.SysProcAttr = &syscall.SysProcAttr{ CreationFlags: 0x08000000, // CREATE_NO_WINDOW } return cmd }"
+            - paragraph [ref=e175]:
+              - text: The
+              - code [ref=e176]: CREATE_NO_WINDOW
+              - text: flag prevents the console window from ever being created for the child process.
+            - 'heading "Making It Look Native: Frameless Window" [level=2] [ref=e177]'
+            - paragraph [ref=e178]:
+              - text: "WebView2's default window has a native Windows title bar. That's fine, but I wanted a custom title bar with a status indicator and brand colors. The trick: remove"
+              - code [ref=e179]: WS_CAPTION
+              - text: from the window style via Win32 API.
+            - code [ref=e181]: "var ( user32 = syscall.NewLazyDLL(\"user32.dll\") procGetWindowLong = user32.NewProc(\"GetWindowLongW\") procSetWindowLong = user32.NewProc(\"SetWindowLongW\") procSetWindowPos = user32.NewProc(\"SetWindowPos\") ) func removeWindowFrame(hwnd uintptr) { gwlStyle := uintptr(0xFFFFFFF0) // GWL_STYLE = -16 as unsigned style, _, _ := procGetWindowLong.Call(hwnd, gwlStyle) newStyle := (style &^ 0x00C00000) | 0x00040000 // remove WS_CAPTION, keep WS_THICKFRAME procSetWindowLong.Call(hwnd, gwlStyle, newStyle) procSetWindowPos.Call(hwnd, 0, 0, 0, 0, 0, 0x0020|0x0002|0x0001|0x0004) }"
+            - paragraph [ref=e182]:
+              - text: After creating the WebView2 window, I grab its
+              - code [ref=e183]: HWND
+              - text: via
+              - code [ref=e184]: w.Window()
+              - text: and call
+              - code [ref=e185]: removeWindowFrame()
+              - text: . The native title bar vanishes but the window stays resizable because
+              - code [ref=e186]: WS_THICKFRAME
+              - text: is preserved.
+            - heading "Custom window controls" [level=3] [ref=e187]
+            - paragraph [ref=e188]:
+              - text: With the title bar gone, I need my own min/max/close buttons. I bind Go functions to
+              - link "JavaScript" [ref=e189] [cursor=pointer]:
+                - /url: /latest-javascript-framework-updates-react-vue-and-angular
+              - text: ":"
+            - code [ref=e191]: "w.Bind(\"windowMinimize\", func() { procPostMessage.Call(hwnd, 0x0112, 0xF020, 0) // WM_SYSCOMMAND + SC_MINIMIZE }) w.Bind(\"windowClose\", func() { procPostMessage.Call(hwnd, 0x0112, 0xF060, 0) // SC_CLOSE })"
+            - paragraph [ref=e192]: "In HTML:"
+            - code [ref=e194]:
+              - button "✕" [ref=e195] [cursor=pointer]
+            - heading "Making the title bar draggable" [level=3] [ref=e196]
+            - paragraph [ref=e197]:
+              - text: You might think
+              - code [ref=e198]: "-webkit-app-region: drag"
+              - text: "CSS works. It does not — that's an Electron-specific property. In WebView2, you need the Win32 message trick:"
+            - code [ref=e200]: "w.Bind(\"windowDrag\", func() { procReleaseCapture.Call() procSendMessage.Call(hwnd, 0x00A1, 2, 0) // WM_NCLBUTTONDOWN, HTCAPTION })"
+            - paragraph [ref=e201]: "Then on the title bar:"
+            - code [ref=e203]:
+              - generic [ref=e204]: ...
+            - paragraph [ref=e205]:
+              - text: When you mousedown on the title bar, we tell Windows
+              - emphasis [ref=e206]: "\"this click is actually on a caption area\""
+              - text: ", and Windows handles the drag natively. The window moves with the cursor exactly like a normal app — including snapping to screen edges."
+            - heading "Collecting System Info via Win32 API" [level=2] [ref=e207]
+            - paragraph [ref=e208]: "For RAM, disk, and OS version, I used direct syscalls instead of PowerShell for speed and accuracy:"
+            - code [ref=e210]: var ( kernel32 = syscall.NewLazyDLL("kernel32.dll") procGlobalMemoryEx = kernel32.NewProc("GlobalMemoryStatusEx") ntdll = syscall.NewLazyDLL("ntdll.dll") procRtlGetVersion = ntdll.NewProc("RtlGetVersion") ) var mem memoryStatusEx mem.Length = uint32(unsafe.Sizeof(mem)) procGlobalMemoryEx.Call(uintptr(unsafe.Pointer(&mem)))
+            - paragraph [ref=e211]:
+              - strong [ref=e212]:
+                - text: Why
+                - code [ref=e213]: RtlGetVersion
+                - text: instead of
+                - code [ref=e214]: GetVersion
+                - text: "?"
+              - text: Because Windows lies.
+              - code [ref=e215]: GetVersion
+              - text: returns whatever the app manifest claims — it's subject to compatibility shims.
+              - code [ref=e216]: RtlGetVersion
+              - text: from
+              - code [ref=e217]: ntdll.dll
+              - text: always returns the true version, which matters for a system utility.
+            - img "System Information Tab"
+            - heading "Driver Enumeration via WMI" [level=2] [ref=e218]
+            - paragraph [ref=e219]: "For drivers, I punted to PowerShell because calling SetupAPI from Go is painful. This one-liner gives me everything I need:"
+            - code [ref=e221]: "Get-CimInstance Win32_PnPSignedDriver | Where-Object { $_.DeviceName -ne $null } | Select-Object DeviceName, DeviceClass, Manufacturer, DriverVersion, DriverDate, InfName, IsSigned, Status | ConvertTo-Json -Compress"
+            - paragraph [ref=e222]:
+              - text: Go executes this via
+              - code [ref=e223]: HiddenCommand()
+              - text: ", parses the JSON, and renders it to the UI. Each driver gets a contextual icon based on its"
+              - code [ref=e224]: DeviceClass
+              - text: — monitor for displays, wifi for network adapters, cpu for processors, etc.
+            - img "Driver List with Action Buttons"
+            - heading "Windows Update via COM" [level=2] [ref=e225]
+            - paragraph [ref=e226]: "For checking updates, I use the Windows Update Agent COM API (also via PowerShell):"
+            - code [ref=e228]: $Session = New-Object -ComObject Microsoft.Update.Session $Searcher = $Session.CreateUpdateSearcher() $SearchResult = $Searcher.Search("IsInstalled=0")
+            - paragraph [ref=e229]: This returns pending updates with KB article IDs, categories, download sizes, and severity — everything the UI shows.
+            - img "Windows Update Checker"
+            - heading "WinUI3 Dark Theme in CSS" [level=2] [ref=e230]
+            - paragraph [ref=e231]: "To match Windows 11's design language, I used the Mica palette as CSS variables:"
+            - code [ref=e233]: ":root { --bg: #202020; /* Mica dark base */ --surface: #2d2d2d; --card: #323232; --border: rgba(255,255,255,0.0578); --accent: #60cdff; /* Win11 accent */ --accent-bg: #0078d4; --text: #ffffffde; } body { font-family: 'Segoe UI Variable', 'Segoe UI'; }"
+            - paragraph [ref=e234]: These values come straight from the WinUI3 design tokens. The result looks like a first-party Microsoft app — Settings, PC Manager, that kind of vibe.
+            - heading "Embedding the App Icon" [level=2] [ref=e235]
+            - paragraph [ref=e236]:
+              - text: For the EXE icon (shown in taskbar, Explorer, ALT+TAB), I used
+              - link "go-winres" [ref=e237] [cursor=pointer]:
+                - /url: https://github.com/tc-hib/go-winres
+              - text: ":"
+            - code [ref=e239]: "go install github.com/tc-hib/go-winres@latest go-winres init # place icon.png in winres/ and edit winres/winres.json go-winres make go build -ldflags \"-H windowsgui\" -o driver-booster.exe ."
+            - paragraph [ref=e240]:
+              - code [ref=e241]: go-winres make
+              - text: generates
+              - code [ref=e242]: .syso
+              - text: files that the Go linker automatically embeds. Right-click the EXE and you'll see proper Version, Company Name, and Description metadata.
+            - heading "Lessons Learned" [level=2] [ref=e243]
+            - list [ref=e244]:
+              - listitem [ref=e245]:
+                - strong [ref=e246]: WebView2 is excellent
+                - text: for this kind of app — fast, stable, and preinstalled on modern Windows
+              - listitem [ref=e247]:
+                - strong [ref=e248]: Don't fight Win32
+                - text: — for a truly native look, you need direct API calls
+              - listitem [ref=e249]:
+                - strong [ref=e250]: PowerShell is a fine escape hatch
+                - text: for WMI/COM complexity — just hide the console window
+              - listitem [ref=e251]:
+                - strong [ref=e252]: Go embed changed the game
+                - text: — no more asset management pain
+              - listitem [ref=e253]:
+                - strong [ref=e254]: 10 MB beats 150 MB
+                - text: — Electron tax is real, and users notice
+            - heading "Screenshots" [level=2] [ref=e255]
+            - img "Initial Scan Page"
+            - img "Loading Overlay"
+            - heading "Source & Download" [level=2] [ref=e256]
+            - list [ref=e257]:
+              - listitem [ref=e258]:
+                - strong [ref=e259]: "Source:"
+                - link "git.imtaqin.id/fdciabdul/driver-booster" [ref=e260] [cursor=pointer]:
+                  - /url: https://git.imtaqin.id/fdciabdul/driver-booster
+              - listitem [ref=e261]:
+                - strong [ref=e262]: "Releases:"
+                - link "Download EXE (v1.0.0)" [ref=e263] [cursor=pointer]:
+                  - /url: https://git.imtaqin.id/fdciabdul/driver-booster/releases
+              - listitem [ref=e264]:
+                - strong [ref=e265]: "License:"
+                - text: Open source
+            - paragraph [ref=e266]: Feel free to fork, extend, or steal the Win32 tricks for your own Go desktop apps. The frameless window pattern alone took me a few hours to get right — hopefully this saves you the debugging time.
+            - separator [ref=e267]
+            - paragraph [ref=e268]:
+              - strong [ref=e269]:
+                - text: Made by
+                - link "IMTAQIN" [ref=e270] [cursor=pointer]:
+                  - /url: https://imtaqin.id
+          - complementary "Project resources" [ref=e271]:
+            - generic [ref=e273]: Project resources
+            - link "View on GitHub" [ref=e276] [cursor=pointer]:
+              - /url: https://github.com/jchv/go-webview2
+              - img [ref=e277]
+              - generic [ref=e279]: View on GitHub
+          - generic [ref=e280]:
+            - strong [ref=e281]:
+              - generic [ref=e282]: 
+              - text: "Tags:"
+            - generic [ref=e283]:
+              - link "desktop app" [ref=e284] [cursor=pointer]:
+                - /url: /tag/desktop-app
+              - link "golang" [ref=e285] [cursor=pointer]:
+                - /url: /tag/golang
+              - link "webview2" [ref=e286] [cursor=pointer]:
+                - /url: /tag/webview2
+              - link "windows" [ref=e287] [cursor=pointer]:
+                - /url: /tag/windows
+              - link "windows-api" [ref=e288] [cursor=pointer]:
+                - /url: /tag/windows-api
+              - link "tutorial" [ref=e289] [cursor=pointer]:
+                - /url: /tag/tutorial
+              - link "winui3" [ref=e290] [cursor=pointer]:
+                - /url: /tag/winui3
+              - link "win32" [ref=e291] [cursor=pointer]:
+                - /url: /tag/win32
+        - complementary [ref=e292]:
+          - img "imtaqin" [ref=e294]
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - strong [ref=e297]: imtaqin
+              - generic [ref=e298]: Author
+            - paragraph [ref=e299]: Writes about self-hosted apps, AI tools, cybersecurity, and homelab projects. Sharing tools and notes from real-world deployments.
+            - link "More posts by imtaqin ›" [ref=e301] [cursor=pointer]:
+              - /url: /author/administrator
+        - generic [ref=e302]:
+          - strong [ref=e303]: "Share this post:"
+          - generic [ref=e304]:
+            - link " Twitter" [ref=e305] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=Building%20a%20Windows%2011%20Native%20Desktop%20App%20with%20Go%20and%20WebView2&url=https%3A%2F%2Fimtaqin.id%2Fbuilding-windows-11-desktop-app-go-webview2
+              - generic [ref=e306]: 
+              - text: Twitter
+            - link " Facebook" [ref=e307] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fimtaqin.id%2Fbuilding-windows-11-desktop-app-go-webview2
+              - generic [ref=e308]: 
+              - text: Facebook
+            - link " LinkedIn" [ref=e309] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fimtaqin.id%2Fbuilding-windows-11-desktop-app-go-webview2&title=Building%20a%20Windows%2011%20Native%20Desktop%20App%20with%20Go%20and%20WebView2
+              - generic [ref=e310]: 
+              - text: LinkedIn
+        - generic [ref=e311]:
+          - heading " Comments 0" [level=2] [ref=e312]:
+            - generic [ref=e313]: 
+            - text: Comments
+            - generic [ref=e314]: "0"
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - textbox "Your Name *" [ref=e320]
+              - textbox "Your Email *" [ref=e323]
+            - textbox "Write a comment..." [ref=e325]
+            - button " Post Comment" [ref=e326] [cursor=pointer]:
+              - generic [ref=e327]: 
+              - text: Post Comment
+            - text: Your email will not be published.
+          - paragraph [ref=e329]: No comments yet. Be the first to comment!
+        - generic [ref=e330]:
+          - heading "Related Posts" [level=2] [ref=e331]
+          - generic [ref=e335]:
+            - 'heading "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [level=4] [ref=e336]':
+              - 'link "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [ref=e337] [cursor=pointer]':
+                - /url: /goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - generic [ref=e340]: 
+                - text: Administrator
+              - generic [ref=e341]:
+                - generic [ref=e342]: 
+                - text: "0"
+      - complementary [ref=e343]:
+        - generic [ref=e344]:
+          - heading "Post Info" [level=4] [ref=e345]
+          - list [ref=e346]:
+            - listitem [ref=e347]:
+              - strong [ref=e348]: "Author:"
+              - link "Administrator" [ref=e349] [cursor=pointer]:
+                - /url: /author/administrator
+            - listitem [ref=e350]:
+              - strong [ref=e351]: "Likes:"
+              - text: 0 |
+              - strong [ref=e352]: "Views:"
+              - text: "259"
+            - listitem [ref=e353]:
+              - strong [ref=e354]: "Categories:"
+              - link "PROJECTS" [ref=e355] [cursor=pointer]:
+                - /url: /category/projects
+              - text: ","
+              - link "Go" [ref=e356] [cursor=pointer]:
+                - /url: /category/go
+              - text: ","
+              - link "Open Source Project" [ref=e357] [cursor=pointer]:
+                - /url: /category/open-source-project
+            - listitem [ref=e358]:
+              - strong [ref=e359]: "Published:"
+              - text: 4/14/2026
+        - generic [ref=e360]:
+          - heading "Categories" [level=4] [ref=e361]
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - link "AI & Machine Learning" [ref=e364] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+            - listitem [ref=e365]:
+              - link "Automation" [ref=e366] [cursor=pointer]:
+                - /url: /category/automation
+            - listitem [ref=e367]:
+              - link "C#" [ref=e368] [cursor=pointer]:
+                - /url: /category/c
+            - listitem [ref=e369]:
+              - link "Cybersecurity" [ref=e370] [cursor=pointer]:
+                - /url: /category/cybersecurity
+            - listitem [ref=e371]:
+              - link "Data & Analytics" [ref=e372] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+            - listitem [ref=e373]:
+              - link "Exploits & CVE" [ref=e374] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+            - listitem [ref=e375]:
+              - link "Go" [ref=e376] [cursor=pointer]:
+                - /url: /category/go
+            - listitem [ref=e377]:
+              - link "IoT & Smart Home" [ref=e378] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+        - generic [ref=e379]:
+          - heading "Tags" [level=4] [ref=e380]
+          - generic [ref=e381]:
+            - link "0xabcd01/cve-2026-41089" [ref=e382] [cursor=pointer]:
+              - /url: /tag/0xabcd01-cve-2026-41089
+            - link "0xchasercat/mochi" [ref=e383] [cursor=pointer]:
+              - /url: /tag/0xchasercat-mochi
+            - link "1tamilmv-telegram-bot" [ref=e384] [cursor=pointer]:
+              - /url: /tag/1tamilmv-telegram-bot
+            - link "35gateway" [ref=e385] [cursor=pointer]:
+              - /url: /tag/35gateway
+            - link "3d reconstruction" [ref=e386] [cursor=pointer]:
+              - /url: /tag/3d-reconstruction
+            - link "3dcellforge" [ref=e387] [cursor=pointer]:
+              - /url: /tag/3dcellforge
+            - link "a-eye" [ref=e388] [cursor=pointer]:
+              - /url: /tag/a-eye
+            - link "a-share-trading" [ref=e389] [cursor=pointer]:
+              - /url: /tag/a-share-trading
+            - link "a-stock-data" [ref=e390] [cursor=pointer]:
+              - /url: /tag/a-stock-data
+            - link "aaron-kidwell/golol" [ref=e391] [cursor=pointer]:
+              - /url: /tag/aaron-kidwell-golol
+            - link "abgeo/mezz" [ref=e392] [cursor=pointer]:
+              - /url: /tag/abgeo-mezz
+            - link "accessibility-theme" [ref=e393] [cursor=pointer]:
+              - /url: /tag/accessibility-theme
+            - link "active-directory" [ref=e394] [cursor=pointer]:
+              - /url: /tag/active-directory
+            - link "activepieces" [ref=e395] [cursor=pointer]:
+              - /url: /tag/activepieces
+            - link "acunetix-crack-2026" [ref=e396] [cursor=pointer]:
+              - /url: /tag/acunetix-crack-2026
+        - generic [ref=e397]:
+          - heading "Quick Links" [level=4] [ref=e398]
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link " More by Administrator" [ref=e401] [cursor=pointer]:
+                - /url: /author/administrator
+                - generic [ref=e402]: 
+                - text: More by Administrator
+            - listitem [ref=e403]:
+              - link " Browse All Posts" [ref=e404] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e405]: 
+                - text: Browse All Posts
+            - listitem [ref=e406]:
+              - link " RSS Feed" [ref=e407] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e408]: 
+                - text: RSS Feed
+  - contentinfo [ref=e409]:
+    - generic [ref=e410]:
+      - generic [ref=e411]:
+        - generic [ref=e412]:
+          - heading "IMTAQIN" [level=4] [ref=e413]
+          - paragraph [ref=e414]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e415]:
+          - link "Home" [ref=e416] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e417] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e418] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e419] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e420] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e421] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e422] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e423] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e425]: © 2026 IMTAQIN. All rights reserved.

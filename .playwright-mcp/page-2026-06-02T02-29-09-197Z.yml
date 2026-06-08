@@ -1,0 +1,786 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]:
+        - text: /
+        - link "Go" [ref=e38] [cursor=pointer]:
+          - /url: /category/go
+      - listitem [ref=e39]: "/ GoAMPP: A 7 MB Native Windows Web Stack That Skips..."
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - link "PROJECTS" [ref=e46] [cursor=pointer]:
+                - /url: /category/projects
+              - link "Go" [ref=e47] [cursor=pointer]:
+                - /url: /category/go
+              - link "Open Source Project" [ref=e48] [cursor=pointer]:
+                - /url: /category/open-source-project
+            - 'heading "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [level=1] [ref=e49]'
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: 
+                - link "Administrator" [ref=e53] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e54]:
+                - generic [ref=e55]: 
+                - time [ref=e56]: April 11, 2026
+              - generic "This article was updated" [ref=e57]:
+                - generic [ref=e58]: 
+                - text: Updated
+                - time [ref=e59]: Jun 2, 2026
+              - generic [ref=e60]:
+                - generic [ref=e61]: 
+                - text: 15 min read
+            - generic [ref=e62]:
+              - button " 0 likes" [ref=e63] [cursor=pointer]:
+                - generic [ref=e64]: 
+                - text: 0 likes
+              - generic [ref=e65]:
+                - generic [ref=e66]: 
+                - text: 302 views
+          - 'img "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [ref=e68]'
+          - navigation "Table of contents" [ref=e69]:
+            - button " Contents ▾" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: 
+              - strong [ref=e72]: Contents
+              - generic [ref=e73]: ▾
+            - list [ref=e74]:
+              - listitem [ref=e75]:
+                - link "Table of contents" [ref=e76] [cursor=pointer]:
+                  - /url: "#table-of-contents"
+              - listitem [ref=e77]:
+                - link "The problem with bundled web stacks" [ref=e78] [cursor=pointer]:
+                  - /url: "#the-problem-with-bundled-web-stacks"
+              - listitem [ref=e79]:
+                - link "The architecture in 30 seconds" [ref=e80] [cursor=pointer]:
+                  - /url: "#the-architecture-in-30-seconds"
+              - listitem [ref=e81]:
+                - link "Designed for one keystroke, not ten" [ref=e82] [cursor=pointer]:
+                  - /url: "#designed-for-one-keystroke-not-ten"
+              - listitem [ref=e83]:
+                - link "How auto-install actually works" [ref=e84] [cursor=pointer]:
+                  - /url: "#how-auto-install-actually-works"
+              - listitem [ref=e85]:
+                - link "The Apache bug I lost an evening to" [ref=e86] [cursor=pointer]:
+                  - /url: "#the-apache-bug-i-lost-an-evening-to"
+              - listitem [ref=e87]:
+                - link "Process management on Windows is harder than it looks" [ref=e88] [cursor=pointer]:
+                  - /url: "#process-management-on-windows-is-harder-than-it-looks"
+              - listitem [ref=e89]:
+                - link "Frameworks that scaffold themselves" [ref=e90] [cursor=pointer]:
+                  - /url: "#frameworks-that-scaffold-themselves"
+              - listitem [ref=e91]:
+                - link "The XAMPP comparison nobody asked for" [ref=e92] [cursor=pointer]:
+                  - /url: "#the-xampp-comparison-nobody-asked-for"
+              - listitem [ref=e93]:
+                - link "Getting started" [ref=e94] [cursor=pointer]:
+                  - /url: "#getting-started"
+              - listitem [ref=e95]:
+                - link "Frequently asked questions" [ref=e96] [cursor=pointer]:
+                  - /url: "#frequently-asked-questions"
+              - listitem [ref=e97]:
+                - link "Is GoAMPP a port of XAMPP?" [ref=e98] [cursor=pointer]:
+                  - /url: "#is-goampp-a-port-of-xampp"
+              - listitem [ref=e99]:
+                - link "Can I run it alongside an existing XAMPP install?" [ref=e100] [cursor=pointer]:
+                  - /url: "#can-i-run-it-alongside-an-existing-xampp-install"
+              - listitem [ref=e101]:
+                - link "Does it work on Windows 10?" [ref=e102] [cursor=pointer]:
+                  - /url: "#does-it-work-on-windows-10"
+              - listitem [ref=e103]:
+                - link "What about Linux or macOS?" [ref=e104] [cursor=pointer]:
+                  - /url: "#what-about-linux-or-macos"
+              - listitem [ref=e105]:
+                - link "Is it safe to run with admin rights all the time?" [ref=e106] [cursor=pointer]:
+                  - /url: "#is-it-safe-to-run-with-admin-rights-all-the-time"
+              - listitem [ref=e107]:
+                - link "Where do project files live?" [ref=e108] [cursor=pointer]:
+                  - /url: "#where-do-project-files-live"
+          - generic [ref=e109]:
+            - paragraph [ref=e110]:
+              - text: I have a confession. Every time I install XAMPP on a new machine, I lose about an hour to the same ritual — downloading the 200 MB installer, clicking past the Skype port-80 warning, fighting the control panel that hangs whenever Apache crashes mid-startup, and finally remembering that the Bitnami stack manager wants admin rights for
+              - emphasis [ref=e111]: everything
+              - text: . Laragon is friendlier, but it bundles Cmder and a dozen extras I never touch. WAMP is dated.
+              - link "Docker" [ref=e112] [cursor=pointer]:
+                - /url: /portainer-docker-management-simplify-container-ops-in-your-homelab
+              - text: Desktop is a 2 GB hammer for a problem the size of a thumbtack.
+            - paragraph [ref=e113]:
+              - text: So one weekend I wrote my own.
+              - strong [ref=e114]: GoAMPP
+              - text: is a single-binary, native Win32 control panel that downloads Apache, MariaDB, PHP, and the rest
+              - strong [ref=e115]: on demand
+              - text: — no installer bloat, no preinstalled bin trees, no "wizard" with eight Next buttons. The shipped executable is 7 MB. After you click Install on the services you actually use, the disk footprint matches what you'd expect a LAMP stack to weigh.
+            - paragraph [ref=e116]: This article walks through the design choices, the bugs I lost evenings to, and how the install + first-run flow looks today. If you came here looking for an alternative to XAMPP that respects your disk and your patience, you're in the right place.
+            - paragraph
+            - heading "Table of contents" [level=2] [ref=e117]
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "The problem with bundled web stacks" [ref=e120] [cursor=pointer]:
+                  - /url: "#the-problem-with-bundled-web-stacks"
+              - listitem [ref=e121]:
+                - link "The architecture in 30 seconds" [ref=e122] [cursor=pointer]:
+                  - /url: "#the-architecture-in-30-seconds"
+              - listitem [ref=e123]:
+                - link "Designed for one keystroke, not ten" [ref=e124] [cursor=pointer]:
+                  - /url: "#designed-for-one-keystroke-not-ten"
+              - listitem [ref=e125]:
+                - link "How auto-install actually works" [ref=e126] [cursor=pointer]:
+                  - /url: "#how-auto-install-actually-works"
+              - listitem [ref=e127]:
+                - link "The Apache bug I lost an evening to" [ref=e128] [cursor=pointer]:
+                  - /url: "#the-apache-bug-i-lost-an-evening-to"
+              - listitem [ref=e129]:
+                - link "Process management on Windows is harder than it looks" [ref=e130] [cursor=pointer]:
+                  - /url: "#process-management-on-windows-is-harder-than-it-looks"
+              - listitem [ref=e131]:
+                - link "Frameworks that scaffold themselves" [ref=e132] [cursor=pointer]:
+                  - /url: "#frameworks-that-scaffold-themselves"
+              - listitem [ref=e133]:
+                - link "The XAMPP comparison nobody asked for" [ref=e134] [cursor=pointer]:
+                  - /url: "#the-xampp-comparison-nobody-asked-for"
+              - listitem [ref=e135]:
+                - link "Getting started" [ref=e136] [cursor=pointer]:
+                  - /url: "#getting-started"
+              - listitem [ref=e137]:
+                - link "Frequently asked questions" [ref=e138] [cursor=pointer]:
+                  - /url: "#frequently-asked-questions"
+            - complementary "Related articles" [ref=e139]:
+              - generic [ref=e141]: You may also like
+              - link "Building a Windows 11 Native Desktop App with Go and WebView2" [ref=e144] [cursor=pointer]:
+                - /url: /building-windows-11-desktop-app-go-webview2
+                - generic [ref=e146]: Building a Windows 11 Native Desktop App with Go and WebView2
+            - heading "The problem with bundled web stacks" [level=2] [ref=e147]
+            - paragraph [ref=e148]:
+              - text: Every popular
+              - link "Windows" [ref=e149] [cursor=pointer]:
+                - /url: /building-windows-11-desktop-app-go-webview2
+              - text: "web stack ships the same way: a single fat installer that drops Apache, PHP, MySQL, phpMyAdmin, and a control panel into one folder. That model made sense in 2003, when bandwidth was scarce and \"download once, install offline\" was a virtue. It does not age well."
+            - paragraph [ref=e150]: "Here's what bundled stacks get wrong in 2026:"
+            - paragraph [ref=e151]:
+              - strong [ref=e152]: Versions go stale fast.
+              - text: The XAMPP installer for PHP 8.5 took months to land after the upstream release. If you need PHP 8.5.5 today and the bundled version is 8.5.0, you're patching by hand and breaking the stack manager's expectations along the way.
+            - paragraph [ref=e153]:
+              - strong [ref=e154]: You pay for software you'll never run.
+              - text: A typical stack includes Mercury Mail, Tomcat, FileZilla, and a Perl interpreter. I have not started Mercury Mail this decade. The disk footprint is real and the maintenance surface is larger than what I'm actually using.
+            - paragraph [ref=e155]:
+              - strong [ref=e156]: The control panel is fragile.
+              - text: XAMPP's panel is a Delphi VCL app that tracks pid files. When Apache crashes mid-startup and the pid file is stale, the panel's status display gets stuck and the only fix is a reboot. Laragon handles this better but still ships with side-cars I don't need.
+            - paragraph [ref=e157]:
+              - strong [ref=e158]: Admin rights bleed everywhere.
+              - text: The installer wants admin to write to
+              - code [ref=e159]: Program Files
+              - text: . The service starter wants admin to bind port 80. The hosts-file editor wants admin again. Each step is a UAC prompt.
+            - paragraph [ref=e160]:
+              - text: "GoAMPP picks a different model:"
+              - strong [ref=e161]: ship the control panel, fetch the services
+              - text: . The 7 MB executable knows about Apache, Nginx, MariaDB, PostgreSQL, Redis, PHP-FPM, phpMyAdmin, and Adminer. Click Start on any of them and the app downloads the upstream zip from the official source — Apache Lounge, nginx.org, archive.mariadb.org, EnterpriseDB — extracts it to
+              - code [ref=e162]: bin/<service>/
+              - text: ", runs whatever post-install setup the service needs, and starts the process. First-time install for the entire stack is around six minutes on coffee-shop wifi."
+            - heading "The architecture in 30 seconds" [level=2] [ref=e163]
+            - paragraph [ref=e164]:
+              - text: GoAMPP is a single Go binary built with
+              - code [ref=e165]: "-ldflags=\"-H windowsgui -s -w\""
+              - text: so it has no console window and is stripped down to ~7 MB. The GUI uses
+              - link "windigo" [ref=e166] [cursor=pointer]:
+                - /url: https://github.com/rodrigocfd/windigo
+              - text: ", a pure-Go binding for the Win32 widget set. No CGO. No webview. No Electron. Just"
+              - code [ref=e167]: go build
+              - text: and an exe.
+            - paragraph [ref=e168]: "The codebase is roughly 6,000 lines split across these files:"
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - code [ref=e171]: main.go
+                - text: — entry point, window creation, message loop
+              - listitem [ref=e172]:
+                - code [ref=e173]: service.go
+                - text: — process lifecycle (start, stop, log capture, port checking)
+              - listitem [ref=e174]:
+                - code [ref=e175]: download.go
+                - text: — service catalog and download/extract pipeline
+              - listitem [ref=e176]:
+                - code [ref=e177]: frameworks.go
+                - text: — framework scaffolders (Laravel, Next.js, Spring Boot, etc.)
+              - listitem [ref=e178]:
+                - code [ref=e179]: vhost.go
+                - text: — virtual host config writers (Apache + Nginx + Windows hosts file)
+              - listitem [ref=e180]:
+                - code [ref=e181]: tray.go
+                - text: — system tray icon and popup menu
+              - listitem [ref=e182]:
+                - code [ref=e183]: ui_tabs.go
+                - text: — pages (Services,
+                - link "Projects" [ref=e184] [cursor=pointer]:
+                  - /url: /machine-learning-projects-beginner-to-pro-ideas-examples
+                - text: ", Editor, Vhosts, Settings)"
+              - listitem [ref=e185]:
+                - code [ref=e186]: icons.go
+                - text: — service logo loading via
+                - code [ref=e187]: LoadImage
+                - text: +
+                - code [ref=e188]: STM_SETICON
+              - listitem [ref=e189]:
+                - code [ref=e190]: paint.go
+                - text: — owner-drawn coloured buttons (greeen Start, red Stop, blue Conf)
+              - listitem [ref=e191]:
+                - code [ref=e192]: pathenv.go
+                - text: — "Add tools to PATH" via HKCU registry +
+                - code [ref=e193]: WM_SETTINGCHANGE
+              - listitem [ref=e194]:
+                - code [ref=e195]: zombies.go
+                - text: — startup sweep that kills stale
+                - code [ref=e196]: bin/*
+                - text: processes
+              - listitem [ref=e197]:
+                - code [ref=e198]: config.go
+                - text: — JSON load/save for
+                - code [ref=e199]: config.json
+            - paragraph [ref=e200]: "Each service in the catalog is a struct describing how to fetch and install it:"
+            - generic [ref=e201]:
+              - generic [ref=e207]: Go
+              - code [ref=e208]: "\"Apache\": { Version: \"2.4.66 (VS18, win64)\", URL: \"https://www.apachelounge.com/download/VS18/binaries/httpd-2.4.66-260223-Win64-VS18.zip\", InstallDir: \"bin/apache\", StripTop: \"Apache24/\", Kind: \"zip\", CheckFile: \"bin/httpd.exe\", PostInstall: func(installDir string, log func(string)) error { // patch httpd.conf — fix SRVROOT, ServerName, mod_cgi, vhost include }, },"
+              - button "Copy" [ref=e209] [cursor=pointer]
+            - paragraph [ref=e210]:
+              - code [ref=e211]: StripTop
+              - text: is the top-level
+              - link "directory" [ref=e212] [cursor=pointer]:
+                - /url: /awesome-selfhosted-picks-curated-directory-of-60-self-hostable-open-source-projects
+              - text: inside the archive that we want to flatten. Apache Lounge's zip wraps everything in
+              - code [ref=e213]: Apache24/
+              - text: ", so stripping that prefix means"
+              - code [ref=e214]: Apache24/bin/httpd.exe
+              - text: lands at
+              - code [ref=e215]: bin/apache/bin/httpd.exe
+              - text: instead of
+              - code [ref=e216]: bin/apache/Apache24/bin/httpd.exe
+              - text: . Small thing, but it keeps every install path predictable.
+            - paragraph [ref=e217]:
+              - code [ref=e218]: PostInstall
+              - text: runs after extraction and is where most of the per-service quirks live. For Apache the hook patches httpd.conf to fix the hardcoded
+              - code [ref=e219]: Define SRVROOT "C:/Apache24"
+              - text: and uncomment
+              - code [ref=e220]: ServerName localhost:80
+              - text: . For MariaDB it runs
+              - code [ref=e221]: mariadb-install-db.exe
+              - text: to seed the data directory. For PHP it copies
+              - code [ref=e222]: php.ini-development
+              - text: to
+              - code [ref=e223]: php.ini
+              - text: and uncomments the extensions phpMyAdmin needs.
+            - heading "Designed for one keystroke, not ten" [level=2] [ref=e224]
+            - paragraph [ref=e225]: "The control panel is the part you see, so let's start there. Every service renders as a card with its own logo, status line, version, and four action buttons sitting right inside the card:"
+            - paragraph [ref=e226]:
+              - img "alt text"
+            - paragraph [ref=e227]: I went back and forth on the layout. The first version was a XAMPP-style table with one selection bar at the bottom and a single set of action buttons that operated on whichever row you'd clicked. That's fine when you have five services. With twelve cards on screen, every action becomes a two-step dance — click the row, then click the action — and the cognitive load adds up.
+            - paragraph [ref=e228]: Per-card buttons cut the click count in half and remove the entire concept of a "selected service". Each card's button click handler captures the source service index in a closure, so I never need a "currently selected" lookup. The downside is more widgets to lay out by hand. The win is that the UI feels direct.
+            - paragraph [ref=e229]:
+              - text: "Below the grid sit three global buttons:"
+              - strong [ref=e230]: Start Stack
+              - text: ","
+              - strong [ref=e231]: Stop All
+              - text: ", and"
+              - strong [ref=e232]: Restart Stack
+              - text: ". Start Stack only boots the essentials a developer needs to serve PHP — Apache, MariaDB, and phpMyAdmin. Postgres, Redis, and Nginx stay manual. The reasoning: if I open GoAMPP at 9 AM and a Postgres process is still listening on 5432 from yesterday's experiment, the last thing I want is for \"Start Stack\" to silently relaunch it."
+            - heading "How auto-install actually works" [level=2] [ref=e233]
+            - paragraph [ref=e234]:
+              - img "image"
+              - text: When you click
+              - strong [ref=e235]: Start
+              - text: "on a service whose binary isn't on disk yet, the flow is:"
+            - list [ref=e236]:
+              - listitem [ref=e237]: The control panel checks its built-in catalog for a download URL keyed on the service name.
+              - listitem [ref=e238]: The HTTP fetch happens in a goroutine so the UI stays responsive. A progress bar at the bottom of the window fills as bytes arrive. The log panel shows percent-complete updates roughly once a second.
+              - listitem [ref=e239]:
+                - text: The zip lands in
+                - code [ref=e240]: downloads/
+                - text: (cached, so a re-install skips the network). It's extracted into
+                - code [ref=e241]: bin/<service>/
+                - text: ", with optional top-level folder stripping."
+              - listitem [ref=e242]: A per-service post-install hook runs.
+              - listitem [ref=e243]: The service starts. If anything goes wrong, the process's stdout and stderr are piped into the log panel verbatim.
+            - paragraph [ref=e244]:
+              - text: The cache layer is important. If you uninstall a service and reinstall it later, the second install runs entirely from disk — no network round trip. The
+              - code [ref=e245]: downloads/
+              - text: directory is gitignored and can be wiped from the Settings page if you want to reclaim space.
+            - paragraph [ref=e246]:
+              - text: The download progress fires through a
+              - code [ref=e247]: ProgressFunc
+              - text: callback that the UI uses to drive a
+              - code [ref=e248]: ProgressBar
+              - text: widget at ~30 Hz. Text logging fires at 1 Hz in parallel because writing to a multi-line
+              - code [ref=e249]: Edit
+              - text: control is expensive — every line is a full
+              - code [ref=e250]: WM_SETTEXT
+              - text: round trip. The two channels are independent so the visual progress bar stays smooth even when the log can't keep up.
+            - paragraph [ref=e251]:
+              - text: The catalog also covers four language runtimes — Node.js LTS,
+              - link "Python" [ref=e252] [cursor=pointer]:
+                - /url: /reasonix-deepseek-native-agent-framework-cache-first-loop-r1-thought-harvesti
+              - text: embeddable, Go, and Eclipse Temurin JDK 21. Same flow, same UI. After Python extracts, the post-install bootstraps
+              - code [ref=e253]: pip
+              - text: from
+              - code [ref=e254]: bootstrap.pypa.io
+              - text: so you can
+              - code [ref=e255]: pip install flask
+              - text: immediately without an extra step.
+            - heading "The Apache bug I lost an evening to" [level=2] [ref=e256]
+            - paragraph [ref=e257]: This one's worth its own section because it's the kind of bug that doesn't show up on Linux at all.
+            - paragraph [ref=e258]:
+              - text: The first version of GoAMPP used
+              - code [ref=e259]: mod_proxy_fcgi
+              - text: "with the standard idiom:"
+            - generic [ref=e260]:
+              - generic [ref=e266]: Apache
+              - code [ref=e267]: <FilesMatch \.php$> SetHandler "proxy:fcgi://127.0.0.1:9000" </FilesMatch>
+              - button "Copy" [ref=e268] [cursor=pointer]
+            - paragraph [ref=e269]:
+              - text: Apache logs the script's full filesystem path in the upstream URL. On Linux that produces something sane like
+              - code [ref=e270]: fcgi://127.0.0.1:9000/var/www/script.php
+              - text: . On Windows, the script path includes a drive letter (
+              - code [ref=e271]: C:/...
+              - text: "), and Apache concatenates without inserting a slash:"
+            - generic [ref=e272]:
+              - code [ref=e278]: fcgi://127.0.0.1:9000 + C:/Users/.../script.php = fcgi://127.0.0.1:9000C:/Users/.../script.php
+              - button "Copy" [ref=e279] [cursor=pointer]
+            - paragraph [ref=e280]:
+              - text: The proxy URL parser then sees host=
+              - code [ref=e281]: 127.0.0.1
+              - text: ", port="
+              - code [ref=e282]: 9000C
+              - text: ", path="
+              - code [ref=e283]: /Users/...
+              - text: ", and the DNS resolver loses its mind:"
+            - generic [ref=e284]:
+              - code [ref=e290]: "AH00898: DNS lookup failure for: 127.0.0.1:9000c"
+              - button "Copy" [ref=e291] [cursor=pointer]
+            - paragraph [ref=e292]:
+              - text: This is
+              - strong [ref=e293]: Apache bug 55345
+              - text: ", open since 2013. The workaround in the bug comments is to use"
+              - code [ref=e294]: ProxyPassMatch
+              - text: with the docroot baked into the URL, but I tested that route and PHP-CGI then complained "No input file specified" because the SCRIPT_FILENAME ended up with a leading slash that Windows refused to resolve.
+            - paragraph [ref=e295]:
+              - text: The fix that actually works is to abandon FastCGI and use
+              - code [ref=e296]: mod_cgi
+              - text: +
+              - code [ref=e297]: mod_actions
+              - text: with a
+              - code [ref=e298]: ScriptAlias
+              - text: pointing at
+              - code [ref=e299]: php-cgi.exe
+              - text: "directly. It's the classic CGI approach XAMPP has used for fifteen years. Slightly slower per request than FastCGI but bulletproof on Windows because there's no proxy URL to construct in the first place:"
+            - generic [ref=e300]:
+              - generic [ref=e306]: Apache
+              - code [ref=e307]: LoadModule cgi_module modules/mod_cgi.so LoadModule actions_module modules/mod_actions.so ScriptAlias "/__goampp-php-bin__/" "C:/.../bin/php/" <Directory "C:/.../bin/php"> AllowOverride None Options +ExecCGI Require all granted </Directory> AddHandler application/x-httpd-php .php Action application/x-httpd-php "/__goampp-php-bin__/php-cgi.exe"
+              - button "Copy" [ref=e308] [cursor=pointer]
+            - paragraph [ref=e309]:
+              - text: "Lesson learned: when a Windows Apache config uses"
+              - code [ref=e310]: proxy:fcgi://
+              - text: ", run"
+              - code [ref=e311]: tail -f error_log
+              - text: and look for
+              - code [ref=e312]: 9000c
+              - text: (or similar suffixed-port nonsense) in the DNS error messages. It's never your firewall.
+            - heading "Process management on Windows is harder than it looks" [level=2] [ref=e313]
+            - paragraph [ref=e314]:
+              - text: The first time I clicked Stop on Apache, the process exited and the log said
+              - code [ref=e315]: "[Apache] exited cleanly"
+              - text: . Two seconds later I clicked Start again and got
+              - code [ref=e316]: port 80 already in use
+              - text: . Reboot. Repeat. The bug took a while to find.
+            - paragraph [ref=e317]:
+              - text: "Here's what was happening: Apache's"
+              - code [ref=e318]: winnt
+              - text: MPM forks a worker child. When you call
+              - code [ref=e319]: cmd.Process.Kill()
+              - text: on the parent, the child keeps running because Windows doesn't have process groups in the POSIX sense. The orphaned worker holds the listening socket on port 80 until you manually kill it via Task Manager.
+            - paragraph [ref=e320]:
+              - text: "Fix: use"
+              - code [ref=e321]: taskkill /F /T /PID <pid>
+              - text: instead. The
+              - code [ref=e322]: /T
+              - text: flag ("kill tree") nukes the parent and every descendant in one shot. Since GoAMPP launches services with a known parent PID, the tree kill catches the worker too. The Stop button now reliably frees the port.
+            - paragraph [ref=e323]:
+              - text: I also added a startup sweep that walks all processes via PowerShell and kills anything whose image path is inside
+              - code [ref=e324]: <goampp>/bin/
+              - text: . That cleans up zombies left from prior crashes — say, when Apache died because httpd.conf had a syntax error and the worker was already running. Without the sweep, the next launch would hit "port 80 in use" and look broken to anyone who didn't check Task Manager first.
+            - paragraph [ref=e325]:
+              - text: I originally wrote the sweep using
+              - code [ref=e326]: wmic
+              - text: ", but"
+              - link "Windows 11" [ref=e327] [cursor=pointer]:
+                - /url: /ghosthardware-2026-stable-kernel-mode-hwid-spoofing-for-windows-11
+              - text: "22H2+ removed it from the default install. PowerShell ships with every modern Windows so it's a safer dependency:"
+            - generic [ref=e328]:
+              - generic [ref=e334]: Go
+              - code [ref=e335]: "script := `Get-Process | Where-Object { $_.Path } | ForEach-Object { \"$($_.Id)|$($_.Path)\" }` cmd := exec.Command(\"powershell.exe\", \"-NoProfile\", \"-NonInteractive\", \"-Command\", script)"
+              - button "Copy" [ref=e336] [cursor=pointer]
+            - paragraph [ref=e337]:
+              - text: The output is parsed line-by-line (
+              - code [ref=e338]: <pid>|<absolute path>
+              - text: ), filtered to paths starting with the goampp
+              - code [ref=e339]: bin/
+              - text: directory, and each match is
+              - code [ref=e340]: taskkill /F /T
+              - text: "'d. Logged so you can see which zombies got cleaned up at startup."
+            - heading "Frameworks that scaffold themselves" [level=2] [ref=e341]
+            - paragraph [ref=e342]:
+              - text: The Projects tab takes the auto-install idea one level higher. Pick a framework from a dropdown — Laravel, Symfony, WordPress, Next.js, Express, NestJS, AdonisJS, Vite + React, Flask, Django, FastAPI, Gin, Spring Boot, or a static HTML starter — type a project name, pick a
+              - code [ref=e343]: .test
+              - text: domain, and click
+              - strong [ref=e344]: Create Project
+              - text: .
+            - paragraph [ref=e345]:
+              - text: What happens next depends on the framework. PHP
+              - link "frameworks" [ref=e346] [cursor=pointer]:
+                - /url: /latest-javascript-framework-updates-react-vue-and-angular
+              - text: run through Composer, which GoAMPP downloads on first use from
+              - code [ref=e347]: getcomposer.org
+              - text: . Node frameworks invoke
+              - code [ref=e348]: npx
+              - text: via the bundled Node binary. Python projects pip-install their dependencies and drop a starter
+              - code [ref=e349]: app.py
+              - text: . Spring Boot projects fetch a generated zip from
+              - code [ref=e350]: start.spring.io
+              - text: with sensible defaults (web + devtools). Static HTML gets a one-page boilerplate.
+            - paragraph [ref=e351]:
+              - text: Once the scaffold finishes, the project is registered both in
+              - code [ref=e352]: config.json
+              - text: and as an Apache virtual host. The hosts file (
+              - code [ref=e353]: C:\Windows\System32\drivers\etc\hosts
+              - text: ) gets a managed block with the new domain pointing at 127.0.0.1, and
+              - code [ref=e354]: conf/apache/vhosts.conf
+              - text: gets a
+              - code [ref=e355]: <VirtualHost>
+              - text: block pointing at the project's docroot.
+            - paragraph [ref=e356]:
+              - text: For Node, Python, Go, and Java frameworks — which ship their own dev servers — GoAMPP emits a
+              - code [ref=e357]: ProxyPass
+              - text: block instead of a
+              - code [ref=e358]: DocumentRoot
+              - text: ":"
+            - generic [ref=e359]:
+              - generic [ref=e365]: Apache
+              - code [ref=e366]: <VirtualHost *:80> ServerName myapp.test ProxyPreserveHost On ProxyPass / http://127.0.0.1:3000/ ProxyPassReverse / http://127.0.0.1:3000/ </VirtualHost>
+              - button "Copy" [ref=e367] [cursor=pointer]
+            - paragraph [ref=e368]:
+              - text: So
+              - code [ref=e369]: myapp.test
+              - text: reverse-proxies to your
+              - code [ref=e370]: npm run dev
+              - text: /
+              - code [ref=e371]: flask run
+              - text: /
+              - code [ref=e372]: go run .
+              - text: while you work in a terminal. You get nice hostname URLs without the framework needing to know about hosts file mapping.
+            - heading "The XAMPP comparison nobody asked for" [level=2] [ref=e373]
+            - paragraph [ref=e374]: I'll be blunt. XAMPP is software written for an older era and it shows. The download is 200 MB. The default install runs as a privileged service. The control panel is brittle. PHP 8.5 took the Bitnami team months to ship after upstream. There is no graceful path to add Node, Python, or Go to the same workflow.
+            - paragraph [ref=e375]: Laragon is genuinely better — fast quick-app menu, easy auto-vhost, sensible defaults. But it's also 100 MB, ships with Cmder and a Telegram desktop notification helper I cannot remember enabling, and the source is closed.
+            - paragraph [ref=e376]: GoAMPP is 7 MB, the source is on GitHub under a permissive license, and the entire control panel is one Go binary you can read end to end in an afternoon. I am not pretending it has feature parity with either incumbent today. Mercury Mail is gone. Tomcat is gone. The Apache build is whatever Apache Lounge published last week, not whatever Bitnami patched in 2024.
+            - paragraph [ref=e377]: If your stack is PHP plus a database plus phpMyAdmin, the trade is favorable. If you live inside Tomcat, install XAMPP and be happy.
+            - heading "Getting started" [level=2] [ref=e378]
+            - paragraph [ref=e379]:
+              - text: The release page on GitHub has a single Inno Setup installer —
+              - code [ref=e380]: goampp-setup-0.4.0.exe
+              - text: at 5.4 MB. Double-click, accept the per-user install location (
+              - code [ref=e381]: "%LOCALAPPDATA%\\GoAMPP"
+              - text: ), and the wizard finishes in three seconds. Launch the app, click any service card's
+              - strong [ref=e382]: Start
+              - text: button, wait for the download, and you're serving traffic.
+            - paragraph [ref=e383]: "If you want to build from source:"
+            - generic [ref=e384]:
+              - generic [ref=e390]: Terminal
+              - code [ref=e391]: git clone https://github.com/imtaqin/goampp cd goampp go build -ldflags="-H windowsgui -s -w" -o goampp.exe .
+              - button "Copy" [ref=e392] [cursor=pointer]
+            - paragraph [ref=e393]:
+              - text: The repository is plain Go with one external dependency (the
+              - code [ref=e394]: windigo
+              - text: Win32 binding library). No CGO, no
+              - code [ref=e395]: gcc
+              - text: ", no"
+              - code [ref=e396]: make
+              - text: .
+            - heading "Frequently asked questions" [level=2] [ref=e397]
+            - heading "Is GoAMPP a port of XAMPP?" [level=3] [ref=e398]
+            - paragraph [ref=e399]:
+              - text: No. It's a from-scratch control panel written in Go, with no shared code. The catalog of services it manages overlaps with XAMPP because the popular
+              - link "open-source" [ref=e400] [cursor=pointer]:
+                - /url: /ghosthardware-2026-stable-kernel-mode-hwid-spoofing-for-windows-11
+              - text: web stack doesn't change much, but everything else — UI, process management, install flow — is independent.
+            - heading "Can I run it alongside an existing XAMPP install?" [level=3] [ref=e401]
+            - paragraph [ref=e402]:
+              - text: Yes, as long as the ports don't collide. GoAMPP installs to
+              - code [ref=e403]: "%LOCALAPPDATA%\\GoAMPP"
+              - text: and downloads its own copies of Apache, MariaDB, etc. into its own bin tree. If XAMPP is already serving on port 80, GoAMPP's Apache won't start until you change one of the two
+              - code [ref=e404]: Listen
+              - text: directives.
+            - heading "Does it work on Windows 10?" [level=3] [ref=e405]
+            - paragraph [ref=e406]: Yes. The minimum is Windows 10 build 1809 (the first version that ships PowerShell 5.1 and a usable Common Controls v6 runtime). Windows 11 is the primary development target.
+            - heading "What about Linux or macOS?" [level=3] [ref=e407]
+            - paragraph [ref=e408]:
+              - text: GoAMPP is Windows-only by design. The whole point is native Win32 widgets without a runtime, which doesn't translate. If you need a similar tool on Linux, look at
+              - link "DDEV" [ref=e409] [cursor=pointer]:
+                - /url: https://ddev.com/
+              - text: ; on macOS, look at
+              - link "Herd" [ref=e410] [cursor=pointer]:
+                - /url: https://herd.laravel.com/
+              - text: .
+            - heading "Is it safe to run with admin rights all the time?" [level=3] [ref=e411]
+            - paragraph [ref=e412]:
+              - text: Functionally yes, but I'd avoid it. Run elevated only when you're applying virtual host changes; otherwise the per-user install model gives you a cleaner uninstall and zero risk to the rest of your system. The Settings page has a "Restart as Administrator" button that reads the current process token, fires
+              - code [ref=e413]: ShellExecute
+              - text: with the
+              - code [ref=e414]: runas
+              - text: verb, and exits the unelevated instance — one click instead of right-clicking the exe in Explorer.
+            - heading "Where do project files live?" [level=3] [ref=e415]
+            - paragraph [ref=e416]:
+              - text: "Everything goes under the install dir:"
+              - code [ref=e417]: bin/
+              - text: for downloaded service binaries,
+              - code [ref=e418]: www/
+              - text: for project source,
+              - code [ref=e419]: conf/
+              - text: for generated vhost config,
+              - code [ref=e420]: tmp/
+              - text: for sessions and uploads,
+              - code [ref=e421]: logs/
+              - text: for service log output. The whole tree is portable — copy the install dir to another machine and it Just Works.
+            - separator [ref=e422]
+            - paragraph [ref=e423]:
+              - text: The full source, the issue tracker, and the latest release live at
+              - strong [ref=e424]:
+                - link "github.com/imtaqin/goampp" [ref=e425] [cursor=pointer]:
+                  - /url: https://github.com/imtaqin/goampp
+              - text: . Pull requests welcome. Bug reports especially welcome — I write code on a single Windows 11 laptop and I am positive there are edge cases I have not seen.
+          - complementary "Project resources" [ref=e426]:
+            - generic [ref=e428]: Project resources
+            - generic [ref=e430]:
+              - link "View on GitHub" [ref=e431] [cursor=pointer]:
+                - /url: https://github.com/rodrigocfd/windigo
+                - img [ref=e432]
+                - generic [ref=e434]: View on GitHub
+              - link "Visit project site" [ref=e435] [cursor=pointer]:
+                - /url: https://www.apachelounge.com/download/VS18/binaries/httpd-2.4.66-260223-Win64-VS18.zip
+                - img [ref=e436]
+                - generic [ref=e439]: Visit project site
+        - complementary [ref=e440]:
+          - img "imtaqin" [ref=e442]
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - strong [ref=e445]: imtaqin
+              - generic [ref=e446]: Author
+            - paragraph [ref=e447]: Writes about self-hosted apps, AI tools, cybersecurity, and homelab projects. Sharing tools and notes from real-world deployments.
+            - link "More posts by imtaqin ›" [ref=e449] [cursor=pointer]:
+              - /url: /author/administrator
+        - generic [ref=e450]:
+          - strong [ref=e451]: "Share this post:"
+          - generic [ref=e452]:
+            - link " Twitter" [ref=e453] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=GoAMPP%3A%20A%207%20MB%20Native%20Windows%20Web%20Stack%20That%20Skips%20Docker%2C%20WSL%2C%20and%20the%20Java%20JDK&url=https%3A%2F%2Fimtaqin.id%2Fgoampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+              - generic [ref=e454]: 
+              - text: Twitter
+            - link " Facebook" [ref=e455] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fimtaqin.id%2Fgoampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+              - generic [ref=e456]: 
+              - text: Facebook
+            - link " LinkedIn" [ref=e457] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fimtaqin.id%2Fgoampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk&title=GoAMPP%3A%20A%207%20MB%20Native%20Windows%20Web%20Stack%20That%20Skips%20Docker%2C%20WSL%2C%20and%20the%20Java%20JDK
+              - generic [ref=e458]: 
+              - text: LinkedIn
+        - generic [ref=e459]:
+          - heading " Comments 0" [level=2] [ref=e460]:
+            - generic [ref=e461]: 
+            - text: Comments
+            - generic [ref=e462]: "0"
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - textbox "Your Name *" [ref=e468]
+              - textbox "Your Email *" [ref=e471]
+            - textbox "Write a comment..." [ref=e473]
+            - button " Post Comment" [ref=e474] [cursor=pointer]:
+              - generic [ref=e475]: 
+              - text: Post Comment
+            - text: Your email will not be published.
+          - paragraph [ref=e477]: No comments yet. Be the first to comment!
+        - generic [ref=e478]:
+          - heading "Related Posts" [level=2] [ref=e479]
+          - generic [ref=e483]:
+            - heading "Building a Windows 11 Native Desktop App with Go and WebView2" [level=4] [ref=e484]:
+              - link "Building a Windows 11 Native Desktop App with Go and WebView2" [ref=e485] [cursor=pointer]:
+                - /url: /building-windows-11-desktop-app-go-webview2
+            - generic [ref=e486]:
+              - generic [ref=e487]:
+                - generic [ref=e488]: 
+                - text: Administrator
+              - generic [ref=e489]:
+                - generic [ref=e490]: 
+                - text: "0"
+      - complementary [ref=e491]:
+        - generic [ref=e492]:
+          - heading "Post Info" [level=4] [ref=e493]
+          - list [ref=e494]:
+            - listitem [ref=e495]:
+              - strong [ref=e496]: "Author:"
+              - link "Administrator" [ref=e497] [cursor=pointer]:
+                - /url: /author/administrator
+            - listitem [ref=e498]:
+              - strong [ref=e499]: "Likes:"
+              - text: 0 |
+              - strong [ref=e500]: "Views:"
+              - text: "301"
+            - listitem [ref=e501]:
+              - strong [ref=e502]: "Categories:"
+              - link "PROJECTS" [ref=e503] [cursor=pointer]:
+                - /url: /category/projects
+              - text: ","
+              - link "Go" [ref=e504] [cursor=pointer]:
+                - /url: /category/go
+              - text: ","
+              - link "Open Source Project" [ref=e505] [cursor=pointer]:
+                - /url: /category/open-source-project
+            - listitem [ref=e506]:
+              - strong [ref=e507]: "Published:"
+              - text: 4/11/2026
+        - generic [ref=e508]:
+          - heading "Categories" [level=4] [ref=e509]
+          - list [ref=e510]:
+            - listitem [ref=e511]:
+              - link "AI & Machine Learning" [ref=e512] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+            - listitem [ref=e513]:
+              - link "Automation" [ref=e514] [cursor=pointer]:
+                - /url: /category/automation
+            - listitem [ref=e515]:
+              - link "C#" [ref=e516] [cursor=pointer]:
+                - /url: /category/c
+            - listitem [ref=e517]:
+              - link "Cybersecurity" [ref=e518] [cursor=pointer]:
+                - /url: /category/cybersecurity
+            - listitem [ref=e519]:
+              - link "Data & Analytics" [ref=e520] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+            - listitem [ref=e521]:
+              - link "Exploits & CVE" [ref=e522] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+            - listitem [ref=e523]:
+              - link "Go" [ref=e524] [cursor=pointer]:
+                - /url: /category/go
+            - listitem [ref=e525]:
+              - link "IoT & Smart Home" [ref=e526] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+        - generic [ref=e527]:
+          - heading "Tags" [level=4] [ref=e528]
+          - generic [ref=e529]:
+            - link "0xabcd01/cve-2026-41089" [ref=e530] [cursor=pointer]:
+              - /url: /tag/0xabcd01-cve-2026-41089
+            - link "0xchasercat/mochi" [ref=e531] [cursor=pointer]:
+              - /url: /tag/0xchasercat-mochi
+            - link "1tamilmv-telegram-bot" [ref=e532] [cursor=pointer]:
+              - /url: /tag/1tamilmv-telegram-bot
+            - link "35gateway" [ref=e533] [cursor=pointer]:
+              - /url: /tag/35gateway
+            - link "3d reconstruction" [ref=e534] [cursor=pointer]:
+              - /url: /tag/3d-reconstruction
+            - link "3dcellforge" [ref=e535] [cursor=pointer]:
+              - /url: /tag/3dcellforge
+            - link "a-eye" [ref=e536] [cursor=pointer]:
+              - /url: /tag/a-eye
+            - link "a-share-trading" [ref=e537] [cursor=pointer]:
+              - /url: /tag/a-share-trading
+            - link "a-stock-data" [ref=e538] [cursor=pointer]:
+              - /url: /tag/a-stock-data
+            - link "aaron-kidwell/golol" [ref=e539] [cursor=pointer]:
+              - /url: /tag/aaron-kidwell-golol
+            - link "abgeo/mezz" [ref=e540] [cursor=pointer]:
+              - /url: /tag/abgeo-mezz
+            - link "accessibility-theme" [ref=e541] [cursor=pointer]:
+              - /url: /tag/accessibility-theme
+            - link "active-directory" [ref=e542] [cursor=pointer]:
+              - /url: /tag/active-directory
+            - link "activepieces" [ref=e543] [cursor=pointer]:
+              - /url: /tag/activepieces
+            - link "acunetix-crack-2026" [ref=e544] [cursor=pointer]:
+              - /url: /tag/acunetix-crack-2026
+        - generic [ref=e545]:
+          - heading "Quick Links" [level=4] [ref=e546]
+          - list [ref=e547]:
+            - listitem [ref=e548]:
+              - link " More by Administrator" [ref=e549] [cursor=pointer]:
+                - /url: /author/administrator
+                - generic [ref=e550]: 
+                - text: More by Administrator
+            - listitem [ref=e551]:
+              - link " Browse All Posts" [ref=e552] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e553]: 
+                - text: Browse All Posts
+            - listitem [ref=e554]:
+              - link " RSS Feed" [ref=e555] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e556]: 
+                - text: RSS Feed
+  - contentinfo [ref=e557]:
+    - generic [ref=e558]:
+      - generic [ref=e559]:
+        - generic [ref=e560]:
+          - heading "IMTAQIN" [level=4] [ref=e561]
+          - paragraph [ref=e562]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e563]:
+          - link "Home" [ref=e564] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e565] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e566] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e567] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e568] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e569] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e570] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e571] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e573]: © 2026 IMTAQIN. All rights reserved.

@@ -1,0 +1,716 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]:
+        - text: /
+        - link "PROJECTS" [ref=e38] [cursor=pointer]:
+          - /url: /category/projects
+      - listitem [ref=e39]: / Pocket Pentester — A Native Offensive Security Too...
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: Featured
+              - link "PROJECTS" [ref=e47] [cursor=pointer]:
+                - /url: /category/projects
+            - heading "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [level=1] [ref=e48]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: 
+                - link "Administrator" [ref=e52] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e53]:
+                - generic [ref=e54]: 
+                - time [ref=e55]: April 29, 2026
+              - generic "This article was updated" [ref=e56]:
+                - generic [ref=e57]: 
+                - text: Updated
+                - time [ref=e58]: Jun 1, 2026
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: 6 min read
+            - generic [ref=e61]:
+              - button " 1 likes" [ref=e62] [cursor=pointer]:
+                - generic [ref=e63]: 
+                - text: 1 likes
+              - generic [ref=e64]:
+                - generic [ref=e65]: 
+                - text: 205 views
+          - img "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [ref=e67]
+          - navigation "Table of contents" [ref=e68]:
+            - button " Contents ▾" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: 
+              - strong [ref=e71]: Contents
+              - generic [ref=e72]: ▾
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "TL;DR" [ref=e75] [cursor=pointer]:
+                  - /url: "#tldr"
+              - listitem [ref=e76]:
+                - link "Why?" [ref=e77] [cursor=pointer]:
+                  - /url: "#why"
+              - listitem [ref=e78]:
+                - link "The Stack" [ref=e79] [cursor=pointer]:
+                  - /url: "#the-stack"
+              - listitem [ref=e80]:
+                - link "What&#39;s Inside" [ref=e81] [cursor=pointer]:
+                  - /url: "#what39s-inside"
+              - listitem [ref=e82]:
+                - link "Recon" [ref=e83] [cursor=pointer]:
+                  - /url: "#recon"
+              - listitem [ref=e84]:
+                - link "Exploitation" [ref=e85] [cursor=pointer]:
+                  - /url: "#exploitation"
+              - listitem [ref=e86]:
+                - link "Manual &amp; Utility" [ref=e87] [cursor=pointer]:
+                  - /url: "#manual-amp-utility"
+              - listitem [ref=e88]:
+                - 'link "A War Story: The UNION That Wasn&#39;t" [ref=e89] [cursor=pointer]':
+                  - /url: "#a-war-story-the-union-that-wasn39t"
+              - listitem [ref=e90]:
+                - link "Lessons" [ref=e91] [cursor=pointer]:
+                  - /url: "#lessons"
+              - listitem [ref=e92]:
+                - link "What&#39;s Next" [ref=e93] [cursor=pointer]:
+                  - /url: "#what39s-next"
+          - generic [ref=e94]:
+            - heading "TL;DR" [level=2] [ref=e95]
+            - paragraph [ref=e96]:
+              - text: I built
+              - strong [ref=e97]: Pocket Pentester
+              - text: — a native offensive
+              - link "security" [ref=e98] [cursor=pointer]:
+                - /url: /mythos-agent-ai-code-review-assistant-for-application-security
+              - text: toolkit for Android. 21 modules, 34MB APK, no root, fully offline-first. Pure Rust + Tauri + Vue.
+            - paragraph [ref=e99]:
+              - img "splash screen" [ref=e100]
+            - paragraph [ref=e101]:
+              - text: 👉
+              - strong [ref=e102]: "Repo:"
+              - link "https://github.com/tegal1337/PocketPentester" [ref=e103] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester
+              - text: 👉
+              - strong [ref=e104]: "Download APK:"
+              - link "https://github.com/tegal1337/PocketPentester/releases/latest/download/PocketPentester.apk" [ref=e105] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester/releases/latest/download/PocketPentester.apk
+            - separator [ref=e106]
+            - complementary "Related articles" [ref=e107]:
+              - generic [ref=e109]: You may also like
+              - link "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [ref=e112] [cursor=pointer]:
+                - /url: /wa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts
+                - generic [ref=e114]: WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts.
+            - heading "Why?" [level=2] [ref=e115]
+            - paragraph [ref=e116]: "Most mobile pentest tools fall into one of three categories:"
+            - list [ref=e117]:
+              - listitem [ref=e118]:
+                - strong [ref=e119]: Web wrappers
+                - text: — basically a browser pointing at a web service. Useless offline.
+              - listitem [ref=e120]:
+                - strong [ref=e121]: Termux scripts
+                - text: — power-user only, requires sideloading binaries, breaks when Android updates.
+              - listitem [ref=e122]:
+                - strong [ref=e123]: Root-only tools
+                - text: — needs Magisk, voids warranty, doesn't run on stock devices.
+            - paragraph [ref=e124]: "I wanted something that:"
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - text: Runs
+                - strong [ref=e127]: native code
+                - text: for real
+                - link "performance" [ref=e128] [cursor=pointer]:
+                  - /url: /rust-programming-language-why-it-s-the-future-of-systems-programming
+                - text: (async port scans, regex-heavy fingerprinting)
+              - listitem [ref=e129]:
+                - text: Works
+                - strong [ref=e130]: offline
+                - text: — no API key, no callback server, no telemetry
+              - listitem [ref=e131]:
+                - text: Installs from a
+                - strong [ref=e132]: single APK
+                - text: ", no setup"
+              - listitem [ref=e133]: Doesn't need root
+            - paragraph [ref=e134]: So I shipped this. 21 modules, all native Rust under the hood.
+            - separator [ref=e135]
+            - heading "The Stack" [level=2] [ref=e136]
+            - table [ref=e137]:
+              - rowgroup [ref=e138]:
+                - row "Layer Tech" [ref=e139]:
+                  - columnheader "Layer" [ref=e140]
+                  - columnheader "Tech" [ref=e141]
+              - rowgroup [ref=e142]:
+                - row "Frontend Vue 3 + TypeScript + Vite" [ref=e143]:
+                  - cell "Frontend" [ref=e144]
+                  - cell "Vue 3 + TypeScript + Vite" [ref=e145]:
+                    - text: Vue 3 +
+                    - link "TypeScript" [ref=e146] [cursor=pointer]:
+                      - /url: /hermes-web-ui-the-essential-dashboard-for-hermes-agent
+                    - text: + Vite
+                - row "Native shell Tauri 2" [ref=e147]:
+                  - cell "Native shell" [ref=e148]
+                  - cell "Tauri 2" [ref=e149]
+                - row "Backend Pure Rust (tokio + reqwest + rustls + hickory-dns)" [ref=e150]:
+                  - cell "Backend" [ref=e151]
+                  - cell "Pure Rust (tokio + reqwest + rustls + hickory-dns)" [ref=e152]
+                - row "Build Gradle splits.abi → 4 ABIs + universal" [ref=e153]:
+                  - cell "Build" [ref=e154]
+                  - cell "Gradle splits.abi → 4 ABIs + universal" [ref=e155]
+                - row "CI GitHub Actions, signed with v1+v2+v3 schemes" [ref=e156]:
+                  - cell "CI" [ref=e157]
+                  - cell "GitHub Actions, signed with v1+v2+v3 schemes" [ref=e158]
+            - paragraph [ref=e159]:
+              - text: Tauri 2's Android support landed officially in mid-2024. It compiles your Rust crate to a
+              - code [ref=e160]: .so
+              - text: ", embeds a WebView for the UI, and exposes IPC commands via"
+              - code [ref=e161]: "#[tauri::command]"
+              - text: ". The result is fast: a port scan over 1000 ports finishes in seconds, and the SQLi engine runs sqlmap-style detection without network calls home."
+            - separator [ref=e162]
+            - heading "What's Inside" [level=2] [ref=e163]
+            - heading "Recon" [level=3] [ref=e164]
+            - list [ref=e165]:
+              - listitem [ref=e166]:
+                - strong [ref=e167]: Port scan
+                - text: — async TCP probe with service hints
+              - listitem [ref=e168]:
+                - strong [ref=e169]: Subdomain enum
+                - text: — 16 passive sources (crt.sh, certspotter, c99, VT, Anubis, etc.) + brute
+              - listitem [ref=e170]:
+                - strong [ref=e171]: HTTP probe
+                - text: — fingerprint live hosts, status, title, tech stack
+              - listitem [ref=e172]:
+                - strong [ref=e173]: Domain grab
+                - text: — bulk harvest by TLD from web sources + IANA
+              - listitem [ref=e174]:
+                - strong [ref=e175]: DNS
+                - text: — A/AAAA/MX/TXT/NS/CNAME/SOA/CAA/SRV + AXFR + DNSSEC
+              - listitem [ref=e176]:
+                - strong [ref=e177]: SSL scan
+                - text: — TLS chain, SANs, expiry, weak sig audit
+              - listitem [ref=e178]:
+                - strong [ref=e179]: Banner grab
+                - text: — TCP banner + service fingerprint
+              - listitem [ref=e180]:
+                - strong [ref=e181]: LAN map
+                - text: — TCP sweep + mDNS + SSDP/UPnP
+            - table [ref=e182]:
+              - rowgroup [ref=e183]:
+                - row "port scan subdomain enum http probe" [ref=e184]:
+                  - columnheader "port scan" [ref=e185]
+                  - columnheader "subdomain enum" [ref=e186]
+                  - columnheader "http probe" [ref=e187]
+              - rowgroup [ref=e188]:
+                - row "port scanner subdomain finder http probe" [ref=e189]:
+                  - cell "port scanner" [ref=e190]:
+                    - img "port scanner"
+                  - cell "subdomain finder" [ref=e191]:
+                    - img "subdomain finder"
+                  - cell "http probe" [ref=e192]:
+                    - img "http probe"
+                - row "dns ssl scan lan map" [ref=e193]:
+                  - cell "dns" [ref=e194]:
+                    - strong [ref=e195]: dns
+                  - cell "ssl scan" [ref=e196]:
+                    - strong [ref=e197]: ssl scan
+                  - cell "lan map" [ref=e198]:
+                    - strong [ref=e199]: lan map
+                - row "dns ssl scan lan map" [ref=e200]:
+                  - cell "dns" [ref=e201]:
+                    - img "dns"
+                  - cell "ssl scan" [ref=e202]:
+                    - img "ssl scan"
+                  - cell "lan map" [ref=e203]:
+                    - img "lan map"
+            - heading "Exploitation" [level=3] [ref=e204]
+            - list [ref=e205]:
+              - listitem [ref=e206]:
+                - strong [ref=e207]: SQLi
+                - text: "— sqlmap-style: heuristic, error, boolean-blind, UNION (with auto column count + position detection), time-blind. Includes a full"
+                - strong [ref=e208]: dump engine
+                - text: for
+                - code [ref=e209]: databases → tables → columns → rows
+                - text: .
+              - listitem [ref=e210]:
+                - strong [ref=e211]: XSS
+                - text: — context-aware reflection (HTML/attr/JS/URL) with canary detection
+              - listitem [ref=e212]:
+                - strong [ref=e213]: JWT
+                - text: —
+                - code [ref=e214]: alg:none
+                - text: ","
+                - code [ref=e215]: kid
+                - text: injection, HMAC weak-secret brute, admin forgery
+              - listitem [ref=e216]:
+                - strong [ref=e217]: Xploiter
+                - text: — YAML template engine (variables, payloads, matchers, chains)
+              - listitem [ref=e218]:
+                - strong [ref=e219]: Auto-pwn
+                - text: "— full chain pipeline: recon → probe →"
+                - link "exploit" [ref=e220] [cursor=pointer]:
+                  - /url: /copy-fail-cve-2026-31431-kubernetes-container-breakout-via-page-cache-corruption
+                - text: ", one button"
+              - listitem [ref=e221]:
+                - strong [ref=e222]: Dir-fuzz
+                - text: — recursion + wildcard calibration
+              - listitem [ref=e223]:
+                - strong [ref=e224]: Admin-finder
+                - text: — 320+ paths, CMS fingerprint, login form detection
+              - listitem [ref=e225]:
+                - strong [ref=e226]: Form-brute
+                - text: — CSRF aware, regex matchers, baseline delta
+              - listitem [ref=e227]:
+                - strong [ref=e228]: Takeover
+                - text: — 18 service fingerprints (S3, GitHub Pages, Heroku, Azure, etc.)
+            - table [ref=e229]:
+              - rowgroup [ref=e230]:
+                - row "sqli scanner xss scanner jwt attacker" [ref=e231]:
+                  - columnheader "sqli scanner" [ref=e232]
+                  - columnheader "xss scanner" [ref=e233]
+                  - columnheader "jwt attacker" [ref=e234]
+              - rowgroup [ref=e235]:
+                - row "sqli xss scanner jwt" [ref=e236]:
+                  - cell "sqli" [ref=e237]:
+                    - img "sqli"
+                  - cell "xss scanner" [ref=e238]:
+                    - img "xss scanner"
+                  - cell "jwt" [ref=e239]:
+                    - img "jwt"
+                - row "auto-pwn dir-fuzz admin-finder" [ref=e240]:
+                  - cell "auto-pwn" [ref=e241]:
+                    - strong [ref=e242]: auto-pwn
+                  - cell "dir-fuzz" [ref=e243]:
+                    - strong [ref=e244]: dir-fuzz
+                  - cell "admin-finder" [ref=e245]:
+                    - strong [ref=e246]: admin-finder
+                - row "auto-pwn dir-fuzz admin finder" [ref=e247]:
+                  - cell "auto-pwn" [ref=e248]:
+                    - img "auto-pwn"
+                  - cell "dir-fuzz" [ref=e249]:
+                    - img "dir-fuzz"
+                  - cell "admin finder" [ref=e250]:
+                    - img "admin finder"
+                - row "xploiter (yaml) form-brute takeover" [ref=e251]:
+                  - cell "xploiter (yaml)" [ref=e252]:
+                    - strong [ref=e253]: xploiter (yaml)
+                  - cell "form-brute" [ref=e254]:
+                    - strong [ref=e255]: form-brute
+                  - cell "takeover" [ref=e256]:
+                    - strong [ref=e257]: takeover
+                - row "exploiter form brute takeover" [ref=e258]:
+                  - cell "exploiter" [ref=e259]:
+                    - img "exploiter"
+                  - cell "form brute" [ref=e260]:
+                    - img "form brute"
+                  - cell "takeover" [ref=e261]:
+                    - img "takeover"
+            - heading "Manual & Utility" [level=3] [ref=e262]
+            - list [ref=e263]:
+              - listitem [ref=e264]:
+                - strong [ref=e265]: Repeater
+                - text: — Burp-lite. Edit method/URL/headers/body, preview, export curl
+              - listitem [ref=e266]:
+                - strong [ref=e267]: Payload-gen
+                - text: — 50+ reverse/bind shells + webshells + msfvenom + encoders
+              - listitem [ref=e268]:
+                - strong [ref=e269]: Encoder
+                - text: — chainable b64/url/hex/html/rot13/morse/jwt pipeline
+              - listitem [ref=e270]:
+                - strong [ref=e271]: Hash-tools
+                - text: — identify 28+ hash types + compute MD5/SHA/CRC32
+            - table [ref=e272]:
+              - rowgroup [ref=e273]:
+                - row "repeater (Burp-lite) payload-gen encoder chain" [ref=e274]:
+                  - columnheader "repeater (Burp-lite)" [ref=e275]
+                  - columnheader "payload-gen" [ref=e276]
+                  - columnheader "encoder chain" [ref=e277]
+              - rowgroup [ref=e278]:
+                - row "repeater payload gen encoder" [ref=e279]:
+                  - cell "repeater" [ref=e280]:
+                    - img "repeater"
+                  - cell "payload gen" [ref=e281]:
+                    - img "payload gen"
+                  - cell "encoder" [ref=e282]:
+                    - img "encoder"
+            - separator [ref=e283]
+            - 'heading "A War Story: The UNION That Wasn''t" [level=2] [ref=e284]'
+            - paragraph [ref=e285]: Real example of how building offline-first forced cleaner engineering.
+            - paragraph [ref=e286]:
+              - text: When I tested the SQLi scanner against my own vuln lab (
+              - code [ref=e287]: https://insecure.newploit.com/profile.php?id=1
+              - text: ), the scan correctly detected error-based injection but
+              - strong [ref=e288]: missed UNION-based
+              - text: every time. Even though I could prove UNION worked manually with curl.
+            - paragraph [ref=e289]: "Looked at the scanner code:"
+            - generic [ref=e290]:
+              - generic [ref=e296]: Rust
+              - code [ref=e297]: "// test_union_based() — old version let full = format!(\"{}{} UNION SELECT {}-- -\", point.base_value, prefix, fields.join(\",\"));"
+              - button "Copy" [ref=e298] [cursor=pointer]
+            - paragraph [ref=e299]:
+              - text: "Spotted it: the scanner used the"
+              - strong [ref=e300]:
+                - text: original
+                - code [ref=e301]: base_value
+                - text: (
+                - code [ref=e302]: "1"
+                - text: )
+              - text: "when injecting UNION. The PHP target was running this query:"
+            - generic [ref=e303]:
+              - generic [ref=e309]: SQL
+              - code [ref=e310]: SELECT id, user, ... FROM users WHERE id=1 UNION SELECT marker,...
+              - button "Copy" [ref=e311] [cursor=pointer]
+            - paragraph [ref=e312]:
+              - text: The DB returned
+              - strong [ref=e313]: two rows
+              - text: ": the real user (id=1)"
+              - strong [ref=e314]: first
+              - text: ", then the UNION row. PHP's"
+              - code [ref=e315]: fetch_assoc()
+              - text: only returned the first row. The marker was never rendered → scanner thought UNION failed.
+            - paragraph [ref=e316]: "The fix is a classic sqlmap technique:"
+            - generic [ref=e317]:
+              - generic [ref=e323]: Rust
+              - code [ref=e324]:
+                - text: let null_bases = if base_value.chars().all(
+                - generic [ref=e325]: "|c|"
+                - text: "c.is_ascii_digit()) { vec![format!(\"-{}\", base_value), \"0\".into(), \"999999999\".into(), format!(\"{} AND 1=2\", base_value)] } else { vec![format!(\"{} AND 1=2\", base_value)] };"
+              - button "Copy" [ref=e326] [cursor=pointer]
+            - paragraph [ref=e327]:
+              - text: Use
+              - code [ref=e328]: "-1"
+              - text: ","
+              - code [ref=e329]: "0"
+              - text: ", or"
+              - code [ref=e330]: AND 1=2
+              - text: to make the original
+              - code [ref=e331]: WHERE
+              - text: clause return zero rows. Now the UNION row is the only row, and the marker reflects.
+            - paragraph [ref=e332]: "After the fix:"
+            - generic [ref=e333]:
+              - code [ref=e339]: "[+] error-based GET:id [DBMS:MySQL] payload: 1' -- - [+] union-based GET:id [DBMS:MySQL] 4col @ 2 version = 10.11.16-MariaDB-ubu2204 user = root@% db = newploit [*] scan done: 2 injection point(s)"
+              - button "Copy" [ref=e340] [cursor=pointer]
+            - paragraph [ref=e341]:
+              - img "sqli scan in action"
+            - paragraph [ref=e342]: "Then the dump engine clean-fires:"
+            - table [ref=e343]:
+              - rowgroup [ref=e344]:
+                - row "id username password email role api_key" [ref=e345]:
+                  - columnheader "id" [ref=e346]
+                  - columnheader "username" [ref=e347]
+                  - columnheader "password" [ref=e348]
+                  - columnheader "email" [ref=e349]
+                  - columnheader "role" [ref=e350]
+                  - columnheader "api_key" [ref=e351]
+              - rowgroup [ref=e352]:
+                - row "1 admin admin123 admin@... admin sk_admin_AKIAIOSFODNN7EXAMPLE" [ref=e353]:
+                  - cell "1" [ref=e354]
+                  - cell "admin" [ref=e355]
+                  - cell "admin123" [ref=e356]
+                  - cell "admin@..." [ref=e357]
+                  - cell "admin" [ref=e358]
+                  - cell "sk_admin_AKIAIOSFODNN7EXAMPLE" [ref=e359]
+                - row "2 root toor root@... admin sk_root_deadbeefcafebabe" [ref=e360]:
+                  - cell "2" [ref=e361]
+                  - cell "root" [ref=e362]
+                  - cell "toor" [ref=e363]
+                  - cell "root@..." [ref=e364]
+                  - cell "admin" [ref=e365]
+                  - cell "sk_root_deadbeefcafebabe" [ref=e366]
+                - row "... ... ... ... ... ..." [ref=e367]:
+                  - cell "..." [ref=e368]
+                  - cell "..." [ref=e369]
+                  - cell "..." [ref=e370]
+                  - cell "..." [ref=e371]
+                  - cell "..." [ref=e372]
+                  - cell "..." [ref=e373]
+            - paragraph [ref=e374]:
+              - text: "The lesson:"
+              - strong [ref=e375]: build with a real vuln target on day one
+              - text: . If I had only relied on unit tests with mocked DB responses, this would have shipped broken to every user.
+            - separator [ref=e376]
+            - separator [ref=e377]
+            - heading "Lessons" [level=2] [ref=e378]
+            - list [ref=e379]:
+              - listitem [ref=e380]:
+                - strong [ref=e381]: Native > web wrapper for tools.
+                - text: Async Rust port scans crush
+                - link "JavaScript" [ref=e382] [cursor=pointer]:
+                  - /url: /latest-javascript-framework-updates-react-vue-and-angular
+                - text: "-in-WebView every time."
+              - listitem [ref=e383]:
+                - strong [ref=e384]: Test against real targets early.
+                - text: Mocked tests would have hidden the UNION bug indefinitely.
+              - listitem [ref=e385]:
+                - strong [ref=e386]: Pick one split mechanism.
+                - text: Tauri's
+                - code [ref=e387]: "--split-per-abi"
+                - text: and Gradle's
+                - code [ref=e388]: splits.abi
+                - text: don't coexist. Pick one.
+              - listitem [ref=e389]:
+                - strong [ref=e390]: Sanity check artifact sizes in CI.
+                - text: A
+                - code [ref=e391]: < 5MB
+                - text: check would have caught the empty-shell bug before release.
+              - listitem [ref=e392]:
+                - strong [ref=e393]: Pentest tools have weird requirements.
+                - text: Cleartext HTTP, root-free port scans, offline operation — none of which match Android's default app profile.
+            - separator [ref=e394]
+            - heading "What's Next" [level=2] [ref=e395]
+            - list [ref=e396]:
+              - listitem [ref=e397]: Bluetooth/BLE recon module
+              - listitem [ref=e398]:
+                - link "Local AI" [ref=e399] [cursor=pointer]:
+                  - /url: /icarus-daedalus-universal-agent-memory-in-50-lines-of-python
+                - text: model for response analysis (offline LLM via candle-rs)
+              - listitem [ref=e400]: More tamper scripts for SQLi WAF bypass
+              - listitem [ref=e401]: Burp-style intercepting proxy
+            - paragraph [ref=e402]:
+              - text: "If you've got an idea, drop it as an issue:"
+              - link "https://github.com/tegal1337/PocketPentester/issues" [ref=e403] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester/issues
+            - separator [ref=e404]
+            - paragraph [ref=e405]:
+              - strong [ref=e406]: "Repo:"
+              - link "https://github.com/tegal1337/PocketPentester" [ref=e407] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester
+              - strong [ref=e408]: "Download:"
+              - link "https://github.com/tegal1337/PocketPentester/releases/latest" [ref=e409] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester/releases/latest
+            - paragraph [ref=e410]: Free and open source. MIT license. Built so you never miss the next train.
+          - complementary "Project resources" [ref=e411]:
+            - generic [ref=e413]: Project resources
+            - generic [ref=e415]:
+              - link "View on GitHub" [ref=e416] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/pocketpentester
+                - img [ref=e417]
+                - generic [ref=e419]: View on GitHub
+              - link "Visit project site" [ref=e420] [cursor=pointer]:
+                - /url: https://raw.githubusercontent.com/tegal1337/PocketPentester/main/screenshot/admin-finder.png
+                - img [ref=e421]
+                - generic [ref=e424]: Visit project site
+          - generic [ref=e425]:
+            - strong [ref=e426]:
+              - generic [ref=e427]: 
+              - text: "Tags:"
+            - generic [ref=e428]:
+              - link "Rust" [ref=e429] [cursor=pointer]:
+                - /url: /tag/rust
+              - link "android" [ref=e430] [cursor=pointer]:
+                - /url: /tag/android
+              - link "cybersecurity" [ref=e431] [cursor=pointer]:
+                - /url: /tag/cybersecurity
+              - link "opensource" [ref=e432] [cursor=pointer]:
+                - /url: /tag/opensource
+        - complementary [ref=e433]:
+          - img "imtaqin" [ref=e435]
+          - generic [ref=e436]:
+            - generic [ref=e437]:
+              - strong [ref=e438]: imtaqin
+              - generic [ref=e439]: Author
+            - paragraph [ref=e440]: Writes about self-hosted apps, AI tools, cybersecurity, and homelab projects. Sharing tools and notes from real-world deployments.
+            - link "More posts by imtaqin ›" [ref=e442] [cursor=pointer]:
+              - /url: /author/administrator
+        - generic [ref=e443]:
+          - strong [ref=e444]: "Share this post:"
+          - generic [ref=e445]:
+            - link " Twitter" [ref=e446] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=Pocket%20Pentester%20%E2%80%94%20A%20Native%20Offensive%20Security%20Toolkit%20That%20Fits%20in%20Your%20Pocket&url=https%3A%2F%2Fimtaqin.id%2Fpocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket
+              - generic [ref=e447]: 
+              - text: Twitter
+            - link " Facebook" [ref=e448] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fimtaqin.id%2Fpocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket
+              - generic [ref=e449]: 
+              - text: Facebook
+            - link " LinkedIn" [ref=e450] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fimtaqin.id%2Fpocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket&title=Pocket%20Pentester%20%E2%80%94%20A%20Native%20Offensive%20Security%20Toolkit%20That%20Fits%20in%20Your%20Pocket
+              - generic [ref=e451]: 
+              - text: LinkedIn
+        - generic [ref=e452]:
+          - heading " Comments 0" [level=2] [ref=e453]:
+            - generic [ref=e454]: 
+            - text: Comments
+            - generic [ref=e455]: "0"
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - textbox "Your Name *" [ref=e461]
+              - textbox "Your Email *" [ref=e464]
+            - textbox "Write a comment..." [ref=e466]
+            - button " Post Comment" [ref=e467] [cursor=pointer]:
+              - generic [ref=e468]: 
+              - text: Post Comment
+            - text: Your email will not be published.
+          - paragraph [ref=e470]: No comments yet. Be the first to comment!
+        - generic [ref=e471]:
+          - heading "Related Posts" [level=2] [ref=e472]
+          - generic [ref=e476]:
+            - heading "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [level=4] [ref=e477]:
+              - link "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [ref=e478] [cursor=pointer]:
+                - /url: /wa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - generic [ref=e481]: 
+                - text: Administrator
+              - generic [ref=e482]:
+                - generic [ref=e483]: 
+                - text: "2"
+      - complementary [ref=e484]:
+        - generic [ref=e485]:
+          - heading "Post Info" [level=4] [ref=e486]
+          - list [ref=e487]:
+            - listitem [ref=e488]:
+              - strong [ref=e489]: "Author:"
+              - link "Administrator" [ref=e490] [cursor=pointer]:
+                - /url: /author/administrator
+            - listitem [ref=e491]:
+              - strong [ref=e492]: "Likes:"
+              - text: 1 |
+              - strong [ref=e493]: "Views:"
+              - text: "204"
+            - listitem [ref=e494]:
+              - strong [ref=e495]: "Categories:"
+              - link "PROJECTS" [ref=e496] [cursor=pointer]:
+                - /url: /category/projects
+            - listitem [ref=e497]:
+              - strong [ref=e498]: "Published:"
+              - text: 4/29/2026
+        - generic [ref=e499]:
+          - heading "Categories" [level=4] [ref=e500]
+          - list [ref=e501]:
+            - listitem [ref=e502]:
+              - link "AI & Machine Learning" [ref=e503] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+            - listitem [ref=e504]:
+              - link "Automation" [ref=e505] [cursor=pointer]:
+                - /url: /category/automation
+            - listitem [ref=e506]:
+              - link "C#" [ref=e507] [cursor=pointer]:
+                - /url: /category/c
+            - listitem [ref=e508]:
+              - link "Cybersecurity" [ref=e509] [cursor=pointer]:
+                - /url: /category/cybersecurity
+            - listitem [ref=e510]:
+              - link "Data & Analytics" [ref=e511] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+            - listitem [ref=e512]:
+              - link "Exploits & CVE" [ref=e513] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+            - listitem [ref=e514]:
+              - link "Go" [ref=e515] [cursor=pointer]:
+                - /url: /category/go
+            - listitem [ref=e516]:
+              - link "IoT & Smart Home" [ref=e517] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+        - generic [ref=e518]:
+          - heading "Tags" [level=4] [ref=e519]
+          - generic [ref=e520]:
+            - link "0xabcd01/cve-2026-41089" [ref=e521] [cursor=pointer]:
+              - /url: /tag/0xabcd01-cve-2026-41089
+            - link "0xchasercat/mochi" [ref=e522] [cursor=pointer]:
+              - /url: /tag/0xchasercat-mochi
+            - link "1tamilmv-telegram-bot" [ref=e523] [cursor=pointer]:
+              - /url: /tag/1tamilmv-telegram-bot
+            - link "35gateway" [ref=e524] [cursor=pointer]:
+              - /url: /tag/35gateway
+            - link "3d reconstruction" [ref=e525] [cursor=pointer]:
+              - /url: /tag/3d-reconstruction
+            - link "3dcellforge" [ref=e526] [cursor=pointer]:
+              - /url: /tag/3dcellforge
+            - link "a-eye" [ref=e527] [cursor=pointer]:
+              - /url: /tag/a-eye
+            - link "a-share-trading" [ref=e528] [cursor=pointer]:
+              - /url: /tag/a-share-trading
+            - link "a-stock-data" [ref=e529] [cursor=pointer]:
+              - /url: /tag/a-stock-data
+            - link "aaron-kidwell/golol" [ref=e530] [cursor=pointer]:
+              - /url: /tag/aaron-kidwell-golol
+            - link "abgeo/mezz" [ref=e531] [cursor=pointer]:
+              - /url: /tag/abgeo-mezz
+            - link "accessibility-theme" [ref=e532] [cursor=pointer]:
+              - /url: /tag/accessibility-theme
+            - link "active-directory" [ref=e533] [cursor=pointer]:
+              - /url: /tag/active-directory
+            - link "activepieces" [ref=e534] [cursor=pointer]:
+              - /url: /tag/activepieces
+            - link "acunetix-crack-2026" [ref=e535] [cursor=pointer]:
+              - /url: /tag/acunetix-crack-2026
+        - generic [ref=e536]:
+          - heading "Quick Links" [level=4] [ref=e537]
+          - list [ref=e538]:
+            - listitem [ref=e539]:
+              - link " More by Administrator" [ref=e540] [cursor=pointer]:
+                - /url: /author/administrator
+                - generic [ref=e541]: 
+                - text: More by Administrator
+            - listitem [ref=e542]:
+              - link " Browse All Posts" [ref=e543] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e544]: 
+                - text: Browse All Posts
+            - listitem [ref=e545]:
+              - link " RSS Feed" [ref=e546] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e547]: 
+                - text: RSS Feed
+  - contentinfo [ref=e548]:
+    - generic [ref=e549]:
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - heading "IMTAQIN" [level=4] [ref=e552]
+          - paragraph [ref=e553]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e554]:
+          - link "Home" [ref=e555] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e556] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e557] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e558] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e559] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e560] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e561] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e562] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e564]: © 2026 IMTAQIN. All rights reserved.

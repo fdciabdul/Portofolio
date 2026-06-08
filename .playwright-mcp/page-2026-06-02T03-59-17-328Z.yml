@@ -1,0 +1,876 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+              - generic [ref=e53]: Search or jump to...
+              - img [ref=e55]
+            - link "Sign in" [ref=e59] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffdciabdul%2FWhatsapp-Blast-Desktop
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=fdciabdul%2FWhatsapp-Blast-Desktop
+            - button "Appearance settings" [ref=e63] [cursor=pointer]:
+              - img
+  - main [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - img [ref=e72]
+          - link "fdciabdul" [ref=e75] [cursor=pointer]:
+            - /url: /fdciabdul
+          - generic [ref=e76]: /
+          - strong [ref=e77]:
+            - link "Whatsapp-Blast-Desktop" [ref=e78] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop
+          - generic [ref=e79]: Public
+        - generic [ref=e80]:
+          - list:
+            - listitem [ref=e81]:
+              - link "You must be signed in to change notification settings" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffdciabdul%2FWhatsapp-Blast-Desktop
+                - img [ref=e83]
+                - text: Notifications
+            - listitem [ref=e85]:
+              - link "Fork 6" [ref=e86] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffdciabdul%2FWhatsapp-Blast-Desktop
+                - img [ref=e87]
+                - text: Fork
+                - generic "6" [ref=e89]
+            - listitem [ref=e90]:
+              - link "You must be signed in to star a repository" [ref=e92] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffdciabdul%2FWhatsapp-Blast-Desktop
+                - img [ref=e93]
+                - text: Star
+                - generic "10 users starred this repository" [ref=e95]: "10"
+      - navigation "Repository" [ref=e96]:
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Code" [ref=e99] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop
+              - img [ref=e100]
+              - generic [ref=e102]: Code
+          - listitem [ref=e103]:
+            - link "Issues" [ref=e104] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/issues
+              - img [ref=e105]
+              - generic [ref=e108]: Issues
+          - listitem [ref=e109]:
+            - link "Pull requests" [ref=e110] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/pulls
+              - img [ref=e111]
+              - generic [ref=e113]: Pull requests
+          - listitem [ref=e114]:
+            - link "Actions" [ref=e115] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/actions
+              - img [ref=e116]
+              - generic [ref=e118]: Actions
+          - listitem [ref=e119]:
+            - link "Projects" [ref=e120] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/projects
+              - img [ref=e121]
+              - generic [ref=e123]: Projects
+          - listitem [ref=e124]:
+            - link "Security and quality" [ref=e125] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/security
+              - img [ref=e126]
+              - generic [ref=e128]: Security and quality
+          - listitem [ref=e129]:
+            - link "Insights" [ref=e130] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/pulse
+              - img [ref=e131]
+              - generic [ref=e133]: Insights
+    - generic [ref=e146]:
+      - heading "fdciabdul/Whatsapp-Blast-Desktop" [level=1] [ref=e148]
+      - generic [ref=e149]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - button "main branch" [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]:
+                  - generic [ref=e159]:
+                    - img [ref=e161]
+                    - generic [ref=e164]: main
+                  - generic:
+                    - img
+              - generic [ref=e165]:
+                - link "1 Branch" [ref=e166] [cursor=pointer]:
+                  - /url: /fdciabdul/Whatsapp-Blast-Desktop/branches
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e169]:
+                      - strong [ref=e170]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e171] [cursor=pointer]:
+                  - /url: /fdciabdul/Whatsapp-Blast-Desktop/tags
+                  - generic [ref=e172]:
+                    - generic:
+                      - img
+                    - generic [ref=e174]:
+                      - strong [ref=e175]: "0"
+                      - text: Tags
+            - generic [ref=e176]:
+              - generic [ref=e180]:
+                - img [ref=e182]
+                - combobox "Go to file" [ref=e184]
+              - button "Code" [ref=e185] [cursor=pointer]:
+                - generic [ref=e186]:
+                  - generic:
+                    - img
+                  - generic [ref=e187]: Code
+                  - generic:
+                    - img
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - heading "Folders and files" [level=2] [ref=e190]
+              - table "Folders and files" [ref=e191]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e192]:
+                  - 'row "Latest commit fdciabdul commits by fdciabdul docs: update README.md Commit 2013a4d · Jun 14, 2025last year History 3 Commits" [ref=e193]':
+                    - 'cell "Latest commit fdciabdul commits by fdciabdul docs: update README.md Commit 2013a4d · Jun 14, 2025last year History 3 Commits" [ref=e194]':
+                      - generic [ref=e195]:
+                        - heading "Latest commit" [level=2] [ref=e196]
+                        - generic [ref=e197]:
+                          - generic [ref=e199]:
+                            - link "fdciabdul" [ref=e200] [cursor=pointer]:
+                              - /url: /fdciabdul
+                              - img "fdciabdul" [ref=e201]
+                            - link "commits by fdciabdul" [ref=e202] [cursor=pointer]:
+                              - /url: /fdciabdul/Whatsapp-Blast-Desktop/commits?author=fdciabdul
+                              - text: fdciabdul
+                          - 'link "docs: update README.md" [ref=e206] [cursor=pointer]':
+                            - /url: /fdciabdul/Whatsapp-Blast-Desktop/commit/2013a4d9d8398e0f5d5360eb59aacb8f649a6104
+                        - generic [ref=e207]:
+                          - generic [ref=e209]:
+                            - link "Commit 2013a4d" [ref=e210] [cursor=pointer]:
+                              - /url: /fdciabdul/Whatsapp-Blast-Desktop/commit/2013a4d9d8398e0f5d5360eb59aacb8f649a6104
+                              - text: 2013a4d
+                            - text: ·
+                            - generic "Jun 14, 2025, 11:57 PM GMT+7" [ref=e211]: Jun 14, 2025last year
+                          - generic [ref=e212]:
+                            - heading "History" [level=2] [ref=e213]
+                            - link "3 Commits" [ref=e214] [cursor=pointer]:
+                              - /url: /fdciabdul/Whatsapp-Blast-Desktop/commits/main/
+                              - generic [ref=e215]:
+                                - generic:
+                                  - img
+                                - generic [ref=e216]: 3 Commits
+                  - row "assets, (Directory)" [ref=e217]:
+                    - cell "assets, (Directory)" [ref=e218]:
+                      - generic [ref=e219]:
+                        - img [ref=e220]
+                        - link "assets, (Directory)" [ref=e225] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/tree/main/assets
+                          - text: assets
+                    - cell [ref=e226]
+                    - cell [ref=e228]
+                  - row "build, (Directory)" [ref=e231]:
+                    - cell "build, (Directory)" [ref=e232]:
+                      - generic [ref=e233]:
+                        - img [ref=e234]
+                        - link "build, (Directory)" [ref=e239] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/tree/main/build
+                          - text: build
+                    - cell [ref=e240]
+                    - cell [ref=e242]
+                  - row "services, (Directory)" [ref=e245]:
+                    - cell "services, (Directory)" [ref=e246]:
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - link "services, (Directory)" [ref=e253] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/tree/main/services
+                          - text: services
+                    - cell [ref=e254]
+                    - cell [ref=e256]
+                  - row ".gitignore, (File)" [ref=e259]:
+                    - cell ".gitignore, (File)" [ref=e260]:
+                      - generic [ref=e261]:
+                        - img [ref=e262]
+                        - link ".gitignore, (File)" [ref=e267] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e268]
+                    - cell [ref=e270]
+                  - row "LICENSE, (File)" [ref=e273]:
+                    - cell "LICENSE, (File)" [ref=e274]:
+                      - generic [ref=e275]:
+                        - img [ref=e276]
+                        - link "LICENSE, (File)" [ref=e281] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell [ref=e282]
+                    - cell [ref=e284]
+                  - row "README.md, (File)" [ref=e287]:
+                    - cell "README.md, (File)" [ref=e288]:
+                      - generic [ref=e289]:
+                        - img [ref=e290]
+                        - link "README.md, (File)" [ref=e295] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e296]
+                    - cell [ref=e298]
+                  - row "contact.xlsx, (File)" [ref=e301]:
+                    - cell "contact.xlsx, (File)" [ref=e302]:
+                      - generic [ref=e303]:
+                        - img [ref=e304]
+                        - link "contact.xlsx, (File)" [ref=e309] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/contact.xlsx
+                          - text: contact.xlsx
+                    - cell [ref=e310]
+                    - cell [ref=e312]
+                  - row "crypto-polyfill.js, (File)" [ref=e315]:
+                    - cell "crypto-polyfill.js, (File)" [ref=e316]:
+                      - generic [ref=e317]:
+                        - img [ref=e318]
+                        - link "crypto-polyfill.js, (File)" [ref=e323] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/crypto-polyfill.js
+                          - text: crypto-polyfill.js
+                    - cell [ref=e324]
+                    - cell [ref=e326]
+                  - row "main.js, (File)" [ref=e329]:
+                    - cell "main.js, (File)" [ref=e330]:
+                      - generic [ref=e331]:
+                        - img [ref=e332]
+                        - link "main.js, (File)" [ref=e337] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/main.js
+                          - text: main.js
+                    - cell [ref=e338]
+                    - cell [ref=e340]
+                  - row "package-lock.json, (File)" [ref=e343]:
+                    - cell "package-lock.json, (File)" [ref=e344]:
+                      - generic [ref=e345]:
+                        - img [ref=e346]
+                        - link "package-lock.json, (File)" [ref=e351] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/package-lock.json
+                          - text: package-lock.json
+                    - cell [ref=e352]
+                    - cell [ref=e354]
+                  - row "package.json, (File)" [ref=e357]:
+                    - cell "package.json, (File)" [ref=e358]:
+                      - generic [ref=e359]:
+                        - img [ref=e360]
+                        - link "package.json, (File)" [ref=e365] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/package.json
+                          - text: package.json
+                    - cell [ref=e366]
+                    - cell [ref=e368]
+                  - row "preload.js, (File)" [ref=e371]:
+                    - cell "preload.js, (File)" [ref=e372]:
+                      - generic [ref=e373]:
+                        - img [ref=e374]
+                        - link "preload.js, (File)" [ref=e379] [cursor=pointer]:
+                          - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/preload.js
+                          - text: preload.js
+                    - cell [ref=e380]
+                    - cell [ref=e382]
+            - generic [ref=e386]:
+              - generic [ref=e387]:
+                - heading "Repository files navigation" [level=2] [ref=e388]
+                - navigation "Repository files" [ref=e389]:
+                  - list [ref=e390]:
+                    - listitem [ref=e391]:
+                      - link "README" [ref=e392] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e394]
+                        - generic [ref=e396]: README
+                    - listitem [ref=e397]:
+                      - link "MIT license" [ref=e398] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e400]
+                        - generic [ref=e402]: MIT license
+                - button "Outline" [ref=e403] [cursor=pointer]:
+                  - img [ref=e404]
+              - article [ref=e407]:
+                - generic [ref=e408]:
+                  - link [ref=e409] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/build/icon.png
+                    - img [ref=e410]
+                  - generic [ref=e411]:
+                    - heading "# WhatsApp Blast Desktop" [level=4] [ref=e412]
+                    - 'link "Permalink: # WhatsApp Blast Desktop" [ref=e413] [cursor=pointer]':
+                      - /url: "#--whatsapp-blast-desktop-"
+                      - img [ref=e414]
+                - paragraph [ref=e416]: A modern desktop application for managing WhatsApp sessions and sending bulk messages. Built with Electron and designed with a sleek dark theme interface.
+                - paragraph [ref=e417]:
+                  - link "WhatsApp Blast Desktop" [ref=e418] [cursor=pointer]:
+                    - /url: https://camo.githubusercontent.com/cdb71ce549ab1b8cd3f0be0141c9f88fe8af6da4639a9c8d18d9ca9135ce57b6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f57686174734170702d426c6173742532304465736b746f702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465
+                    - img "WhatsApp Blast Desktop" [ref=e419]
+                  - link "Electron" [ref=e420] [cursor=pointer]:
+                    - /url: https://camo.githubusercontent.com/993ef9aa8a31c6e09e063e2d3fb66f2365d4681d42e1c585a15c9fa69f42f1a0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456c656374726f6e2d3139313937303f7374796c653d666f722d7468652d6261646765266c6f676f3d456c656374726f6e266c6f676f436f6c6f723d7768697465
+                    - img "Electron" [ref=e421]
+                  - link "JavaScript" [ref=e422] [cursor=pointer]:
+                    - /url: https://camo.githubusercontent.com/88b8bdce872268b3d0d7ec69e16716a0adf8fa0165eb6069bcb49e23bd5550ef/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b
+                    - img "JavaScript" [ref=e423]
+                - generic [ref=e424]:
+                  - heading "🚀 Features" [level=2] [ref=e425]
+                  - 'link "Permalink: 🚀 Features" [ref=e426] [cursor=pointer]':
+                    - /url: "#-features"
+                    - img [ref=e427]
+                - list [ref=e429]:
+                  - listitem [ref=e430]:
+                    - strong [ref=e431]: Multi-Session Management
+                    - text: "- Connect and manage multiple WhatsApp accounts simultaneously"
+                  - listitem [ref=e432]:
+                    - strong [ref=e433]: QR Code & Pairing Code Support
+                    - text: "- Two convenient ways to connect your WhatsApp"
+                  - listitem [ref=e434]:
+                    - strong [ref=e435]: Contact Import
+                    - text: "- Import contacts from Excel files for easy management"
+                  - listitem [ref=e436]:
+                    - strong [ref=e437]: Bulk Messaging
+                    - text: "- Send messages to multiple contacts across multiple sessions"
+                  - listitem [ref=e438]:
+                    - strong [ref=e439]: Single Message Send
+                    - text: "- Send individual messages to specific contacts"
+                  - listitem [ref=e440]:
+                    - strong [ref=e441]: Modern Dark UI
+                    - text: "- Sleek, desktop-optimized interface with WhatsApp's signature green theme"
+                  - listitem [ref=e442]:
+                    - strong [ref=e443]: Real-time Updates
+                    - text: "- Live session status monitoring and updates"
+                - generic [ref=e444]:
+                  - heading "📸 Screenshots" [level=2] [ref=e445]
+                  - 'link "Permalink: 📸 Screenshots" [ref=e446] [cursor=pointer]':
+                    - /url: "#-screenshots"
+                    - img [ref=e447]
+                - generic [ref=e449]:
+                  - heading "Main Dashboard" [level=3] [ref=e450]
+                  - 'link "Permalink: Main Dashboard" [ref=e451] [cursor=pointer]':
+                    - /url: "#main-dashboard"
+                    - img [ref=e452]
+                - paragraph [ref=e454]:
+                  - link "Main UI" [ref=e455] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/assets/screenshot/image.png
+                    - img "Main UI" [ref=e456]
+                  - emphasis [ref=e457]: Clean, modern interface showing all connected WhatsApp sessions
+                - generic [ref=e458]:
+                  - heading "QR Code Connection" [level=3] [ref=e459]
+                  - 'link "Permalink: QR Code Connection" [ref=e460] [cursor=pointer]':
+                    - /url: "#qr-code-connection"
+                    - img [ref=e461]
+                - paragraph [ref=e463]:
+                  - link "QR Code" [ref=e464] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/assets/screenshot/image-1.png
+                    - img "QR Code" [ref=e465]
+                  - emphasis [ref=e466]: Simple QR code scanning for quick WhatsApp connection
+                - generic [ref=e467]:
+                  - heading "Pairing Code Connection" [level=3] [ref=e468]
+                  - 'link "Permalink: Pairing Code Connection" [ref=e469] [cursor=pointer]':
+                    - /url: "#pairing-code-connection"
+                    - img [ref=e470]
+                - paragraph [ref=e472]:
+                  - link "Pairing Code" [ref=e473] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/assets/screenshot/image-2.png
+                    - img "Pairing Code" [ref=e474]
+                  - emphasis [ref=e475]: Alternative pairing code method for device linking
+                - generic [ref=e476]:
+                  - heading "Contact Management" [level=3] [ref=e477]
+                  - 'link "Permalink: Contact Management" [ref=e478] [cursor=pointer]':
+                    - /url: "#contact-management"
+                    - img [ref=e479]
+                - paragraph [ref=e481]:
+                  - link "Import Contacts" [ref=e482] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/assets/screenshot/image-3.png
+                    - img "Import Contacts" [ref=e483]
+                  - emphasis [ref=e484]: Easy Excel import for contact management
+                - generic [ref=e485]:
+                  - heading "Bulk Messaging" [level=3] [ref=e486]
+                  - 'link "Permalink: Bulk Messaging" [ref=e487] [cursor=pointer]':
+                    - /url: "#bulk-messaging"
+                    - img [ref=e488]
+                - paragraph [ref=e490]:
+                  - link "Blast Message" [ref=e491] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/assets/screenshot/image-4.png
+                    - img "Blast Message" [ref=e492]
+                  - emphasis [ref=e493]: Send messages to multiple contacts with session selection options
+                - generic [ref=e494]:
+                  - heading "Single Message" [level=3] [ref=e495]
+                  - 'link "Permalink: Single Message" [ref=e496] [cursor=pointer]':
+                    - /url: "#single-message"
+                    - img [ref=e497]
+                - paragraph [ref=e499]:
+                  - link "Send Single" [ref=e500] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/assets/screenshot/image-5.png
+                    - img "Send Single" [ref=e501]
+                  - emphasis [ref=e502]: Send individual messages to specific contacts
+                - generic [ref=e503]:
+                  - heading "🛠️ Installation" [level=2] [ref=e504]
+                  - 'link "Permalink: 🛠️ Installation" [ref=e505] [cursor=pointer]':
+                    - /url: "#️-installation"
+                    - img [ref=e506]
+                - generic [ref=e508]:
+                  - heading "Prerequisites" [level=3] [ref=e509]
+                  - 'link "Permalink: Prerequisites" [ref=e510] [cursor=pointer]':
+                    - /url: "#prerequisites"
+                    - img [ref=e511]
+                - list [ref=e513]:
+                  - listitem [ref=e514]: Node.js (v14 or higher)
+                  - listitem [ref=e515]: npm or yarn package manager
+                - generic [ref=e516]:
+                  - heading "Setup" [level=3] [ref=e517]
+                  - 'link "Permalink: Setup" [ref=e518] [cursor=pointer]':
+                    - /url: "#setup"
+                    - img [ref=e519]
+                - list [ref=e521]:
+                  - listitem [ref=e522]:
+                    - paragraph [ref=e523]:
+                      - strong [ref=e524]: Clone the repository
+                    - generic [ref=e525]:
+                      - generic [ref=e526]: git clone https://github.com/fdciabdul/Whatsapp-Blast-Desktop.git cd Whatsapp-Blast-Desktop
+                      - button "Copy code to clipboard" [ref=e528] [cursor=pointer]:
+                        - img [ref=e529]
+                  - listitem [ref=e532]:
+                    - paragraph [ref=e533]:
+                      - strong [ref=e534]: Install dependencies
+                    - generic [ref=e535]:
+                      - generic [ref=e536]: npm install
+                      - button "Copy code to clipboard" [ref=e538] [cursor=pointer]:
+                        - img [ref=e539]
+                  - listitem [ref=e542]:
+                    - paragraph [ref=e543]:
+                      - strong [ref=e544]: Run the application
+                    - generic [ref=e545]:
+                      - generic [ref=e546]: npm start
+                      - button "Copy code to clipboard" [ref=e548] [cursor=pointer]:
+                        - img [ref=e549]
+                - generic [ref=e552]:
+                  - heading "Build for Production" [level=3] [ref=e553]
+                  - 'link "Permalink: Build for Production" [ref=e554] [cursor=pointer]':
+                    - /url: "#build-for-production"
+                    - img [ref=e555]
+                - generic [ref=e557]:
+                  - generic [ref=e558]:
+                    - generic [ref=e559]: "# For Windows"
+                    - text: npm run build:win
+                    - generic [ref=e560]: "# For macOS"
+                    - text: npm run build:mac
+                    - generic [ref=e561]: "# For Linux"
+                    - text: npm run build:linux
+                  - button "Copy code to clipboard" [ref=e563] [cursor=pointer]:
+                    - img [ref=e564]
+                - generic [ref=e567]:
+                  - heading "📋 Usage" [level=2] [ref=e568]
+                  - 'link "Permalink: 📋 Usage" [ref=e569] [cursor=pointer]':
+                    - /url: "#-usage"
+                    - img [ref=e570]
+                - generic [ref=e572]:
+                  - heading "1. Creating a Session" [level=3] [ref=e573]
+                  - 'link "Permalink: 1. Creating a Session" [ref=e574] [cursor=pointer]':
+                    - /url: "#1-creating-a-session"
+                    - img [ref=e575]
+                - list [ref=e577]:
+                  - listitem [ref=e578]:
+                    - text: Navigate to the
+                    - strong [ref=e579]: Sessions
+                    - text: tab
+                  - listitem [ref=e580]: Enter a unique session name
+                  - listitem [ref=e581]:
+                    - text: "Choose connection method:"
+                    - list [ref=e582]:
+                      - listitem [ref=e583]:
+                        - strong [ref=e584]: QR Code
+                        - text: ": Scan with your phone's WhatsApp"
+                      - listitem [ref=e585]:
+                        - strong [ref=e586]: Pairing Code
+                        - text: ": Enter the code in WhatsApp settings"
+                  - listitem [ref=e587]: Click "Create Session"
+                - generic [ref=e588]:
+                  - heading "2. Importing Contacts" [level=3] [ref=e589]
+                  - 'link "Permalink: 2. Importing Contacts" [ref=e590] [cursor=pointer]':
+                    - /url: "#2-importing-contacts"
+                    - img [ref=e591]
+                - list [ref=e593]:
+                  - listitem [ref=e594]:
+                    - text: Go to the
+                    - strong [ref=e595]: Contacts
+                    - text: tab
+                  - listitem [ref=e596]: Click "Import Excel"
+                  - listitem [ref=e597]: Select your Excel file with contact information
+                  - listitem [ref=e598]:
+                    - text: Contacts should include columns like
+                    - code [ref=e599]: Name
+                    - text: ","
+                    - code [ref=e600]: Phone
+                    - text: ", etc."
+                - generic [ref=e601]:
+                  - heading "3. Sending Bulk Messages" [level=3] [ref=e602]
+                  - 'link "Permalink: 3. Sending Bulk Messages" [ref=e603] [cursor=pointer]':
+                    - /url: "#3-sending-bulk-messages"
+                    - img [ref=e604]
+                - list [ref=e606]:
+                  - listitem [ref=e607]:
+                    - text: Open the
+                    - strong [ref=e608]: Blast Message
+                    - text: tab
+                  - listitem [ref=e609]:
+                    - text: "Select sessions using:"
+                    - list [ref=e610]:
+                      - listitem [ref=e611]:
+                        - strong [ref=e612]: Select All
+                        - text: ": Choose all connected sessions"
+                      - listitem [ref=e613]:
+                        - strong [ref=e614]: Random
+                        - text: ": Pick one random session"
+                      - listitem [ref=e615]:
+                        - strong [ref=e616]: Manual
+                        - text: ": Check individual sessions"
+                  - listitem [ref=e617]: Type your message
+                  - listitem [ref=e618]: Click "Send Blast Message"
+                - generic [ref=e619]:
+                  - heading "4. Single Message" [level=3] [ref=e620]
+                  - 'link "Permalink: 4. Single Message" [ref=e621] [cursor=pointer]':
+                    - /url: "#4-single-message"
+                    - img [ref=e622]
+                - list [ref=e624]:
+                  - listitem [ref=e625]:
+                    - text: Navigate to
+                    - strong [ref=e626]: Send Message
+                    - text: tab
+                  - listitem [ref=e627]: Select a connected session
+                  - listitem [ref=e628]: Enter recipient phone number (with country code)
+                  - listitem [ref=e629]: Type your message
+                  - listitem [ref=e630]: Click "Send Message"
+                - generic [ref=e631]:
+                  - heading "📝 Excel Format for Contacts" [level=2] [ref=e632]
+                  - 'link "Permalink: 📝 Excel Format for Contacts" [ref=e633] [cursor=pointer]':
+                    - /url: "#-excel-format-for-contacts"
+                    - img [ref=e634]
+                - paragraph [ref=e636]: "Your Excel file should contain the following columns:"
+                - table [ref=e638]:
+                  - rowgroup [ref=e639]:
+                    - row "Name Phone" [ref=e640]:
+                      - columnheader "Name" [ref=e641]
+                      - columnheader "Phone" [ref=e642]
+                  - rowgroup [ref=e643]:
+                    - row "John Doe +1234567890" [ref=e644]:
+                      - cell "John Doe" [ref=e645]
+                      - cell "+1234567890" [ref=e646]
+                    - row "Jane Smith +6281234567890" [ref=e647]:
+                      - cell "Jane Smith" [ref=e648]
+                      - cell "+6281234567890" [ref=e649]
+                - paragraph [ref=e650]: "Supported column names:"
+                - list [ref=e651]:
+                  - listitem [ref=e652]:
+                    - code [ref=e653]: Name
+                    - text: or
+                    - code [ref=e654]: name
+                  - listitem [ref=e655]:
+                    - code [ref=e656]: Phone
+                    - text: ","
+                    - code [ref=e657]: phone
+                    - text: ","
+                    - code [ref=e658]: Number
+                    - text: ","
+                    - code [ref=e659]: number
+                    - text: ","
+                    - code [ref=e660]: phoneNumber
+                - generic [ref=e661]:
+                  - heading "⚙️ Configuration" [level=2] [ref=e662]
+                  - 'link "Permalink: ⚙️ Configuration" [ref=e663] [cursor=pointer]':
+                    - /url: "#️-configuration"
+                    - img [ref=e664]
+                - generic [ref=e666]:
+                  - heading "Country Codes" [level=3] [ref=e667]
+                  - 'link "Permalink: Country Codes" [ref=e668] [cursor=pointer]':
+                    - /url: "#country-codes"
+                    - img [ref=e669]
+                - paragraph [ref=e671]:
+                  - text: Currently supports Indonesia (+62). You can extend support by modifying the
+                  - code [ref=e672]: countryCodes
+                  - text: object in
+                  - code [ref=e673]: renderer.js
+                  - text: ":"
+                - generic [ref=e674]:
+                  - generic [ref=e675]: "const countryCodes = { '62': { name: 'Indonesia', length: [10, 11, 12] }, '1': { name: 'United States', length: [10] }, // Add more country codes as needed }"
+                  - button "Copy code to clipboard" [ref=e677] [cursor=pointer]:
+                    - img [ref=e678]
+                - generic [ref=e681]:
+                  - heading "🔧 Technical Details" [level=2] [ref=e682]
+                  - 'link "Permalink: 🔧 Technical Details" [ref=e683] [cursor=pointer]':
+                    - /url: "#-technical-details"
+                    - img [ref=e684]
+                - generic [ref=e686]:
+                  - heading "Built With" [level=3] [ref=e687]
+                  - 'link "Permalink: Built With" [ref=e688] [cursor=pointer]':
+                    - /url: "#built-with"
+                    - img [ref=e689]
+                - list [ref=e691]:
+                  - listitem [ref=e692]:
+                    - strong [ref=e693]: Electron
+                    - text: "- Desktop app framework"
+                  - listitem [ref=e694]:
+                    - strong [ref=e695]: Bootstrap 5
+                    - text: "- UI framework with dark theme"
+                  - listitem [ref=e696]:
+                    - strong [ref=e697]: Bootstrap Icons
+                    - text: "- Icon library"
+                  - listitem [ref=e698]:
+                    - strong [ref=e699]: WhatsApp Web API
+                    - text: "- For WhatsApp connectivity"
+                - generic [ref=e700]:
+                  - heading "File Structure" [level=3] [ref=e701]
+                  - 'link "Permalink: File Structure" [ref=e702] [cursor=pointer]':
+                    - /url: "#file-structure"
+                    - img [ref=e703]
+                - generic [ref=e705]:
+                  - code [ref=e707]: "├── main.js # Electron main process ├── renderer.js # UI logic and interactions ├── index.html # Main UI layout ├── package.json # Dependencies and scripts └── assets/ # Images and resources"
+                  - button "Copy code to clipboard" [ref=e709] [cursor=pointer]:
+                    - img [ref=e710]
+                - generic [ref=e713]:
+                  - heading "🛡️ Security & Privacy" [level=2] [ref=e714]
+                  - 'link "Permalink: 🛡️ Security & Privacy" [ref=e715] [cursor=pointer]':
+                    - /url: "#️-security--privacy"
+                    - img [ref=e716]
+                - list [ref=e718]:
+                  - listitem [ref=e719]: All WhatsApp sessions are stored locally on your device
+                  - listitem [ref=e720]: No data is transmitted to external servers
+                  - listitem [ref=e721]: Messages are sent directly through WhatsApp's official API
+                  - listitem [ref=e722]: Session data is encrypted and secure
+                - generic [ref=e723]:
+                  - heading "🐛 Troubleshooting" [level=2] [ref=e724]
+                  - 'link "Permalink: 🐛 Troubleshooting" [ref=e725] [cursor=pointer]':
+                    - /url: "#-troubleshooting"
+                    - img [ref=e726]
+                - generic [ref=e728]:
+                  - heading "Common Issues" [level=3] [ref=e729]
+                  - 'link "Permalink: Common Issues" [ref=e730] [cursor=pointer]':
+                    - /url: "#common-issues"
+                    - img [ref=e731]
+                - paragraph [ref=e733]:
+                  - strong [ref=e734]: Session won't connect
+                - list [ref=e735]:
+                  - listitem [ref=e736]: Ensure your phone has internet connection
+                  - listitem [ref=e737]: Try refreshing the QR code
+                  - listitem [ref=e738]: Check if WhatsApp Web is already active on another device
+                - paragraph [ref=e739]:
+                  - strong [ref=e740]: Import fails
+                - list [ref=e741]:
+                  - listitem [ref=e742]: Verify Excel file format (.xlsx or .xls)
+                  - listitem [ref=e743]: Check column names match expected format
+                  - listitem [ref=e744]: Ensure phone numbers include country codes
+                - paragraph [ref=e745]:
+                  - strong [ref=e746]: Messages not sending
+                - list [ref=e747]:
+                  - listitem [ref=e748]: Verify session is connected (green status)
+                  - listitem [ref=e749]: Check recipient phone number format
+                  - listitem [ref=e750]: Ensure you have an active internet connection
+                - generic [ref=e751]:
+                  - heading "📄 License" [level=2] [ref=e752]
+                  - 'link "Permalink: 📄 License" [ref=e753] [cursor=pointer]':
+                    - /url: "#-license"
+                    - img [ref=e754]
+                - paragraph [ref=e756]:
+                  - text: This project is licensed under the MIT License - see the
+                  - link "LICENSE" [ref=e757] [cursor=pointer]:
+                    - /url: /fdciabdul/Whatsapp-Blast-Desktop/blob/main/LICENSE
+                  - text: file for details.
+                - generic [ref=e758]:
+                  - heading "Note" [level=2] [ref=e759]
+                  - 'link "Permalink: Note" [ref=e760] [cursor=pointer]':
+                    - /url: "#note"
+                    - img [ref=e761]
+                - paragraph [ref=e763]: The whatsapp Script i've obfuscated, if you want to get the unobfuscated, you can contact me on telegram
+                - list [ref=e764]:
+                  - listitem [ref=e765]:
+                    - link "@imtaqin" [ref=e766] [cursor=pointer]:
+                      - /url: https://t.me/imtaqin
+                - generic [ref=e767]:
+                  - heading "⚠️ Disclaimer" [level=2] [ref=e768]:
+                    - generic [ref=e769]: ⚠️
+                    - text: Disclaimer
+                  - 'link "Permalink: ⚠️ Disclaimer" [ref=e770] [cursor=pointer]':
+                    - /url: "#️-disclaimer"
+                    - img [ref=e771]
+                - paragraph [ref=e773]: This tool is for educational and legitimate business purposes only. Please comply with WhatsApp's Terms of Service and local regulations regarding bulk messaging. The developers are not responsible for any misuse of this software.
+                - generic [ref=e774]:
+                  - heading "📞 Support" [level=2] [ref=e775]
+                  - 'link "Permalink: 📞 Support" [ref=e776] [cursor=pointer]':
+                    - /url: "#-support"
+                    - img [ref=e777]
+                - paragraph [ref=e779]: "If you encounter any issues or have questions:"
+                - list [ref=e780]:
+                  - listitem [ref=e781]:
+                    - text: Check the
+                    - link "Issues" [ref=e782] [cursor=pointer]:
+                      - /url: https://github.com/fdciabdul/Whatsapp-Blast-Desktop/issues
+                    - text: page
+                  - listitem [ref=e783]: Create a new issue with detailed information
+                  - listitem [ref=e784]: Include screenshots and error messages if applicable
+                - separator [ref=e785]
+                - generic [ref=e786]:
+                  - text: Made with ❤️ by
+                  - link "fdciabdul" [ref=e787] [cursor=pointer]:
+                    - /url: https://github.com/fdciabdul
+        - generic [ref=e791]:
+          - generic [ref=e794]:
+            - heading "About" [level=2] [ref=e795]
+            - paragraph [ref=e796]: A modern desktop application for managing WhatsApp sessions and sending bulk messages. Built with Electron and designed with a sleek dark theme interface.
+            - generic [ref=e797]:
+              - img [ref=e798]
+              - link "imtaqin.id/" [ref=e801] [cursor=pointer]:
+                - /url: https://imtaqin.id/
+            - heading "Topics" [level=3] [ref=e802]
+            - generic [ref=e804]:
+              - link "whatsapp" [ref=e805] [cursor=pointer]:
+                - /url: /topics/whatsapp
+              - link "whatsapp-blast" [ref=e806] [cursor=pointer]:
+                - /url: /topics/whatsapp-blast
+              - link "baiileys" [ref=e807] [cursor=pointer]:
+                - /url: /topics/baiileys
+            - heading "Resources" [level=3] [ref=e808]
+            - link "Readme" [ref=e810] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e811]
+              - text: Readme
+            - heading "License" [level=3] [ref=e813]
+            - link "MIT license" [ref=e815] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e816]
+              - text: MIT license
+            - link "Activity" [ref=e819] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/activity
+              - img [ref=e820]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e822]
+            - link "10 stars" [ref=e824] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/stargazers
+              - img [ref=e825]
+              - strong [ref=e827]: "10"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e828]
+            - link "0 watching" [ref=e830] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/watchers
+              - img [ref=e831]
+              - strong [ref=e833]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e834]
+            - link "6 forks" [ref=e836] [cursor=pointer]:
+              - /url: /fdciabdul/Whatsapp-Blast-Desktop/forks
+              - img [ref=e837]
+              - strong [ref=e839]: "6"
+              - text: forks
+            - link "Report repository" [ref=e841] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Ffdciabdul%2FWhatsapp-Blast-Desktop&report=fdciabdul+%28user%29
+          - generic [ref=e843]:
+            - heading "Releases" [level=2] [ref=e844]:
+              - link "Releases" [ref=e845] [cursor=pointer]:
+                - /url: /fdciabdul/Whatsapp-Blast-Desktop/releases
+            - generic [ref=e846]: No releases published
+          - generic [ref=e848]:
+            - heading "Packages" [level=2] [ref=e849]:
+              - link "Packages" [ref=e850] [cursor=pointer]:
+                - /url: /users/fdciabdul/packages?repo_name=Whatsapp-Blast-Desktop
+            - generic [ref=e851]: No packages published
+          - generic [ref=e853]:
+            - heading "Contributors 1" [level=2] [ref=e854]:
+              - link "Contributors 1" [ref=e855] [cursor=pointer]:
+                - /url: /fdciabdul/Whatsapp-Blast-Desktop/graphs/contributors
+                - text: Contributors
+                - generic "1" [ref=e856]
+            - list [ref=e857]:
+              - listitem [ref=e858]:
+                - link "@fdciabdul" [ref=e859] [cursor=pointer]:
+                  - /url: https://github.com/fdciabdul
+                  - img "@fdciabdul" [ref=e860]
+                - link "fdciabdul taqin" [ref=e862] [cursor=pointer]:
+                  - /url: https://github.com/fdciabdul
+                  - strong [ref=e863]: fdciabdul
+                  - text: taqin
+          - generic [ref=e865]:
+            - heading "Languages" [level=2] [ref=e866]
+            - list [ref=e872]:
+              - listitem [ref=e873]:
+                - link "JavaScript 81.6%" [ref=e874] [cursor=pointer]:
+                  - /url: /fdciabdul/Whatsapp-Blast-Desktop/search?l=javascript
+                  - img [ref=e875]
+                  - generic [ref=e877]: JavaScript
+                  - generic [ref=e878]: 81.6%
+              - listitem [ref=e879]:
+                - link "CSS 17.5%" [ref=e880] [cursor=pointer]:
+                  - /url: /fdciabdul/Whatsapp-Blast-Desktop/search?l=css
+                  - img [ref=e881]
+                  - generic [ref=e883]: CSS
+                  - generic [ref=e884]: 17.5%
+              - listitem [ref=e885]:
+                - link "NSIS 0.9%" [ref=e886] [cursor=pointer]:
+                  - /url: /fdciabdul/Whatsapp-Blast-Desktop/search?l=nsis
+                  - img [ref=e887]
+                  - generic [ref=e889]: NSIS
+                  - generic [ref=e890]: 0.9%
+  - contentinfo [ref=e892]:
+    - heading "Footer" [level=2] [ref=e893]
+    - generic [ref=e894]:
+      - generic [ref=e895]:
+        - link "GitHub Homepage" [ref=e896] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e897]
+        - generic [ref=e899]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e900]:
+        - heading "Footer navigation" [level=3] [ref=e901]
+        - list "Footer navigation" [ref=e902]:
+          - listitem [ref=e903]:
+            - link "Terms" [ref=e904] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e905]:
+            - link "Privacy" [ref=e906] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e907]:
+            - link "Security" [ref=e908] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e909]:
+            - link "Status" [ref=e910] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e911]:
+            - link "Community" [ref=e912] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e913]:
+            - link "Docs" [ref=e914] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e915]:
+            - link "Contact" [ref=e916] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e917]:
+            - button "Manage cookies" [ref=e919] [cursor=pointer]
+          - listitem [ref=e920]:
+            - button "Do not share my personal information" [ref=e922] [cursor=pointer]

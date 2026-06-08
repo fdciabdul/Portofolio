@@ -1,0 +1,522 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+              - generic [ref=e53]: Search or jump to...
+              - img [ref=e55]
+            - link "Sign in" [ref=e59] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffdciabdul%2FDroidQEMU
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=fdciabdul%2FDroidQEMU
+            - button "Appearance settings" [ref=e63] [cursor=pointer]:
+              - img
+  - main [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - img [ref=e72]
+          - link "fdciabdul" [ref=e75] [cursor=pointer]:
+            - /url: /fdciabdul
+          - generic [ref=e76]: /
+          - strong [ref=e77]:
+            - link "DroidQEMU" [ref=e78] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU
+          - generic [ref=e79]: Public
+        - generic [ref=e80]:
+          - list:
+            - listitem [ref=e81]:
+              - link "You must be signed in to change notification settings" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffdciabdul%2FDroidQEMU
+                - img [ref=e83]
+                - text: Notifications
+            - listitem [ref=e85]:
+              - link "Fork 0" [ref=e86] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffdciabdul%2FDroidQEMU
+                - img [ref=e87]
+                - text: Fork
+                - generic "0" [ref=e89]
+            - listitem [ref=e90]:
+              - link "You must be signed in to star a repository" [ref=e92] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffdciabdul%2FDroidQEMU
+                - img [ref=e93]
+                - text: Star
+                - generic "3 users starred this repository" [ref=e95]: "3"
+      - navigation "Repository" [ref=e96]:
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Code" [ref=e99] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU
+              - img [ref=e100]
+              - generic [ref=e102]: Code
+          - listitem [ref=e103]:
+            - link "Issues" [ref=e104] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/issues
+              - img [ref=e105]
+              - generic [ref=e108]: Issues
+          - listitem [ref=e109]:
+            - link "Pull requests" [ref=e110] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/pulls
+              - img [ref=e111]
+              - generic [ref=e113]: Pull requests
+          - listitem [ref=e114]:
+            - link "Actions" [ref=e115] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/actions
+              - img [ref=e116]
+              - generic [ref=e118]: Actions
+          - listitem [ref=e119]:
+            - link "Projects" [ref=e120] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/projects
+              - img [ref=e121]
+              - generic [ref=e123]: Projects
+          - listitem [ref=e124]:
+            - link "Security and quality" [ref=e125] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/security
+              - img [ref=e126]
+              - generic [ref=e128]: Security and quality
+          - listitem [ref=e129]:
+            - link "Insights" [ref=e130] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/pulse
+              - img [ref=e131]
+              - generic [ref=e133]: Insights
+    - generic [ref=e146]:
+      - heading "fdciabdul/DroidQEMU" [level=1] [ref=e148]
+      - generic [ref=e149]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - button "main branch" [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]:
+                  - generic [ref=e159]:
+                    - img [ref=e161]
+                    - generic [ref=e164]: main
+                  - generic:
+                    - img
+              - generic [ref=e165]:
+                - link "Branches" [ref=e166] [cursor=pointer]:
+                  - /url: /fdciabdul/DroidQEMU/branches
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e168]: Branches
+                - link "Tags" [ref=e169] [cursor=pointer]:
+                  - /url: /fdciabdul/DroidQEMU/tags
+                  - generic [ref=e170]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]: Tags
+            - generic [ref=e172]:
+              - generic [ref=e176]:
+                - img [ref=e178]
+                - combobox "Go to file" [ref=e180]
+              - button "Code" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]:
+                  - generic:
+                    - img
+                  - generic [ref=e183]: Code
+                  - generic:
+                    - img
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - heading "Folders and files" [level=2] [ref=e186]
+              - table "Folders and files" [ref=e187]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e188]:
+                  - row "Latest commit History 5 Commits" [ref=e189]:
+                    - cell "Latest commit History 5 Commits" [ref=e190]:
+                      - generic [ref=e191]:
+                        - heading "Latest commit" [level=2] [ref=e192]
+                        - generic [ref=e195]:
+                          - heading "History" [level=2] [ref=e196]
+                          - link "5 Commits" [ref=e197] [cursor=pointer]:
+                            - /url: /fdciabdul/DroidQEMU/commits/main/
+                            - generic [ref=e198]:
+                              - generic:
+                                - img
+                              - generic [ref=e199]: 5 Commits
+                  - row ".github/workflows, (Directory)" [ref=e200]:
+                    - cell ".github/workflows, (Directory)" [ref=e201]:
+                      - generic [ref=e202]:
+                        - img [ref=e203]
+                        - link ".github/workflows, (Directory)" [ref=e208] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/tree/main/.github/workflows
+                          - text: .github/workflows
+                    - cell [ref=e209]
+                    - cell [ref=e211]
+                  - row ".idea, (Directory)" [ref=e214]:
+                    - cell ".idea, (Directory)" [ref=e215]:
+                      - generic [ref=e216]:
+                        - img [ref=e217]
+                        - link ".idea, (Directory)" [ref=e222] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/tree/main/.idea
+                          - text: .idea
+                    - cell [ref=e223]
+                    - cell [ref=e225]
+                  - row "IconKitchen-Output, (Directory)" [ref=e228]:
+                    - cell "IconKitchen-Output, (Directory)" [ref=e229]:
+                      - generic [ref=e230]:
+                        - img [ref=e231]
+                        - link "IconKitchen-Output, (Directory)" [ref=e236] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/tree/main/IconKitchen-Output
+                          - text: IconKitchen-Output
+                    - cell [ref=e237]
+                    - cell [ref=e239]
+                  - row "app, (Directory)" [ref=e242]:
+                    - cell "app, (Directory)" [ref=e243]:
+                      - generic [ref=e244]:
+                        - img [ref=e245]
+                        - link "app, (Directory)" [ref=e250] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/tree/main/app
+                          - text: app
+                    - cell [ref=e251]
+                    - cell [ref=e253]
+                  - row "gradle, (Directory)" [ref=e256]:
+                    - cell "gradle, (Directory)" [ref=e257]:
+                      - generic [ref=e258]:
+                        - img [ref=e259]
+                        - link "gradle, (Directory)" [ref=e264] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/tree/main/gradle
+                          - text: gradle
+                    - cell [ref=e265]
+                    - cell [ref=e267]
+                  - row ".gitignore, (File)" [ref=e270]:
+                    - cell ".gitignore, (File)" [ref=e271]:
+                      - generic [ref=e272]:
+                        - img [ref=e273]
+                        - link ".gitignore, (File)" [ref=e278] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e279]
+                    - cell [ref=e281]
+                  - row "README.md, (File)" [ref=e284]:
+                    - cell "README.md, (File)" [ref=e285]:
+                      - generic [ref=e286]:
+                        - img [ref=e287]
+                        - link "README.md, (File)" [ref=e292] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e293]
+                    - cell [ref=e295]
+                  - row "build.gradle.kts, (File)" [ref=e298]:
+                    - cell "build.gradle.kts, (File)" [ref=e299]:
+                      - generic [ref=e300]:
+                        - img [ref=e301]
+                        - link "build.gradle.kts, (File)" [ref=e306] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/build.gradle.kts
+                          - text: build.gradle.kts
+                    - cell [ref=e307]
+                    - cell [ref=e309]
+                  - row "cursor.webp, (File)" [ref=e312]:
+                    - cell "cursor.webp, (File)" [ref=e313]:
+                      - generic [ref=e314]:
+                        - img [ref=e315]
+                        - link "cursor.webp, (File)" [ref=e320] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/cursor.webp
+                          - text: cursor.webp
+                    - cell [ref=e321]
+                    - cell [ref=e323]
+                  - row "gradle.properties, (File)" [ref=e326]:
+                    - cell "gradle.properties, (File)" [ref=e327]:
+                      - generic [ref=e328]:
+                        - img [ref=e329]
+                        - link "gradle.properties, (File)" [ref=e334] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/gradle.properties
+                          - text: gradle.properties
+                    - cell [ref=e335]
+                    - cell [ref=e337]
+                  - row "gradlew, (File)" [ref=e340]:
+                    - cell "gradlew, (File)" [ref=e341]:
+                      - generic [ref=e342]:
+                        - img [ref=e343]
+                        - link "gradlew, (File)" [ref=e348] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/gradlew
+                          - text: gradlew
+                    - cell [ref=e349]
+                    - cell [ref=e351]
+                  - row "gradlew.bat, (File)" [ref=e354]:
+                    - cell "gradlew.bat, (File)" [ref=e355]:
+                      - generic [ref=e356]:
+                        - img [ref=e357]
+                        - link "gradlew.bat, (File)" [ref=e362] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/gradlew.bat
+                          - text: gradlew.bat
+                    - cell [ref=e363]
+                    - cell [ref=e365]
+                  - row "settings.gradle.kts, (File)" [ref=e368]:
+                    - cell "settings.gradle.kts, (File)" [ref=e369]:
+                      - generic [ref=e370]:
+                        - img [ref=e371]
+                        - link "settings.gradle.kts, (File)" [ref=e376] [cursor=pointer]:
+                          - /url: /fdciabdul/DroidQEMU/blob/main/settings.gradle.kts
+                          - text: settings.gradle.kts
+                    - cell [ref=e377]
+                    - cell [ref=e379]
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - heading "Repository files navigation" [level=2] [ref=e385]
+                - navigation "Repository files" [ref=e386]:
+                  - list [ref=e387]:
+                    - listitem [ref=e388]:
+                      - link "README" [ref=e389] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e391]
+                        - generic [ref=e393]: README
+                - button "Outline" [ref=e394] [cursor=pointer]:
+                  - img [ref=e395]
+              - article [ref=e398]:
+                - generic [ref=e399]:
+                  - heading "Droid2Run" [level=1] [ref=e400]
+                  - 'link "Permalink: Droid2Run" [ref=e401] [cursor=pointer]':
+                    - /url: "#droid2run"
+                    - img [ref=e402]
+                - paragraph [ref=e404]:
+                  - link "Build & Release APK" [ref=e405] [cursor=pointer]:
+                    - /url: https://github.com/user/Droid2Run/actions/workflows/build-release.yml
+                    - img "Build & Release APK" [ref=e406]
+                - paragraph [ref=e407]: Run virtual machines on your Android device using QEMU.
+                - generic [ref=e408]:
+                  - heading "Features" [level=2] [ref=e409]
+                  - 'link "Permalink: Features" [ref=e410] [cursor=pointer]':
+                    - /url: "#features"
+                    - img [ref=e411]
+                - list [ref=e413]:
+                  - listitem [ref=e414]: Run Windows XP, Windows 7, Windows 10, Linux, and other x86 OSes
+                  - listitem [ref=e415]: Built-in VNC viewer with touch controls
+                  - listitem [ref=e416]: Virtual keyboard with special keys (Ctrl, Alt, Esc)
+                  - listitem [ref=e417]: Virtual mouse with left/right/middle click
+                  - listitem [ref=e418]: Modern Material 3 UI with dark theme
+                  - listitem [ref=e419]: ISO file picker for boot media
+                  - listitem [ref=e420]: Per-OS optimized configurations
+                - generic [ref=e421]:
+                  - heading "Requirements" [level=2] [ref=e422]
+                  - 'link "Permalink: Requirements" [ref=e423] [cursor=pointer]':
+                    - /url: "#requirements"
+                    - img [ref=e424]
+                - list [ref=e426]:
+                  - listitem [ref=e427]: Android 11+ (API 30)
+                  - listitem [ref=e428]: ARM64 or x86_64 device
+                  - listitem [ref=e429]: At least 4GB RAM recommended
+                - generic [ref=e430]:
+                  - heading "Download" [level=2] [ref=e431]
+                  - 'link "Permalink: Download" [ref=e432] [cursor=pointer]':
+                    - /url: "#download"
+                    - img [ref=e433]
+                - paragraph [ref=e435]:
+                  - text: Download the latest APK from
+                  - link "Releases" [ref=e436] [cursor=pointer]:
+                    - /url: /fdciabdul/DroidQEMU/releases
+                  - text: ":"
+                - table [ref=e438]:
+                  - rowgroup [ref=e439]:
+                    - row "APK Description" [ref=e440]:
+                      - columnheader "APK" [ref=e441]
+                      - columnheader "Description" [ref=e442]
+                  - rowgroup [ref=e443]:
+                    - row "arm64-v8a Modern 64-bit ARM phones (most devices)" [ref=e444]:
+                      - cell "arm64-v8a" [ref=e445]:
+                        - code [ref=e446]: arm64-v8a
+                      - cell "Modern 64-bit ARM phones (most devices)" [ref=e447]
+                    - row "armeabi-v7a Older 32-bit ARM phones" [ref=e448]:
+                      - cell "armeabi-v7a" [ref=e449]:
+                        - code [ref=e450]: armeabi-v7a
+                      - cell "Older 32-bit ARM phones" [ref=e451]
+                    - row "x86_64 x86_64 devices/emulators" [ref=e452]:
+                      - cell "x86_64" [ref=e453]:
+                        - code [ref=e454]: x86_64
+                      - cell "x86_64 devices/emulators" [ref=e455]
+                    - row "x86 x86 devices/emulators" [ref=e456]:
+                      - cell "x86" [ref=e457]:
+                        - code [ref=e458]: x86
+                      - cell "x86 devices/emulators" [ref=e459]
+                    - row "universal All architectures (larger file)" [ref=e460]:
+                      - cell "universal" [ref=e461]:
+                        - code [ref=e462]: universal
+                      - cell "All architectures (larger file)" [ref=e463]
+                - generic [ref=e464]:
+                  - heading "Building" [level=2] [ref=e465]
+                  - 'link "Permalink: Building" [ref=e466] [cursor=pointer]':
+                    - /url: "#building"
+                    - img [ref=e467]
+                - generic [ref=e469]:
+                  - generic [ref=e470]:
+                    - generic [ref=e471]: "# Debug build"
+                    - text: ./gradlew assembleDebug
+                    - generic [ref=e472]: "# Release build"
+                    - text: ./gradlew assembleRelease
+                  - button "Copy code to clipboard" [ref=e474] [cursor=pointer]:
+                    - img [ref=e475]
+                - paragraph [ref=e478]:
+                  - text: APKs will be in
+                  - code [ref=e479]: app/build/outputs/apk/
+                - generic [ref=e480]:
+                  - heading "How It Works" [level=2] [ref=e481]
+                  - 'link "Permalink: How It Works" [ref=e482] [cursor=pointer]':
+                    - /url: "#how-it-works"
+                    - img [ref=e483]
+                - list [ref=e485]:
+                  - listitem [ref=e486]: QEMU binaries are extracted from Termux packages on first launch
+                  - listitem [ref=e487]: VMs run using TCG (software emulation) - no KVM required
+                  - listitem [ref=e488]: Display is served via VNC to the built-in viewer
+                  - listitem [ref=e489]: Uses Android's linker to bypass noexec restrictions on /data
+                - generic [ref=e490]:
+                  - heading "Performance Tips" [level=2] [ref=e491]
+                  - 'link "Permalink: Performance Tips" [ref=e492] [cursor=pointer]':
+                    - /url: "#performance-tips"
+                    - img [ref=e493]
+                - list [ref=e495]:
+                  - listitem [ref=e496]: Use lightweight Linux distros (Alpine, TinyCore) for best experience
+                  - listitem [ref=e497]: Windows XP runs better than newer Windows versions
+                  - listitem [ref=e498]: Allocate only the memory you need
+                  - listitem [ref=e499]: Single CPU mode is often faster than multi-core on TCG
+                - generic [ref=e500]:
+                  - heading "License" [level=2] [ref=e501]
+                  - 'link "Permalink: License" [ref=e502] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e503]
+                - paragraph [ref=e505]: MIT
+        - generic [ref=e509]:
+          - generic [ref=e512]:
+            - heading "About" [level=2] [ref=e513]
+            - generic [ref=e514]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=e515]
+            - link "Readme" [ref=e517] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e518]
+              - text: Readme
+            - link "Activity" [ref=e521] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/activity
+              - img [ref=e522]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e524]
+            - link "3 stars" [ref=e526] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/stargazers
+              - img [ref=e527]
+              - strong [ref=e529]: "3"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e530]
+            - link "0 watching" [ref=e532] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/watchers
+              - img [ref=e533]
+              - strong [ref=e535]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e536]
+            - link "0 forks" [ref=e538] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/forks
+              - img [ref=e539]
+              - strong [ref=e541]: "0"
+              - text: forks
+            - link "Report repository" [ref=e543] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Ffdciabdul%2FDroidQEMU&report=fdciabdul+%28user%29
+          - generic [ref=e545]:
+            - heading "Releases 1" [level=2] [ref=e546]:
+              - link "Releases 1" [ref=e547] [cursor=pointer]:
+                - /url: /fdciabdul/DroidQEMU/releases
+                - text: Releases
+                - generic "1" [ref=e548]
+            - link "1.2 Latest Dec 26, 2025on Dec 26, 2025" [ref=e549] [cursor=pointer]:
+              - /url: /fdciabdul/DroidQEMU/releases/tag/1.2
+              - img [ref=e550]
+              - generic [ref=e552]:
+                - generic [ref=e553]:
+                  - generic [ref=e554]: "1.2"
+                  - 'generic "Label: Latest" [ref=e555]': Latest
+                - generic [ref=e556]: Dec 26, 2025on Dec 26, 2025
+          - generic "Loading latest packages" [ref=e559]:
+            - heading "Packages" [level=2] [ref=e560]:
+              - link "Packages" [ref=e561] [cursor=pointer]:
+                - /url: /users/fdciabdul/packages?repo_name=DroidQEMU
+          - generic "Loading contributors" [ref=e573]:
+            - generic:
+              - heading "Contributors" [level=2] [ref=e574]:
+                - link "Contributors" [ref=e575] [cursor=pointer]:
+                  - /url: /fdciabdul/DroidQEMU/graphs/contributors
+              - list [ref=e576]:
+                - listitem [ref=e577]
+                - listitem [ref=e579]
+                - listitem [ref=e581]
+          - generic [ref=e584]:
+            - heading "Languages" [level=2] [ref=e585]
+            - list [ref=e589]:
+              - listitem [ref=e590]:
+                - link "Kotlin 100.0%" [ref=e591] [cursor=pointer]:
+                  - /url: /fdciabdul/DroidQEMU/search?l=kotlin
+                  - img [ref=e592]
+                  - generic [ref=e594]: Kotlin
+                  - generic [ref=e595]: 100.0%
+  - contentinfo [ref=e597]:
+    - heading "Footer" [level=2] [ref=e598]
+    - generic [ref=e599]:
+      - generic [ref=e600]:
+        - link "GitHub Homepage" [ref=e601] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e602]
+        - generic [ref=e604]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e605]:
+        - heading "Footer navigation" [level=3] [ref=e606]
+        - list "Footer navigation" [ref=e607]:
+          - listitem [ref=e608]:
+            - link "Terms" [ref=e609] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e610]:
+            - link "Privacy" [ref=e611] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e612]:
+            - link "Security" [ref=e613] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e614]:
+            - link "Status" [ref=e615] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e616]:
+            - link "Community" [ref=e617] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e618]:
+            - link "Docs" [ref=e619] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e620]:
+            - link "Contact" [ref=e621] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e622]:
+            - button "Manage cookies" [ref=e624] [cursor=pointer]
+          - listitem [ref=e625]:
+            - button "Do not share my personal information" [ref=e627] [cursor=pointer]

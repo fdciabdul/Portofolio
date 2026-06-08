@@ -1,0 +1,386 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "RentalWA RentalWA" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "RentalWA" [ref=e7]
+          - generic [ref=e8]: RentalWA
+        - button "Menu" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: 
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "Sewa WA Dibayar Rate Tertinggi di Indonesia" [level=1] [ref=e14]:
+          - text: Sewa WA Dibayar
+          - text: Rate Tertinggi
+          - text: di Indonesia
+        - paragraph [ref=e15]:
+          - strong [ref=e16]: "Rental WhatsApp #1 Indonesia."
+          - text: Setor nomor WA nganggur jadi penghasilan otomatis tiap pesan terkirim. Atau sewa WA untuk blast pesan massal — bayar per pesan, tanpa kontrak.
+        - generic [ref=e17]:
+          - link "Daftar Gratis Sekarang " [ref=e18] [cursor=pointer]:
+            - /url: /register
+            - text: Daftar Gratis Sekarang
+            - generic [ref=e19]: 
+          - link " Cara Kerja" [ref=e20] [cursor=pointer]:
+            - /url: "#bisnis"
+            - generic [ref=e21]: 
+            - text: Cara Kerja
+      - img "WhatsApp Marketing" [ref=e24]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Bantu meningkatkan bisnis pelanggan kami" [level=2] [ref=e28]
+        - paragraph [ref=e29]: Dipercaya UMKM, brand, dan agency untuk eksekusi marketing WhatsApp setiap hari.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: 
+          - paragraph [ref=e33]: Daripada beli SIM baru tiap bulan buat blast promo dan tetep di-banned WhatsApp, sekarang tinggal sewa nomor di sini. Saldo gw aman, nomor pribadi gw juga aman.
+          - generic [ref=e39]:
+            - paragraph [ref=e40]: Sari Wulandari
+            - paragraph [ref=e41]: Penyewa — Sari Beauty Shop
+        - generic [ref=e42]:
+          - generic [ref=e43]: 
+          - paragraph [ref=e44]: Nomor WhatsApp lama gw nganggur 3 biji. Tinggal scan QR di RentalWA, ada tugas otomatis masuk, sebulan dapat tambahan Rp 1,2 juta. Passive income beneran.
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Budi Pratama
+            - paragraph [ref=e52]: Penyetor — 4 nomor aktif
+        - generic [ref=e53]:
+          - generic [ref=e54]: 
+          - paragraph [ref=e55]: Bayar per pesan terkirim aja, ga bayar yang gagal. Saldo Rp 100rb cukup buat blast 1.000 pelanggan promo grand opening. Murah banget dibanding sewa SaaS bulanan.
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Maya Anjani
+            - paragraph [ref=e63]: Penyewa — Toko Kopi Senja
+        - generic [ref=e64]:
+          - generic [ref=e65]: 
+          - paragraph [ref=e66]: Tinggal pasang nomor, biarin aktif di HP, sisanya RentalWA yang kirim. Tarik saldo ke rekening 1-3 hari kerja. Buat tambah uang jajan lumayan banget.
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: Rendi Kurniawan
+            - paragraph [ref=e74]: Penyetor — kuliahan
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: Dibuat untuk pekerjaan harian
+        - heading "Dirancang untuk pelaku bisnis, bukan untuk teknisi." [level=2] [ref=e79]
+        - paragraph [ref=e80]: Tanpa setting rumit, tanpa kode. Buka aplikasi, upload kontak, ketik pesan — jalan. Semudah kirim chat ke teman.
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - generic [ref=e84]: 
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: Cepat
+              - paragraph [ref=e87]: 10.000 pesan/menit. Mulai blast pertama kurang dari 5 menit setelah daftar.
+          - listitem [ref=e88]:
+            - generic [ref=e90]: 
+            - generic [ref=e91]:
+              - paragraph [ref=e92]: Aman
+              - paragraph [ref=e93]: Anti-ban dengan jeda otomatis & rotasi nomor. Sesi terenkripsi end-to-end.
+          - listitem [ref=e94]:
+            - generic [ref=e96]: 
+            - generic [ref=e97]:
+              - paragraph [ref=e98]: Hemat
+              - paragraph [ref=e99]: Hanya Rp 10/pesan — jauh lebih murah dari biaya SMS atau API resmi.
+          - listitem [ref=e100]:
+            - generic [ref=e102]: 
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: Didukung
+              - paragraph [ref=e105]: Tim support Indonesia siap bantu via WhatsApp dari jam 8 pagi sampai 10 malam.
+      - img "Dirancang untuk bisnis" [ref=e108]
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - heading "Cocok untuk siapa?" [level=2] [ref=e112]
+        - paragraph [ref=e113]: RentalWA adalah marketplace dua arah — yang butuh blast massal, dan yang punya nomor WhatsApp menganggur.
+      - generic [ref=e114]:
+        - article [ref=e115]:
+          - img "Reseller & Dropshipper" [ref=e117]
+          - generic [ref=e118]: Penyewa
+          - heading "Reseller & Dropshipper" [level=3] [ref=e119]
+          - paragraph [ref=e120]: Broadcast katalog produk ke ratusan calon pembeli tiap hari — pakai nomor Penyetor, nomor pribadimu aman dari banned.
+        - article [ref=e121]:
+          - img "Agen Properti & Asuransi" [ref=e123]
+          - generic [ref=e124]: Penyewa
+          - heading "Agen Properti & Asuransi" [level=3] [ref=e125]
+          - paragraph [ref=e126]: Follow-up ribuan lead tanpa harus pegang puluhan SIM. Bayar per pesan terkirim — gak ada langganan bulanan.
+        - article [ref=e127]:
+          - img "Pemilik Nomor Nganggur" [ref=e129]
+          - generic [ref=e130]: Penyetor
+          - heading "Pemilik Nomor Nganggur" [level=3] [ref=e131]
+          - paragraph [ref=e132]: Punya 1-5 nomor WhatsApp idle? Setor di sini, ambil tugas otomatis, dapat 90% per pesan terkirim. Tarik ke rekening kapan saja.
+    - generic [ref=e134]:
+      - generic [ref=e135]:
+        - heading "Kenapa pakai marketplace, bukan tools sendiri?" [level=2] [ref=e136]
+        - paragraph [ref=e137]: Sewa nomor Penyetor terbukti lebih murah dan aman dibanding beli SIM baru tiap bulan atau langganan SaaS gateway.
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img "Bayar per Pesan Terkirim"
+          - heading "Bayar per Pesan Terkirim" [level=3] [ref=e141]
+          - paragraph [ref=e142]: Topup mulai Rp 10rb. Cuma dipotong saldo kalau pesan benar-benar terkirim — pesan gagal tidak dihitung.
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - img "Nomor Pribadi Aman"
+          - heading "Nomor Pribadi Aman" [level=3] [ref=e145]
+          - paragraph [ref=e146]: Pesan dikirim dari nomor Penyetor yang sudah scan QR di sistem kami. Nomor WhatsApp pribadimu tidak tersentuh, tidak akan kena banned.
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - img "Tugas Dibagi Otomatis"
+          - heading "Tugas Dibagi Otomatis" [level=3] [ref=e149]
+          - paragraph [ref=e150]: Satu tugas blast besar bisa diambil beberapa Penyetor sekaligus — pengiriman lebih cepat, distribusi merata, tidak overload satu nomor.
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - img "Laporan & Tarik Saldo"
+          - heading "Laporan & Tarik Saldo" [level=3] [ref=e153]
+          - paragraph [ref=e154]: Penyewa lihat berapa pesan terkirim/gagal real-time. Penyetor lihat penghasilan, tarik saldo ke rekening 1-3 hari kerja.
+    - generic [ref=e156]:
+      - paragraph [ref=e157]: Marketplace & platform partner
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]: T
+          - generic [ref=e161]: Tokopedia
+        - generic [ref=e162]:
+          - generic [ref=e163]: S
+          - generic [ref=e164]: Shopee
+        - generic [ref=e165]:
+          - generic [ref=e166]: L
+          - generic [ref=e167]: Lazada
+        - generic [ref=e168]:
+          - generic [ref=e169]: B
+          - generic [ref=e170]: Bukalapak
+        - generic [ref=e171]:
+          - generic [ref=e172]: W
+          - generic [ref=e173]: WhatsApp
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - generic [ref=e178]: Untuk Penyetor
+        - heading "Sewa WhatsApp Dibayar — Rate Tertinggi di Indonesia" [level=2] [ref=e179]
+        - paragraph [ref=e180]:
+          - text: Daftar sebagai
+          - strong [ref=e181]: Penyetor
+          - text: ", sambungkan WhatsApp di HP kamu, dan dapatkan"
+          - strong [ref=e182]: penghasilan otomatis tiap pesan terkirim
+          - text: . Tanpa jualan, tanpa marketing, tanpa target. Rate per pesan transparan dan ditampilkan langsung di dashboard — 100% rate masuk ke saldo kamu.
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - generic [ref=e185]: 
+            - text: Rate sewa WA tertinggi di pasar Indonesia
+          - listitem [ref=e186]:
+            - generic [ref=e187]: 
+            - text: Dibayar otomatis tiap pesan terkirim, tanpa kontrak
+          - listitem [ref=e188]:
+            - generic [ref=e189]: 
+            - text: Tarik saldo ke rekening kapan saja
+          - listitem [ref=e190]:
+            - generic [ref=e191]: 
+            - text: "Aman: WhatsApp Multi-Device resmi, jeda otomatis"
+        - generic [ref=e192]:
+          - link "Setor WhatsApp Sekarang " [ref=e193] [cursor=pointer]:
+            - /url: /register
+            - text: Setor WhatsApp Sekarang
+            - generic [ref=e194]: 
+          - link "Lihat Rate" [ref=e195] [cursor=pointer]:
+            - /url: "#harga"
+      - img "Sewa WhatsApp Dibayar — Rental WA Rate Tertinggi" [ref=e197]
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - heading "Harga sederhana, tanpa kontrak" [level=2] [ref=e201]
+        - paragraph [ref=e202]: Bayar sesuai pemakaian. Tidak ada biaya bulanan, tidak ada lock-in.
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]: Penyetor
+          - heading "Gratis" [level=3] [ref=e206]
+          - paragraph [ref=e207]: Setor nomor, terima penghasilan pasif
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - generic [ref=e210]: 
+              - text: Bayaran per pesan terkirim
+            - listitem [ref=e211]:
+              - generic [ref=e212]: 
+              - text: Tidak ada minimum payout
+            - listitem [ref=e213]:
+              - generic [ref=e214]: 
+              - text: Withdraw kapan saja
+            - listitem [ref=e215]:
+              - generic [ref=e216]: 
+              - text: Multi nomor didukung
+          - link "Mulai Sebagai Penyetor" [ref=e217] [cursor=pointer]:
+            - /url: /register
+        - generic [ref=e218]:
+          - generic [ref=e219]: Paling Populer
+          - generic [ref=e220]: Penyewa
+          - heading "Rp 400/pesan" [level=3] [ref=e221]
+          - paragraph [ref=e222]: Top up sesuai kebutuhan
+          - list [ref=e223]:
+            - listitem [ref=e224]:
+              - generic [ref=e225]: 
+              - text: Blast massal hingga 10K pesan/menit
+            - listitem [ref=e226]:
+              - generic [ref=e227]: 
+              - text: Personalisasi
+              - code [ref=e228]: "{nama}"
+              - text: ","
+              - code [ref=e229]: "{kota}"
+            - listitem [ref=e230]:
+              - generic [ref=e231]: 
+              - text: Auto-reply 24/7
+            - listitem [ref=e232]:
+              - generic [ref=e233]: 
+              - text: Analytics & laporan real-time
+            - listitem [ref=e234]:
+              - generic [ref=e235]: 
+              - text: Multi format (gambar, dokumen, button)
+          - link "Daftar Penyewa " [ref=e236] [cursor=pointer]:
+            - /url: /register
+            - text: Daftar Penyewa
+            - generic [ref=e237]: 
+    - generic [ref=e239]:
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - heading "Tips & panduan WhatsApp marketing" [level=2] [ref=e242]
+          - paragraph [ref=e243]: Strategi terbaru untuk meningkatkan konversi dan retensi.
+        - link "Semua artikel " [ref=e244] [cursor=pointer]:
+          - /url: /blog
+          - text: Semua artikel
+          - generic [ref=e245]: 
+      - generic [ref=e246]:
+        - 'link "Setor WA Dibayar Rate Tertinggi 2026: Cara Sewakan Nomor WhatsApp di RentalWA 16 Mei 2026 Setor WA Dibayar Rate Tertinggi 2026: Cara Sewakan Nomor WhatsApp di RentalWA Setor WA di RentalWA dibayar Rp 10-50 per pesan terkirim — rate tertinggi di Indonesia. Panduan lengkap cara setor nomor WhatsApp, syarat, rate, auto-ambil tugas, sampai cair ke rekening. Pasif income tanpa pulsa habis. Baca selengkapnya " [ref=e247] [cursor=pointer]':
+          - /url: /blog/setor-wa-rate-tertinggi-rentalwa
+          - 'img "Setor WA Dibayar Rate Tertinggi 2026: Cara Sewakan Nomor WhatsApp di RentalWA" [ref=e249]'
+          - generic [ref=e250]:
+            - time [ref=e251]: 16 Mei 2026
+            - 'heading "Setor WA Dibayar Rate Tertinggi 2026: Cara Sewakan Nomor WhatsApp di RentalWA" [level=3] [ref=e252]'
+            - paragraph [ref=e253]: Setor WA di RentalWA dibayar Rp 10-50 per pesan terkirim — rate tertinggi di Indonesia. Panduan lengkap cara setor nomor WhatsApp, syarat, rate, auto-ambil tugas, sampai cair ke rekening. Pasif income tanpa pulsa habis.
+            - generic [ref=e254]:
+              - text: Baca selengkapnya
+              - generic [ref=e255]: 
+        - link "29 Maret 2026 Cara Import Kontak WhatsApp dari CSV untuk Blast Massal Panduan step-by-step import kontak dari file CSV ke RentalWA. Upload ribuan kontak sekaligus untuk kampanye blast WhatsApp yang efektif. Baca selengkapnya " [ref=e256] [cursor=pointer]:
+          - /url: /blog/cara-import-kontak-whatsapp-dari-csv-untuk-blast-massal
+          - generic [ref=e259]:
+            - time [ref=e260]: 29 Maret 2026
+            - heading "Cara Import Kontak WhatsApp dari CSV untuk Blast Massal" [level=3] [ref=e261]
+            - paragraph [ref=e262]: Panduan step-by-step import kontak dari file CSV ke RentalWA. Upload ribuan kontak sekaligus untuk kampanye blast WhatsApp yang efektif.
+            - generic [ref=e263]:
+              - text: Baca selengkapnya
+              - generic [ref=e264]: 
+        - 'link "29 Maret 2026 Auto Reply WhatsApp: Otomatisasi Balasan untuk Bisnis 24/7 Setup auto reply WhatsApp untuk bisnis kamu. Balas pesan pelanggan otomatis berdasarkan keyword, hemat waktu dan tingkatkan responsivitas. Baca selengkapnya " [ref=e265] [cursor=pointer]':
+          - /url: /blog/auto-reply-whatsapp-otomatisasi-balasan-untuk-bisnis-247
+          - generic [ref=e268]:
+            - time [ref=e269]: 29 Maret 2026
+            - 'heading "Auto Reply WhatsApp: Otomatisasi Balasan untuk Bisnis 24/7" [level=3] [ref=e270]'
+            - paragraph [ref=e271]: Setup auto reply WhatsApp untuk bisnis kamu. Balas pesan pelanggan otomatis berdasarkan keyword, hemat waktu dan tingkatkan responsivitas.
+            - generic [ref=e272]:
+              - text: Baca selengkapnya
+              - generic [ref=e273]: 
+    - generic [ref=e278]:
+      - heading "Dapatkan tips marketing WhatsApp tiap minggu" [level=2] [ref=e279]
+      - paragraph [ref=e280]: Studi kasus, template pesan, dan strategi terbaru — langsung ke inbox Anda. Gratis, no spam.
+      - generic [ref=e281]:
+        - textbox "email@bisnisanda.com" [ref=e282]
+        - button "Daftar " [ref=e283] [cursor=pointer]:
+          - text: Daftar
+          - generic [ref=e284]: 
+    - generic [ref=e286]:
+      - generic [ref=e287]:
+        - heading "Pertanyaan yang sering diajukan" [level=2] [ref=e288]
+        - paragraph [ref=e289]: Belum yakin? Cek dulu di sini.
+      - generic [ref=e290]:
+        - group [ref=e291]:
+          - generic "Apakah benar sewa WA bisa dibayar? " [ref=e292] [cursor=pointer]:
+            - generic [ref=e293]: Apakah benar sewa WA bisa dibayar?
+            - generic [ref=e294]: 
+          - paragraph [ref=e295]: Bisa. Di RentalWA kamu setor nomor WhatsApp pribadi dan dapat penghasilan otomatis tiap kali ada pesan blast terkirim dari nomormu. Tanpa kontrak, tanpa target, tanpa biaya daftar. Bayaran langsung masuk ke saldo akun dan bisa ditarik kapan saja ke rekening.
+        - group [ref=e296]:
+          - generic "Berapa rate sewa WhatsApp di RentalWA? +" [ref=e297] [cursor=pointer]:
+            - generic [ref=e298]: Berapa rate sewa WhatsApp di RentalWA?
+            - generic [ref=e299]: +
+        - group [ref=e300]:
+          - generic "Apa itu rental WhatsApp / sewa WA blast? +" [ref=e301] [cursor=pointer]:
+            - generic [ref=e302]: Apa itu rental WhatsApp / sewa WA blast?
+            - generic [ref=e303]: +
+        - group [ref=e304]:
+          - generic "Bagaimana cara setor WhatsApp di RentalWA? +" [ref=e305] [cursor=pointer]:
+            - generic [ref=e306]: Bagaimana cara setor WhatsApp di RentalWA?
+            - generic [ref=e307]: +
+        - group [ref=e308]:
+          - generic "Aman dari banned WhatsApp? +" [ref=e309] [cursor=pointer]:
+            - generic [ref=e310]: Aman dari banned WhatsApp?
+            - generic [ref=e311]: +
+        - group [ref=e312]:
+          - generic "Apakah pesan masuk ke HP saya tetap normal? +" [ref=e313] [cursor=pointer]:
+            - generic [ref=e314]: Apakah pesan masuk ke HP saya tetap normal?
+            - generic [ref=e315]: +
+        - group [ref=e316]:
+          - generic "Berapa biaya sewa WhatsApp blast? +" [ref=e317] [cursor=pointer]:
+            - generic [ref=e318]: Berapa biaya sewa WhatsApp blast?
+            - generic [ref=e319]: +
+        - group [ref=e320]:
+          - generic "Bagaimana cara menarik penghasilan Penyetor? +" [ref=e321] [cursor=pointer]:
+            - generic [ref=e322]: Bagaimana cara menarik penghasilan Penyetor?
+            - generic [ref=e323]: +
+        - group [ref=e324]:
+          - generic "Berapa lama proses pendaftaran? +" [ref=e325] [cursor=pointer]:
+            - generic [ref=e326]: Berapa lama proses pendaftaran?
+            - generic [ref=e327]: +
+        - group [ref=e328]:
+          - generic "Apa itu jasa WA blaster? +" [ref=e329] [cursor=pointer]:
+            - generic [ref=e330]: Apa itu jasa WA blaster?
+            - generic [ref=e331]: +
+    - generic [ref=e335]:
+      - heading "Siap mulai blast WhatsApp pertama?" [level=2] [ref=e336]
+      - paragraph [ref=e337]: Daftar gratis, top-up minimal Rp 10.000, dan kirim ribuan pesan dalam menit pertama.
+      - generic [ref=e338]:
+        - link "Mulai Gratis " [ref=e339] [cursor=pointer]:
+          - /url: /register
+          - text: Mulai Gratis
+          - generic [ref=e340]: 
+        - link "Hubungi Sales" [ref=e341] [cursor=pointer]:
+          - /url: /contact
+    - contentinfo [ref=e343]:
+      - generic [ref=e344]:
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - img "RentalWA" [ref=e347]
+            - generic [ref=e348]: RentalWA
+          - paragraph [ref=e349]: "Platform blast WhatsApp #1 Indonesia. Mudah, aman, terjangkau."
+          - generic [ref=e350]:
+            - link "Instagram" [ref=e351] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e352]: 
+            - link "Email" [ref=e353] [cursor=pointer]:
+              - /url: mailto:support@rentalwa.com
+              - generic [ref=e354]: 
+            - link "YouTube" [ref=e355] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e356]: 
+            - link "Twitter" [ref=e357] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e358]:
+          - heading "Produk" [level=4] [ref=e359]
+          - link "Daftar Gratis" [ref=e360] [cursor=pointer]:
+            - /url: /register
+          - link "Fitur" [ref=e361] [cursor=pointer]:
+            - /url: "#fitur"
+          - link "Harga" [ref=e362] [cursor=pointer]:
+            - /url: "#harga"
+          - link "Blog" [ref=e363] [cursor=pointer]:
+            - /url: "#blog"
+        - generic [ref=e364]:
+          - heading "Perusahaan" [level=4] [ref=e365]
+          - link "Kontak" [ref=e366] [cursor=pointer]:
+            - /url: /contact
+          - link "Kebijakan Privasi" [ref=e367] [cursor=pointer]:
+            - /url: /privacy
+          - link "Ketentuan Layanan" [ref=e368] [cursor=pointer]:
+            - /url: /terms
+        - generic [ref=e369]:
+          - heading "Kontak" [level=4] [ref=e370]
+          - paragraph [ref=e371]:
+            - generic [ref=e372]: 
+            - text: support@rentalwa.com
+          - paragraph [ref=e373]:
+            - generic [ref=e374]: 
+            - text: Jl. Budi Kemuliaan No.25, Jakarta
+      - generic [ref=e376]:
+        - paragraph [ref=e377]: © 2026 RentalWA. All rights reserved.
+        - paragraph [ref=e378]:
+          - text: Made with
+          - generic [ref=e379]: 
+          - text: in Indonesia
+  - button "Buka chat bantuan" [ref=e380] [cursor=pointer]:
+    - generic [ref=e381]: 

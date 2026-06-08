@@ -1,0 +1,524 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]:
+        - text: /
+        - link "Javascript" [ref=e38] [cursor=pointer]:
+          - /url: /category/javascript
+      - listitem [ref=e39]: / DoaKu - A mobile-first Progressive Web App for Isl...
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - link "Javascript" [ref=e46] [cursor=pointer]:
+                - /url: /category/javascript
+              - link "PROJECTS" [ref=e47] [cursor=pointer]:
+                - /url: /category/projects
+            - heading "DoaKu - A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran." [level=1] [ref=e48]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: 
+                - link "Administrator" [ref=e52] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e53]:
+                - generic [ref=e54]: 
+                - time [ref=e55]: February 22, 2026
+              - generic "This article was updated" [ref=e56]:
+                - generic [ref=e57]: 
+                - text: Updated
+                - time [ref=e58]: Jun 1, 2026
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: 4 min read
+            - generic [ref=e61]:
+              - button " 0 likes" [ref=e62] [cursor=pointer]:
+                - generic [ref=e63]: 
+                - text: 0 likes
+              - generic [ref=e64]:
+                - generic [ref=e65]: 
+                - text: 381 views
+          - img "DoaKu - A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran." [ref=e67]
+          - navigation "Table of contents" [ref=e68]:
+            - button " Contents ▾" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: 
+              - strong [ref=e71]: Contents
+              - generic [ref=e72]: ▾
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Screenshots" [ref=e75] [cursor=pointer]:
+                  - /url: "#screenshots"
+              - listitem [ref=e76]:
+                - link "Light Theme" [ref=e77] [cursor=pointer]:
+                  - /url: "#light-theme"
+              - listitem [ref=e78]:
+                - link "Dark Theme" [ref=e79] [cursor=pointer]:
+                  - /url: "#dark-theme"
+              - listitem [ref=e80]:
+                - link "Features" [ref=e81] [cursor=pointer]:
+                  - /url: "#features"
+              - listitem [ref=e82]:
+                - link "Ruqyah Reader" [ref=e83] [cursor=pointer]:
+                  - /url: "#ruqyah-reader"
+              - listitem [ref=e84]:
+                - link "Al-Quran" [ref=e85] [cursor=pointer]:
+                  - /url: "#al-quran"
+              - listitem [ref=e86]:
+                - link "Kumpulan Doa (Prayer Collection)" [ref=e87] [cursor=pointer]:
+                  - /url: "#kumpulan-doa-prayer-collection"
+              - listitem [ref=e88]:
+                - link "Qibla Compass" [ref=e89] [cursor=pointer]:
+                  - /url: "#qibla-compass"
+              - listitem [ref=e90]:
+                - link "Prayer Times" [ref=e91] [cursor=pointer]:
+                  - /url: "#prayer-times"
+              - listitem [ref=e92]:
+                - link "Additional Features" [ref=e93] [cursor=pointer]:
+                  - /url: "#additional-features"
+              - listitem [ref=e94]:
+                - link "Tech Stack" [ref=e95] [cursor=pointer]:
+                  - /url: "#tech-stack"
+              - listitem [ref=e96]:
+                - link "Project Structure" [ref=e97] [cursor=pointer]:
+                  - /url: "#project-structure"
+              - listitem [ref=e98]:
+                - link "Getting Started" [ref=e99] [cursor=pointer]:
+                  - /url: "#getting-started"
+              - listitem [ref=e100]:
+                - link "Prerequisites" [ref=e101] [cursor=pointer]:
+                  - /url: "#prerequisites"
+              - listitem [ref=e102]:
+                - link "Installation" [ref=e103] [cursor=pointer]:
+                  - /url: "#installation"
+              - listitem [ref=e104]:
+                - link "Development" [ref=e105] [cursor=pointer]:
+                  - /url: "#development"
+              - listitem [ref=e106]:
+                - link "Production Build" [ref=e107] [cursor=pointer]:
+                  - /url: "#production-build"
+              - listitem [ref=e108]:
+                - link "Deployment" [ref=e109] [cursor=pointer]:
+                  - /url: "#deployment"
+              - listitem [ref=e110]:
+                - link "Screenshot Generation" [ref=e111] [cursor=pointer]:
+                  - /url: "#screenshot-generation"
+              - listitem [ref=e112]:
+                - link "Audio Sources" [ref=e113] [cursor=pointer]:
+                  - /url: "#audio-sources"
+              - listitem [ref=e114]:
+                - link "License" [ref=e115] [cursor=pointer]:
+                  - /url: "#license"
+          - generic [ref=e116]:
+            - heading "DoaKu" [level=1] [ref=e117]
+            - paragraph [ref=e118]: A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran. Built for Muslims who want a clean, offline-capable tool for daily prayers, Quran recitation, and ruqyah practice.
+            - heading "Screenshots" [level=2] [ref=e119]
+            - heading "Light Theme" [level=3] [ref=e120]
+            - table [ref=e121]:
+              - rowgroup [ref=e122]:
+                - row "Home Ruqyah Al-Quran" [ref=e123]:
+                  - columnheader "Home" [ref=e124]
+                  - columnheader "Ruqyah" [ref=e125]
+                  - columnheader "Al-Quran" [ref=e126]
+              - rowgroup [ref=e127]:
+                - row "Home Ruqyah Quran" [ref=e128]:
+                  - cell "Home" [ref=e129]:
+                    - img "Home"
+                  - cell "Ruqyah" [ref=e130]:
+                    - img "Ruqyah"
+                  - cell "Quran" [ref=e131]:
+                    - img "Quran"
+            - table [ref=e132]:
+              - rowgroup [ref=e133]:
+                - row "Kumpulan Doa Tata Cara Pengaturan" [ref=e134]:
+                  - columnheader "Kumpulan Doa" [ref=e135]
+                  - columnheader "Tata Cara" [ref=e136]
+                  - columnheader "Pengaturan" [ref=e137]
+              - rowgroup [ref=e138]:
+                - row "Doa Procedure Settings" [ref=e139]:
+                  - cell "Doa" [ref=e140]:
+                    - img "Doa"
+                  - cell "Procedure" [ref=e141]:
+                    - img "Procedure"
+                  - cell "Settings" [ref=e142]:
+                    - img "Settings"
+            - heading "Dark Theme" [level=3] [ref=e143]
+            - table [ref=e144]:
+              - rowgroup [ref=e145]:
+                - row "Home Ruqyah Al-Quran" [ref=e146]:
+                  - columnheader "Home" [ref=e147]
+                  - columnheader "Ruqyah" [ref=e148]
+                  - columnheader "Al-Quran" [ref=e149]
+              - rowgroup [ref=e150]:
+                - row "Home Dark Ruqyah Dark Quran Dark" [ref=e151]:
+                  - cell "Home Dark" [ref=e152]:
+                    - img "Home Dark"
+                  - cell "Ruqyah Dark" [ref=e153]:
+                    - img "Ruqyah Dark"
+                  - cell "Quran Dark" [ref=e154]:
+                    - img "Quran Dark"
+            - table [ref=e155]:
+              - rowgroup [ref=e156]:
+                - row "Kumpulan Doa Tata Cara Pengaturan" [ref=e157]:
+                  - columnheader "Kumpulan Doa" [ref=e158]
+                  - columnheader "Tata Cara" [ref=e159]
+                  - columnheader "Pengaturan" [ref=e160]
+              - rowgroup [ref=e161]:
+                - row "Doa Dark Procedure Dark Settings Dark" [ref=e162]:
+                  - cell "Doa Dark" [ref=e163]:
+                    - img "Doa Dark"
+                  - cell "Procedure Dark" [ref=e164]:
+                    - img "Procedure Dark"
+                  - cell "Settings Dark" [ref=e165]:
+                    - img "Settings Dark"
+            - heading "Features" [level=2] [ref=e166]
+            - heading "Ruqyah Reader" [level=3] [ref=e167]
+            - list [ref=e168]:
+              - listitem [ref=e169]: Curated ayahs from Al-Quran used for ruqyah syar'iyyah (self-healing)
+              - listitem [ref=e170]: Arabic text with Uthmani script, Indonesian translation, and tajweed color coding
+              - listitem [ref=e171]: Grouped by surah with decorative surah banners
+              - listitem [ref=e172]: Per-ayah audio playback with Mishary Rashid Al-Afasy recitation
+              - listitem [ref=e173]: Sequential auto-play with queue management
+              - listitem [ref=e174]: Repeat counter per ayah for tracking practice
+              - listitem [ref=e175]: Bookmark system for saving progress
+            - heading "Al-Quran" [level=3] [ref=e176]
+            - list [ref=e177]:
+              - listitem [ref=e178]: Full 114 surah index with Arabic names, Latin transliteration, and verse counts
+              - listitem [ref=e179]: Surah search functionality
+              - listitem [ref=e180]: Per-ayah play buttons and auto-play from any verse
+              - listitem [ref=e181]: Audio from cdn.islamic.network CDN (128kbps, Al-Afasy)
+              - listitem [ref=e182]: Left-side slide-in audio panel
+            - heading "Kumpulan Doa (Prayer Collection)" [level=3] [ref=e183]
+            - list [ref=e184]:
+              - listitem [ref=e185]: 6 ruqyah-specific prayers with hadith sources
+              - listitem [ref=e186]: 15 daily prayers covering common situations
+              - listitem [ref=e187]: Arabic text, Latin transliteration, Indonesian translation
+              - listitem [ref=e188]: Collapsible cards for easy browsing
+              - listitem [ref=e189]: Source references from Bukhari, Muslim, Abu Dawud, and other authenticated collections
+            - heading "Qibla Compass" [level=3] [ref=e190]
+            - list [ref=e191]:
+              - listitem [ref=e192]:
+                - text: Real-time
+                - link "compass" [ref=e193] [cursor=pointer]:
+                  - /url: /compass-self-hosted-tool-for-developers-and-homelabbers
+                - text: using device orientation sensors
+              - listitem [ref=e194]: Great-circle bearing calculation to the Kaaba
+              - listitem [ref=e195]: Automatic geolocation with cached coordinates
+              - listitem [ref=e196]: Visual compass needle with degree and cardinal direction display
+            - heading "Prayer Times" [level=3] [ref=e197]
+            - list [ref=e198]:
+              - listitem [ref=e199]: Daily prayer schedule based on user geolocation
+              - listitem [ref=e200]: Next prayer highlight
+              - listitem [ref=e201]: Hijri and Gregorian date display
+              - listitem [ref=e202]: Location detection with city name
+            - heading "Additional Features" [level=3] [ref=e203]
+            - list [ref=e204]:
+              - listitem [ref=e205]: Dark and light theme with system-level toggle
+              - listitem [ref=e206]: Multi-language support (Indonesian, English, Arabic)
+              - listitem [ref=e207]: Offline capability via service worker and precaching
+              - listitem [ref=e208]: Daily reading progress tracking (ayahs read, repetitions, streak)
+              - listitem [ref=e209]: Note-taking with Supabase cloud sync
+              - listitem [ref=e210]: Installable as a standalone app on mobile devices
+            - heading "Tech Stack" [level=2] [ref=e211]
+            - table [ref=e212]:
+              - rowgroup [ref=e213]:
+                - row "Layer Technology" [ref=e214]:
+                  - columnheader "Layer" [ref=e215]
+                  - columnheader "Technology" [ref=e216]:
+                    - link "Technology" [ref=e217] [cursor=pointer]:
+                      - /url: /oracle-stock-is-this-tech-giant-a-secret-ai-investment
+              - rowgroup [ref=e218]:
+                - row "Framework Vue 3 (Composition API, <script setup>)" [ref=e219]:
+                  - cell "Framework" [ref=e220]
+                  - cell "Vue 3 (Composition API, <script setup>)" [ref=e221]:
+                    - text: Vue 3 (Composition API,
+                    - code [ref=e222]: <script setup>
+                    - text: )
+                - row "Build Tool Vite 5" [ref=e223]:
+                  - cell "Build Tool" [ref=e224]
+                  - cell "Vite 5" [ref=e225]
+                - row "State Management Pinia with persisted state" [ref=e226]:
+                  - cell "State Management" [ref=e227]
+                  - cell "Pinia with persisted state" [ref=e228]
+                - row "Routing Vue Router 4" [ref=e229]:
+                  - cell "Routing" [ref=e230]
+                  - cell "Vue Router 4" [ref=e231]
+                - row "Styling SCSS with CSS Custom Properties for runtime theming" [ref=e232]:
+                  - cell "Styling" [ref=e233]
+                  - cell "SCSS with CSS Custom Properties for runtime theming" [ref=e234]
+                - row "PWA vite-plugin-pwa (Workbox, service worker, manifest)" [ref=e235]:
+                  - cell "PWA" [ref=e236]
+                  - cell "vite-plugin-pwa (Workbox, service worker, manifest)" [ref=e237]
+                - row "i18n vue-i18n 9" [ref=e238]:
+                  - cell "i18n" [ref=e239]
+                  - cell "vue-i18n 9" [ref=e240]
+                - row "Backend Supabase (auth, notes sync)" [ref=e241]:
+                  - cell "Backend" [ref=e242]
+                  - cell "Supabase (auth, notes sync)" [ref=e243]
+                - row "Audio HTML5 Audio API, MediaSession API" [ref=e244]:
+                  - cell "Audio" [ref=e245]
+                  - cell "HTML5 Audio API, MediaSession API" [ref=e246]
+                - row "Fonts Scheherazade New (Arabic), Inter (Latin)" [ref=e247]:
+                  - cell "Fonts" [ref=e248]
+                  - cell "Scheherazade New (Arabic), Inter (Latin)" [ref=e249]
+            - heading "Project Structure" [level=2] [ref=e250]
+            - code [ref=e252]: src/ assets/ SVG icons (ui, islamic, audio-player) components/ Reusable Vue components audio/ GlobalAudioPlayer ayah/ AyahCard common/ SvgIcon, SurahBanner, LoadingSpinner, OfflineBanner layout/ AppHeader, BottomNav composables/ Vue composables useAudio.js Audio queue, playback, Quran CDN integration useHijriDate.js Hijri calendar conversion useOnline.js Network status detection usePrayerTimes.js Prayer time calculation via API useQiblaCompass.js Qibla direction with device orientation useTheme.js Theme switching (light/dark) data/ Static data files doaCollection.js 21 curated prayers procedures.js Step-by-step ruqyah guide quranMeta.js Surah metadata, global ayah mapping reciters.js Reciter configuration ruqyahAyahs.js Curated ruqyah ayahs with tajweed i18n/ Locale files (id, en, ar) router/ Vue Router configuration services/ api/ AlQuran Cloud API client audio/ AudioManager singleton stores/ Pinia stores (audio, auth, bookmarks, notes, progress, ruqyah, settings) styles/ SCSS (variables, theme, mixins, base, fonts, animations) views/ Page components HomePage.vue RuqyahPage.vue QuranPage.vue DoaPage.vue SettingsPage.vue ProcedurePage.vue BookmarksPage.vue AuthPage.vue NotesPage.vue
+            - heading "Getting Started" [level=2] [ref=e253]
+            - heading "Prerequisites" [level=3] [ref=e254]
+            - list [ref=e255]:
+              - listitem [ref=e256]: Node.js 18 or later
+              - listitem [ref=e257]: npm
+            - heading "Installation" [level=3] [ref=e258]
+            - code [ref=e260]: git clone https://github.com/fdciabdul/DoaKU.git cd DoaKU npm install
+            - heading "Development" [level=3] [ref=e261]
+            - code [ref=e263]: npm run dev
+            - paragraph [ref=e264]:
+              - text: The app will be available at
+              - code [ref=e265]: http://localhost:5173
+              - text: .
+            - heading "Production Build" [level=3] [ref=e266]
+            - code [ref=e268]: npm run build
+            - paragraph [ref=e269]:
+              - text: Static files are generated in the
+              - code [ref=e270]: dist/
+              - link "directory" [ref=e271] [cursor=pointer]:
+                - /url: /awesome-selfhosted-picks-curated-directory-of-60-self-hostable-open-source-projects
+              - text: .
+            - heading "Deployment" [level=3] [ref=e272]
+            - paragraph [ref=e273]:
+              - text: The included
+              - code [ref=e274]: server.js
+              - text: "provides a static file server for production use:"
+            - code [ref=e276]: node server.js
+            - paragraph [ref=e277]: "Or with PM2 for process management:"
+            - code [ref=e279]: pm2 start server.js --name doaku
+            - heading "Screenshot Generation" [level=3] [ref=e280]
+            - paragraph [ref=e281]: "A Puppeteer script is included for generating app screenshots:"
+            - code [ref=e283]: npm install --no-save puppeteer-core node scripts/screenshots.cjs
+            - paragraph [ref=e284]:
+              - text: Screenshots are saved to the
+              - code [ref=e285]: https://raw.githubusercontent.com/fdciabdul/DoaKU/refs/heads/main/https://raw.githubusercontent.com/fdciabdul/DoaKU/refs/heads/main/screenshots/
+              - text: directory in both light and dark themes.
+            - heading "Audio Sources" [level=2] [ref=e286]
+            - paragraph [ref=e287]:
+              - text: Quran audio is served from the
+              - link "Islamic Network CDN" [ref=e288] [cursor=pointer]:
+                - /url: https://cdn.islamic.network/quran/audio/
+              - text: featuring Mishary Rashid Al-Afasy recitation at 128kbps. Audio files are streamed on demand and not bundled with the application.
+            - heading "License" [level=2] [ref=e289]
+            - paragraph [ref=e290]: MIT
+          - complementary "Project resources" [ref=e291]:
+            - generic [ref=e293]: Project resources
+            - generic [ref=e295]:
+              - link "View on GitHub" [ref=e296] [cursor=pointer]:
+                - /url: https://github.com/fdciabdul/doaku
+                - img [ref=e297]
+                - generic [ref=e299]: View on GitHub
+              - link "Visit project site" [ref=e300] [cursor=pointer]:
+                - /url: https://raw.githubusercontent.com/fdciabdul/DoaKU/refs/heads/main/https://raw.githubusercontent.com/fdciabdul/DoaKU/refs/heads/main/screenshots/
+                - img [ref=e301]
+                - generic [ref=e304]: Visit project site
+        - complementary [ref=e305]:
+          - img "imtaqin" [ref=e307]
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - strong [ref=e310]: imtaqin
+              - generic [ref=e311]: Author
+            - paragraph [ref=e312]: Writes about self-hosted apps, AI tools, cybersecurity, and homelab projects. Sharing tools and notes from real-world deployments.
+            - link "More posts by imtaqin ›" [ref=e314] [cursor=pointer]:
+              - /url: /author/administrator
+        - generic [ref=e315]:
+          - strong [ref=e316]: "Share this post:"
+          - generic [ref=e317]:
+            - link " Twitter" [ref=e318] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=DoaKu%20-%20A%20mobile-first%20Progressive%20Web%20App%20for%20Islamic%20self-healing%20(ruqyah)%20with%20the%20Quran.%20&url=https%3A%2F%2Fimtaqin.id%2Fdoaku-a-mobile-first-progressive-web-app-for-islamic-self-healing-ruqyah-with-the-quran-
+              - generic [ref=e319]: 
+              - text: Twitter
+            - link " Facebook" [ref=e320] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fimtaqin.id%2Fdoaku-a-mobile-first-progressive-web-app-for-islamic-self-healing-ruqyah-with-the-quran-
+              - generic [ref=e321]: 
+              - text: Facebook
+            - link " LinkedIn" [ref=e322] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fimtaqin.id%2Fdoaku-a-mobile-first-progressive-web-app-for-islamic-self-healing-ruqyah-with-the-quran-&title=DoaKu%20-%20A%20mobile-first%20Progressive%20Web%20App%20for%20Islamic%20self-healing%20(ruqyah)%20with%20the%20Quran.%20
+              - generic [ref=e323]: 
+              - text: LinkedIn
+        - generic [ref=e324]:
+          - heading " Comments" [level=2] [ref=e325]:
+            - generic [ref=e326]: 
+            - text: Comments
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - textbox "Your Name *" [ref=e332]
+              - textbox "Your Email *" [ref=e335]
+            - textbox "Write a comment..." [ref=e337]
+            - button " Post Comment" [ref=e338] [cursor=pointer]:
+              - generic [ref=e339]: 
+              - text: Post Comment
+            - text: Your email will not be published.
+          - generic [ref=e341]:
+            - generic [ref=e342]: 
+            - text: Loading comments...
+      - complementary [ref=e343]:
+        - generic [ref=e344]:
+          - heading "Post Info" [level=4] [ref=e345]
+          - list [ref=e346]:
+            - listitem [ref=e347]:
+              - strong [ref=e348]: "Author:"
+              - link "Administrator" [ref=e349] [cursor=pointer]:
+                - /url: /author/administrator
+            - listitem [ref=e350]:
+              - strong [ref=e351]: "Likes:"
+              - text: 0 |
+              - strong [ref=e352]: "Views:"
+              - text: "380"
+            - listitem [ref=e353]:
+              - strong [ref=e354]: "Categories:"
+              - link "Javascript" [ref=e355] [cursor=pointer]:
+                - /url: /category/javascript
+              - text: ","
+              - link "PROJECTS" [ref=e356] [cursor=pointer]:
+                - /url: /category/projects
+            - listitem [ref=e357]:
+              - strong [ref=e358]: "Published:"
+              - text: 2/22/2026
+        - generic [ref=e359]:
+          - heading "Categories" [level=4] [ref=e360]
+          - list [ref=e361]:
+            - listitem [ref=e362]:
+              - link "AI & Machine Learning" [ref=e363] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+            - listitem [ref=e364]:
+              - link "Automation" [ref=e365] [cursor=pointer]:
+                - /url: /category/automation
+            - listitem [ref=e366]:
+              - link "C#" [ref=e367] [cursor=pointer]:
+                - /url: /category/c
+            - listitem [ref=e368]:
+              - link "Cybersecurity" [ref=e369] [cursor=pointer]:
+                - /url: /category/cybersecurity
+            - listitem [ref=e370]:
+              - link "Data & Analytics" [ref=e371] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+            - listitem [ref=e372]:
+              - link "Exploits & CVE" [ref=e373] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+            - listitem [ref=e374]:
+              - link "Go" [ref=e375] [cursor=pointer]:
+                - /url: /category/go
+            - listitem [ref=e376]:
+              - link "IoT & Smart Home" [ref=e377] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+        - generic [ref=e378]:
+          - heading "Tags" [level=4] [ref=e379]
+          - generic [ref=e380]:
+            - link "0xabcd01/cve-2026-41089" [ref=e381] [cursor=pointer]:
+              - /url: /tag/0xabcd01-cve-2026-41089
+            - link "0xchasercat/mochi" [ref=e382] [cursor=pointer]:
+              - /url: /tag/0xchasercat-mochi
+            - link "1tamilmv-telegram-bot" [ref=e383] [cursor=pointer]:
+              - /url: /tag/1tamilmv-telegram-bot
+            - link "35gateway" [ref=e384] [cursor=pointer]:
+              - /url: /tag/35gateway
+            - link "3d reconstruction" [ref=e385] [cursor=pointer]:
+              - /url: /tag/3d-reconstruction
+            - link "3dcellforge" [ref=e386] [cursor=pointer]:
+              - /url: /tag/3dcellforge
+            - link "a-eye" [ref=e387] [cursor=pointer]:
+              - /url: /tag/a-eye
+            - link "a-share-trading" [ref=e388] [cursor=pointer]:
+              - /url: /tag/a-share-trading
+            - link "a-stock-data" [ref=e389] [cursor=pointer]:
+              - /url: /tag/a-stock-data
+            - link "aaron-kidwell/golol" [ref=e390] [cursor=pointer]:
+              - /url: /tag/aaron-kidwell-golol
+            - link "abgeo/mezz" [ref=e391] [cursor=pointer]:
+              - /url: /tag/abgeo-mezz
+            - link "accessibility-theme" [ref=e392] [cursor=pointer]:
+              - /url: /tag/accessibility-theme
+            - link "active-directory" [ref=e393] [cursor=pointer]:
+              - /url: /tag/active-directory
+            - link "activepieces" [ref=e394] [cursor=pointer]:
+              - /url: /tag/activepieces
+            - link "acunetix-crack-2026" [ref=e395] [cursor=pointer]:
+              - /url: /tag/acunetix-crack-2026
+        - generic [ref=e396]:
+          - heading "Quick Links" [level=4] [ref=e397]
+          - list [ref=e398]:
+            - listitem [ref=e399]:
+              - link " More by Administrator" [ref=e400] [cursor=pointer]:
+                - /url: /author/administrator
+                - generic [ref=e401]: 
+                - text: More by Administrator
+            - listitem [ref=e402]:
+              - link " Browse All Posts" [ref=e403] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e404]: 
+                - text: Browse All Posts
+            - listitem [ref=e405]:
+              - link " RSS Feed" [ref=e406] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e407]: 
+                - text: RSS Feed
+  - contentinfo [ref=e408]:
+    - generic [ref=e409]:
+      - generic [ref=e410]:
+        - generic [ref=e411]:
+          - heading "IMTAQIN" [level=4] [ref=e412]
+          - paragraph [ref=e413]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e414]:
+          - link "Home" [ref=e415] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e416] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e417] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e418] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e419] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e420] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e421] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e422] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e424]: © 2026 IMTAQIN. All rights reserved.

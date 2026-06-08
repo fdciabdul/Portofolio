@@ -1,0 +1,117 @@
+- main [ref=e2]:
+  - navigation [ref=e3]:
+    - link "MAUBLAST" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "MAUBLAST" [ref=e6]
+    - generic [ref=e7]:
+      - link "Harga" [ref=e8] [cursor=pointer]:
+        - /url: /pricing
+      - link "Dokumentasi" [ref=e9] [cursor=pointer]:
+        - /url: /docs
+      - link "Masuk" [ref=e10] [cursor=pointer]:
+        - /url: /login
+      - link "Daftar" [ref=e11] [cursor=pointer]:
+        - /url: /signup
+  - generic [ref=e12]:
+    - heading "WhatsApp API untuk bisnis, tanpa Meta Business." [level=1] [ref=e13]
+    - paragraph [ref=e14]: Kirim pesan dari aplikasi atau workflow kamu lewat REST API. Multi-sesi, auto-reply, blast terkontrol dengan throttling anti-ban, dan webhook real-time.
+    - generic [ref=e15]:
+      - link "Mulai gratis" [ref=e16] [cursor=pointer]:
+        - /url: /signup
+      - link "Lihat harga" [ref=e17] [cursor=pointer]:
+        - /url: /pricing
+    - generic [ref=e18]: "# Kirim pesan WhatsApp curl -X POST https://maublast.net/api/v1/sessions/{id}/messages/text \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{\"to\":\"628123456789\",\"text\":\"Halo dari MAUBLAST\"}'"
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - heading "Yang kamu butuhkan, sudah ada." [level=2] [ref=e21]
+      - paragraph [ref=e22]: API lengkap untuk notifikasi transaksional, CS multi-agen, blast terjadwal, dan otomasi.
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e26]
+        - heading "Kirim pesan" [level=3] [ref=e28]
+        - paragraph [ref=e29]: Teks, gambar, video, dokumen, polling, lokasi, vCard. Endpoint konsisten per tipe.
+      - generic [ref=e30]:
+        - img [ref=e32]
+        - heading "Blast terkontrol" [level=3] [ref=e36]
+        - paragraph [ref=e37]: Mode fast / balanced / human / safe. Throttling, jitter, typing simulation, batch pause — aman dari ban.
+      - generic [ref=e38]:
+        - img [ref=e40]
+        - heading "Auto-reply" [level=3] [ref=e43]
+        - paragraph [ref=e44]: Rule-based balas otomatis. Match exact, contain, atau regex. Cooldown per nomor agar ga spam.
+      - generic [ref=e45]:
+        - img [ref=e47]
+        - heading "Webhook real-time" [level=3] [ref=e49]
+        - paragraph [ref=e50]: Event pesan masuk, tanda terima, status sesi, grup update. HMAC-signed, retry otomatis.
+      - generic [ref=e51]:
+        - img [ref=e53]
+        - heading "Multi-sesi" [level=3] [ref=e58]
+        - paragraph [ref=e59]: Banyak nomor WhatsApp dalam satu akun. Session rotator untuk load balancing otomatis.
+      - generic [ref=e60]:
+        - img [ref=e62]
+        - heading "Integrasi" [level=3] [ref=e66]
+        - paragraph [ref=e67]: Chatwoot, n8n, Zapier, Make. Atau lewat REST API langsung — dokumentasi lengkap.
+  - generic [ref=e68]:
+    - generic [ref=e69]:
+      - heading "Tiga langkah, selesai." [level=2] [ref=e70]
+      - paragraph [ref=e71]: Dari daftar sampai pesan pertama terkirim, biasanya < 5 menit.
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]: "1"
+        - heading "Daftar akun" [level=3] [ref=e75]
+        - paragraph [ref=e76]: Buat akun gratis. Tanpa kartu kredit, tanpa verifikasi Meta Business.
+      - generic [ref=e77]:
+        - generic [ref=e78]: "2"
+        - heading "Scan QR WhatsApp" [level=3] [ref=e79]
+        - paragraph [ref=e80]: Hubungkan nomor WhatsApp kamu dengan scan QR — sama seperti WhatsApp Web.
+      - generic [ref=e81]:
+        - generic [ref=e82]: "3"
+        - heading "Kirim pesan via API" [level=3] [ref=e83]
+        - paragraph [ref=e84]: Ambil API key dari dashboard, panggil endpoint dari aplikasi atau workflow kamu.
+  - generic [ref=e85]:
+    - heading "Cocok dengan stack yang udah kamu pakai." [level=2] [ref=e87]
+    - generic [ref=e89]:
+      - img "Chatwoot" [ref=e90]
+      - img "n8n" [ref=e91]
+      - img "Zapier" [ref=e92]
+      - img "Make" [ref=e93]
+      - img "Postman" [ref=e94]
+      - img "OpenAPI" [ref=e95]
+  - generic [ref=e96]:
+    - heading "Pertanyaan umum" [level=2] [ref=e98]
+    - generic [ref=e99]:
+      - group [ref=e100]:
+        - generic "Apa bedanya dengan Meta Business API? +" [ref=e101] [cursor=pointer]
+      - group [ref=e102]:
+        - generic "Apakah ada risiko nomor diblokir WhatsApp? +" [ref=e103] [cursor=pointer]
+      - group [ref=e104]:
+        - generic "Bahasa pemrograman apa saja yang didukung? +" [ref=e105] [cursor=pointer]
+      - group [ref=e106]:
+        - generic "Kalau nomor saya sudah masuk WhatsApp Web di browser, bisa dipakai bareng? +" [ref=e107] [cursor=pointer]
+      - group [ref=e108]:
+        - generic "Bagaimana sistem penagihan? +" [ref=e109] [cursor=pointer]
+  - generic [ref=e111]:
+    - heading "Siap coba?" [level=2] [ref=e112]
+    - paragraph [ref=e113]: Bikin akun gratis, hubungkan nomor, kirim pesan pertama dalam 5 menit.
+    - generic [ref=e114]:
+      - link "Daftar gratis" [ref=e115] [cursor=pointer]:
+        - /url: /signup
+      - link "Dokumentasi API" [ref=e116] [cursor=pointer]:
+        - /url: /docs
+  - generic [ref=e118]:
+    - generic [ref=e119]:
+      - img "MAUBLAST" [ref=e121]
+      - generic [ref=e122]:
+        - link "Harga" [ref=e123] [cursor=pointer]:
+          - /url: /pricing
+        - link "Dokumentasi" [ref=e124] [cursor=pointer]:
+          - /url: /docs
+        - link "Kontak" [ref=e125] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=e126]:
+      - generic [ref=e127]: © 2026 MAUBLAST
+      - generic [ref=e128]:
+        - link "Ketentuan" [ref=e129] [cursor=pointer]:
+          - /url: /terms
+        - generic [ref=e130]: ·
+        - link "Privasi" [ref=e131] [cursor=pointer]:
+          - /url: /privacy

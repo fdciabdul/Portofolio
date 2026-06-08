@@ -1,0 +1,1259 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]:
+        - text: /
+        - link "PROJECTS" [ref=e38] [cursor=pointer]:
+          - /url: /category/projects
+      - listitem [ref=e39]: / WA-RS a multi-session WhatsApp REST API gateway. O...
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - link "Rust" [ref=e46] [cursor=pointer]:
+                - /url: /category/rust
+              - link "PROJECTS" [ref=e47] [cursor=pointer]:
+                - /url: /category/projects
+            - heading "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [level=1] [ref=e48]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: 
+                - link "Administrator" [ref=e52] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e53]:
+                - generic [ref=e54]: 
+                - time [ref=e55]: January 1, 2026
+              - generic "This article was updated" [ref=e56]:
+                - generic [ref=e57]: 
+                - text: Updated
+                - time [ref=e58]: Jun 2, 2026
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: 12 min read
+            - generic [ref=e61]:
+              - button " 2 likes" [ref=e62] [cursor=pointer]:
+                - generic [ref=e63]: 
+                - text: 2 likes
+              - generic [ref=e64]:
+                - generic [ref=e65]: 
+                - text: 749 views
+          - img "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [ref=e67]
+          - navigation "Table of contents" [ref=e68]:
+            - button " Contents ▾" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: 
+              - strong [ref=e71]: Contents
+              - generic [ref=e72]: ▾
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Why Rust?" [ref=e75] [cursor=pointer]:
+                  - /url: "#why-rust"
+              - listitem [ref=e76]:
+                - 'link "What I Built: WA-RS" [ref=e77] [cursor=pointer]':
+                  - /url: "#what-i-built-wa-rs"
+              - listitem [ref=e78]:
+                - link "Features That Actually Matter" [ref=e79] [cursor=pointer]:
+                  - /url: "#features-that-actually-matter"
+              - listitem [ref=e80]:
+                - link "Getting Started (It&#39;s Stupid Simple)" [ref=e81] [cursor=pointer]:
+                  - /url: "#getting-started-it39s-stupid-simple"
+              - listitem [ref=e82]:
+                - 'link "Option 1: Docker (Recommended)" [ref=e83] [cursor=pointer]':
+                  - /url: "#option-1-docker-recommended"
+              - listitem [ref=e84]:
+                - 'link "Option 2: Docker Compose (Full Stack)" [ref=e85] [cursor=pointer]':
+                  - /url: "#option-2-docker-compose-full-stack"
+              - listitem [ref=e86]:
+                - 'link "Option 3: Build From Source" [ref=e87] [cursor=pointer]':
+                  - /url: "#option-3-build-from-source"
+              - listitem [ref=e88]:
+                - link "The API" [ref=e89] [cursor=pointer]:
+                  - /url: "#the-api"
+              - listitem [ref=e90]:
+                - link "Create a Session" [ref=e91] [cursor=pointer]:
+                  - /url: "#create-a-session"
+              - listitem [ref=e92]:
+                - link "Connect a Session" [ref=e93] [cursor=pointer]:
+                  - /url: "#connect-a-session"
+              - listitem [ref=e94]:
+                - link "Get QR Code" [ref=e95] [cursor=pointer]:
+                  - /url: "#get-qr-code"
+              - listitem [ref=e96]:
+                - link "Get Pair Code (Alternative to QR)" [ref=e97] [cursor=pointer]:
+                  - /url: "#get-pair-code-alternative-to-qr"
+              - listitem [ref=e98]:
+                - link "Send a Text Message" [ref=e99] [cursor=pointer]:
+                  - /url: "#send-a-text-message"
+              - listitem [ref=e100]:
+                - link "Send an Image" [ref=e101] [cursor=pointer]:
+                  - /url: "#send-an-image"
+              - listitem [ref=e102]:
+                - link "Send a Video" [ref=e103] [cursor=pointer]:
+                  - /url: "#send-a-video"
+              - listitem [ref=e104]:
+                - link "Send Audio" [ref=e105] [cursor=pointer]:
+                  - /url: "#send-audio"
+              - listitem [ref=e106]:
+                - link "Send a Document" [ref=e107] [cursor=pointer]:
+                  - /url: "#send-a-document"
+              - listitem [ref=e108]:
+                - link "Send a Sticker" [ref=e109] [cursor=pointer]:
+                  - /url: "#send-a-sticker"
+              - listitem [ref=e110]:
+                - link "Send Location" [ref=e111] [cursor=pointer]:
+                  - /url: "#send-location"
+              - listitem [ref=e112]:
+                - link "Send Contact Card" [ref=e113] [cursor=pointer]:
+                  - /url: "#send-contact-card"
+              - listitem [ref=e114]:
+                - link "Edit a Message" [ref=e115] [cursor=pointer]:
+                  - /url: "#edit-a-message"
+              - listitem [ref=e116]:
+                - link "React to a Message" [ref=e117] [cursor=pointer]:
+                  - /url: "#react-to-a-message"
+              - listitem [ref=e118]:
+                - link "Disconnect a Session" [ref=e119] [cursor=pointer]:
+                  - /url: "#disconnect-a-session"
+              - listitem [ref=e120]:
+                - link "Delete a Session" [ref=e121] [cursor=pointer]:
+                  - /url: "#delete-a-session"
+              - listitem [ref=e122]:
+                - link "The Dashboard" [ref=e123] [cursor=pointer]:
+                  - /url: "#the-dashboard"
+              - listitem [ref=e124]:
+                - link "Dashboard Routes" [ref=e125] [cursor=pointer]:
+                  - /url: "#dashboard-routes"
+              - listitem [ref=e126]:
+                - link "Authentication" [ref=e127] [cursor=pointer]:
+                  - /url: "#authentication"
+              - listitem [ref=e128]:
+                - link "Getting Your Token" [ref=e129] [cursor=pointer]:
+                  - /url: "#getting-your-token"
+              - listitem [ref=e130]:
+                - link "Using the Token" [ref=e131] [cursor=pointer]:
+                  - /url: "#using-the-token"
+              - listitem [ref=e132]:
+                - link "Using Swagger UI" [ref=e133] [cursor=pointer]:
+                  - /url: "#using-swagger-ui"
+              - listitem [ref=e134]:
+                - link "Fixed Token (Production)" [ref=e135] [cursor=pointer]:
+                  - /url: "#fixed-token-production"
+              - listitem [ref=e136]:
+                - link "Webhooks" [ref=e137] [cursor=pointer]:
+                  - /url: "#webhooks"
+              - listitem [ref=e138]:
+                - link "Supported Events" [ref=e139] [cursor=pointer]:
+                  - /url: "#supported-events"
+              - listitem [ref=e140]:
+                - link "Webhook Payload Example" [ref=e141] [cursor=pointer]:
+                  - /url: "#webhook-payload-example"
+              - listitem [ref=e142]:
+                - link "Signature Verification" [ref=e143] [cursor=pointer]:
+                  - /url: "#signature-verification"
+              - listitem [ref=e144]:
+                - link "Register Webhook via API" [ref=e145] [cursor=pointer]:
+                  - /url: "#register-webhook-via-api"
+              - listitem [ref=e146]:
+                - link "Contacts &amp; Groups" [ref=e147] [cursor=pointer]:
+                  - /url: "#contacts-amp-groups"
+              - listitem [ref=e148]:
+                - link "Check if Numbers are on WhatsApp" [ref=e149] [cursor=pointer]:
+                  - /url: "#check-if-numbers-are-on-whatsapp"
+              - listitem [ref=e150]:
+                - link "Get Contact Info" [ref=e151] [cursor=pointer]:
+                  - /url: "#get-contact-info"
+              - listitem [ref=e152]:
+                - link "Get Profile Picture" [ref=e153] [cursor=pointer]:
+                  - /url: "#get-profile-picture"
+              - listitem [ref=e154]:
+                - link "List Groups" [ref=e155] [cursor=pointer]:
+                  - /url: "#list-groups"
+              - listitem [ref=e156]:
+                - link "Get Group Info" [ref=e157] [cursor=pointer]:
+                  - /url: "#get-group-info"
+              - listitem [ref=e158]:
+                - link "Presence &amp; Chat State" [ref=e159] [cursor=pointer]:
+                  - /url: "#presence-amp-chat-state"
+              - listitem [ref=e160]:
+                - link "Set Online/Offline Status" [ref=e161] [cursor=pointer]:
+                  - /url: "#set-onlineoffline-status"
+              - listitem [ref=e162]:
+                - link "Send Typing Indicator" [ref=e163] [cursor=pointer]:
+                  - /url: "#send-typing-indicator"
+              - listitem [ref=e164]:
+                - link "Send Chat State" [ref=e165] [cursor=pointer]:
+                  - /url: "#send-chat-state"
+              - listitem [ref=e166]:
+                - link "Blocking" [ref=e167] [cursor=pointer]:
+                  - /url: "#blocking"
+              - listitem [ref=e168]:
+                - link "Get Block List" [ref=e169] [cursor=pointer]:
+                  - /url: "#get-block-list"
+              - listitem [ref=e170]:
+                - link "Block a Contact" [ref=e171] [cursor=pointer]:
+                  - /url: "#block-a-contact"
+              - listitem [ref=e172]:
+                - link "Unblock a Contact" [ref=e173] [cursor=pointer]:
+                  - /url: "#unblock-a-contact"
+              - listitem [ref=e174]:
+                - link "Check if Blocked" [ref=e175] [cursor=pointer]:
+                  - /url: "#check-if-blocked"
+              - listitem [ref=e176]:
+                - link "Performance" [ref=e177] [cursor=pointer]:
+                  - /url: "#performance"
+              - listitem [ref=e178]:
+                - link "Full API Reference" [ref=e179] [cursor=pointer]:
+                  - /url: "#full-api-reference"
+              - listitem [ref=e180]:
+                - link "Sessions" [ref=e181] [cursor=pointer]:
+                  - /url: "#sessions"
+              - listitem [ref=e182]:
+                - link "Messages" [ref=e183] [cursor=pointer]:
+                  - /url: "#messages"
+              - listitem [ref=e184]:
+                - link "Contacts" [ref=e185] [cursor=pointer]:
+                  - /url: "#contacts"
+              - listitem [ref=e186]:
+                - link "Groups" [ref=e187] [cursor=pointer]:
+                  - /url: "#groups"
+              - listitem [ref=e188]:
+                - link "Presence &amp; Chat State" [ref=e189] [cursor=pointer]:
+                  - /url: "#presence-amp-chat-state-2"
+              - listitem [ref=e190]:
+                - link "Blocking" [ref=e191] [cursor=pointer]:
+                  - /url: "#blocking-2"
+              - listitem [ref=e192]:
+                - link "Media" [ref=e193] [cursor=pointer]:
+                  - /url: "#media"
+              - listitem [ref=e194]:
+                - link "Webhooks" [ref=e195] [cursor=pointer]:
+                  - /url: "#webhooks-2"
+              - listitem [ref=e196]:
+                - link "Other" [ref=e197] [cursor=pointer]:
+                  - /url: "#other"
+              - listitem [ref=e198]:
+                - link "Environment Variables" [ref=e199] [cursor=pointer]:
+                  - /url: "#environment-variables"
+              - listitem [ref=e200]:
+                - link "Troubleshooting" [ref=e201] [cursor=pointer]:
+                  - /url: "#troubleshooting"
+              - listitem [ref=e202]:
+                - link "Session won&#39;t connect" [ref=e203] [cursor=pointer]:
+                  - /url: "#session-won39t-connect"
+              - listitem [ref=e204]:
+                - link "QR code not appearing" [ref=e205] [cursor=pointer]:
+                  - /url: "#qr-code-not-appearing"
+              - listitem [ref=e206]:
+                - link "Webhooks not firing" [ref=e207] [cursor=pointer]:
+                  - /url: "#webhooks-not-firing"
+              - listitem [ref=e208]:
+                - link "Database connection failed" [ref=e209] [cursor=pointer]:
+                  - /url: "#database-connection-failed"
+              - listitem [ref=e210]:
+                - link "What&#39;s Next" [ref=e211] [cursor=pointer]:
+                  - /url: "#what39s-next"
+              - listitem [ref=e212]:
+                - link "Final Thoughts" [ref=e213] [cursor=pointer]:
+                  - /url: "#final-thoughts"
+          - generic [ref=e214]:
+            - heading "Why Rust?" [level=2] [ref=e215]
+            - paragraph [ref=e216]: I know, I know. "Rust is hard." "Just use Go."
+            - paragraph [ref=e217]:
+              - text: But here's the thing — Rust's
+              - link "memory safety" [ref=e218] [cursor=pointer]:
+                - /url: /rust-programming-language-why-it-s-the-future-of-systems-programming
+              - text: isn't just a flex. When you're managing hundreds of WebSocket connections and encryption keys, you
+              - emphasis [ref=e219]: need
+              - text: guarantees.
+            - paragraph [ref=e220]:
+              - text: Plus, the
+              - code [ref=e221]: whatsapp-rust
+              - text: library exists. Someone already did the hard part of
+              - link "reverse-engineering" [ref=e222] [cursor=pointer]:
+                - /url: /auto-bid-bot-projects-co-id
+              - text: the WhatsApp Web protocol. I just needed to wrap it in an API.
+            - separator [ref=e223]
+            - complementary "Related articles" [ref=e224]:
+              - generic [ref=e226]: You may also like
+              - link "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [ref=e229] [cursor=pointer]:
+                - /url: /pocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket
+                - generic [ref=e231]: Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket
+            - 'heading "What I Built: WA-RS" [level=2] [ref=e232]'
+            - paragraph [ref=e233]:
+              - strong [ref=e234]: WA-RS
+              - text: is a
+              - link "multi-session" [ref=e235] [cursor=pointer]:
+                - /url: /submarine-sovereign-ai-memory-layer-that-remembers-your-work
+              - text: WhatsApp REST API gateway. One server, unlimited WhatsApp accounts.
+            - paragraph [ref=e236]: "The stack:"
+            - table [ref=e237]:
+              - rowgroup [ref=e238]:
+                - row "Component Tech" [ref=e239]:
+                  - columnheader "Component" [ref=e240]
+                  - columnheader "Tech" [ref=e241]
+              - rowgroup [ref=e242]:
+                - row "Runtime Rust (Nightly)" [ref=e243]:
+                  - cell "Runtime" [ref=e244]
+                  - cell "Rust (Nightly)" [ref=e245]
+                - row "Web Framework Axum 0.8" [ref=e246]:
+                  - cell "Web Framework" [ref=e247]
+                  - cell "Axum 0.8" [ref=e248]
+                - row "Database PostgreSQL" [ref=e249]:
+                  - cell "Database" [ref=e250]
+                  - cell "PostgreSQL" [ref=e251]
+                - row "Templates Askama" [ref=e252]:
+                  - cell "Templates" [ref=e253]
+                  - cell "Askama" [ref=e254]
+                - row "API Docs OpenAPI 3.0 / Swagger" [ref=e255]:
+                  - cell "API Docs" [ref=e256]
+                  - cell "OpenAPI 3.0 / Swagger" [ref=e257]
+            - heading "Features That Actually Matter" [level=3] [ref=e258]
+            - code [ref=e260]: ✓ Multi-session — Run 100+ WhatsApp accounts on one server ✓ QR Code & Pair Code — Two ways to link devices ✓ Rich Messages — Text, images, video, audio, docs, stickers, location ✓ Webhooks — Real-time events with HMAC-SHA256 signatures ✓ Web Dashboard — Visual management, no CLI needed ✓ Swagger UI — Test endpoints without Postman
+            - separator [ref=e261]
+            - heading "Getting Started (It's Stupid Simple)" [level=2] [ref=e262]
+            - 'heading "Option 1: Docker (Recommended)" [level=3] [ref=e263]'
+            - paragraph [ref=e264]:
+              - text: Pull from
+              - link "Docker" [ref=e265] [cursor=pointer]:
+                - /url: /portainer-docker-management-simplify-container-ops-in-your-homelab
+              - text: "Hub:"
+            - code [ref=e267]: docker pull fdciabdul/wa-rs:latest
+            - 'heading "Option 2: Docker Compose (Full Stack)" [level=3] [ref=e268]'
+            - paragraph [ref=e269]:
+              - text: Create a
+              - code [ref=e270]: docker-compose.yml
+              - text: ":"
+            - code [ref=e272]: "services: wa-rs: image: fdciabdul/wa-rs:latest ports: - \"3451:3451\" environment: - POSTGRES_HOST=postgres - POSTGRES_PORT=5432 - POSTGRES_USER=postgres - POSTGRES_PASSWORD=postgres - POSTGRES_DB=wagateway - JWT_SECRET=change-this-in-production volumes: - wa_sessions:/app/whatsapp_sessions depends_on: - postgres postgres: image: postgres:16-alpine environment: - POSTGRES_USER=postgres - POSTGRES_PASSWORD=postgres - POSTGRES_DB=wagateway volumes: - pg_data:/var/lib/postgresql/data volumes: wa_sessions: pg_data:"
+            - paragraph [ref=e273]: "Run it:"
+            - code [ref=e275]: docker compose up -d
+            - paragraph [ref=e276]:
+              - text: That's it. Server running on
+              - code [ref=e277]: http://localhost:3451
+              - text: .
+            - 'heading "Option 3: Build From Source" [level=3] [ref=e278]'
+            - paragraph [ref=e279]: "For the masochists who want to compile themselves:"
+            - code [ref=e281]: "# Clone the repo git clone https://github.com/fdciabdul/wa-rs.git cd wa-rs # Install Rust nightly (required) rustup default nightly # Set up your .env cp .env.example .env # Edit .env with your Postgres credentials # Build and run cargo run --release"
+            - separator [ref=e282]
+            - heading "The API" [level=2] [ref=e283]
+            - paragraph [ref=e284]:
+              - text: All endpoints require
+              - link "authentication" [ref=e285] [cursor=pointer]:
+                - /url: /authentik-sso
+              - text: . Get your token first (see Authentication section below).
+            - heading "Create a Session" [level=3] [ref=e286]
+            - code [ref=e288]: "curl -X POST http://localhost:3451/api/v1/sessions \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"id\": \"my-session\", \"name\": \"My WhatsApp\", \"webhook\": { \"url\": \"https://your-server.com/webhook\", \"secret\": \"webhook-secret\", \"events\": [\"message\", \"connected\", \"disconnected\"] } }'"
+            - heading "Connect a Session" [level=3] [ref=e289]
+            - code [ref=e291]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/connect \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - heading "Get QR Code" [level=3] [ref=e292]
+            - code [ref=e294]: "curl http://localhost:3451/api/v1/sessions/my-session/qr \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - paragraph [ref=e295]: Returns base64 PNG. Scan it with WhatsApp. Done.
+            - heading "Get Pair Code (Alternative to QR)" [level=3] [ref=e296]
+            - code [ref=e298]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/pair-code \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{\"phone\": \"628123456789\"}'"
+            - paragraph [ref=e299]: Returns an 8-digit code. Enter it in WhatsApp → Settings → Linked Devices → Link with phone number.
+            - heading "Send a Text Message" [level=3] [ref=e300]
+            - code [ref=e302]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/text \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"text\": \"Hello from WA-RS!\" }'"
+            - heading "Send an Image" [level=3] [ref=e303]
+            - code [ref=e305]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/image \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"url\": \"https://example.com/image.jpg\", \"caption\": \"Check this out!\" }'"
+            - heading "Send a Video" [level=3] [ref=e306]
+            - code [ref=e308]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/video \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"url\": \"https://example.com/video.mp4\", \"caption\": \"Watch this\" }'"
+            - heading "Send Audio" [level=3] [ref=e309]
+            - code [ref=e311]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/audio \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"url\": \"https://example.com/audio.mp3\", \"ptt\": true }'"
+            - paragraph [ref=e312]:
+              - text: Set
+              - code [ref=e313]: "ptt: true"
+              - text: for voice note style,
+              - code [ref=e314]: "false"
+              - text: for regular audio file.
+            - heading "Send a Document" [level=3] [ref=e315]
+            - code [ref=e317]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/document \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"url\": \"https://example.com/document.pdf\", \"filename\": \"invoice.pdf\", \"caption\": \"Here is the invoice\" }'"
+            - heading "Send a Sticker" [level=3] [ref=e318]
+            - code [ref=e320]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/sticker \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"url\": \"https://example.com/sticker.webp\" }'"
+            - heading "Send Location" [level=3] [ref=e321]
+            - code [ref=e323]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/location \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"latitude\": -6.2088, \"longitude\": 106.8456, \"name\": \"Jakarta\", \"address\": \"Jakarta, Indonesia\" }'"
+            - heading "Send Contact Card" [level=3] [ref=e324]
+            - code [ref=e326]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/contact \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"contact\": { \"display_name\": \"John Doe\", \"phones\": [ {\"number\": \"+1234567890\", \"phone_type\": \"CELL\"} ] } }'"
+            - heading "Edit a Message" [level=3] [ref=e327]
+            - code [ref=e329]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/edit \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"message_id\": \"3EB0ABC123...\", \"text\": \"Updated message text\" }'"
+            - heading "React to a Message" [level=3] [ref=e330]
+            - code [ref=e332]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/messages/react \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789\", \"message_id\": \"3EB0ABC123...\", \"emoji\": \"👍\" }'"
+            - heading "Disconnect a Session" [level=3] [ref=e333]
+            - code [ref=e335]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/disconnect \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - heading "Delete a Session" [level=3] [ref=e336]
+            - code [ref=e338]: "curl -X DELETE http://localhost:3451/api/v1/sessions/my-session \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - separator [ref=e339]
+            - heading "The Dashboard" [level=2] [ref=e340]
+            - paragraph [ref=e341]: I hate CLIs for management. So I built a web dashboard.
+            - paragraph [ref=e342]:
+              - text: Go to
+              - code [ref=e343]: http://localhost:3451/dashboard
+              - text: "and you get:"
+            - list [ref=e344]:
+              - listitem [ref=e345]:
+                - strong [ref=e346]: Session overview
+                - text: — See all accounts, connection status at a glance
+              - listitem [ref=e347]:
+                - strong [ref=e348]: Create sessions
+                - text: — Point and click, no curl commands needed
+              - listitem [ref=e349]:
+                - strong [ref=e350]: QR codes
+                - text: — Scan right from the browser
+              - listitem [ref=e351]:
+                - strong [ref=e352]: Pair codes
+                - text: — Link with phone number instead of QR
+              - listitem [ref=e353]:
+                - strong [ref=e354]: Webhook config
+                - text: — Set up integrations visually
+              - listitem [ref=e355]:
+                - strong [ref=e356]: Settings
+                - text: — View your API token, endpoints, version info
+            - paragraph [ref=e357]: The design is dark mode only. Because light mode is a war crime.
+            - heading "Dashboard Routes" [level=3] [ref=e358]
+            - paragraph [ref=e359]: "All public, no auth needed:"
+            - table [ref=e360]:
+              - rowgroup [ref=e361]:
+                - row "Route What it shows" [ref=e362]:
+                  - columnheader "Route" [ref=e363]
+                  - columnheader "What it shows" [ref=e364]
+              - rowgroup [ref=e365]:
+                - row "/dashboard Main overview with stats" [ref=e366]:
+                  - cell "/dashboard" [ref=e367]:
+                    - code [ref=e368]: /dashboard
+                  - cell "Main overview with stats" [ref=e369]
+                - row "/dashboard/sessions List all sessions" [ref=e370]:
+                  - cell "/dashboard/sessions" [ref=e371]:
+                    - code [ref=e372]: /dashboard/sessions
+                  - cell "List all sessions" [ref=e373]
+                - row "/dashboard/sessions/new Create new session form" [ref=e374]:
+                  - cell "/dashboard/sessions/new" [ref=e375]:
+                    - code [ref=e376]: /dashboard/sessions/new
+                  - cell "Create new session form" [ref=e377]
+                - row "/dashboard/sessions/:id Session detail, QR code, actions" [ref=e378]:
+                  - cell "/dashboard/sessions/:id" [ref=e379]:
+                    - code [ref=e380]: /dashboard/sessions/:id
+                  - cell "Session detail, QR code, actions" [ref=e381]
+                - row "/dashboard/settings API token, endpoints, version" [ref=e382]:
+                  - cell "/dashboard/settings" [ref=e383]:
+                    - code [ref=e384]: /dashboard/settings
+                  - cell "API token, endpoints, version" [ref=e385]
+            - separator [ref=e386]
+            - heading "Authentication" [level=2] [ref=e387]
+            - heading "Getting Your Token" [level=3] [ref=e388]
+            - paragraph [ref=e389]: "On first startup, the server generates a superadmin token. Two ways to find it:"
+            - paragraph [ref=e390]:
+              - strong [ref=e391]: "Option 1: Check the logs"
+            - code [ref=e393]: docker compose logs wa-rs | grep "SUPERADMIN"
+            - paragraph [ref=e394]: "You'll see something like:"
+            - code [ref=e396]: "┌─────────────────────────────────────────────────────────────┐ │ SUPERADMIN TOKEN │ ├─────────────────────────────────────────────────────────────┤ │ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluIiwicm9sZSI... │ ├─────────────────────────────────────────────────────────────┤ │ Tip: Set SUPERADMIN_TOKEN in .env to use a fixed token │ └─────────────────────────────────────────────────────────────┘"
+            - paragraph [ref=e397]:
+              - strong [ref=e398]: "Option 2: Dashboard"
+            - paragraph [ref=e399]:
+              - text: Go to
+              - code [ref=e400]: http://localhost:3451/dashboard/settings
+              - text: — the token is right there.
+            - heading "Using the Token" [level=3] [ref=e401]
+            - paragraph [ref=e402]: "Include it in every API request:"
+            - code [ref=e404]: "curl -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiJ9...\" \\ http://localhost:3451/api/v1/sessions"
+            - heading "Using Swagger UI" [level=3] [ref=e405]
+            - list [ref=e406]:
+              - listitem [ref=e407]:
+                - text: Go to
+                - code [ref=e408]: http://localhost:3451/swagger-ui
+              - listitem [ref=e409]:
+                - text: Click the
+                - strong [ref=e410]: Authorize
+                - text: button (top right)
+              - listitem [ref=e411]: Paste your token
+              - listitem [ref=e412]: Now all requests include the token automatically
+            - heading "Fixed Token (Production)" [level=3] [ref=e413]
+            - paragraph [ref=e414]: "Don't want a random token every restart? Set it in your environment:"
+            - code [ref=e416]: SUPERADMIN_TOKEN=your-fixed-token-here
+            - separator [ref=e417]
+            - heading "Webhooks" [level=2] [ref=e418]
+            - paragraph [ref=e419]: Real-time events. When someone messages your WhatsApp, your server knows instantly.
+            - heading "Supported Events" [level=3] [ref=e420]
+            - table [ref=e421]:
+              - rowgroup [ref=e422]:
+                - row "Event When it fires" [ref=e423]:
+                  - columnheader "Event" [ref=e424]
+                  - columnheader "When it fires" [ref=e425]
+              - rowgroup [ref=e426]:
+                - row "message Incoming message received" [ref=e427]:
+                  - cell "message" [ref=e428]:
+                    - code [ref=e429]: message
+                  - cell "Incoming message received" [ref=e430]
+                - row "connected Session connected to WhatsApp" [ref=e431]:
+                  - cell "connected" [ref=e432]:
+                    - code [ref=e433]: connected
+                  - cell "Session connected to WhatsApp" [ref=e434]
+                - row "disconnected Session disconnected" [ref=e435]:
+                  - cell "disconnected" [ref=e436]:
+                    - code [ref=e437]: disconnected
+                  - cell "Session disconnected" [ref=e438]
+                - row "receipt Message delivered/read" [ref=e439]:
+                  - cell "receipt" [ref=e440]:
+                    - code [ref=e441]: receipt
+                  - cell "Message delivered/read" [ref=e442]
+                - row "presence Contact online/offline status" [ref=e443]:
+                  - cell "presence" [ref=e444]:
+                    - code [ref=e445]: presence
+                  - cell "Contact online/offline status" [ref=e446]
+                - row "qr_code New QR code generated" [ref=e447]:
+                  - cell "qr_code" [ref=e448]:
+                    - code [ref=e449]: qr_code
+                  - cell "New QR code generated" [ref=e450]
+            - heading "Webhook Payload Example" [level=3] [ref=e451]
+            - code [ref=e453]: "{ \"event\": \"message\", \"session_id\": \"my-session\", \"timestamp\": 1704067200, \"data\": { \"from\": \"628123456789@s.whatsapp.net\", \"message_id\": \"3EB0ABC123...\", \"type\": \"text\", \"body\": \"Hello!\" } }"
+            - heading "Signature Verification" [level=3] [ref=e454]
+            - paragraph [ref=e455]:
+              - text: Every webhook includes an
+              - code [ref=e456]: X-Signature
+              - text: header — HMAC-SHA256 of the payload using your secret.
+            - code [ref=e458]: "import hmac import hashlib def verify_signature(payload, signature, secret): expected = hmac.new( secret.encode(), payload.encode(), hashlib.sha256 ).hexdigest() return hmac.compare_digest(expected, signature)"
+            - paragraph [ref=e459]: Verify it. Don't trust unverified webhooks.
+            - heading "Register Webhook via API" [level=3] [ref=e460]
+            - code [ref=e462]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/webhooks \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"url\": \"https://your-server.com/webhook\", \"secret\": \"your-webhook-secret\", \"events\": [\"message\", \"connected\"] }'"
+            - separator [ref=e463]
+            - heading "Contacts & Groups" [level=2] [ref=e464]
+            - heading "Check if Numbers are on WhatsApp" [level=3] [ref=e465]
+            - code [ref=e467]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/contacts/check \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"phones\": [\"628123456789\", \"628987654321\"] }'"
+            - heading "Get Contact Info" [level=3] [ref=e468]
+            - code [ref=e470]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/contacts/info \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"phones\": [\"628123456789\"] }'"
+            - heading "Get Profile Picture" [level=3] [ref=e471]
+            - code [ref=e473]: "curl http://localhost:3451/api/v1/sessions/my-session/contacts/628123456789@s.whatsapp.net/picture \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - heading "List Groups" [level=3] [ref=e474]
+            - code [ref=e476]: "curl http://localhost:3451/api/v1/sessions/my-session/groups \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - heading "Get Group Info" [level=3] [ref=e477]
+            - code [ref=e479]: "curl http://localhost:3451/api/v1/sessions/my-session/groups/123456789@g.us/info \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - separator [ref=e480]
+            - heading "Presence & Chat State" [level=2] [ref=e481]
+            - heading "Set Online/Offline Status" [level=3] [ref=e482]
+            - code [ref=e484]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/presence/set \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"status\": \"available\" }'"
+            - paragraph [ref=e485]:
+              - text: "Options:"
+              - code [ref=e486]: available
+              - text: ","
+              - code [ref=e487]: unavailable
+            - heading "Send Typing Indicator" [level=3] [ref=e488]
+            - code [ref=e490]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/chatstate/typing \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789@s.whatsapp.net\" }'"
+            - heading "Send Chat State" [level=3] [ref=e491]
+            - code [ref=e493]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/chatstate/send \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"to\": \"628123456789@s.whatsapp.net\", \"state\": \"composing\" }'"
+            - paragraph [ref=e494]:
+              - text: "Options:"
+              - code [ref=e495]: composing
+              - text: ","
+              - code [ref=e496]: recording
+              - text: ","
+              - code [ref=e497]: paused
+            - separator [ref=e498]
+            - heading "Blocking" [level=2] [ref=e499]
+            - heading "Get Block List" [level=3] [ref=e500]
+            - code [ref=e502]: "curl http://localhost:3451/api/v1/sessions/my-session/blocking/list \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - heading "Block a Contact" [level=3] [ref=e503]
+            - code [ref=e505]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/blocking/block \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"jid\": \"628123456789@s.whatsapp.net\" }'"
+            - heading "Unblock a Contact" [level=3] [ref=e506]
+            - code [ref=e508]: "curl -X POST http://localhost:3451/api/v1/sessions/my-session/blocking/unblock \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"jid\": \"628123456789@s.whatsapp.net\" }'"
+            - heading "Check if Blocked" [level=3] [ref=e509]
+            - code [ref=e511]: "curl http://localhost:3451/api/v1/sessions/my-session/blocking/check/628123456789@s.whatsapp.net \\ -H \"Authorization: Bearer YOUR_TOKEN\""
+            - separator [ref=e512]
+            - heading "Performance" [level=2] [ref=e513]
+            - paragraph [ref=e514]: "Real numbers from production:"
+            - table [ref=e515]:
+              - rowgroup [ref=e516]:
+                - row "Metric Node.js (Baileys) Rust (WA-RS)" [ref=e517]:
+                  - columnheader "Metric" [ref=e518]
+                  - columnheader "Node.js (Baileys)" [ref=e519]
+                  - columnheader "Rust (WA-RS)" [ref=e520]
+              - rowgroup [ref=e521]:
+                - row "Memory (50 sessions) ~4GB ~200MB" [ref=e522]:
+                  - cell "Memory (50 sessions)" [ref=e523]
+                  - cell "~4GB" [ref=e524]
+                  - cell "~200MB" [ref=e525]
+                - row "Memory (200 sessions) Crashes ~800MB" [ref=e526]:
+                  - cell "Memory (200 sessions)" [ref=e527]
+                  - cell "Crashes" [ref=e528]
+                  - cell "~800MB" [ref=e529]
+                - row "Startup time 3-5 seconds <1 second" [ref=e530]:
+                  - cell "Startup time" [ref=e531]
+                  - cell "3-5 seconds" [ref=e532]
+                  - cell "<1 second" [ref=e533]
+                - row "Message latency 100-300ms 20-50ms" [ref=e534]:
+                  - cell "Message latency" [ref=e535]
+                  - cell "100-300ms" [ref=e536]
+                  - cell "20-50ms" [ref=e537]
+                - row "CPU usage (idle) 5-15% <1%" [ref=e538]:
+                  - cell "CPU usage (idle)" [ref=e539]
+                  - cell "5-15%" [ref=e540]
+                  - cell "<1%" [ref=e541]
+            - paragraph [ref=e542]: Rust isn't just faster. It's a different league.
+            - separator [ref=e543]
+            - heading "Full API Reference" [level=2] [ref=e544]
+            - paragraph [ref=e545]: "Every endpoint at a glance:"
+            - heading "Sessions" [level=3] [ref=e546]
+            - table [ref=e547]:
+              - rowgroup [ref=e548]:
+                - row "Method Endpoint Description" [ref=e549]:
+                  - columnheader "Method" [ref=e550]
+                  - columnheader "Endpoint" [ref=e551]
+                  - columnheader "Description" [ref=e552]
+              - rowgroup [ref=e553]:
+                - row "POST /api/v1/sessions Create session" [ref=e554]:
+                  - cell "POST" [ref=e555]:
+                    - code [ref=e556]: POST
+                  - cell "/api/v1/sessions" [ref=e557]:
+                    - code [ref=e558]: /api/v1/sessions
+                  - cell "Create session" [ref=e559]
+                - row "GET /api/v1/sessions List all sessions" [ref=e560]:
+                  - cell "GET" [ref=e561]:
+                    - code [ref=e562]: GET
+                  - cell "/api/v1/sessions" [ref=e563]:
+                    - code [ref=e564]: /api/v1/sessions
+                  - cell "List all sessions" [ref=e565]
+                - row "GET /api/v1/sessions/:id Get session info" [ref=e566]:
+                  - cell "GET" [ref=e567]:
+                    - code [ref=e568]: GET
+                  - cell "/api/v1/sessions/:id" [ref=e569]:
+                    - code [ref=e570]: /api/v1/sessions/:id
+                  - cell "Get session info" [ref=e571]
+                - row "DELETE /api/v1/sessions/:id Delete session" [ref=e572]:
+                  - cell "DELETE" [ref=e573]:
+                    - code [ref=e574]: DELETE
+                  - cell "/api/v1/sessions/:id" [ref=e575]:
+                    - code [ref=e576]: /api/v1/sessions/:id
+                  - cell "Delete session" [ref=e577]
+                - row "GET /api/v1/sessions/:id/status Get session status" [ref=e578]:
+                  - cell "GET" [ref=e579]:
+                    - code [ref=e580]: GET
+                  - cell "/api/v1/sessions/:id/status" [ref=e581]:
+                    - code [ref=e582]: /api/v1/sessions/:id/status
+                  - cell "Get session status" [ref=e583]
+                - row "POST /api/v1/sessions/:id/connect Start connection" [ref=e584]:
+                  - cell "POST" [ref=e585]:
+                    - code [ref=e586]: POST
+                  - cell "/api/v1/sessions/:id/connect" [ref=e587]:
+                    - code [ref=e588]: /api/v1/sessions/:id/connect
+                  - cell "Start connection" [ref=e589]
+                - row "POST /api/v1/sessions/:id/disconnect Disconnect" [ref=e590]:
+                  - cell "POST" [ref=e591]:
+                    - code [ref=e592]: POST
+                  - cell "/api/v1/sessions/:id/disconnect" [ref=e593]:
+                    - code [ref=e594]: /api/v1/sessions/:id/disconnect
+                  - cell "Disconnect" [ref=e595]
+                - row "GET /api/v1/sessions/:id/qr Get QR code" [ref=e596]:
+                  - cell "GET" [ref=e597]:
+                    - code [ref=e598]: GET
+                  - cell "/api/v1/sessions/:id/qr" [ref=e599]:
+                    - code [ref=e600]: /api/v1/sessions/:id/qr
+                  - cell "Get QR code" [ref=e601]
+                - row "POST /api/v1/sessions/:id/pair Get pair code" [ref=e602]:
+                  - cell "POST" [ref=e603]:
+                    - code [ref=e604]: POST
+                  - cell "/api/v1/sessions/:id/pair" [ref=e605]:
+                    - code [ref=e606]: /api/v1/sessions/:id/pair
+                  - cell "Get pair code" [ref=e607]
+                - row "GET /api/v1/sessions/:id/device Get device info" [ref=e608]:
+                  - cell "GET" [ref=e609]:
+                    - code [ref=e610]: GET
+                  - cell "/api/v1/sessions/:id/device" [ref=e611]:
+                    - code [ref=e612]: /api/v1/sessions/:id/device
+                  - cell "Get device info" [ref=e613]
+            - heading "Messages" [level=3] [ref=e614]
+            - table [ref=e615]:
+              - rowgroup [ref=e616]:
+                - row "Method Endpoint Description" [ref=e617]:
+                  - columnheader "Method" [ref=e618]
+                  - columnheader "Endpoint" [ref=e619]
+                  - columnheader "Description" [ref=e620]
+              - rowgroup [ref=e621]:
+                - row "POST /api/v1/sessions/:id/messages/text Send text" [ref=e622]:
+                  - cell "POST" [ref=e623]:
+                    - code [ref=e624]: POST
+                  - cell "/api/v1/sessions/:id/messages/text" [ref=e625]:
+                    - code [ref=e626]: /api/v1/sessions/:id/messages/text
+                  - cell "Send text" [ref=e627]
+                - row "POST /api/v1/sessions/:id/messages/image Send image" [ref=e628]:
+                  - cell "POST" [ref=e629]:
+                    - code [ref=e630]: POST
+                  - cell "/api/v1/sessions/:id/messages/image" [ref=e631]:
+                    - code [ref=e632]: /api/v1/sessions/:id/messages/image
+                  - cell "Send image" [ref=e633]
+                - row "POST /api/v1/sessions/:id/messages/video Send video" [ref=e634]:
+                  - cell "POST" [ref=e635]:
+                    - code [ref=e636]: POST
+                  - cell "/api/v1/sessions/:id/messages/video" [ref=e637]:
+                    - code [ref=e638]: /api/v1/sessions/:id/messages/video
+                  - cell "Send video" [ref=e639]
+                - row "POST /api/v1/sessions/:id/messages/audio Send audio" [ref=e640]:
+                  - cell "POST" [ref=e641]:
+                    - code [ref=e642]: POST
+                  - cell "/api/v1/sessions/:id/messages/audio" [ref=e643]:
+                    - code [ref=e644]: /api/v1/sessions/:id/messages/audio
+                  - cell "Send audio" [ref=e645]
+                - row "POST /api/v1/sessions/:id/messages/document Send document" [ref=e646]:
+                  - cell "POST" [ref=e647]:
+                    - code [ref=e648]: POST
+                  - cell "/api/v1/sessions/:id/messages/document" [ref=e649]:
+                    - code [ref=e650]: /api/v1/sessions/:id/messages/document
+                  - cell "Send document" [ref=e651]
+                - row "POST /api/v1/sessions/:id/messages/sticker Send sticker" [ref=e652]:
+                  - cell "POST" [ref=e653]:
+                    - code [ref=e654]: POST
+                  - cell "/api/v1/sessions/:id/messages/sticker" [ref=e655]:
+                    - code [ref=e656]: /api/v1/sessions/:id/messages/sticker
+                  - cell "Send sticker" [ref=e657]
+                - row "POST /api/v1/sessions/:id/messages/location Send location" [ref=e658]:
+                  - cell "POST" [ref=e659]:
+                    - code [ref=e660]: POST
+                  - cell "/api/v1/sessions/:id/messages/location" [ref=e661]:
+                    - code [ref=e662]: /api/v1/sessions/:id/messages/location
+                  - cell "Send location" [ref=e663]
+                - row "POST /api/v1/sessions/:id/messages/contact Send contact" [ref=e664]:
+                  - cell "POST" [ref=e665]:
+                    - code [ref=e666]: POST
+                  - cell "/api/v1/sessions/:id/messages/contact" [ref=e667]:
+                    - code [ref=e668]: /api/v1/sessions/:id/messages/contact
+                  - cell "Send contact" [ref=e669]
+                - row "POST /api/v1/sessions/:id/messages/edit Edit message" [ref=e670]:
+                  - cell "POST" [ref=e671]:
+                    - code [ref=e672]: POST
+                  - cell "/api/v1/sessions/:id/messages/edit" [ref=e673]:
+                    - code [ref=e674]: /api/v1/sessions/:id/messages/edit
+                  - cell "Edit message" [ref=e675]
+                - row "POST /api/v1/sessions/:id/messages/react React to message" [ref=e676]:
+                  - cell "POST" [ref=e677]:
+                    - code [ref=e678]: POST
+                  - cell "/api/v1/sessions/:id/messages/react" [ref=e679]:
+                    - code [ref=e680]: /api/v1/sessions/:id/messages/react
+                  - cell "React to message" [ref=e681]
+            - heading "Contacts" [level=3] [ref=e682]
+            - table [ref=e683]:
+              - rowgroup [ref=e684]:
+                - row "Method Endpoint Description" [ref=e685]:
+                  - columnheader "Method" [ref=e686]
+                  - columnheader "Endpoint" [ref=e687]
+                  - columnheader "Description" [ref=e688]
+              - rowgroup [ref=e689]:
+                - row "POST /api/v1/sessions/:id/contacts/check Check on WhatsApp" [ref=e690]:
+                  - cell "POST" [ref=e691]:
+                    - code [ref=e692]: POST
+                  - cell "/api/v1/sessions/:id/contacts/check" [ref=e693]:
+                    - code [ref=e694]: /api/v1/sessions/:id/contacts/check
+                  - cell "Check on WhatsApp" [ref=e695]
+                - row "POST /api/v1/sessions/:id/contacts/info Get contact info" [ref=e696]:
+                  - cell "POST" [ref=e697]:
+                    - code [ref=e698]: POST
+                  - cell "/api/v1/sessions/:id/contacts/info" [ref=e699]:
+                    - code [ref=e700]: /api/v1/sessions/:id/contacts/info
+                  - cell "Get contact info" [ref=e701]
+                - row "GET /api/v1/sessions/:id/contacts/:jid/picture Get profile picture" [ref=e702]:
+                  - cell "GET" [ref=e703]:
+                    - code [ref=e704]: GET
+                  - cell "/api/v1/sessions/:id/contacts/:jid/picture" [ref=e705]:
+                    - code [ref=e706]: /api/v1/sessions/:id/contacts/:jid/picture
+                  - cell "Get profile picture" [ref=e707]
+                - row "POST /api/v1/sessions/:id/contacts/users Get user info" [ref=e708]:
+                  - cell "POST" [ref=e709]:
+                    - code [ref=e710]: POST
+                  - cell "/api/v1/sessions/:id/contacts/users" [ref=e711]:
+                    - code [ref=e712]: /api/v1/sessions/:id/contacts/users
+                  - cell "Get user info" [ref=e713]
+            - heading "Groups" [level=3] [ref=e714]
+            - table [ref=e715]:
+              - rowgroup [ref=e716]:
+                - row "Method Endpoint Description" [ref=e717]:
+                  - columnheader "Method" [ref=e718]
+                  - columnheader "Endpoint" [ref=e719]
+                  - columnheader "Description" [ref=e720]
+              - rowgroup [ref=e721]:
+                - row "GET /api/v1/sessions/:id/groups List groups" [ref=e722]:
+                  - cell "GET" [ref=e723]:
+                    - code [ref=e724]: GET
+                  - cell "/api/v1/sessions/:id/groups" [ref=e725]:
+                    - code [ref=e726]: /api/v1/sessions/:id/groups
+                  - cell "List groups" [ref=e727]
+                - row "GET /api/v1/sessions/:id/groups/:jid Get group" [ref=e728]:
+                  - cell "GET" [ref=e729]:
+                    - code [ref=e730]: GET
+                  - cell "/api/v1/sessions/:id/groups/:jid" [ref=e731]:
+                    - code [ref=e732]: /api/v1/sessions/:id/groups/:jid
+                  - cell "Get group" [ref=e733]
+                - row "GET /api/v1/sessions/:id/groups/:jid/info Get group info" [ref=e734]:
+                  - cell "GET" [ref=e735]:
+                    - code [ref=e736]: GET
+                  - cell "/api/v1/sessions/:id/groups/:jid/info" [ref=e737]:
+                    - code [ref=e738]: /api/v1/sessions/:id/groups/:jid/info
+                  - cell "Get group info" [ref=e739]
+            - heading "Presence & Chat State" [level=3] [ref=e740]
+            - table [ref=e741]:
+              - rowgroup [ref=e742]:
+                - row "Method Endpoint Description" [ref=e743]:
+                  - columnheader "Method" [ref=e744]
+                  - columnheader "Endpoint" [ref=e745]
+                  - columnheader "Description" [ref=e746]
+              - rowgroup [ref=e747]:
+                - row "POST /api/v1/sessions/:id/presence/set Set presence" [ref=e748]:
+                  - cell "POST" [ref=e749]:
+                    - code [ref=e750]: POST
+                  - cell "/api/v1/sessions/:id/presence/set" [ref=e751]:
+                    - code [ref=e752]: /api/v1/sessions/:id/presence/set
+                  - cell "Set presence" [ref=e753]
+                - row "POST /api/v1/sessions/:id/chatstate/send Send chat state" [ref=e754]:
+                  - cell "POST" [ref=e755]:
+                    - code [ref=e756]: POST
+                  - cell "/api/v1/sessions/:id/chatstate/send" [ref=e757]:
+                    - code [ref=e758]: /api/v1/sessions/:id/chatstate/send
+                  - cell "Send chat state" [ref=e759]
+                - row "POST /api/v1/sessions/:id/chatstate/typing Send typing" [ref=e760]:
+                  - cell "POST" [ref=e761]:
+                    - code [ref=e762]: POST
+                  - cell "/api/v1/sessions/:id/chatstate/typing" [ref=e763]:
+                    - code [ref=e764]: /api/v1/sessions/:id/chatstate/typing
+                  - cell "Send typing" [ref=e765]
+            - heading "Blocking" [level=3] [ref=e766]
+            - table [ref=e767]:
+              - rowgroup [ref=e768]:
+                - row "Method Endpoint Description" [ref=e769]:
+                  - columnheader "Method" [ref=e770]
+                  - columnheader "Endpoint" [ref=e771]
+                  - columnheader "Description" [ref=e772]
+              - rowgroup [ref=e773]:
+                - row "GET /api/v1/sessions/:id/blocking/list Get block list" [ref=e774]:
+                  - cell "GET" [ref=e775]:
+                    - code [ref=e776]: GET
+                  - cell "/api/v1/sessions/:id/blocking/list" [ref=e777]:
+                    - code [ref=e778]: /api/v1/sessions/:id/blocking/list
+                  - cell "Get block list" [ref=e779]
+                - row "POST /api/v1/sessions/:id/blocking/block Block contact" [ref=e780]:
+                  - cell "POST" [ref=e781]:
+                    - code [ref=e782]: POST
+                  - cell "/api/v1/sessions/:id/blocking/block" [ref=e783]:
+                    - code [ref=e784]: /api/v1/sessions/:id/blocking/block
+                  - cell "Block contact" [ref=e785]
+                - row "POST /api/v1/sessions/:id/blocking/unblock Unblock contact" [ref=e786]:
+                  - cell "POST" [ref=e787]:
+                    - code [ref=e788]: POST
+                  - cell "/api/v1/sessions/:id/blocking/unblock" [ref=e789]:
+                    - code [ref=e790]: /api/v1/sessions/:id/blocking/unblock
+                  - cell "Unblock contact" [ref=e791]
+                - row "GET /api/v1/sessions/:id/blocking/check/:jid Check if blocked" [ref=e792]:
+                  - cell "GET" [ref=e793]:
+                    - code [ref=e794]: GET
+                  - cell "/api/v1/sessions/:id/blocking/check/:jid" [ref=e795]:
+                    - code [ref=e796]: /api/v1/sessions/:id/blocking/check/:jid
+                  - cell "Check if blocked" [ref=e797]
+            - heading "Media" [level=3] [ref=e798]
+            - table [ref=e799]:
+              - rowgroup [ref=e800]:
+                - row "Method Endpoint Description" [ref=e801]:
+                  - columnheader "Method" [ref=e802]
+                  - columnheader "Endpoint" [ref=e803]
+                  - columnheader "Description" [ref=e804]
+              - rowgroup [ref=e805]:
+                - row "POST /api/v1/sessions/:id/media/upload Upload media" [ref=e806]:
+                  - cell "POST" [ref=e807]:
+                    - code [ref=e808]: POST
+                  - cell "/api/v1/sessions/:id/media/upload" [ref=e809]:
+                    - code [ref=e810]: /api/v1/sessions/:id/media/upload
+                  - cell "Upload media" [ref=e811]
+            - heading "Webhooks" [level=3] [ref=e812]
+            - table [ref=e813]:
+              - rowgroup [ref=e814]:
+                - row "Method Endpoint Description" [ref=e815]:
+                  - columnheader "Method" [ref=e816]
+                  - columnheader "Endpoint" [ref=e817]
+                  - columnheader "Description" [ref=e818]
+              - rowgroup [ref=e819]:
+                - row "GET /api/v1/sessions/:id/webhooks List webhooks" [ref=e820]:
+                  - cell "GET" [ref=e821]:
+                    - code [ref=e822]: GET
+                  - cell "/api/v1/sessions/:id/webhooks" [ref=e823]:
+                    - code [ref=e824]: /api/v1/sessions/:id/webhooks
+                  - cell "List webhooks" [ref=e825]
+                - row "POST /api/v1/sessions/:id/webhooks Register webhook" [ref=e826]:
+                  - cell "POST" [ref=e827]:
+                    - code [ref=e828]: POST
+                  - cell "/api/v1/sessions/:id/webhooks" [ref=e829]:
+                    - code [ref=e830]: /api/v1/sessions/:id/webhooks
+                  - cell "Register webhook" [ref=e831]
+                - row "DELETE /api/v1/sessions/:id/webhooks/:webhook_id Unregister webhook" [ref=e832]:
+                  - cell "DELETE" [ref=e833]:
+                    - code [ref=e834]: DELETE
+                  - cell "/api/v1/sessions/:id/webhooks/:webhook_id" [ref=e835]:
+                    - code [ref=e836]: /api/v1/sessions/:id/webhooks/:webhook_id
+                  - cell "Unregister webhook" [ref=e837]
+            - heading "Other" [level=3] [ref=e838]
+            - table [ref=e839]:
+              - rowgroup [ref=e840]:
+                - row "Method Endpoint Description" [ref=e841]:
+                  - columnheader "Method" [ref=e842]
+                  - columnheader "Endpoint" [ref=e843]
+                  - columnheader "Description" [ref=e844]
+              - rowgroup [ref=e845]:
+                - row "GET /health Health check" [ref=e846]:
+                  - cell "GET" [ref=e847]:
+                    - code [ref=e848]: GET
+                  - cell "/health" [ref=e849]:
+                    - code [ref=e850]: /health
+                  - cell "Health check" [ref=e851]
+                - row "GET /swagger-ui Swagger UI" [ref=e852]:
+                  - cell "GET" [ref=e853]:
+                    - code [ref=e854]: GET
+                  - cell "/swagger-ui" [ref=e855]:
+                    - code [ref=e856]: /swagger-ui
+                  - cell "Swagger UI" [ref=e857]
+                - row "GET /api-docs/openapi.json OpenAPI spec" [ref=e858]:
+                  - cell "GET" [ref=e859]:
+                    - code [ref=e860]: GET
+                  - cell "/api-docs/openapi.json" [ref=e861]:
+                    - code [ref=e862]: /api-docs/openapi.json
+                  - cell "OpenAPI spec" [ref=e863]
+            - separator [ref=e864]
+            - heading "Environment Variables" [level=2] [ref=e865]
+            - table [ref=e866]:
+              - rowgroup [ref=e867]:
+                - row "Variable Default Description" [ref=e868]:
+                  - columnheader "Variable" [ref=e869]
+                  - columnheader "Default" [ref=e870]
+                  - columnheader "Description" [ref=e871]
+              - rowgroup [ref=e872]:
+                - row "POSTGRES_HOST localhost PostgreSQL host" [ref=e873]:
+                  - cell "POSTGRES_HOST" [ref=e874]:
+                    - code [ref=e875]: POSTGRES_HOST
+                  - cell "localhost" [ref=e876]
+                  - cell "PostgreSQL host" [ref=e877]
+                - row "POSTGRES_PORT 5432 PostgreSQL port" [ref=e878]:
+                  - cell "POSTGRES_PORT" [ref=e879]:
+                    - code [ref=e880]: POSTGRES_PORT
+                  - cell "5432" [ref=e881]
+                  - cell "PostgreSQL port" [ref=e882]
+                - row "POSTGRES_USER postgres PostgreSQL user" [ref=e883]:
+                  - cell "POSTGRES_USER" [ref=e884]:
+                    - code [ref=e885]: POSTGRES_USER
+                  - cell "postgres" [ref=e886]
+                  - cell "PostgreSQL user" [ref=e887]
+                - row "POSTGRES_PASSWORD postgres PostgreSQL password" [ref=e888]:
+                  - cell "POSTGRES_PASSWORD" [ref=e889]:
+                    - code [ref=e890]: POSTGRES_PASSWORD
+                  - cell "postgres" [ref=e891]
+                  - cell "PostgreSQL password" [ref=e892]
+                - row "POSTGRES_DB wagateway Database name" [ref=e893]:
+                  - cell "POSTGRES_DB" [ref=e894]:
+                    - code [ref=e895]: POSTGRES_DB
+                  - cell "wagateway" [ref=e896]
+                  - cell "Database name" [ref=e897]
+                - row "JWT_SECRET (generated) Token signing secret" [ref=e898]:
+                  - cell "JWT_SECRET" [ref=e899]:
+                    - code [ref=e900]: JWT_SECRET
+                  - cell "(generated)" [ref=e901]
+                  - cell "Token signing secret" [ref=e902]
+                - row "SUPERADMIN_TOKEN (generated) Fixed admin token" [ref=e903]:
+                  - cell "SUPERADMIN_TOKEN" [ref=e904]:
+                    - code [ref=e905]: SUPERADMIN_TOKEN
+                  - cell "(generated)" [ref=e906]
+                  - cell "Fixed admin token" [ref=e907]
+                - row "WHATSAPP_STORAGE_PATH ./whatsapp_sessions Session data directory" [ref=e908]:
+                  - cell "WHATSAPP_STORAGE_PATH" [ref=e909]:
+                    - code [ref=e910]: WHATSAPP_STORAGE_PATH
+                  - cell "./whatsapp_sessions" [ref=e911]
+                  - cell "Session data directory" [ref=e912]:
+                    - text: Session data
+                    - link "directory" [ref=e913] [cursor=pointer]:
+                      - /url: /awesome-selfhosted-picks-curated-directory-of-60-self-hostable-open-source-projects
+                - row "RUST_LOG info Log level (debug, info, warn, error)" [ref=e914]:
+                  - cell "RUST_LOG" [ref=e915]:
+                    - code [ref=e916]: RUST_LOG
+                  - cell "info" [ref=e917]
+                  - cell "Log level (debug, info, warn, error)" [ref=e918]
+            - separator [ref=e919]
+            - heading "Troubleshooting" [level=2] [ref=e920]
+            - heading "Session won't connect" [level=3] [ref=e921]
+            - list [ref=e922]:
+              - listitem [ref=e923]:
+                - text: "Check if the session exists:"
+                - code [ref=e924]: GET /api/v1/sessions/:id
+              - listitem [ref=e925]:
+                - text: "Try disconnecting first:"
+                - code [ref=e926]: POST /api/v1/sessions/:id/disconnect
+              - listitem [ref=e927]:
+                - text: "Then reconnect:"
+                - code [ref=e928]: POST /api/v1/sessions/:id/connect
+              - listitem [ref=e929]:
+                - text: "Check logs:"
+                - code [ref=e930]: docker compose logs wa-rs
+            - heading "QR code not appearing" [level=3] [ref=e931]
+            - list [ref=e932]:
+              - listitem [ref=e933]:
+                - text: Make sure session is in
+                - code [ref=e934]: connecting
+                - text: state
+              - listitem [ref=e935]: Wait a few seconds after calling connect
+              - listitem [ref=e936]: Refresh the QR endpoint
+            - heading "Webhooks not firing" [level=3] [ref=e937]
+            - list [ref=e938]:
+              - listitem [ref=e939]: Verify the webhook URL is accessible from the server
+              - listitem [ref=e940]: Check if events are configured correctly
+              - listitem [ref=e941]: Verify signature validation isn't failing
+            - heading "Database connection failed" [level=3] [ref=e942]
+            - list [ref=e943]:
+              - listitem [ref=e944]: Check if PostgreSQL is running
+              - listitem [ref=e945]: Verify credentials in environment variables
+              - listitem [ref=e946]: Make sure the database exists
+            - separator [ref=e947]
+            - heading "What's Next" [level=2] [ref=e948]
+            - paragraph [ref=e949]: This is open source. MIT license. Do whatever you want with it.
+            - paragraph [ref=e950]:
+              - strong [ref=e951]: "GitHub:"
+              - link "https://github.com/fdciabdul/wa-rs" [ref=e952] [cursor=pointer]:
+                - /url: https://github.com/fdciabdul/wa-rs
+            - paragraph [ref=e953]:
+              - strong [ref=e954]: "Documentation:"
+              - link "https://wa-rs.imtaqin.id/" [ref=e955] [cursor=pointer]:
+                - /url: https://wa-rs.imtaqin.id/
+            - paragraph [ref=e956]:
+              - strong [ref=e957]: "Docker Hub:"
+              - link "https://hub.docker.com/r/fdciabdul/wa-rs" [ref=e958] [cursor=pointer]:
+                - /url: https://hub.docker.com/r/fdciabdul/wa-rs
+            - separator [ref=e959]
+            - heading "Final Thoughts" [level=2] [ref=e960]
+            - paragraph [ref=e961]: I spent way too long fighting with Node.js memory leaks before I made this switch.
+            - paragraph [ref=e962]:
+              - text: If you're running
+              - link "WhatsApp automation" [ref=e963] [cursor=pointer]:
+                - /url: /owly-self-hosted-ai-customer-support-for-whatsapp-email-voice
+              - text: at scale, stop torturing yourself. Rust handles it better. Period.
+            - paragraph [ref=e964]: The learning curve is real. But the payoff is worth it.
+            - paragraph [ref=e965]: Star the repo if this helped. Open an issue if something's broken. PRs welcome.
+            - separator [ref=e966]
+            - paragraph [ref=e967]:
+              - emphasis [ref=e968]:
+                - text: Built by
+                - link "@taqin" [ref=e969] [cursor=pointer]:
+                  - /url: https://github.com/fdciabdul
+                - text: . Written in Rust because life's too short for garbage collection.
+          - complementary "Project resources" [ref=e970]:
+            - generic [ref=e972]: Project resources
+            - generic [ref=e974]:
+              - link "View on GitHub" [ref=e975] [cursor=pointer]:
+                - /url: https://github.com/fdciabdul/wa-rs
+                - img [ref=e976]
+                - generic [ref=e978]: View on GitHub
+              - link "Visit project site" [ref=e979] [cursor=pointer]:
+                - /url: https://your-server.com/webhook
+                - img [ref=e980]
+                - generic [ref=e983]: Visit project site
+        - complementary [ref=e984]:
+          - img "imtaqin" [ref=e986]
+          - generic [ref=e987]:
+            - generic [ref=e988]:
+              - strong [ref=e989]: imtaqin
+              - generic [ref=e990]: Author
+            - paragraph [ref=e991]: Writes about self-hosted apps, AI tools, cybersecurity, and homelab projects. Sharing tools and notes from real-world deployments.
+            - link "More posts by imtaqin ›" [ref=e993] [cursor=pointer]:
+              - /url: /author/administrator
+        - generic [ref=e994]:
+          - strong [ref=e995]: "Share this post:"
+          - generic [ref=e996]:
+            - link " Twitter" [ref=e997] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=WA-RS%20a%20multi-session%20WhatsApp%20REST%20API%20gateway.%20One%20server%2C%20unlimited%20WhatsApp%20accounts.&url=https%3A%2F%2Fimtaqin.id%2Fwa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts
+              - generic [ref=e998]: 
+              - text: Twitter
+            - link " Facebook" [ref=e999] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fimtaqin.id%2Fwa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts
+              - generic [ref=e1000]: 
+              - text: Facebook
+            - link " LinkedIn" [ref=e1001] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fimtaqin.id%2Fwa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts&title=WA-RS%20a%20multi-session%20WhatsApp%20REST%20API%20gateway.%20One%20server%2C%20unlimited%20WhatsApp%20accounts.
+              - generic [ref=e1002]: 
+              - text: LinkedIn
+        - generic [ref=e1003]:
+          - heading " Comments 0" [level=2] [ref=e1004]:
+            - generic [ref=e1005]: 
+            - text: Comments
+            - generic [ref=e1006]: "0"
+          - generic [ref=e1008]:
+            - generic [ref=e1009]:
+              - textbox "Your Name *" [ref=e1012]
+              - textbox "Your Email *" [ref=e1015]
+            - textbox "Write a comment..." [ref=e1017]
+            - button " Post Comment" [ref=e1018] [cursor=pointer]:
+              - generic [ref=e1019]: 
+              - text: Post Comment
+            - text: Your email will not be published.
+          - paragraph [ref=e1021]: No comments yet. Be the first to comment!
+        - generic [ref=e1022]:
+          - heading "Related Posts" [level=2] [ref=e1023]
+          - generic [ref=e1027]:
+            - heading "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [level=4] [ref=e1028]:
+              - link "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [ref=e1029] [cursor=pointer]:
+                - /url: /pocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket
+            - generic [ref=e1030]:
+              - generic [ref=e1031]:
+                - generic [ref=e1032]: 
+                - text: Administrator
+              - generic [ref=e1033]:
+                - generic [ref=e1034]: 
+                - text: "1"
+      - complementary [ref=e1035]:
+        - generic [ref=e1036]:
+          - heading "Post Info" [level=4] [ref=e1037]
+          - list [ref=e1038]:
+            - listitem [ref=e1039]:
+              - strong [ref=e1040]: "Author:"
+              - link "Administrator" [ref=e1041] [cursor=pointer]:
+                - /url: /author/administrator
+            - listitem [ref=e1042]:
+              - strong [ref=e1043]: "Likes:"
+              - text: 2 |
+              - strong [ref=e1044]: "Views:"
+              - text: "748"
+            - listitem [ref=e1045]:
+              - strong [ref=e1046]: "Categories:"
+              - link "Rust" [ref=e1047] [cursor=pointer]:
+                - /url: /category/rust
+              - text: ","
+              - link "PROJECTS" [ref=e1048] [cursor=pointer]:
+                - /url: /category/projects
+            - listitem [ref=e1049]:
+              - strong [ref=e1050]: "Published:"
+              - text: 1/1/2026
+        - generic [ref=e1051]:
+          - heading "Categories" [level=4] [ref=e1052]
+          - list [ref=e1053]:
+            - listitem [ref=e1054]:
+              - link "AI & Machine Learning" [ref=e1055] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+            - listitem [ref=e1056]:
+              - link "Automation" [ref=e1057] [cursor=pointer]:
+                - /url: /category/automation
+            - listitem [ref=e1058]:
+              - link "C#" [ref=e1059] [cursor=pointer]:
+                - /url: /category/c
+            - listitem [ref=e1060]:
+              - link "Cybersecurity" [ref=e1061] [cursor=pointer]:
+                - /url: /category/cybersecurity
+            - listitem [ref=e1062]:
+              - link "Data & Analytics" [ref=e1063] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+            - listitem [ref=e1064]:
+              - link "Exploits & CVE" [ref=e1065] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+            - listitem [ref=e1066]:
+              - link "Go" [ref=e1067] [cursor=pointer]:
+                - /url: /category/go
+            - listitem [ref=e1068]:
+              - link "IoT & Smart Home" [ref=e1069] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+        - generic [ref=e1070]:
+          - heading "Tags" [level=4] [ref=e1071]
+          - generic [ref=e1072]:
+            - link "0xabcd01/cve-2026-41089" [ref=e1073] [cursor=pointer]:
+              - /url: /tag/0xabcd01-cve-2026-41089
+            - link "0xchasercat/mochi" [ref=e1074] [cursor=pointer]:
+              - /url: /tag/0xchasercat-mochi
+            - link "1tamilmv-telegram-bot" [ref=e1075] [cursor=pointer]:
+              - /url: /tag/1tamilmv-telegram-bot
+            - link "35gateway" [ref=e1076] [cursor=pointer]:
+              - /url: /tag/35gateway
+            - link "3d reconstruction" [ref=e1077] [cursor=pointer]:
+              - /url: /tag/3d-reconstruction
+            - link "3dcellforge" [ref=e1078] [cursor=pointer]:
+              - /url: /tag/3dcellforge
+            - link "a-eye" [ref=e1079] [cursor=pointer]:
+              - /url: /tag/a-eye
+            - link "a-share-trading" [ref=e1080] [cursor=pointer]:
+              - /url: /tag/a-share-trading
+            - link "a-stock-data" [ref=e1081] [cursor=pointer]:
+              - /url: /tag/a-stock-data
+            - link "aaron-kidwell/golol" [ref=e1082] [cursor=pointer]:
+              - /url: /tag/aaron-kidwell-golol
+            - link "abgeo/mezz" [ref=e1083] [cursor=pointer]:
+              - /url: /tag/abgeo-mezz
+            - link "accessibility-theme" [ref=e1084] [cursor=pointer]:
+              - /url: /tag/accessibility-theme
+            - link "active-directory" [ref=e1085] [cursor=pointer]:
+              - /url: /tag/active-directory
+            - link "activepieces" [ref=e1086] [cursor=pointer]:
+              - /url: /tag/activepieces
+            - link "acunetix-crack-2026" [ref=e1087] [cursor=pointer]:
+              - /url: /tag/acunetix-crack-2026
+        - generic [ref=e1088]:
+          - heading "Quick Links" [level=4] [ref=e1089]
+          - list [ref=e1090]:
+            - listitem [ref=e1091]:
+              - link " More by Administrator" [ref=e1092] [cursor=pointer]:
+                - /url: /author/administrator
+                - generic [ref=e1093]: 
+                - text: More by Administrator
+            - listitem [ref=e1094]:
+              - link " Browse All Posts" [ref=e1095] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e1096]: 
+                - text: Browse All Posts
+            - listitem [ref=e1097]:
+              - link " RSS Feed" [ref=e1098] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e1099]: 
+                - text: RSS Feed
+  - contentinfo [ref=e1100]:
+    - generic [ref=e1101]:
+      - generic [ref=e1102]:
+        - generic [ref=e1103]:
+          - heading "IMTAQIN" [level=4] [ref=e1104]
+          - paragraph [ref=e1105]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e1106]:
+          - link "Home" [ref=e1107] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e1108] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e1109] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e1110] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e1111] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e1112] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e1113] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e1114] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e1116]: © 2026 IMTAQIN. All rights reserved.

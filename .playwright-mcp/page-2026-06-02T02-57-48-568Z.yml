@@ -1,0 +1,225 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "WareHaus" [ref=e7]
+        - generic [ref=e8]: WareHaus
+      - generic [ref=e9]:
+        - link "Login" [ref=e10] [cursor=pointer]:
+          - /url: "#/login"
+        - button "Sign Up" [ref=e11] [cursor=pointer]
+  - generic [ref=e13]:
+    - generic [ref=e14]:
+      - heading "Cutting-Edge Inventory Management Solutions!" [level=1] [ref=e15]:
+        - text: Cutting-Edge
+        - generic [ref=e16]:
+          - text: Inventory
+          - text: Management Solutions!
+      - paragraph [ref=e17]: Software kami dirancang untuk memberi visibilitas real-time atas stok, status pesanan, dan aktivitas rantai pasok. Bersama WareHaus, Anda dapat mengoptimalkan inventaris, mengurangi biaya, dan menyelesaikan lebih banyak.
+      - generic [ref=e18]:
+        - button "Get Started" [ref=e19] [cursor=pointer]
+        - button "Learn More" [ref=e20] [cursor=pointer]
+      - generic [ref=e21]:
+        - img "Ronald Richards" [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24]: “Sistem ini benar-benar mengubah cara kami mengelola inventory. Akurat, real-time, mudah dipakai tim lapangan.”
+          - generic [ref=e25]:
+            - strong [ref=e26]: Ronald Richards
+            - text: · Operations Lead · Astra Group
+          - generic [ref=e27]:
+            - generic [ref=e28]: ★★★★★
+            - generic [ref=e29]: 4.5/5
+    - img "Petugas gudang memeriksa stok" [ref=e31]
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]: 10+
+      - generic [ref=e37]: Tahun Pengalaman
+    - generic [ref=e38]:
+      - generic [ref=e39]: 70+
+      - generic [ref=e40]: Integrasi Tools
+    - generic [ref=e41]:
+      - generic [ref=e42]: 90+
+      - generic [ref=e43]: Mitra Merchant
+    - generic [ref=e44]:
+      - generic [ref=e45]: 20+
+      - generic [ref=e46]: Penghargaan
+  - generic [ref=e48]:
+    - generic [ref=e49]:
+      - heading "We Help To Boost Our Customers Business" [level=2] [ref=e50]
+      - paragraph [ref=e51]: Dengarkan langsung dari pelanggan yang sudah merasakan transformasi operasi gudang mereka bersama WareHaus.
+    - generic [ref=e52]:
+      - article [ref=e53]:
+        - paragraph [ref=e54]: “Sistem ini benar-benar mengubah cara kami mengelola inventory. Akurat, real-time, mudah dipakai tim lapangan.”
+        - generic [ref=e55]:
+          - img "Ronald Richards" [ref=e56]
+          - generic [ref=e57]:
+            - generic [ref=e58]: Ronald Richards
+            - generic [ref=e59]: Operations Lead · Astra Group
+          - generic [ref=e60]:
+            - generic [ref=e61]: ★★★★★
+            - generic [ref=e62]: 4.5/5
+      - article [ref=e63]:
+        - paragraph [ref=e64]: “Hemat waktu signifikan untuk stock opname bulanan. Tim warehouse jadi lebih fokus ke operasi yang lebih strategis.”
+        - generic [ref=e65]:
+          - img "Jenny Wilson" [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]: Jenny Wilson
+            - generic [ref=e69]: Logistics Manager · Trimitra
+          - generic [ref=e70]:
+            - generic [ref=e71]: ★★★★★
+            - generic [ref=e72]: 5/5
+  - generic [ref=e74]:
+    - generic [ref=e75]:
+      - generic [ref=e76]: WHY WAREHAUS
+      - heading "Dirancang untuk pekerjaan harian di lapangan, bukan rapat di pojok ruangan." [level=2] [ref=e77]
+      - paragraph [ref=e78]: Kami bicara dengan puluhan tim gudang Indonesia sebelum bikin produk ini. Setiap fitur diuji di gudang nyata, bukan di whiteboard.
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - generic [ref=e82]: 
+          - generic [ref=e83]:
+            - strong [ref=e84]: Cepat dipakai
+            - paragraph [ref=e85]: Onboarding 1 hari. Petugas lapangan tinggal scan dan input. Tidak perlu training panjang.
+        - listitem [ref=e86]:
+          - generic [ref=e88]: 
+          - generic [ref=e89]:
+            - strong [ref=e90]: Akurat & teraudit
+            - paragraph [ref=e91]: Setiap mutasi tercatat dengan timestamp + nama petugas. Audit trail siap dicetak kapan saja.
+        - listitem [ref=e92]:
+          - generic [ref=e94]: 
+          - generic [ref=e95]:
+            - strong [ref=e96]: Mobile-first
+            - paragraph [ref=e97]: Sopir & staf gudang punya app sendiri. Tidak menggantungkan WhatsApp atau spreadsheet bersama.
+    - img "Tim gudang bekerja" [ref=e99]
+  - generic [ref=e101]:
+    - generic [ref=e102]:
+      - generic [ref=e103]: CARA KERJA
+      - heading "Dari Rak Gudang Sampai Tangan Pelanggan" [level=2] [ref=e104]
+      - paragraph [ref=e105]: Tiga alur yang dijalankan setiap hari oleh tim WareHaus, otomatis ter-koordinasi.
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e109]: 01 — Inbound
+        - heading "Terima Barang" [level=3] [ref=e110]
+        - paragraph [ref=e111]: Scan PO, terima barang dari pemasok, GRN tergenerate otomatis. Stok ter-update real-time.
+      - generic [ref=e112]:
+        - generic [ref=e114]: 02 — Storage
+        - heading "Kelola Stok" [level=3] [ref=e115]
+        - paragraph [ref=e116]: Multi-gudang, multi-lokasi rak. Transfer antar gudang dengan dua klik. Opname tanpa tutup operasional.
+      - generic [ref=e117]:
+        - generic [ref=e119]: 03 — Outbound
+        - heading "Kirim ke Pelanggan" [level=3] [ref=e120]
+        - paragraph [ref=e121]: Surat Jalan + sopir + GPS tracking real-time + signature pad penerima — semua dalam satu alur.
+  - generic [ref=e123]:
+    - generic [ref=e124]:
+      - generic [ref=e125]: FEATURES
+      - heading "Unlock Excellence For Optimal Management" [level=2] [ref=e126]
+      - paragraph [ref=e127]: Tingkatkan efisiensi gudang dengan platform yang lengkap. Visibilitas, kontrol akurat, dan keputusan berbasis data — semua dalam satu sistem yang siap pakai.
+    - generic [ref=e128]:
+      - article [ref=e129]:
+        - generic [ref=e131]: 
+        - heading "Real-Time Tracking" [level=3] [ref=e132]
+        - paragraph [ref=e133]: Pantau pergerakan stok per detik. Setiap mutasi tercatat lengkap dengan timestamp & petugas.
+      - article [ref=e134]:
+        - generic [ref=e136]: 
+        - heading "Multi-Location" [level=3] [ref=e137]
+        - paragraph [ref=e138]: Kelola beberapa gudang di kota berbeda dari satu dasbor terpusat dengan filter cepat.
+      - article [ref=e139]:
+        - generic [ref=e141]: 
+        - heading "Order Management" [level=3] [ref=e142]
+        - paragraph [ref=e143]: Sales Order, Surat Jalan, Faktur, Retur — semua workflow dalam satu alur yang mulus.
+      - article [ref=e144]:
+        - generic [ref=e146]: 
+        - heading "Report & Analytics" [level=3] [ref=e147]
+        - paragraph [ref=e148]: Insight bisnis dengan dashboard, tren mutasi, top SKU, dan ekspor PDF/Excel.
+  - generic [ref=e150]:
+    - generic [ref=e151]: Dipakai oleh tim operasional di berbagai industri
+    - generic [ref=e152]:
+      - generic "Astra" [ref=e153]:
+        - img "Astra" [ref=e154]
+      - generic "Indofood" [ref=e155]:
+        - img "Indofood" [ref=e156]
+      - generic "Kalbe" [ref=e157]:
+        - img "Kalbe" [ref=e158]
+      - generic "Mayora" [ref=e159]:
+        - img "Mayora" [ref=e160]
+      - generic "Wings Food" [ref=e161]:
+        - img "Wings Food" [ref=e162]
+      - generic "JNE" [ref=e163]:
+        - img "JNE" [ref=e164]
+      - generic "SiCepat" [ref=e165]:
+        - img "SiCepat" [ref=e166]
+      - generic "AnterAja" [ref=e167]:
+        - img "AnterAja" [ref=e168]
+  - generic [ref=e172]:
+    - generic [ref=e173]: MOBILE APP
+    - heading "Sopir & Staf Gudang Punya App Sendiri" [level=2] [ref=e174]
+    - paragraph [ref=e175]: Aplikasi mobile khusus — sopir lacak GPS otomatis dengan rute live di peta, staf gudang scan barcode untuk tambah stok, signature pad penerima saat tiba.
+    - list [ref=e176]:
+      - listitem [ref=e177]:
+        - generic [ref=e178]: 
+        - text: GPS background tracking saat trip aktif
+      - listitem [ref=e179]:
+        - generic [ref=e180]: 
+        - text: Geofence — "Sudah Tiba" cuma aktif ≤300m
+      - listitem [ref=e181]:
+        - generic [ref=e182]: 
+        - text: Signature pad digital untuk penerima
+      - listitem [ref=e183]:
+        - generic [ref=e184]: 
+        - text: Scan barcode → tambah stok dalam 1 detik
+      - listitem [ref=e185]:
+        - generic [ref=e186]: 
+        - text: Surat Jalan view & share via WhatsApp
+  - generic [ref=e188]:
+    - img "Subscribe newsletter" [ref=e190]
+    - generic [ref=e191]:
+      - heading "Subscribe Our Newsletter" [level=2] [ref=e192]
+      - paragraph [ref=e193]: Dapatkan tips operasi gudang, studi kasus, dan update produk langsung di inbox Anda. Tanpa spam, hanya yang berguna.
+      - generic [ref=e194]:
+        - textbox "Email Anda" [ref=e195]
+        - button "Subscribe" [ref=e196] [cursor=pointer]
+  - generic [ref=e198]:
+    - heading "Siap merapikan gudang Anda?" [level=2] [ref=e199]
+    - paragraph [ref=e200]: Mulai gratis. Tanpa kartu kredit. Akses semua fitur Starter selamanya.
+    - generic [ref=e201]:
+      - button "Get Started Free" [ref=e202] [cursor=pointer]
+      - link "Bicara dengan Sales" [ref=e203] [cursor=pointer]:
+        - /url: mailto:halo@warehaus.id
+  - contentinfo [ref=e204]:
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e209]: WareHaus
+          - paragraph [ref=e210]: Sistem manajemen gudang untuk tim modern Indonesia. Real-time, multi-gudang, mobile-first.
+          - paragraph [ref=e211]:
+            - text: PT WareHaus Indonesia
+            - text: Jakarta · Surabaya
+        - generic [ref=e212]:
+          - heading "Product" [level=5] [ref=e213]
+          - generic [ref=e214] [cursor=pointer]: Features
+          - generic [ref=e215] [cursor=pointer]: Pricing
+          - link "Changelog" [ref=e216] [cursor=pointer]:
+            - /url: "#"
+          - link "Roadmap" [ref=e217] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e218]:
+          - heading "Company" [level=5] [ref=e219]
+          - link "About" [ref=e220] [cursor=pointer]:
+            - /url: "#"
+          - link "Career" [ref=e221] [cursor=pointer]:
+            - /url: "#"
+          - link "Blog" [ref=e222] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e223] [cursor=pointer]:
+            - /url: mailto:halo@warehaus.id
+        - generic [ref=e224]:
+          - heading "Help" [level=5] [ref=e225]
+          - link "Documentation" [ref=e226] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e227] [cursor=pointer]: Knowledge
+          - link "Status" [ref=e228] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e229] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e230]:
+        - generic [ref=e231]: © 2026 WareHaus. Hak cipta dilindungi.
+        - generic [ref=e232]: Dibuat di Jakarta

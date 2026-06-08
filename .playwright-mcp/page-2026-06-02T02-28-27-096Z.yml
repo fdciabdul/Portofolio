@@ -1,0 +1,406 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "IMTAQIN" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "IMTAQIN" [ref=e6]
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Tools" [ref=e10] [cursor=pointer]:
+              - /url: /tools
+          - listitem [ref=e11]:
+            - link "PROJECTS" [ref=e12] [cursor=pointer]:
+              - /url: /category/projects
+          - listitem [ref=e13]:
+            - link "Programming" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - text: Programming
+          - listitem [ref=e16]:
+            - link "Other" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+              - text: Other
+          - listitem [ref=e19]:
+            - link "Product" [ref=e20] [cursor=pointer]:
+              - /url: /products
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e24]:
+            - link "Sign Up" [ref=e25] [cursor=pointer]:
+              - /url: /signup
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - textbox "Search posts" [ref=e28]:
+              - /placeholder: Search...
+            - button "Submit search" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: 
+  - generic [ref=e32]:
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "Home" [ref=e36] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e37]: / PROJECTS
+    - generic [ref=e39]:
+      - heading " PROJECTS" [level=1] [ref=e40]:
+        - generic [ref=e41]: 
+        - text: PROJECTS
+      - paragraph [ref=e42]: 8 posts in this category
+    - generic [ref=e44]:
+      - main [ref=e45]:
+        - article [ref=e46]:
+          - link "Auto-Bid Bot for Projects.co.id" [ref=e48] [cursor=pointer]:
+            - /url: /auto-bid-bot-projects-co-id
+            - img "Auto-Bid Bot for Projects.co.id" [ref=e49]
+          - generic [ref=e50]:
+            - heading "Auto-Bid Bot for Projects.co.id" [level=3] [ref=e51]:
+              - link "Auto-Bid Bot for Projects.co.id" [ref=e52] [cursor=pointer]:
+                - /url: /auto-bid-bot-projects-co-id
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - generic [ref=e55]: 
+                - link "Administrator" [ref=e56] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e57]:
+                - generic [ref=e58]: 
+                - text: 0 likes
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: 180 views
+              - generic [ref=e61]:
+                - generic [ref=e62]: 
+                - time [ref=e63]: May 2, 2026
+            - paragraph [ref=e64]: Auto-bid bot for Projects.co.id. Grok solves the captcha, scans listings by keyword, loops 24/7 in the terminal with a live Rezi TUI dashboard.
+            - 'link "Read full article: Auto-Bid Bot for Projects.co.id" [ref=e65] [cursor=pointer]':
+              - /url: /auto-bid-bot-projects-co-id
+              - text: Continue Reading
+              - generic [ref=e66]: 
+        - article [ref=e67]:
+          - link "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [ref=e69] [cursor=pointer]:
+            - /url: /pocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket
+            - img "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]: Featured
+            - heading "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [level=3] [ref=e73]:
+              - link "Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [ref=e74] [cursor=pointer]:
+                - /url: /pocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: 
+                - link "Administrator" [ref=e78] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e79]:
+                - generic [ref=e80]: 
+                - text: 1 likes
+              - generic [ref=e81]:
+                - generic [ref=e82]: 
+                - text: 204 views
+              - generic [ref=e83]:
+                - generic [ref=e84]: 
+                - time [ref=e85]: Apr 29, 2026
+            - paragraph [ref=e86]: "TL;DR I built Pocket Pentester — a native offensive security toolkit for Android. 21 modules, 34MB APK, no root, fully offline-first. Pure Rust + Tauri + Vue. !splash screen 👉 Repo: htt..."
+            - 'link "Read full article: Pocket Pentester — A Native Offensive Security Toolkit That Fits in Your Pocket" [ref=e87] [cursor=pointer]':
+              - /url: /pocket-pentester-a-native-offensive-security-toolkit-that-fits-in-your-pocket
+              - text: Continue Reading
+              - generic [ref=e88]: 
+        - article [ref=e89]:
+          - link "Building a Windows 11 Native Desktop App with Go and WebView2" [ref=e91] [cursor=pointer]:
+            - /url: /building-windows-11-desktop-app-go-webview2
+            - img "Building a Windows 11 Native Desktop App with Go and WebView2" [ref=e92]
+          - generic [ref=e93]:
+            - heading "Building a Windows 11 Native Desktop App with Go and WebView2" [level=3] [ref=e94]:
+              - link "Building a Windows 11 Native Desktop App with Go and WebView2" [ref=e95] [cursor=pointer]:
+                - /url: /building-windows-11-desktop-app-go-webview2
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - generic [ref=e98]: 
+                - link "Administrator" [ref=e99] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e100]:
+                - generic [ref=e101]: 
+                - text: 0 likes
+              - generic [ref=e102]:
+                - generic [ref=e103]: 
+                - text: 258 views
+              - generic [ref=e104]:
+                - generic [ref=e105]: 
+                - time [ref=e106]: Apr 14, 2026
+            - paragraph [ref=e107]: A technical deep-dive into building Driver Booster Pro - a native-looking Windows desktop app with Go, WebView2, and direct Win32 API calls. Frameless window, PowerShell without CMD flash, and WinUI3 ...
+            - 'link "Read full article: Building a Windows 11 Native Desktop App with Go and WebView2" [ref=e108] [cursor=pointer]':
+              - /url: /building-windows-11-desktop-app-go-webview2
+              - text: Continue Reading
+              - generic [ref=e109]: 
+        - article [ref=e110]:
+          - 'link "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [ref=e112] [cursor=pointer]':
+            - /url: /goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+            - 'img "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [ref=e113]'
+          - generic [ref=e114]:
+            - 'heading "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [level=3] [ref=e115]':
+              - 'link "GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [ref=e116] [cursor=pointer]':
+                - /url: /goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - generic [ref=e119]: 
+                - link "Administrator" [ref=e120] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e121]:
+                - generic [ref=e122]: 
+                - text: 0 likes
+              - generic [ref=e123]:
+                - generic [ref=e124]: 
+                - text: 301 views
+              - generic [ref=e125]:
+                - generic [ref=e126]: 
+                - time [ref=e127]: Apr 11, 2026
+            - paragraph [ref=e128]: I have a confession. Every time I install XAMPP on a new machine, I lose about an hour to the same ritual — downloading the 200 MB installer, clicking past the Skype port-80 warning, fighting the cont...
+            - 'link "Read full article: GoAMPP: A 7 MB Native Windows Web Stack That Skips Docker, WSL, and the Java JDK" [ref=e129] [cursor=pointer]':
+              - /url: /goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+              - text: Continue Reading
+              - generic [ref=e130]: 
+        - article [ref=e131]:
+          - link "DoaKu - A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran." [ref=e133] [cursor=pointer]:
+            - /url: /doaku-a-mobile-first-progressive-web-app-for-islamic-self-healing-ruqyah-with-the-quran-
+            - img "DoaKu - A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran." [ref=e134]
+          - generic [ref=e135]:
+            - heading "DoaKu - A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran." [level=3] [ref=e136]:
+              - link "DoaKu - A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran." [ref=e137] [cursor=pointer]:
+                - /url: /doaku-a-mobile-first-progressive-web-app-for-islamic-self-healing-ruqyah-with-the-quran-
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]: 
+                - link "Administrator" [ref=e141] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e142]:
+                - generic [ref=e143]: 
+                - text: 0 likes
+              - generic [ref=e144]:
+                - generic [ref=e145]: 
+                - text: 380 views
+              - generic [ref=e146]:
+                - generic [ref=e147]: 
+                - time [ref=e148]: Feb 22, 2026
+            - paragraph [ref=e149]: DoaKu A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran. Built for Muslims who want a clean, offline-capable tool for daily prayers, Quran recitation, and ruqyah p...
+            - 'link "Read full article: DoaKu - A mobile-first Progressive Web App for Islamic self-healing (ruqyah) with the Quran." [ref=e150] [cursor=pointer]':
+              - /url: /doaku-a-mobile-first-progressive-web-app-for-islamic-self-healing-ruqyah-with-the-quran-
+              - text: Continue Reading
+              - generic [ref=e151]: 
+        - article [ref=e152]:
+          - link "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [ref=e154] [cursor=pointer]:
+            - /url: /wa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts
+            - img "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [ref=e155]
+          - generic [ref=e156]:
+            - heading "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [level=3] [ref=e157]:
+              - link "WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [ref=e158] [cursor=pointer]:
+                - /url: /wa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]: 
+                - link "Administrator" [ref=e162] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e163]:
+                - generic [ref=e164]: 
+                - text: 2 likes
+              - generic [ref=e165]:
+                - generic [ref=e166]: 
+                - text: 748 views
+              - generic [ref=e167]:
+                - generic [ref=e168]: 
+                - time [ref=e169]: Jan 1, 2026
+            - paragraph [ref=e170]: I was running 50+ WhatsApp sessions on a single Node.js server. Memory usage? 8GB. CPU? Constantly spiking. And every few hours, something would crash. So I rewrote the whole thing in Rust. Now ...
+            - 'link "Read full article: WA-RS a multi-session WhatsApp REST API gateway. One server, unlimited WhatsApp accounts." [ref=e171] [cursor=pointer]':
+              - /url: /wa-rs-a-multi-session-whatsapp-rest-api-gateway-one-server-unlimited-whatsapp-accounts
+              - text: Continue Reading
+              - generic [ref=e172]: 
+        - article [ref=e173]:
+          - link "JuPal - Platform Jual Beli Saldo PayPal Terpercaya" [ref=e175] [cursor=pointer]:
+            - /url: /jupal-platform-jual-beli-saldo-paypal-terpercaya
+            - img "JuPal - Platform Jual Beli Saldo PayPal Terpercaya" [ref=e176]
+          - generic [ref=e177]:
+            - heading "JuPal - Platform Jual Beli Saldo PayPal Terpercaya" [level=3] [ref=e178]:
+              - link "JuPal - Platform Jual Beli Saldo PayPal Terpercaya" [ref=e179] [cursor=pointer]:
+                - /url: /jupal-platform-jual-beli-saldo-paypal-terpercaya
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - generic [ref=e182]: 
+                - link "Administrator" [ref=e183] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e184]:
+                - generic [ref=e185]: 
+                - text: 2 likes
+              - generic [ref=e186]:
+                - generic [ref=e187]: 
+                - text: 658 views
+              - generic [ref=e188]:
+                - generic [ref=e189]: 
+                - time [ref=e190]: Dec 18, 2025
+            - paragraph [ref=e191]: A Project by imtaqin.id Tentang JuPal JuPal adalah platform jual beli saldo PayPal yang dikembangkan oleh imtaqin.id. Platform ini menyediakan layanan konversi mata uang digital dengan rate ...
+            - 'link "Read full article: JuPal - Platform Jual Beli Saldo PayPal Terpercaya" [ref=e192] [cursor=pointer]':
+              - /url: /jupal-platform-jual-beli-saldo-paypal-terpercaya
+              - text: Continue Reading
+              - generic [ref=e193]: 
+        - article [ref=e194]:
+          - link "WA-KLINIK - WhatsApp Clinic Management System" [ref=e196] [cursor=pointer]:
+            - /url: /wa-klinik-whatsapp-clinic-management-system
+            - img "WA-KLINIK - WhatsApp Clinic Management System" [ref=e197]
+          - generic [ref=e198]:
+            - heading "WA-KLINIK - WhatsApp Clinic Management System" [level=3] [ref=e199]:
+              - link "WA-KLINIK - WhatsApp Clinic Management System" [ref=e200] [cursor=pointer]:
+                - /url: /wa-klinik-whatsapp-clinic-management-system
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203]: 
+                - link "Administrator" [ref=e204] [cursor=pointer]:
+                  - /url: /author/administrator
+              - generic [ref=e205]:
+                - generic [ref=e206]: 
+                - text: 2 likes
+              - generic [ref=e207]:
+                - generic [ref=e208]: 
+                - text: 890 views
+              - generic [ref=e209]:
+                - generic [ref=e210]: 
+                - time [ref=e211]: Dec 17, 2025
+            - paragraph [ref=e212]: WA-KLINIK adalah sistem manajemen klinik terintegrasi dengan WhatsApp yang dirancang khusus untuk Klinik dr. Angga (Chiropractic & Chronic Pain Management). Sistem ini menggabungkan kemampuan AI untuk...
+            - 'link "Read full article: WA-KLINIK - WhatsApp Clinic Management System" [ref=e213] [cursor=pointer]':
+              - /url: /wa-klinik-whatsapp-clinic-management-system
+              - text: Continue Reading
+              - generic [ref=e214]: 
+      - complementary [ref=e215]:
+        - generic [ref=e216]:
+          - heading "All Categories" [level=4] [ref=e217]
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - link "AI & Machine Learning" [ref=e220] [cursor=pointer]:
+                - /url: /category/ai-and-machine-learning
+                - generic [ref=e221]: AI & Machine Learning
+            - listitem [ref=e222]:
+              - link "Automation" [ref=e223] [cursor=pointer]:
+                - /url: /category/automation
+                - generic [ref=e224]: Automation
+            - listitem [ref=e225]:
+              - link "C#" [ref=e226] [cursor=pointer]:
+                - /url: /category/c
+                - generic [ref=e227]: C#
+            - listitem [ref=e228]:
+              - link "Cybersecurity" [ref=e229] [cursor=pointer]:
+                - /url: /category/cybersecurity
+                - generic [ref=e230]: Cybersecurity
+            - listitem [ref=e231]:
+              - link "Data & Analytics" [ref=e232] [cursor=pointer]:
+                - /url: /category/data-and-analytics
+                - generic [ref=e233]: Data & Analytics
+            - listitem [ref=e234]:
+              - link "Exploits & CVE" [ref=e235] [cursor=pointer]:
+                - /url: /category/exploits-and-cve
+                - generic [ref=e236]: Exploits & CVE
+            - listitem [ref=e237]:
+              - link "Go" [ref=e238] [cursor=pointer]:
+                - /url: /category/go
+                - generic [ref=e239]: Go
+            - listitem [ref=e240]:
+              - link "IoT & Smart Home" [ref=e241] [cursor=pointer]:
+                - /url: /category/iot-and-smart-home
+                - generic [ref=e242]: IoT & Smart Home
+            - listitem [ref=e243]:
+              - link "Javascript" [ref=e244] [cursor=pointer]:
+                - /url: /category/javascript
+                - generic [ref=e245]: Javascript
+            - listitem [ref=e246]:
+              - link "Open Source" [ref=e247] [cursor=pointer]:
+                - /url: /category/open-source
+                - generic [ref=e248]: Open Source
+            - listitem [ref=e249]:
+              - link "Open Source Project" [ref=e250] [cursor=pointer]:
+                - /url: /category/open-source-project
+                - generic [ref=e251]: Open Source Project
+            - listitem [ref=e252]:
+              - link "Open Source Software" [ref=e253] [cursor=pointer]:
+                - /url: /category/open-source-software
+                - generic [ref=e254]: Open Source Software
+            - listitem [ref=e255]:
+              - link "PHP" [ref=e256] [cursor=pointer]:
+                - /url: /category/php
+                - generic [ref=e257]: PHP
+            - listitem [ref=e258]:
+              - link "Privacy & Networking" [ref=e259] [cursor=pointer]:
+                - /url: /category/privacy-and-networking
+                - generic [ref=e260]: Privacy & Networking
+            - listitem [ref=e261]:
+              - link "Private Project" [ref=e262] [cursor=pointer]:
+                - /url: /category/private-project
+                - generic [ref=e263]: Private Project
+            - listitem [ref=e264]:
+              - link "Productivity" [ref=e265] [cursor=pointer]:
+                - /url: /category/productivity
+                - generic [ref=e266]: Productivity
+            - listitem [ref=e267]:
+              - link "Programming" [ref=e268] [cursor=pointer]:
+                - /url: /category/programming
+                - generic [ref=e269]: Programming
+            - listitem [ref=e270]:
+              - link "PROJECTS" [ref=e271] [cursor=pointer]:
+                - /url: /category/projects
+                - generic [ref=e272]: PROJECTS
+            - listitem [ref=e273]:
+              - link "Python" [ref=e274] [cursor=pointer]:
+                - /url: /category/python
+                - generic [ref=e275]: Python
+            - listitem [ref=e276]:
+              - link "Rust" [ref=e277] [cursor=pointer]:
+                - /url: /category/rust
+                - generic [ref=e278]: Rust
+            - listitem [ref=e279]:
+              - link "Self-Hosted" [ref=e280] [cursor=pointer]:
+                - /url: /category/self-hosted
+                - generic [ref=e281]: Self-Hosted
+            - listitem [ref=e282]:
+              - link "Technology" [ref=e283] [cursor=pointer]:
+                - /url: /category/technology
+                - generic [ref=e284]: Technology
+            - listitem [ref=e285]:
+              - link "WhatsApp & Bot" [ref=e286] [cursor=pointer]:
+                - /url: /category/whatsapp-and-bot
+                - generic [ref=e287]: WhatsApp & Bot
+        - generic [ref=e288]:
+          - heading "Navigation" [level=4] [ref=e289]
+          - list [ref=e290]:
+            - listitem [ref=e291]:
+              - link " Browse All Posts" [ref=e292] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e293]: 
+                - text: Browse All Posts
+            - listitem [ref=e294]:
+              - link " Popular Posts" [ref=e295] [cursor=pointer]:
+                - /url: /?sort=popular
+                - generic [ref=e296]: 
+                - text: Popular Posts
+            - listitem [ref=e297]:
+              - link " Most Liked" [ref=e298] [cursor=pointer]:
+                - /url: /?sort=likes
+                - generic [ref=e299]: 
+                - text: Most Liked
+  - contentinfo [ref=e300]:
+    - generic [ref=e301]:
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - heading "IMTAQIN" [level=4] [ref=e304]
+          - paragraph [ref=e305]: A place for my project and my thought , this web or blog is build from scratch using NodeJS
+        - generic [ref=e306]:
+          - link "Home" [ref=e307] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e308] [cursor=pointer]:
+            - /url: /products
+          - link "Tools" [ref=e309] [cursor=pointer]:
+            - /url: /tools
+          - link "Proxy List" [ref=e310] [cursor=pointer]:
+            - /url: /proxy-list
+          - link "Free VPN" [ref=e311] [cursor=pointer]:
+            - /url: /vpn
+          - link "Popular" [ref=e312] [cursor=pointer]:
+            - /url: /?sort=popular
+          - link "Sitemap" [ref=e313] [cursor=pointer]:
+            - /url: /sitemap.xml
+          - link "RSS" [ref=e314] [cursor=pointer]:
+            - /url: /rss
+      - paragraph [ref=e316]: © 2026 IMTAQIN. All rights reserved.
