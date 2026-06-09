@@ -14,6 +14,9 @@ function scrollTo(section: string) {
   <section id="hero" class="hero">
     <HeroCanvas />
 
+    <!-- readability scrim over the 3D scene -->
+    <div class="hero-scrim" aria-hidden="true" />
+
     <!-- scanline overlay -->
     <div class="scanlines" aria-hidden="true" />
 
@@ -92,6 +95,17 @@ function scrollTo(section: string) {
   align-items: center;
   padding-top: 64px;
   overflow: hidden;
+}
+
+/* dark scrim — keeps text readable over the bright voxel city */
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to right, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.78) 32%, rgba(0,0,0,0.25) 60%, rgba(0,0,0,0) 80%),
+    linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 35%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* CRT scanlines overlay */
@@ -198,11 +212,12 @@ function scrollTo(section: string) {
 .hero-desc {
   font-size: 0.95rem;
   font-weight: 400;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.82);
   max-width: 460px;
   margin-bottom: 2rem;
   line-height: 1.8;
   font-family: Arial, sans-serif;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.9);
 }
 
 .hero-cta {
