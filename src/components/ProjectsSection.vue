@@ -169,7 +169,7 @@ const filtered = computed(() =>
 }
 
 .filter-btn.active .filter-count {
-  background: rgba(255,229,0,0.2);
+  background: rgba(158,255,0,0.2);
 }
 
 .projects-grid {

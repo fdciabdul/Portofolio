@@ -119,12 +119,12 @@ function scrollTo(section: string) {
   background: linear-gradient(
     to right,
     transparent 0%,
-    rgba(255,229,0,0.6) 20%,
-    #ffe500 50%,
-    rgba(255,229,0,0.6) 80%,
+    rgba(158,255,0,0.6) 20%,
+    #9eff00 50%,
+    rgba(158,255,0,0.6) 80%,
     transparent 100%
   );
-  box-shadow: 0 0 18px 4px rgba(255,229,0,0.25);
+  box-shadow: 0 0 18px 4px rgba(158,255,0,0.25);
   pointer-events: none;
   z-index: 1;
 }
@@ -166,7 +166,7 @@ function scrollTo(section: string) {
   letter-spacing: -0.04em;
   margin-bottom: 1.25rem;
   /* text stroke neo-brutalism feel */
-  -webkit-text-stroke: 1px rgba(255,229,0,0.15);
+  -webkit-text-stroke: 1px rgba(158,255,0,0.15);
 }
 
 .hero-role {

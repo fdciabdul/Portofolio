@@ -141,7 +141,7 @@ function scrollTo(section: string) {
 .social-btn:hover {
   border-color: var(--yellow);
   color: var(--yellow);
-  background: rgba(255,229,0,0.05);
+  background: rgba(158,255,0,0.05);
 }
 
 .footer-bottom {

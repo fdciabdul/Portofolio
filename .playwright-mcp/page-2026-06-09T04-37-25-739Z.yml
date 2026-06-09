@@ -1,0 +1,522 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - button "IMTAQIN" [ref=e5] [cursor=pointer]
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - button "About" [ref=e8] [cursor=pointer]
+        - listitem [ref=e9]:
+          - button "Skills" [ref=e10] [cursor=pointer]
+        - listitem [ref=e11]:
+          - button "Projects" [ref=e12] [cursor=pointer]
+        - listitem [ref=e13]:
+          - button "Contact" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - link "CV" [ref=e16] [cursor=pointer]:
+          - /url: "#/cv"
+        - link "GitHub" [ref=e17] [cursor=pointer]:
+          - /url: https://github.com/fdciabdul
+          - img [ref=e18]
+        - link "Blog" [ref=e19] [cursor=pointer]:
+          - /url: https://imtaqin.id
+          - img [ref=e20]
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: Hello, I am
+        - heading "IMTAQIN" [level=1] [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e29]: Developer
+          - generic [ref=e30]: "&"
+          - generic [ref=e31]: Security Researcher
+        - paragraph [ref=e32]: Building web apps, native tools, and security research. Rust, Go, TypeScript, Vue. Based in Indonesia.
+        - generic [ref=e33]:
+          - button "View Projects" [ref=e34] [cursor=pointer]:
+            - text: View Projects
+            - img [ref=e35]
+          - button "Contact Me" [ref=e36] [cursor=pointer]
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: 4000+
+            - generic [ref=e40]: GitHub Stars
+          - generic [ref=e41]:
+            - generic [ref=e42]: 200+
+            - generic [ref=e43]: Repositories
+          - generic [ref=e44]:
+            - generic [ref=e45]: 4 Orgs
+            - generic [ref=e46]: GitHub Orgs
+      - button "Scroll down" [ref=e47] [cursor=pointer]:
+        - img [ref=e48]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]: About Me
+        - heading "Who Am I?" [level=2] [ref=e54]
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Developer and security researcher. I build full-stack web apps, native desktop tools, and Android security toolkits. I write in Rust, Go, TypeScript, and Vue.
+          - paragraph [ref=e57]: Creator of WA-RS (multi-session WhatsApp gateway in Rust), Pocket Pentester (native Android security toolkit), and several open-source tools with 400+ GitHub stars combined.
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img [ref=e60]
+            - generic [ref=e61]: Indonesia
+          - generic [ref=e62]:
+            - img [ref=e63]
+            - generic [ref=e64]: taqin2731@gmail.com
+          - generic [ref=e65]:
+            - img [ref=e66]
+            - generic [ref=e67]: github.com/fdciabdul
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e70]: imtaqin.id
+        - link "View CV / Resume" [ref=e71] [cursor=pointer]:
+          - /url: "#/cv"
+          - img [ref=e72]
+          - text: View CV / Resume
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - img [ref=e77]
+          - heading "Web Dev" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Vue.js, TypeScript, Node.js, REST APIs
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - heading "Native Apps" [level=3] [ref=e83]
+          - paragraph [ref=e84]: Rust, Go, Tauri, WebView2, Win32 API
+        - generic [ref=e85]:
+          - img [ref=e87]
+          - heading "Security" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Frida, SSL bypass, pentest tooling, Android
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - heading "Automation" [level=3] [ref=e93]
+          - paragraph [ref=e94]: WhatsApp bots, AI agents, scrapers
+    - generic [ref=e96]:
+      - generic [ref=e97]: What I Use
+      - heading "Tech Stack" [level=2] [ref=e98]
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - generic [ref=e104]: Languages
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - img "TypeScript" [ref=e107]
+              - generic [ref=e108]: TypeScript
+            - generic [ref=e109]:
+              - img "JavaScript" [ref=e110]
+              - generic [ref=e111]: JavaScript
+            - generic [ref=e112]:
+              - img "Rust" [ref=e113]
+              - generic [ref=e114]: Rust
+            - generic [ref=e115]:
+              - img "Go" [ref=e116]
+              - generic [ref=e117]: Go
+            - generic [ref=e118]:
+              - img "PHP" [ref=e119]
+              - generic [ref=e120]: PHP
+            - generic [ref=e121]:
+              - img "Kotlin" [ref=e122]
+              - generic [ref=e123]: Kotlin
+            - generic [ref=e124]:
+              - img "Python" [ref=e125]
+              - generic [ref=e126]: Python
+            - generic [ref=e127]:
+              - img "C#" [ref=e128]
+              - generic [ref=e129]: C#
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - img [ref=e133]
+            - generic [ref=e134]: Frontend & Desktop
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - img "Vue.js" [ref=e137]
+              - generic [ref=e138]: Vue.js
+            - generic [ref=e139]:
+              - img "Tauri" [ref=e140]
+              - generic [ref=e141]: Tauri
+            - generic [ref=e142]:
+              - img "Electron" [ref=e143]
+              - generic [ref=e144]: Electron
+            - generic [ref=e145]:
+              - img "React Native" [ref=e146]
+              - generic [ref=e147]: React Native
+            - generic [ref=e148]:
+              - img "Svelte" [ref=e149]
+              - generic [ref=e150]: Svelte
+            - generic [ref=e151]:
+              - img "TailwindCSS" [ref=e152]
+              - generic [ref=e153]: TailwindCSS
+            - generic [ref=e154]:
+              - img "WebView2" [ref=e155]
+              - generic [ref=e156]: WebView2
+            - generic [ref=e157]:
+              - img "Win32 API" [ref=e158]
+              - generic [ref=e159]: Win32 API
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - img [ref=e163]
+            - generic [ref=e164]: Backend
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - img "Node.js" [ref=e167]
+              - generic [ref=e168]: Node.js
+            - generic [ref=e169]:
+              - img "Adonis.js" [ref=e170]
+              - generic [ref=e171]: Adonis.js
+            - generic [ref=e172]:
+              - img [ref=e173]
+              - generic [ref=e174]: Hono
+            - generic [ref=e175]:
+              - img "Laravel" [ref=e176]
+              - generic [ref=e177]: Laravel
+            - generic [ref=e178]:
+              - img "Express" [ref=e179]
+              - generic [ref=e180]: Express
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - img [ref=e184]
+            - generic [ref=e185]: Database & Infra
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - img "PostgreSQL" [ref=e188]
+              - generic [ref=e189]: PostgreSQL
+            - generic [ref=e190]:
+              - img "MySQL" [ref=e191]
+              - generic [ref=e192]: MySQL
+            - generic [ref=e193]:
+              - img "Redis" [ref=e194]
+              - generic [ref=e195]: Redis
+            - generic [ref=e196]:
+              - img [ref=e197]
+              - generic [ref=e198]: Drizzle ORM
+            - generic [ref=e199]:
+              - img "Sequelize" [ref=e200]
+              - generic [ref=e201]: Sequelize
+            - generic [ref=e202]:
+              - img "Docker" [ref=e203]
+              - generic [ref=e204]: Docker
+            - generic [ref=e205]:
+              - img "Terraform" [ref=e206]
+              - generic [ref=e207]: Terraform
+            - generic [ref=e208]:
+              - img "Nginx" [ref=e209]
+              - generic [ref=e210]: Nginx
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - img [ref=e214]
+            - generic [ref=e215]: Security & Reverse
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - img [ref=e218]
+              - generic [ref=e219]: Frida
+            - generic [ref=e220]:
+              - img "Burp Suite" [ref=e221]
+              - generic [ref=e222]: Burp Suite
+            - generic [ref=e223]:
+              - img "HTTP Toolkit" [ref=e224]
+              - generic [ref=e225]: HTTP Toolkit
+            - generic [ref=e226]:
+              - img "Metasploit" [ref=e227]
+              - generic [ref=e228]: Metasploit
+            - generic [ref=e229]:
+              - img "Android" [ref=e230]
+              - generic [ref=e231]: Android
+            - generic [ref=e232]:
+              - img "Puppeteer" [ref=e233]
+              - generic [ref=e234]: Puppeteer
+            - generic [ref=e235]:
+              - img "JADX" [ref=e236]
+              - generic [ref=e237]: JADX
+    - generic [ref=e239]:
+      - generic [ref=e240]: My Work
+      - heading "Projects" [level=2] [ref=e241]
+      - generic [ref=e242]:
+        - button "All 9" [ref=e243] [cursor=pointer]:
+          - text: All
+          - generic [ref=e244]: "9"
+        - button "Web 5" [ref=e245] [cursor=pointer]:
+          - text: Web
+          - generic [ref=e246]: "5"
+        - button "Security 3" [ref=e247] [cursor=pointer]:
+          - text: Security
+          - generic [ref=e248]: "3"
+        - button "Automation 3" [ref=e249] [cursor=pointer]:
+          - text: Automation
+          - generic [ref=e250]: "3"
+        - button "Native 9" [ref=e251] [cursor=pointer]:
+          - text: Native
+          - generic [ref=e252]: "9"
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - img "WareHaus" [ref=e256]
+            - generic [ref=e259]: Web
+          - generic [ref=e260]:
+            - heading "WareHaus" [level=3] [ref=e261]
+            - paragraph [ref=e262]: Real-time inventory management system. Stock tracking, purchase orders, supplier management, and warehouse activity logs.
+            - generic [ref=e263]:
+              - generic [ref=e264]: Vue.js
+              - generic [ref=e265]: Hono
+              - generic [ref=e266]: Drizzle ORM
+              - generic [ref=e267]: TypeScript
+            - link "Live" [ref=e269] [cursor=pointer]:
+              - /url: https://warehaus.imtaqin.id/#/
+              - img [ref=e270]
+              - text: Live
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - img "MauBlast" [ref=e273]
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - img [ref=e277]
+                - text: Featured
+              - generic [ref=e278]: Web
+          - generic [ref=e279]:
+            - heading "MauBlast" [level=3] [ref=e280]
+            - paragraph [ref=e281]: WhatsApp API gateway for businesses — no Meta Business required. Multi-session, auto-reply, blast with throttling, real-time webhooks. Powered by WA-RS under the hood.
+            - generic [ref=e282]:
+              - generic [ref=e283]: Adonis v7
+              - generic [ref=e284]: WA-RS
+              - generic [ref=e285]: Rust
+              - generic [ref=e286]: REST API
+            - link "Live" [ref=e288] [cursor=pointer]:
+              - /url: https://maublast.net/
+              - img [ref=e289]
+              - text: Live
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - img "RentalWA" [ref=e292]
+            - generic [ref=e295]: Web
+          - generic [ref=e296]:
+            - heading "RentalWA" [level=3] [ref=e297]
+            - paragraph [ref=e298]: WhatsApp number rental platform. Rent idle WA numbers for blast campaigns — pay per message, no contract. Full CRM, Redis queue, Terraform infra.
+            - generic [ref=e299]:
+              - generic [ref=e300]: Vue.js
+              - generic [ref=e301]: Express
+              - generic [ref=e302]: Sequelize
+              - generic [ref=e303]: PostgreSQL
+              - generic [ref=e304]: Redis
+              - generic [ref=e305]: Terraform
+            - link "Live" [ref=e307] [cursor=pointer]:
+              - /url: https://rentalwa.com/
+              - img [ref=e308]
+              - text: Live
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - img "Pocket Pentester" [ref=e311]
+            - generic [ref=e314]: Security
+          - generic [ref=e315]:
+            - heading "Pocket Pentester" [level=3] [ref=e316]
+            - paragraph [ref=e317]: 21-module native Android offensive security toolkit. 34MB APK, no root, fully offline. Port scan, SQLi, XSS, JWT attack, dir-fuzz, Burp-lite repeater.
+            - generic [ref=e318]:
+              - generic [ref=e319]: Rust
+              - generic [ref=e320]: Tauri 2
+              - generic [ref=e321]: Vue 3
+              - generic [ref=e322]: Android
+            - generic [ref=e323]:
+              - link "Code" [ref=e324] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester
+                - img [ref=e325]
+                - text: Code
+              - link "Live" [ref=e326] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester/releases/latest/download/PocketPentester.apk
+                - img [ref=e327]
+                - text: Live
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - img "CiLocks" [ref=e330]
+            - generic [ref=e331]:
+              - generic [ref=e333]: Security
+              - generic [ref=e334]:
+                - img [ref=e335]
+                - text: 2,916
+          - generic [ref=e336]:
+            - heading "CiLocks" [level=3] [ref=e337]
+            - paragraph [ref=e338]: Android lockscreen interface crack tool with Metasploit integration and iOS/Android hacking utilities. Most-starred project across all accounts.
+            - generic [ref=e339]:
+              - generic [ref=e340]: HTML
+              - generic [ref=e341]: Android
+              - generic [ref=e342]: Metasploit
+            - link "Code" [ref=e344] [cursor=pointer]:
+              - /url: https://github.com/tegal1337/CiLocks
+              - img [ref=e345]
+              - text: Code
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - img "YOMEN" [ref=e348]
+            - generic [ref=e349]:
+              - generic [ref=e351]: Automation
+              - generic [ref=e352]:
+                - img [ref=e353]
+                - text: "227"
+          - generic [ref=e354]:
+            - heading "YOMEN" [level=3] [ref=e355]
+            - paragraph [ref=e356]: YouTube auto-commenter bot using Puppeteer. Multi-account, cookie auth, proxy support, comment rotation. 227 stars.
+            - generic [ref=e357]:
+              - generic [ref=e358]: TypeScript
+              - generic [ref=e359]: Puppeteer
+              - generic [ref=e360]: YouTube
+            - link "Code" [ref=e362] [cursor=pointer]:
+              - /url: https://github.com/tegal1337/YOMEN
+              - img [ref=e363]
+              - text: Code
+        - generic [ref=e364]:
+          - generic [ref=e365]:
+            - img "Google Trends Scraper" [ref=e366]
+            - generic [ref=e367]:
+              - generic [ref=e369]: Automation
+              - generic [ref=e370]:
+                - img [ref=e371]
+                - text: "147"
+          - generic [ref=e372]:
+            - heading "Google Trends Scraper" [level=3] [ref=e373]
+            - paragraph [ref=e374]: Scrape trending keywords from Google Trends across all countries. Structured output for SEO and content analysis. 147 stars.
+            - generic [ref=e375]:
+              - generic [ref=e376]: JavaScript
+              - generic [ref=e377]: Node.js
+              - generic [ref=e378]: Scraping
+            - link "Code" [ref=e380] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/Google-Trends-Keywords-Scraper
+              - img [ref=e381]
+              - text: Code
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - img "Driver Booster Pro" [ref=e384]
+            - generic [ref=e387]: Native
+          - generic [ref=e388]:
+            - heading "Driver Booster Pro" [level=3] [ref=e389]
+            - paragraph [ref=e390]: Native Windows desktop app for driver management. Built with Go + WebView2 + direct Win32 API calls. Frameless window, WinUI3 styling, PowerShell without CMD flash.
+            - generic [ref=e391]:
+              - generic [ref=e392]: Go
+              - generic [ref=e393]: WebView2
+              - generic [ref=e394]: Win32 API
+              - generic [ref=e395]: Windows
+            - link "Live" [ref=e397] [cursor=pointer]:
+              - /url: https://imtaqin.id/building-windows-11-desktop-app-go-webview2
+              - img [ref=e398]
+              - text: Live
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - img "GoAMPP" [ref=e401]
+            - generic [ref=e402]:
+              - generic [ref=e404]: Native
+              - generic [ref=e405]:
+                - img [ref=e406]
+                - text: "4"
+          - generic [ref=e407]:
+            - heading "GoAMPP" [level=3] [ref=e408]
+            - paragraph [ref=e409]: 7MB native Windows web stack (Apache + MySQL + PHP) replacing 200MB XAMPP. Single executable, no Docker, no WSL, no Java required.
+            - generic [ref=e410]:
+              - generic [ref=e411]: Go
+              - generic [ref=e412]: Apache
+              - generic [ref=e413]: MySQL
+              - generic [ref=e414]: PHP
+              - generic [ref=e415]: Windows
+            - generic [ref=e416]:
+              - link "Code" [ref=e417] [cursor=pointer]:
+                - /url: https://github.com/imtaqin/goampp
+                - img [ref=e418]
+                - text: Code
+              - link "Live" [ref=e419] [cursor=pointer]:
+                - /url: https://imtaqin.id/goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+                - img [ref=e420]
+                - text: Live
+      - generic [ref=e421]:
+        - link "fdciabdul" [ref=e422] [cursor=pointer]:
+          - /url: https://github.com/fdciabdul
+          - img [ref=e423]
+          - text: fdciabdul
+        - link "tegal1337" [ref=e424] [cursor=pointer]:
+          - /url: https://github.com/tegal1337
+          - img [ref=e425]
+          - text: tegal1337
+        - link "imtaqin" [ref=e426] [cursor=pointer]:
+          - /url: https://github.com/imtaqin
+          - img [ref=e427]
+          - text: imtaqin
+        - link "ReverserID" [ref=e428] [cursor=pointer]:
+          - /url: https://github.com/ReverserID
+          - img [ref=e429]
+          - text: ReverserID
+    - generic [ref=e432]:
+      - generic [ref=e433]:
+        - generic [ref=e434]: Get In Touch
+        - heading "Let's Work Together" [level=2] [ref=e435]
+        - paragraph [ref=e436]: Have a project in mind? Want to collaborate? Or just want to say hi? Drop me a message and I will get back to you within 24 hours.
+        - generic [ref=e437]:
+          - link "Email taqin2731@gmail.com" [ref=e438] [cursor=pointer]:
+            - /url: mailto:taqin2731@gmail.com
+            - img [ref=e440]
+            - generic [ref=e441]:
+              - generic [ref=e442]: Email
+              - generic [ref=e443]: taqin2731@gmail.com
+            - img [ref=e444]
+          - link "GitHub github.com/fdciabdul" [ref=e445] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul
+            - img [ref=e447]
+            - generic [ref=e448]:
+              - generic [ref=e449]: GitHub
+              - generic [ref=e450]: github.com/fdciabdul
+            - img [ref=e451]
+          - link "Blog imtaqin.id" [ref=e452] [cursor=pointer]:
+            - /url: https://imtaqin.id
+            - img [ref=e454]
+            - generic [ref=e455]:
+              - generic [ref=e456]: Blog
+              - generic [ref=e457]: imtaqin.id
+            - img [ref=e458]
+          - link "WhatsApp Chat on WhatsApp" [ref=e459] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e461]
+            - generic [ref=e462]:
+              - generic [ref=e463]: WhatsApp
+              - generic [ref=e464]: Chat on WhatsApp
+            - img [ref=e465]
+      - generic [ref=e468]:
+        - generic [ref=e469]:
+          - generic [ref=e470]:
+            - generic [ref=e471]: Your Name
+            - textbox "Your Name" [ref=e472]:
+              - /placeholder: John Doe
+          - generic [ref=e473]:
+            - generic [ref=e474]: Email
+            - textbox "Email" [ref=e475]:
+              - /placeholder: john@example.com
+        - generic [ref=e476]:
+          - generic [ref=e477]: Subject
+          - textbox "Subject" [ref=e478]:
+            - /placeholder: Project Inquiry
+        - generic [ref=e479]:
+          - generic [ref=e480]: Message
+          - textbox "Message" [ref=e481]:
+            - /placeholder: Tell me about your project...
+        - button "Send Message" [ref=e482] [cursor=pointer]:
+          - img [ref=e483]
+          - text: Send Message
+  - contentinfo [ref=e484]:
+    - generic [ref=e485]:
+      - generic [ref=e486]:
+        - generic [ref=e487]:
+          - generic [ref=e488]: IMTAQIN
+          - paragraph [ref=e489]: Building the web, one commit at a time.
+        - navigation [ref=e490]:
+          - button "About" [ref=e491] [cursor=pointer]
+          - button "Skills" [ref=e492] [cursor=pointer]
+          - button "Projects" [ref=e493] [cursor=pointer]
+          - button "Contact" [ref=e494] [cursor=pointer]
+        - generic [ref=e495]:
+          - link "GitHub" [ref=e496] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul
+            - img [ref=e497]
+          - link "Blog" [ref=e498] [cursor=pointer]:
+            - /url: https://imtaqin.id
+            - img [ref=e499]
+          - link "Email" [ref=e500] [cursor=pointer]:
+            - /url: mailto:taqin2731@gmail.com
+            - img [ref=e501]
+      - generic [ref=e502]:
+        - generic [ref=e503]: 2026 IMTAQIN. All rights reserved.
+        - generic [ref=e504]:
+          - text: Built with
+          - img [ref=e505]
+          - text: Vue.js +
+          - img [ref=e506]
+          - text: Vite

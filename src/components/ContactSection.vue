@@ -170,7 +170,7 @@ const contacts = [
 
 .contact-link-card:hover {
   border-color: var(--yellow);
-  background: rgba(255,229,0,0.05);
+  background: rgba(158,255,0,0.05);
   transform: translateX(4px);
 }
 

@@ -30,8 +30,8 @@ function makeVertLines(): THREE.LineSegments {
     const t = i / (VERT_COUNT - 1)
     const x = (t - 0.5) * GRID_WIDTH
     pos.push(x, Y_PLANE, 0,   x, Y_PLANE, -GRID_DEPTH)
-    // near: yellow, far: dark
-    col.push(1, 0.89, 0,  0.06, 0.055, 0)
+    // near: lime green, far: dark
+    col.push(0.62, 1, 0,  0.03, 0.06, 0)
   }
   const geo = new THREE.BufferGeometry()
   geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(pos), 3))
@@ -71,8 +71,8 @@ function updateHoriz(dt: number) {
 
     // brightness by depth
     const t = Math.max(0, (z + GRID_DEPTH) / GRID_DEPTH)
-    const r = lerp(0.06, 1,    t)
-    const g = lerp(0.05, 0.89, t)
+    const r = lerp(0.03, 0.62, t)
+    const g = lerp(0.06, 1,    t)
     ca[idx]=r; ca[idx+1]=g; ca[idx+2]=0
     ca[idx+3]=r; ca[idx+4]=g; ca[idx+5]=0
   }
