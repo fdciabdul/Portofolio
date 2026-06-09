@@ -19,9 +19,12 @@ function downloadPdf() {
       <!-- Header -->
       <header class="cv-head">
         <h1>Abdul Muttaqin</h1>
-        <p class="cv-role">Software Developer &amp; Security Researcher</p>
+        <p class="cv-role">Software Engineer &middot; Fullstack Developer</p>
         <p class="cv-contact">
-          taqin2731@gmail.com &nbsp;|&nbsp; github.com/fdciabdul &nbsp;|&nbsp; imtaqin.id &nbsp;|&nbsp; Indonesia
+          taqin2731@gmail.com &nbsp;|&nbsp; +62 851-1782-2731 &nbsp;|&nbsp; Jakarta Selatan, DKI Jakarta
+        </p>
+        <p class="cv-contact">
+          github.com/fdciabdul &nbsp;|&nbsp; linkedin.com/in/fdciabdul &nbsp;|&nbsp; imtaqin.id
         </p>
       </header>
 
@@ -31,10 +34,12 @@ function downloadPdf() {
       <section>
         <h2>Summary</h2>
         <p>
-          Software developer and security researcher with 6+ years building full-stack web
-          applications, native desktop tools, and Android security toolkits. Author of open-source
-          projects with 4,000+ combined GitHub stars across 200+ repositories. Strong in systems
-          programming (Rust, Go), web engineering (TypeScript, Vue), and mobile offensive security.
+          Fullstack Developer with 5+ years building production-scale systems — backend APIs,
+          frontend, DevOps, and server infrastructure. Experienced with complex platforms:
+          WhatsApp gateways handling hundreds of thousands of transactions per day, banking
+          automation, a VR application for a national energy company, and monitoring stacks on
+          Grafana and Prometheus. Active in open source with 150+ GitHub repositories and ranked
+          Top 10 freelancer on projects.co.id.
         </p>
       </section>
 
@@ -44,118 +49,129 @@ function downloadPdf() {
       <section>
         <h2>Technical Skills</h2>
         <ul class="cv-skills">
-          <li><strong>Languages:</strong> Rust, Go, TypeScript, JavaScript, PHP, Kotlin, Python, C#</li>
+          <li><strong>Languages:</strong> Rust, Go, TypeScript, JavaScript, PHP, C#, Kotlin, Python</li>
           <li><strong>Frontend:</strong> Vue.js, React Native, Svelte, TailwindCSS</li>
           <li><strong>Backend:</strong> Node.js, AdonisJS, Hono, Laravel, Express</li>
-          <li><strong>Databases:</strong> PostgreSQL, MySQL, Redis, Drizzle ORM, Sequelize</li>
+          <li><strong>Databases:</strong> PostgreSQL, MySQL, Redis</li>
+          <li><strong>DevOps &amp; Cloud:</strong> Docker, Terraform, Nginx, CI/CD, Grafana, Prometheus</li>
           <li><strong>Desktop / Native:</strong> Tauri, Electron, WebView2, Win32 API</li>
-          <li><strong>DevOps:</strong> Docker, Terraform, Nginx, Git</li>
-          <li><strong>Security:</strong> Frida, Burp Suite, Metasploit, JADX, HTTP Toolkit, SSL pinning bypass, pentest tooling</li>
+          <li><strong>Security:</strong> Frida, Burp Suite, Metasploit, JADX</li>
         </ul>
       </section>
 
       <hr />
 
-      <!-- Experience / Selected Work -->
+      <!-- Experience -->
       <section>
-        <h2>Selected Projects</h2>
+        <h2>Work Experience</h2>
 
         <div class="cv-job">
           <div class="cv-job-head">
-            <span class="cv-job-title">CiLocks — Android Security Tool</span>
-            <span class="cv-job-meta">2,916 stars</span>
+            <span class="cv-job-title">Software Engineer &mdash; Subaga Digital Kreatif</span>
+            <span class="cv-job-meta">Feb 2024 &ndash; Present</span>
+          </div>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">Software Engineer &mdash; Namea Solusi Technology</span>
+            <span class="cv-job-meta">Oct 2023 &ndash; Jun 2024</span>
+          </div>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">Backend &amp; DevOps Engineer &mdash; PT Kilau Energi Infotama</span>
+            <span class="cv-job-meta">Nov 2022 &ndash; May 2024</span>
           </div>
           <ul>
-            <li>Android lockscreen interface crack tool with Metasploit integration and iOS/Android utilities.</li>
-            <li>Most-starred project across all maintained accounts.</li>
+            <li>Built backend services and DevOps pipelines, including a VR application for a national energy company.</li>
           </ul>
         </div>
 
         <div class="cv-job">
           <div class="cv-job-head">
-            <span class="cv-job-title">YOMEN — YouTube Automation Bot</span>
-            <span class="cv-job-meta">227 stars</span>
+            <span class="cv-job-title">Full Stack Developer &mdash; PT Intercity Kerlipan</span>
+            <span class="cv-job-meta">Feb 2021 &ndash; Nov 2022</span>
+          </div>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">WordPress Developer &mdash; Claudela</span>
+            <span class="cv-job-meta">Nov 2019 &ndash; Jan 2021</span>
+          </div>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">Full Stack Developer &mdash; Wablas.id</span>
+            <span class="cv-job-meta">Oct 2019 &ndash; Jun 2020</span>
           </div>
           <ul>
-            <li>Multi-account YouTube auto-commenter built with Puppeteer; cookie auth, proxy rotation.</li>
+            <li>Developed a WhatsApp gateway platform processing high-volume daily messaging traffic.</li>
           </ul>
         </div>
 
         <div class="cv-job">
           <div class="cv-job-head">
-            <span class="cv-job-title">Frida Multiple Bypass — Mobile Security</span>
-            <span class="cv-job-meta">175 stars</span>
+            <span class="cv-job-title">Full Stack Developer &mdash; Freelance</span>
+            <span class="cv-job-meta">Jan 2016 &ndash; Present</span>
           </div>
           <ul>
-            <li>One-shot Frida script bypassing SSL pinning, root, emulator, Frida, and Flutter TLS detection simultaneously.</li>
-          </ul>
-        </div>
-
-        <div class="cv-job">
-          <div class="cv-job-head">
-            <span class="cv-job-title">WA-RS — WhatsApp REST Gateway</span>
-            <span class="cv-job-meta">Rust</span>
-          </div>
-          <ul>
-            <li>Multi-session WhatsApp REST API rewritten from Node.js to Rust.</li>
-            <li>Cut memory from 8 GB to minimal and eliminated CPU spikes; supports unlimited sessions.</li>
-          </ul>
-        </div>
-
-        <div class="cv-job">
-          <div class="cv-job-head">
-            <span class="cv-job-title">Pocket Pentester — Native Android Toolkit</span>
-            <span class="cv-job-meta">Rust / Tauri 2</span>
-          </div>
-          <ul>
-            <li>21-module offline offensive security toolkit in a 34 MB APK, no root required.</li>
-            <li>Port scan, SQLi, XSS, JWT attack, directory fuzzing, and Burp-style repeater.</li>
-          </ul>
-        </div>
-
-        <div class="cv-job">
-          <div class="cv-job-head">
-            <span class="cv-job-title">GoAMPP — Native Windows Web Stack</span>
-            <span class="cv-job-meta">Go</span>
-          </div>
-          <ul>
-            <li>7 MB single-executable Apache + MySQL + PHP stack replacing 200 MB XAMPP.</li>
-            <li>No Docker, WSL, or Java required.</li>
-          </ul>
-        </div>
-
-        <div class="cv-job">
-          <div class="cv-job-head">
-            <span class="cv-job-title">MauBlast &amp; RentalWA — WhatsApp SaaS Platforms</span>
-            <span class="cv-job-meta">AdonisJS / Vue / Redis</span>
-          </div>
-          <ul>
-            <li>WhatsApp API gateway and number-rental platforms; multi-session, throttled blast, webhooks.</li>
-            <li>Full CRM, Redis queue, and Terraform-provisioned infrastructure.</li>
-          </ul>
-        </div>
-
-        <div class="cv-job">
-          <div class="cv-job-head">
-            <span class="cv-job-title">Driver Booster Pro — Native Windows App</span>
-            <span class="cv-job-meta">Go / WebView2</span>
-          </div>
-          <ul>
-            <li>Frameless Windows desktop app via Go + WebView2 + direct Win32 API calls; WinUI3 styling.</li>
+            <li>Top 10 freelancer on projects.co.id; delivered web, automation, and security projects for clients.</li>
           </ul>
         </div>
       </section>
 
       <hr />
 
-      <!-- Other -->
+      <!-- Selected Open Source -->
       <section>
-        <h2>Additional Open-Source Work</h2>
+        <h2>Selected Open-Source Projects</h2>
         <ul class="cv-skills">
-          <li>Google Trends Scraper (147 stars) — trending-keyword scraper for SEO.</li>
-          <li>mapsdumper (73 stars) — large-scale Google Maps data extractor.</li>
-          <li>WareHaus — real-time inventory system (Vue, Hono, Drizzle ORM).</li>
-          <li>SHINRAI — AI-powered terminal SSH manager and DevOps agent.</li>
+          <li><strong>CiLocks</strong> (2,916 stars) — Android security tool with Metasploit integration.</li>
+          <li><strong>YOMEN</strong> (227 stars) — multi-account YouTube automation bot (Puppeteer).</li>
+          <li><strong>Frida Multiple Bypass</strong> (175 stars) — one-shot SSL pinning, root, and Flutter TLS bypass.</li>
+          <li><strong>WA-RS</strong> — multi-session WhatsApp REST gateway rewritten Node.js &rarr; Rust; 8 GB to minimal memory.</li>
+          <li><strong>Pocket Pentester</strong> — 21-module offline Android security toolkit (Rust, Tauri 2).</li>
+          <li><strong>GoAMPP</strong> — 7 MB native Windows web stack replacing 200 MB XAMPP (Go).</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <!-- Education -->
+      <section>
+        <h2>Education</h2>
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">IAIN Laa Roiba — Information Technology</span>
+            <span class="cv-job-meta">Oct 2019 &ndash; Mar 2021</span>
+          </div>
+        </div>
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">SMK Pertiwi Cibungbulang — Marketing</span>
+            <span class="cv-job-meta">Jun 2014 &ndash; Jun 2017</span>
+          </div>
+        </div>
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">MTs Muallimien Muhammadiyah</span>
+            <span class="cv-job-meta">Jun 2012 &ndash; Jun 2014</span>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- Awards + Org -->
+      <section>
+        <h2>Awards &amp; Organizations</h2>
+        <ul class="cv-skills">
+          <li><strong>Top 10 Freelancer</strong>, projects.co.id — 2026.</li>
+          <li><strong>Tegal Security</strong> — Developer, Jan 2015 – Present (security research community).</li>
         </ul>
       </section>
 
@@ -165,9 +181,10 @@ function downloadPdf() {
       <section>
         <h2>Links</h2>
         <ul class="cv-skills">
-          <li><strong>GitHub:</strong> github.com/fdciabdul</li>
           <li><strong>Portfolio:</strong> porto.imtaqin.id</li>
-          <li><strong>Blog:</strong> imtaqin.id</li>
+          <li><strong>GitHub:</strong> github.com/fdciabdul</li>
+          <li><strong>LinkedIn:</strong> linkedin.com/in/fdciabdul</li>
+          <li><strong>YouTube:</strong> youtube.com/@taqintimur</li>
         </ul>
       </section>
     </article>
@@ -236,7 +253,7 @@ function downloadPdf() {
 .cv-contact {
   font-size: 9.5pt;
   color: #333;
-  margin: 0;
+  margin: 0 0 0.15rem;
 }
 
 .cv hr {
@@ -267,7 +284,7 @@ function downloadPdf() {
 }
 
 .cv-job {
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.75rem;
 }
 .cv-job:last-child {
   margin-bottom: 0;
