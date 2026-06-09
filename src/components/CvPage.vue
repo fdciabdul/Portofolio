@@ -233,8 +233,8 @@ function downloadPdf() {
   background: #fff;
   color: #111;
   padding: 3rem 3.25rem;
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 11pt;
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  font-size: 10.5pt;
   line-height: 1.5;
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.12);
 }

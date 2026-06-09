@@ -1,0 +1,132 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - button "← Back" [ref=e5] [cursor=pointer]
+    - button "Download PDF" [ref=e6] [cursor=pointer]
+  - article [ref=e7]:
+    - generic [ref=e8]:
+      - heading "Abdul Muttaqin" [level=1] [ref=e9]
+      - paragraph [ref=e10]: Software Engineer · Fullstack Developer
+      - paragraph [ref=e11]: taqin2731@gmail.com | +62 851-1782-2731 | Jakarta Selatan, DKI Jakarta
+      - paragraph [ref=e12]: github.com/fdciabdul | linkedin.com/in/fdciabdul | imtaqin.id
+    - separator [ref=e13]
+    - generic [ref=e14]:
+      - heading "Summary" [level=2] [ref=e15]
+      - paragraph [ref=e16]: "Fullstack Developer with 5+ years building production-scale systems — backend APIs, frontend, DevOps, and server infrastructure. Experienced with complex platforms: WhatsApp gateways handling hundreds of thousands of transactions per day, banking automation, a VR application for a national energy company, and monitoring stacks on Grafana and Prometheus. Active in open source with 150+ GitHub repositories and ranked Top 10 freelancer on projects.co.id."
+    - separator [ref=e17]
+    - generic [ref=e18]:
+      - heading "Technical Skills" [level=2] [ref=e19]
+      - list [ref=e20]:
+        - listitem [ref=e21]:
+          - strong [ref=e22]: "Languages:"
+          - text: Rust, Go, TypeScript, JavaScript, PHP, C#, Kotlin, Python
+        - listitem [ref=e23]:
+          - strong [ref=e24]: "Frontend:"
+          - text: Vue.js, React Native, Svelte, TailwindCSS
+        - listitem [ref=e25]:
+          - strong [ref=e26]: "Backend:"
+          - text: Node.js, AdonisJS, Hono, Laravel, Express
+        - listitem [ref=e27]:
+          - strong [ref=e28]: "Databases:"
+          - text: PostgreSQL, MySQL, Redis
+        - listitem [ref=e29]:
+          - strong [ref=e30]: "DevOps & Cloud:"
+          - text: Docker, Terraform, Nginx, CI/CD, Grafana, Prometheus
+        - listitem [ref=e31]:
+          - strong [ref=e32]: "Desktop / Native:"
+          - text: Tauri, Electron, WebView2, Win32 API
+        - listitem [ref=e33]:
+          - strong [ref=e34]: "Security:"
+          - text: Frida, Burp Suite, Metasploit, JADX
+    - separator [ref=e35]
+    - generic [ref=e36]:
+      - heading "Work Experience" [level=2] [ref=e37]
+      - generic [ref=e39]:
+        - generic [ref=e40]: Software Engineer — Subaga Digital Kreatif
+        - generic [ref=e41]: Feb 2024 – Present
+      - generic [ref=e43]:
+        - generic [ref=e44]: Software Engineer — Namea Solusi Technology
+        - generic [ref=e45]: Oct 2023 – Jun 2024
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Backend & DevOps Engineer — PT Kilau Energi Infotama
+          - generic [ref=e49]: Nov 2022 – May 2024
+        - list [ref=e50]:
+          - listitem [ref=e51]: Built backend services and DevOps pipelines, including a VR application for a national energy company.
+      - generic [ref=e53]:
+        - generic [ref=e54]: Full Stack Developer — PT Intercity Kerlipan
+        - generic [ref=e55]: Feb 2021 – Nov 2022
+      - generic [ref=e57]:
+        - generic [ref=e58]: WordPress Developer — Claudela
+        - generic [ref=e59]: Nov 2019 – Jan 2021
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: Full Stack Developer — Wablas.id
+          - generic [ref=e63]: Oct 2019 – Jun 2020
+        - list [ref=e64]:
+          - listitem [ref=e65]: Developed a WhatsApp gateway platform processing high-volume daily messaging traffic.
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]: Full Stack Developer — Freelance
+          - generic [ref=e69]: Jan 2016 – Present
+        - list [ref=e70]:
+          - listitem [ref=e71]: Top 10 freelancer on projects.co.id; delivered web, automation, and security projects for clients.
+    - separator [ref=e72]
+    - generic [ref=e73]:
+      - heading "Selected Open-Source Projects" [level=2] [ref=e74]
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - strong [ref=e77]: CiLocks
+          - text: (2,916 stars) — Android security tool with Metasploit integration.
+        - listitem [ref=e78]:
+          - strong [ref=e79]: YOMEN
+          - text: (227 stars) — multi-account YouTube automation bot (Puppeteer).
+        - listitem [ref=e80]:
+          - strong [ref=e81]: Frida Multiple Bypass
+          - text: (175 stars) — one-shot SSL pinning, root, and Flutter TLS bypass.
+        - listitem [ref=e82]:
+          - strong [ref=e83]: WA-RS
+          - text: — multi-session WhatsApp REST gateway rewritten Node.js → Rust; 8 GB to minimal memory.
+        - listitem [ref=e84]:
+          - strong [ref=e85]: Pocket Pentester
+          - text: — 21-module offline Android security toolkit (Rust, Tauri 2).
+        - listitem [ref=e86]:
+          - strong [ref=e87]: GoAMPP
+          - text: — 7 MB native Windows web stack replacing 200 MB XAMPP (Go).
+    - separator [ref=e88]
+    - generic [ref=e89]:
+      - heading "Education" [level=2] [ref=e90]
+      - generic [ref=e92]:
+        - generic [ref=e93]: IAIN Laa Roiba — Information Technology
+        - generic [ref=e94]: Oct 2019 – Mar 2021
+      - generic [ref=e96]:
+        - generic [ref=e97]: SMK Pertiwi Cibungbulang — Marketing
+        - generic [ref=e98]: Jun 2014 – Jun 2017
+      - generic [ref=e100]:
+        - generic [ref=e101]: MTs Muallimien Muhammadiyah
+        - generic [ref=e102]: Jun 2012 – Jun 2014
+    - separator [ref=e103]
+    - generic [ref=e104]:
+      - heading "Awards & Organizations" [level=2] [ref=e105]
+      - list [ref=e106]:
+        - listitem [ref=e107]:
+          - strong [ref=e108]: Top 10 Freelancer
+          - text: ", projects.co.id — 2026."
+        - listitem [ref=e109]:
+          - strong [ref=e110]: Tegal Security
+          - text: — Developer, Jan 2015 – Present (security research community).
+    - separator [ref=e111]
+    - generic [ref=e112]:
+      - heading "Links" [level=2] [ref=e113]
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - strong [ref=e116]: "Portfolio:"
+          - text: porto.imtaqin.id
+        - listitem [ref=e117]:
+          - strong [ref=e118]: "GitHub:"
+          - text: github.com/fdciabdul
+        - listitem [ref=e119]:
+          - strong [ref=e120]: "LinkedIn:"
+          - text: linkedin.com/in/fdciabdul
+        - listitem [ref=e121]:
+          - strong [ref=e122]: "YouTube:"
+          - text: youtube.com/@taqintimur
