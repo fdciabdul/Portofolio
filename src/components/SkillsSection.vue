@@ -16,7 +16,7 @@ const groups = [
       { name: 'PHP', img: `${CDN}/PHP.svg` },
       { name: 'Kotlin', img: `${CDN}/Kotlin.svg` },
       { name: 'Python', img: `${CDN}/Python.svg` },
-      { name: 'C#', img: `${CDN}/C%23.svg` },
+      { name: 'C#', img: `https://upload.wikimedia.org/wikipedia/commons/3/3c/Logo_C_sharp.png` },
     ],
   },
   {
