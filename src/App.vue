@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue'
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
@@ -6,18 +7,33 @@ import SkillsSection from './components/SkillsSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import FooterSection from './components/FooterSection.vue'
+import CvPage from './components/CvPage.vue'
+
+const route = ref(window.location.hash)
+
+function onHashChange() {
+  route.value = window.location.hash
+  window.scrollTo(0, 0)
+}
+
+onMounted(() => window.addEventListener('hashchange', onHashChange))
+onUnmounted(() => window.removeEventListener('hashchange', onHashChange))
 </script>
 
 <template>
-  <NavBar />
-  <main>
-    <HeroSection />
-    <AboutSection />
-    <SkillsSection />
-    <ProjectsSection />
-    <ContactSection />
-  </main>
-  <FooterSection />
+  <CvPage v-if="route.startsWith('#/cv')" />
+
+  <template v-else>
+    <NavBar />
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
+    </main>
+    <FooterSection />
+  </template>
 </template>
 
 <style>

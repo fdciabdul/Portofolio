@@ -24,6 +24,7 @@ function scrollTo(section: string) {
       </ul>
 
       <div class="nav-actions">
+        <a href="#/cv" class="nav-cv-btn">CV</a>
         <a href="https://github.com/fdciabdul" target="_blank" rel="noopener" class="neo-icon-btn" aria-label="GitHub">
           <Icon icon="mdi:github" width="22" />
         </a>
@@ -41,6 +42,9 @@ function scrollTo(section: string) {
       <ul>
         <li v-for="link in navLinks" :key="link">
           <button class="mobile-nav-btn" @click="scrollTo(link)">{{ link }}</button>
+        </li>
+        <li>
+          <a class="mobile-nav-btn" href="#/cv" @click="menuOpen = false">CV / Resume</a>
         </li>
       </ul>
       <div class="mobile-social">
@@ -114,6 +118,28 @@ function scrollTo(section: string) {
   display: flex;
   gap: 0.5rem;
   align-items: center;
+}
+
+.nav-cv-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  padding: 0 1rem;
+  border: 2px solid var(--black);
+  background: var(--black);
+  color: var(--yellow);
+  font-size: 0.875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.nav-cv-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--black);
 }
 
 .neo-icon-btn {

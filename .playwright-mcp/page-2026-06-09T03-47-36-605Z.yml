@@ -1,0 +1,115 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - button "← Back" [ref=e5] [cursor=pointer]
+    - button "Download PDF" [ref=e6] [cursor=pointer]
+  - article [ref=e7]:
+    - generic [ref=e8]:
+      - heading "Abdul Muttaqin" [level=1] [ref=e9]
+      - paragraph [ref=e10]: Software Developer & Security Researcher
+      - paragraph [ref=e11]: taqin2731@gmail.com | github.com/fdciabdul | imtaqin.id | Indonesia
+    - separator [ref=e12]
+    - generic [ref=e13]:
+      - heading "Summary" [level=2] [ref=e14]
+      - paragraph [ref=e15]: Software developer and security researcher with 6+ years building full-stack web applications, native desktop tools, and Android security toolkits. Author of open-source projects with 4,000+ combined GitHub stars across 200+ repositories. Strong in systems programming (Rust, Go), web engineering (TypeScript, Vue), and mobile offensive security.
+    - separator [ref=e16]
+    - generic [ref=e17]:
+      - heading "Technical Skills" [level=2] [ref=e18]
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - strong [ref=e21]: "Languages:"
+          - text: Rust, Go, TypeScript, JavaScript, PHP, Kotlin, Python, C#
+        - listitem [ref=e22]:
+          - strong [ref=e23]: "Frontend:"
+          - text: Vue.js, React Native, Svelte, TailwindCSS
+        - listitem [ref=e24]:
+          - strong [ref=e25]: "Backend:"
+          - text: Node.js, AdonisJS, Hono, Laravel, Express
+        - listitem [ref=e26]:
+          - strong [ref=e27]: "Databases:"
+          - text: PostgreSQL, MySQL, Redis, Drizzle ORM, Sequelize
+        - listitem [ref=e28]:
+          - strong [ref=e29]: "Desktop / Native:"
+          - text: Tauri, Electron, WebView2, Win32 API
+        - listitem [ref=e30]:
+          - strong [ref=e31]: "DevOps:"
+          - text: Docker, Terraform, Nginx, Git
+        - listitem [ref=e32]:
+          - strong [ref=e33]: "Security:"
+          - text: Frida, Burp Suite, Metasploit, JADX, HTTP Toolkit, SSL pinning bypass, pentest tooling
+    - separator [ref=e34]
+    - generic [ref=e35]:
+      - heading "Selected Projects" [level=2] [ref=e36]
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: CiLocks — Android Security Tool
+          - generic [ref=e40]: 2,916 stars
+        - list [ref=e41]:
+          - listitem [ref=e42]: Android lockscreen interface crack tool with Metasploit integration and iOS/Android utilities.
+          - listitem [ref=e43]: Most-starred project across all maintained accounts.
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: YOMEN — YouTube Automation Bot
+          - generic [ref=e47]: 227 stars
+        - list [ref=e48]:
+          - listitem [ref=e49]: Multi-account YouTube auto-commenter built with Puppeteer; cookie auth, proxy rotation.
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: Frida Multiple Bypass — Mobile Security
+          - generic [ref=e53]: 175 stars
+        - list [ref=e54]:
+          - listitem [ref=e55]: One-shot Frida script bypassing SSL pinning, root, emulator, Frida, and Flutter TLS detection simultaneously.
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: WA-RS — WhatsApp REST Gateway
+          - generic [ref=e59]: Rust
+        - list [ref=e60]:
+          - listitem [ref=e61]: Multi-session WhatsApp REST API rewritten from Node.js to Rust.
+          - listitem [ref=e62]: Cut memory from 8 GB to minimal and eliminated CPU spikes; supports unlimited sessions.
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: Pocket Pentester — Native Android Toolkit
+          - generic [ref=e66]: Rust / Tauri 2
+        - list [ref=e67]:
+          - listitem [ref=e68]: 21-module offline offensive security toolkit in a 34 MB APK, no root required.
+          - listitem [ref=e69]: Port scan, SQLi, XSS, JWT attack, directory fuzzing, and Burp-style repeater.
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: GoAMPP — Native Windows Web Stack
+          - generic [ref=e73]: Go
+        - list [ref=e74]:
+          - listitem [ref=e75]: 7 MB single-executable Apache + MySQL + PHP stack replacing 200 MB XAMPP.
+          - listitem [ref=e76]: No Docker, WSL, or Java required.
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]: MauBlast & RentalWA — WhatsApp SaaS Platforms
+          - generic [ref=e80]: AdonisJS / Vue / Redis
+        - list [ref=e81]:
+          - listitem [ref=e82]: WhatsApp API gateway and number-rental platforms; multi-session, throttled blast, webhooks.
+          - listitem [ref=e83]: Full CRM, Redis queue, and Terraform-provisioned infrastructure.
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]: Driver Booster Pro — Native Windows App
+          - generic [ref=e87]: Go / WebView2
+        - list [ref=e88]:
+          - listitem [ref=e89]: Frameless Windows desktop app via Go + WebView2 + direct Win32 API calls; WinUI3 styling.
+    - separator [ref=e90]
+    - generic [ref=e91]:
+      - heading "Additional Open-Source Work" [level=2] [ref=e92]
+      - list [ref=e93]:
+        - listitem [ref=e94]: Google Trends Scraper (147 stars) — trending-keyword scraper for SEO.
+        - listitem [ref=e95]: mapsdumper (73 stars) — large-scale Google Maps data extractor.
+        - listitem [ref=e96]: WareHaus — real-time inventory system (Vue, Hono, Drizzle ORM).
+        - listitem [ref=e97]: SHINRAI — AI-powered terminal SSH manager and DevOps agent.
+    - separator [ref=e98]
+    - generic [ref=e99]:
+      - heading "Links" [level=2] [ref=e100]
+      - list [ref=e101]:
+        - listitem [ref=e102]:
+          - strong [ref=e103]: "GitHub:"
+          - text: github.com/fdciabdul
+        - listitem [ref=e104]:
+          - strong [ref=e105]: "Portfolio:"
+          - text: porto.imtaqin.id
+        - listitem [ref=e106]:
+          - strong [ref=e107]: "Blog:"
+          - text: imtaqin.id

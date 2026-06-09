@@ -42,9 +42,9 @@ import { Icon } from '@iconify/vue'
             </div>
           </div>
 
-          <a href="/cv.pdf" download class="neo-btn neo-btn-primary" style="margin-top: 2rem; display: inline-flex;">
-            <Icon icon="mdi:download" width="18" />
-            Download CV
+          <a href="#/cv" class="neo-btn neo-btn-primary" style="margin-top: 2rem; display: inline-flex;">
+            <Icon icon="mdi:file-document-outline" width="18" />
+            View CV / Resume
           </a>
         </div>
 
