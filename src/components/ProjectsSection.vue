@@ -34,6 +34,10 @@ const filtered = computed(() =>
             {{ f === 'All' ? highlighted.length : projects.filter(p => p.category === f).length }}
           </span>
         </button>
+        <a href="#/projects-pdf" class="filter-btn pdf-btn">
+          <Icon icon="mdi:file-pdf-box" width="16" />
+          Export PDF
+        </a>
       </div>
 
       <div class="projects-grid">
@@ -267,6 +271,17 @@ const filtered = computed(() =>
 .cat-native { background: var(--lime); color: var(--black); }
 .cat-plugin { background: var(--purple); color: var(--black); }
 .cat-language { background: #b5651d; color: var(--white); }
+
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+  background: var(--black);
+  color: var(--yellow);
+  text-decoration: none;
+}
+.pdf-btn:hover { background: var(--yellow); color: var(--black); }
 
 .badge-stars {
   display: inline-flex;

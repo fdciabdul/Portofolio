@@ -8,6 +8,7 @@ import ProjectsSection from './components/ProjectsSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import CvPage from './components/CvPage.vue'
+import ProjectsDoc from './components/ProjectsDoc.vue'
 
 const route = ref(window.location.hash)
 
@@ -22,6 +23,7 @@ onUnmounted(() => window.removeEventListener('hashchange', onHashChange))
 
 <template>
   <CvPage v-if="route.startsWith('#/cv')" />
+  <ProjectsDoc v-else-if="route.startsWith('#/projects-pdf')" />
 
   <template v-else>
     <NavBar />
