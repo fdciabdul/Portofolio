@@ -1,6 +1,19 @@
 [
   {
     "highlight": true,
+    "title": "Tenun",
+    "description": "Programming language with full Indonesian keywords (kalau, selama, untuk, fungsi, kembali) and a compiler written in Zig. Statically typed, with three execution backends from one source — tree-walking interpreter, bytecode VM, and native via C transpilation. Ships a REPL, formatter, package manager, VSCode + Neovim extensions, and a 25+ module ecosystem (web, ORM, Redis, mail, scraping).",
+    "tags": ["Zig", "Compiler", "Language Design", "C"],
+    "category": "Language",
+    "color": "#b5651d",
+    "stars": null,
+    "github": "https://github.com/TenunLang/Tenun",
+    "live": "https://github.com/TenunLang/Tenun",
+    "featured": true,
+    "image": "https://opengraph.githubassets.com/1/TenunLang/Tenun"
+  },
+  {
+    "highlight": true,
     "title": "Cloudflare Tunnel for aaPanel",
     "description": "aaPanel plugin that manages Cloudflare Tunnel (cloudflared) end-to-end from the panel UI. 4-step wizard: auto-downloads the binary, reuses cloudflare_manage creds, creates tunnels, upserts proxied CNAMEs, writes config.yml, and installs the systemd service with atomic rollback. Expose NAT/CGNAT servers with no public IP.",
     "tags": ["aaPanel", "Cloudflare", "Python", "cloudflared", "systemd"],
@@ -145,19 +158,7 @@
     "featured": false,
     "image": "https://opengraph.githubassets.com/1/tegal1337/YOMEN"
   },
-  {
-    "highlight": true,
-    "title": "Google Trends Scraper",
-    "description": "Scrape trending keywords from Google Trends across all countries. Structured output for SEO and content analysis. 147 stars.",
-    "tags": ["JavaScript", "Node.js", "Scraping"],
-    "category": "Automation",
-    "color": "lime",
-    "stars": 147,
-    "github": "https://github.com/fdciabdul/Google-Trends-Keywords-Scraper",
-    "live": null,
-    "featured": false,
-    "image": "https://opengraph.githubassets.com/1/fdciabdul/Google-Trends-Keywords-Scraper"
-  },
+
   {
     "highlight": false,
     "title": "mapsdumper",
@@ -255,13 +256,13 @@
     "title": "Absensi Siswa Digital",
     "description": "Student attendance system integrated with fingerprint scanner and face detection. Replaces manual roll call for schools.",
     "tags": ["Fingerprint", "Face Detection", "IoT"],
-    "category": "Native",
+    "category": "Web",
     "color": "sky",
     "stars": 4,
     "github": "https://github.com/fdciabdul/ABSENSI-SISWA-DIGITAL",
     "live": null,
     "featured": false,
-    "image": "https://opengraph.githubassets.com/1/fdciabdul/ABSENSI-SISWA-DIGITAL"
+    "image": "/screenshots/absensi.png"
   },
   {
     "highlight": false,
