@@ -4,15 +4,17 @@ import { Icon } from '@iconify/vue'
 import projects from '../data/projects.json'
 
 const activeFilter = ref('All')
-const filters = ['All', 'Web', 'Security', 'Automation', 'Native', 'Plugin', 'Language']
-
-const highlighted = computed(() => projects.filter((p: any) => p.highlight))
+const filters = ['All', 'Web', 'Security', 'Automation', 'Native', 'Module', 'Language']
 
 const filtered = computed(() =>
   activeFilter.value === 'All'
-    ? highlighted.value
+    ? (projects as any[])
     : projects.filter((p: any) => p.category === activeFilter.value)
 )
+
+function countFor(f: string) {
+  return f === 'All' ? projects.length : projects.filter((p: any) => p.category === f).length
+}
 </script>
 
 <template>
@@ -30,14 +32,8 @@ const filtered = computed(() =>
           @click="activeFilter = f"
         >
           {{ f }}
-          <span class="filter-count">
-            {{ f === 'All' ? highlighted.length : projects.filter(p => p.category === f).length }}
-          </span>
+          <span class="filter-count">{{ countFor(f) }}</span>
         </button>
-        <a href="#/projects-pdf" class="filter-btn pdf-btn">
-          <Icon icon="mdi:file-pdf-box" width="16" />
-          Export PDF
-        </a>
       </div>
 
       <div class="projects-grid">
@@ -269,19 +265,8 @@ const filtered = computed(() =>
 .cat-security { background: var(--coral); color: var(--white); }
 .cat-automation { background: var(--yellow); color: var(--black); }
 .cat-native { background: var(--lime); color: var(--black); }
-.cat-plugin { background: var(--purple); color: var(--black); }
+.cat-module { background: var(--purple); color: var(--black); }
 .cat-language { background: #b5651d; color: var(--white); }
-
-.pdf-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-left: auto;
-  background: var(--black);
-  color: var(--yellow);
-  text-decoration: none;
-}
-.pdf-btn:hover { background: var(--yellow); color: var(--black); }
 
 .badge-stars {
   display: inline-flex;

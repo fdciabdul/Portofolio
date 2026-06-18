@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import projects from '../data/projects.json'
 
-const ORDER = ['Language', 'Plugin', 'Web', 'Security', 'Automation', 'Native']
+const ORDER = ['Language', 'Module', 'Web', 'Security', 'Automation', 'Native']
 
 const grouped = computed(() => {
   const map: Record<string, any[]> = {}
