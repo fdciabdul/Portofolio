@@ -51,6 +51,20 @@
     "featured": false,
     "image": "/screenshots/crm.png"
   },
+  
+  {
+  "highlight": false,
+  "title": "Faskes Network Dashboard",
+  "description": "Dashboard interaktif peta persebaran fasilitas kesehatan — 112 Puskesmas & 98 Rumah Sakit di 24 wilayah. Filter per kabupaten, toggle tipe faskes, satelit/peta, dan popup detail lokasi.",
+  "tags": ["Leaflet.js", "JavaScript", "GeoJSON", "HTML"],
+  "category": "Web",
+  "color": "#3c6049",
+  "stars": null,
+  "github": null,
+  "live": "https://faskes.subagakreatif.com",
+  "featured": true,
+  "image": "/screenshots/faskes-dashboard.png"
+},
   {
     "highlight": false,
     "title": "WA-RS",
