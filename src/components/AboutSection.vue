@@ -61,22 +61,36 @@ import { Icon } from '@iconify/vue'
               <div class="service-icon">
                 <Icon icon="mdi:desktop-tower" width="32" />
               </div>
-              <h3>Native Apps</h3>
-              <p>Rust, Go, Tauri, WebView2, Win32 API</p>
+              <h3>Desktop Apps</h3>
+              <p>Rust, Go, Tauri, Electron, WebView2, Win32 API</p>
             </div>
             <div class="service-card service-lime">
+              <div class="service-icon">
+                <Icon icon="mdi:cellphone" width="32" />
+              </div>
+              <h3>Mobile Apps</h3>
+              <p>Kotlin, React Native, Tauri Android, Android SDK</p>
+            </div>
+            <div class="service-card service-sky">
               <div class="service-icon">
                 <Icon icon="mdi:shield-bug" width="32" />
               </div>
               <h3>Security</h3>
               <p>Frida, SSL bypass, pentest tooling, Android</p>
             </div>
-            <div class="service-card service-sky">
+            <div class="service-card service-coral">
               <div class="service-icon">
                 <Icon icon="mdi:robot" width="32" />
               </div>
               <h3>Automation</h3>
               <p>WhatsApp bots, AI agents, scrapers</p>
+            </div>
+            <div class="service-card service-purple">
+              <div class="service-icon">
+                <Icon icon="mdi:server-network" width="32" />
+              </div>
+              <h3>DevOps</h3>
+              <p>Docker, Terraform, Nginx, CI/CD</p>
             </div>
           </div>
         </div>
@@ -153,6 +167,8 @@ import { Icon } from '@iconify/vue'
 .service-white { background: var(--white); }
 .service-lime { background: var(--lime); }
 .service-sky { background: var(--sky); }
+.service-coral { background: var(--coral); }
+.service-purple { background: var(--purple); }
 
 .service-icon {
   margin-bottom: 0.75rem;

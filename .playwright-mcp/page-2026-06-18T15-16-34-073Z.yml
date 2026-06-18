@@ -1,0 +1,1011 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - button "IMTAQIN" [ref=e5] [cursor=pointer]
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - button "About" [ref=e8] [cursor=pointer]
+        - listitem [ref=e9]:
+          - button "Skills" [ref=e10] [cursor=pointer]
+        - listitem [ref=e11]:
+          - button "Projects" [ref=e12] [cursor=pointer]
+        - listitem [ref=e13]:
+          - button "Contact" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - link "CV" [ref=e16] [cursor=pointer]:
+          - /url: "#/cv"
+        - link "GitHub" [ref=e17] [cursor=pointer]:
+          - /url: https://github.com/fdciabdul
+          - img [ref=e18]
+        - link "Blog" [ref=e19] [cursor=pointer]:
+          - /url: https://imtaqin.id
+          - img [ref=e20]
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: Hello, I am
+        - heading "IMTAQIN" [level=1] [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e29]: Developer
+          - generic [ref=e30]: "&"
+          - generic [ref=e31]: Security Researcher
+        - paragraph [ref=e32]: Building web apps, native tools, and security research. Rust, Go, TypeScript, Vue. Based in Indonesia.
+        - generic [ref=e33]:
+          - button "View Projects" [ref=e34] [cursor=pointer]:
+            - text: View Projects
+            - img [ref=e35]
+          - button "Contact Me" [ref=e36] [cursor=pointer]
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: 4000+
+            - generic [ref=e40]: GitHub Stars
+          - generic [ref=e41]:
+            - generic [ref=e42]: 200+
+            - generic [ref=e43]: Repositories
+          - generic [ref=e44]:
+            - generic [ref=e45]: 4 Orgs
+            - generic [ref=e46]: GitHub Orgs
+      - button "Scroll down" [ref=e47] [cursor=pointer]:
+        - img [ref=e48]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]: About Me
+        - heading "Who Am I?" [level=2] [ref=e54]
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Developer and security researcher. I build full-stack web apps, native desktop tools, and Android security toolkits. I write in Rust, Go, TypeScript, and Vue.
+          - paragraph [ref=e57]: Creator of WA-RS (multi-session WhatsApp gateway in Rust), Pocket Pentester (native Android security toolkit), and several open-source tools with 400+ GitHub stars combined.
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img [ref=e60]
+            - generic [ref=e61]: Indonesia
+          - generic [ref=e62]:
+            - img [ref=e63]
+            - generic [ref=e64]: taqin2731@gmail.com
+          - generic [ref=e65]:
+            - img [ref=e66]
+            - generic [ref=e67]: github.com/fdciabdul
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e70]: imtaqin.id
+        - link "View CV / Resume" [ref=e71] [cursor=pointer]:
+          - /url: "#/cv"
+          - img [ref=e72]
+          - text: View CV / Resume
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - img [ref=e77]
+          - heading "Web Dev" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Vue.js, TypeScript, Node.js, REST APIs
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - heading "Desktop Apps" [level=3] [ref=e83]
+          - paragraph [ref=e84]: Rust, Go, Tauri, Electron, WebView2, Win32 API
+        - generic [ref=e85]:
+          - img [ref=e87]
+          - heading "Mobile Apps" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Kotlin, React Native, Tauri Android, Android SDK
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - heading "Security" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Frida, SSL bypass, pentest tooling, Android
+        - generic [ref=e95]:
+          - img [ref=e97]
+          - heading "Automation" [level=3] [ref=e98]
+          - paragraph [ref=e99]: WhatsApp bots, AI agents, scrapers
+        - generic [ref=e100]:
+          - img [ref=e102]
+          - heading "DevOps" [level=3] [ref=e103]
+          - paragraph [ref=e104]: Docker, Terraform, Nginx, CI/CD
+    - generic [ref=e106]:
+      - generic [ref=e107]: What I Use
+      - heading "Tech Stack" [level=2] [ref=e108]
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - img [ref=e113]
+            - generic [ref=e114]: Languages
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - img "TypeScript" [ref=e117]
+              - generic [ref=e118]: TypeScript
+            - generic [ref=e119]:
+              - img "JavaScript" [ref=e120]
+              - generic [ref=e121]: JavaScript
+            - generic [ref=e122]:
+              - img "Rust" [ref=e123]
+              - generic [ref=e124]: Rust
+            - generic [ref=e125]:
+              - img "Go" [ref=e126]
+              - generic [ref=e127]: Go
+            - generic [ref=e128]:
+              - img "PHP" [ref=e129]
+              - generic [ref=e130]: PHP
+            - generic [ref=e131]:
+              - img "Kotlin" [ref=e132]
+              - generic [ref=e133]: Kotlin
+            - generic [ref=e134]:
+              - img "Python" [ref=e135]
+              - generic [ref=e136]: Python
+            - generic [ref=e137]:
+              - img "C#" [ref=e138]
+              - generic [ref=e139]: C#
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - img [ref=e143]
+            - generic [ref=e144]: Frontend & Desktop
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - img "Vue.js" [ref=e147]
+              - generic [ref=e148]: Vue.js
+            - generic [ref=e149]:
+              - img "Tauri" [ref=e150]
+              - generic [ref=e151]: Tauri
+            - generic [ref=e152]:
+              - img "Electron" [ref=e153]
+              - generic [ref=e154]: Electron
+            - generic [ref=e155]:
+              - img "React Native" [ref=e156]
+              - generic [ref=e157]: React Native
+            - generic [ref=e158]:
+              - img "Svelte" [ref=e159]
+              - generic [ref=e160]: Svelte
+            - generic [ref=e161]:
+              - img "TailwindCSS" [ref=e162]
+              - generic [ref=e163]: TailwindCSS
+            - generic [ref=e164]:
+              - img "WebView2" [ref=e165]
+              - generic [ref=e166]: WebView2
+            - generic [ref=e167]:
+              - img "Win32 API" [ref=e168]
+              - generic [ref=e169]: Win32 API
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - img [ref=e173]
+            - generic [ref=e174]: Backend
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - img "Node.js" [ref=e177]
+              - generic [ref=e178]: Node.js
+            - generic [ref=e179]:
+              - img "Adonis.js" [ref=e180]
+              - generic [ref=e181]: Adonis.js
+            - generic [ref=e182]:
+              - img [ref=e183]
+              - generic [ref=e184]: Hono
+            - generic [ref=e185]:
+              - img "Laravel" [ref=e186]
+              - generic [ref=e187]: Laravel
+            - generic [ref=e188]:
+              - img "Express" [ref=e189]
+              - generic [ref=e190]: Express
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - img [ref=e194]
+            - generic [ref=e195]: Database & Infra
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - img "PostgreSQL" [ref=e198]
+              - generic [ref=e199]: PostgreSQL
+            - generic [ref=e200]:
+              - img "MySQL" [ref=e201]
+              - generic [ref=e202]: MySQL
+            - generic [ref=e203]:
+              - img "Redis" [ref=e204]
+              - generic [ref=e205]: Redis
+            - generic [ref=e206]:
+              - img [ref=e207]
+              - generic [ref=e208]: Drizzle ORM
+            - generic [ref=e209]:
+              - img "Sequelize" [ref=e210]
+              - generic [ref=e211]: Sequelize
+            - generic [ref=e212]:
+              - img "Docker" [ref=e213]
+              - generic [ref=e214]: Docker
+            - generic [ref=e215]:
+              - img "Terraform" [ref=e216]
+              - generic [ref=e217]: Terraform
+            - generic [ref=e218]:
+              - img "Nginx" [ref=e219]
+              - generic [ref=e220]: Nginx
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - img [ref=e224]
+            - generic [ref=e225]: Security & Reverse
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - img [ref=e228]
+              - generic [ref=e229]: Frida
+            - generic [ref=e230]:
+              - img "Burp Suite" [ref=e231]
+              - generic [ref=e232]: Burp Suite
+            - generic [ref=e233]:
+              - img "HTTP Toolkit" [ref=e234]
+              - generic [ref=e235]: HTTP Toolkit
+            - generic [ref=e236]:
+              - img "Metasploit" [ref=e237]
+              - generic [ref=e238]: Metasploit
+            - generic [ref=e239]:
+              - img "Android" [ref=e240]
+              - generic [ref=e241]: Android
+            - generic [ref=e242]:
+              - img "Puppeteer" [ref=e243]
+              - generic [ref=e244]: Puppeteer
+            - generic [ref=e245]:
+              - img "JADX" [ref=e246]
+              - generic [ref=e247]: JADX
+    - generic [ref=e249]:
+      - generic [ref=e250]: My Work
+      - heading "Projects" [level=2] [ref=e251]
+      - generic [ref=e252]:
+        - button "All 35" [ref=e253] [cursor=pointer]:
+          - text: All
+          - generic [ref=e254]: "35"
+        - button "Web 7" [ref=e255] [cursor=pointer]:
+          - text: Web
+          - generic [ref=e256]: "7"
+        - button "Security 3" [ref=e257] [cursor=pointer]:
+          - text: Security
+          - generic [ref=e258]: "3"
+        - button "Automation 2" [ref=e259] [cursor=pointer]:
+          - text: Automation
+          - generic [ref=e260]: "2"
+        - button "Native 10" [ref=e261] [cursor=pointer]:
+          - text: Native
+          - generic [ref=e262]: "10"
+        - button "Module 12" [ref=e263] [cursor=pointer]:
+          - text: Module
+          - generic [ref=e264]: "12"
+        - button "Language 1" [ref=e265] [cursor=pointer]:
+          - text: Language
+          - generic [ref=e266]: "1"
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - img "Tenun" [ref=e270]
+            - generic [ref=e272]:
+              - generic [ref=e273]:
+                - img [ref=e274]
+                - text: Featured
+              - generic [ref=e275]: Language
+          - generic [ref=e276]:
+            - heading "Tenun" [level=3] [ref=e277]
+            - paragraph [ref=e278]: Programming language with full Indonesian keywords (kalau, selama, untuk, fungsi, kembali) and a compiler written in Zig. Statically typed, with three execution backends from one source — tree-walking interpreter, bytecode VM, and native via C transpilation. Ships a REPL, formatter, package manager, VSCode + Neovim extensions, and a 25+ module ecosystem (web, ORM, Redis, mail, scraping).
+            - generic [ref=e279]:
+              - generic [ref=e280]: Zig
+              - generic [ref=e281]: Compiler
+              - generic [ref=e282]: Language Design
+              - generic [ref=e283]: C
+            - generic [ref=e284]:
+              - link "Code" [ref=e285] [cursor=pointer]:
+                - /url: https://github.com/TenunLang/Tenun
+                - img [ref=e286]
+                - text: Code
+              - link "Live" [ref=e287] [cursor=pointer]:
+                - /url: https://github.com/TenunLang/Tenun
+                - img [ref=e288]
+                - text: Live
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - img "Cloudflare Tunnel for aaPanel" [ref=e291]
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - img [ref=e295]
+                - text: Featured
+              - generic [ref=e296]: Module
+          - generic [ref=e297]:
+            - heading "Cloudflare Tunnel for aaPanel" [level=3] [ref=e298]
+            - paragraph [ref=e299]: "aaPanel plugin that manages Cloudflare Tunnel (cloudflared) end-to-end from the panel UI. 4-step wizard: auto-downloads the binary, reuses cloudflare_manage creds, creates tunnels, upserts proxied CNAMEs, writes config.yml, and installs the systemd service with atomic rollback. Expose NAT/CGNAT servers with no public IP."
+            - generic [ref=e300]:
+              - generic [ref=e301]: aaPanel
+              - generic [ref=e302]: Cloudflare
+              - generic [ref=e303]: Python
+              - generic [ref=e304]: cloudflared
+              - generic [ref=e305]: systemd
+            - link "Code" [ref=e307] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/Cloudflare-Tunnel-aaPanel
+              - img [ref=e308]
+              - text: Code
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - img "node-smpp-next" [ref=e311]
+            - generic [ref=e314]: Module
+          - generic [ref=e315]:
+            - heading "node-smpp-next" [level=3] [ref=e316]
+            - paragraph [ref=e317]: SMPP client and server implementation in Node.js — a modern, TypeScript-typed rewrite for sending and receiving SMS over the SMPP protocol. Published as an npm module.
+            - generic [ref=e318]:
+              - generic [ref=e319]: TypeScript
+              - generic [ref=e320]: Node.js
+              - generic [ref=e321]: SMPP
+              - generic [ref=e322]: npm
+            - generic [ref=e323]:
+              - link "Code" [ref=e324] [cursor=pointer]:
+                - /url: https://github.com/fdciabdul/node-smpp-next
+                - img [ref=e325]
+                - text: Code
+              - link "Live" [ref=e326] [cursor=pointer]:
+                - /url: https://www.npmjs.com/package/node-smpp-next
+                - img [ref=e327]
+                - text: Live
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - img "mcp-cpanel-api" [ref=e330]
+            - generic [ref=e333]: Module
+          - generic [ref=e334]:
+            - heading "mcp-cpanel-api" [level=3] [ref=e335]
+            - paragraph [ref=e336]: MCP server for cPanel UAPI — manage email, domains, databases, files, Git, SSL, DNS, and security directly from Claude and other AI assistants.
+            - generic [ref=e337]:
+              - generic [ref=e338]: MCP
+              - generic [ref=e339]: cPanel
+              - generic [ref=e340]: TypeScript
+              - generic [ref=e341]: AI
+            - link "Live" [ref=e343] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/mcp-cpanel-api
+              - img [ref=e344]
+              - text: Live
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - img "httptoolkit-mcp" [ref=e347]
+            - generic [ref=e350]: Module
+          - generic [ref=e351]:
+            - heading "httptoolkit-mcp" [level=3] [ref=e352]
+            - paragraph [ref=e353]: MCP server for HTTP Toolkit — intercept, inspect, and debug HTTP traffic via AI assistants.
+            - generic [ref=e354]:
+              - generic [ref=e355]: MCP
+              - generic [ref=e356]: HTTP Toolkit
+              - generic [ref=e357]: AI
+              - generic [ref=e358]: Node.js
+            - link "Live" [ref=e360] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/httptoolkit-mcp
+              - img [ref=e361]
+              - text: Live
+        - generic [ref=e362]:
+          - generic [ref=e363]:
+            - img "mcpimg" [ref=e364]
+            - generic [ref=e367]: Module
+          - generic [ref=e368]:
+            - heading "mcpimg" [level=3] [ref=e369]
+            - paragraph [ref=e370]: MCP server for AI image generation via OpenRouter, Together AI, Replicate, and fal.ai.
+            - generic [ref=e371]:
+              - generic [ref=e372]: MCP
+              - generic [ref=e373]: Image Gen
+              - generic [ref=e374]: AI
+              - generic [ref=e375]: Node.js
+            - link "Live" [ref=e377] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/mcpimg
+              - img [ref=e378]
+              - text: Live
+        - generic [ref=e379]:
+          - generic [ref=e380]:
+            - img "gtranslate-api" [ref=e381]
+            - generic [ref=e384]: Module
+          - generic [ref=e385]:
+            - heading "gtranslate-api" [level=3] [ref=e386]
+            - paragraph [ref=e387]: Free and unlimited Google Translate API wrapper for Node.js.
+            - generic [ref=e388]:
+              - generic [ref=e389]: Node.js
+              - generic [ref=e390]: Translate
+              - generic [ref=e391]: API
+            - link "Live" [ref=e393] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/gtranslate-api
+              - img [ref=e394]
+              - text: Live
+        - generic [ref=e395]:
+          - generic [ref=e396]:
+            - img "cpanel-uapi" [ref=e397]
+            - generic [ref=e400]: Module
+          - generic [ref=e401]:
+            - heading "cpanel-uapi" [level=3] [ref=e402]
+            - paragraph [ref=e403]: JavaScript/TypeScript client library for the cPanel UAPI.
+            - generic [ref=e404]:
+              - generic [ref=e405]: TypeScript
+              - generic [ref=e406]: cPanel
+              - generic [ref=e407]: API
+            - link "Live" [ref=e409] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/cpanel-uapi
+              - img [ref=e410]
+              - text: Live
+        - generic [ref=e411]:
+          - generic [ref=e412]:
+            - img "olx-scraper" [ref=e413]
+            - generic [ref=e416]: Module
+          - generic [ref=e417]:
+            - heading "olx-scraper" [level=3] [ref=e418]
+            - paragraph [ref=e419]: Unofficial OLX client API and scraper for Node.js.
+            - generic [ref=e420]:
+              - generic [ref=e421]: Node.js
+              - generic [ref=e422]: Scraping
+              - generic [ref=e423]: OLX
+            - link "Live" [ref=e425] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/olx-scraper
+              - img [ref=e426]
+              - text: Live
+        - generic [ref=e427]:
+          - generic [ref=e428]:
+            - img "puppeteer-auto-position" [ref=e429]
+            - generic [ref=e432]: Module
+          - generic [ref=e433]:
+            - heading "puppeteer-auto-position" [level=3] [ref=e434]
+            - paragraph [ref=e435]: Launch Puppeteer with automatic browser window positioning.
+            - generic [ref=e436]:
+              - generic [ref=e437]: Puppeteer
+              - generic [ref=e438]: Node.js
+              - generic [ref=e439]: Automation
+            - link "Live" [ref=e441] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/puppeteer-auto-position
+              - img [ref=e442]
+              - text: Live
+        - generic [ref=e443]:
+          - generic [ref=e444]:
+            - img "indonesia-number-provider-checker" [ref=e445]
+            - generic [ref=e448]: Module
+          - generic [ref=e449]:
+            - heading "indonesia-number-provider-checker" [level=3] [ref=e450]
+            - paragraph [ref=e451]: Return the Indonesian mobile operator name from a phone number.
+            - generic [ref=e452]:
+              - generic [ref=e453]: Node.js
+              - generic [ref=e454]: Indonesia
+              - generic [ref=e455]: Telco
+            - link "Live" [ref=e457] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/indonesia-number-provider-checker
+              - img [ref=e458]
+              - text: Live
+        - generic [ref=e459]:
+          - generic [ref=e460]:
+            - img "maillogmonitor" [ref=e461]
+            - generic [ref=e464]: Module
+          - generic [ref=e465]:
+            - heading "maillogmonitor" [level=3] [ref=e466]
+            - paragraph [ref=e467]: Monitor mail.log for delivery events and parse SMTP activity in real time.
+            - generic [ref=e468]:
+              - generic [ref=e469]: Node.js
+              - generic [ref=e470]: Mail
+              - generic [ref=e471]: Monitoring
+            - link "Live" [ref=e473] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/maillogmonitor
+              - img [ref=e474]
+              - text: Live
+        - generic [ref=e475]:
+          - generic [ref=e476]:
+            - img "bahlib" [ref=e477]
+            - generic [ref=e480]: Module
+          - generic [ref=e481]:
+            - heading "bahlib" [level=3] [ref=e482]
+            - paragraph [ref=e483]: Package manager dengan rasa Indonesia — NPM tapi ada drama SPBU-nya. A satirical Node package manager.
+            - generic [ref=e484]:
+              - generic [ref=e485]: Node.js
+              - generic [ref=e486]: CLI
+              - generic [ref=e487]: Package Manager
+            - link "Live" [ref=e489] [cursor=pointer]:
+              - /url: https://www.npmjs.com/package/bahlib
+              - img [ref=e490]
+              - text: Live
+        - generic [ref=e491]:
+          - generic [ref=e492]:
+            - img "telegram-cli" [ref=e493]
+            - generic [ref=e494]:
+              - generic [ref=e496]: Native
+              - generic [ref=e497]:
+                - img [ref=e498]
+                - text: "1"
+          - generic [ref=e499]:
+            - heading "telegram-cli" [level=3] [ref=e500]
+            - paragraph [ref=e501]: Telegram client that runs entirely in your terminal. Built in Go — chat, send, and read messages without leaving the command line.
+            - generic [ref=e502]:
+              - generic [ref=e503]: Go
+              - generic [ref=e504]: Telegram
+              - generic [ref=e505]: CLI
+              - generic [ref=e506]: TUI
+            - link "Code" [ref=e508] [cursor=pointer]:
+              - /url: https://github.com/tegal1337/telegram-cli
+              - img [ref=e509]
+              - text: Code
+        - generic [ref=e510]:
+          - generic [ref=e511]:
+            - img "WareHaus" [ref=e512]
+            - generic [ref=e515]: Web
+          - generic [ref=e516]:
+            - heading "WareHaus" [level=3] [ref=e517]
+            - paragraph [ref=e518]: Real-time inventory management system. Stock tracking, purchase orders, supplier management, and warehouse activity logs.
+            - generic [ref=e519]:
+              - generic [ref=e520]: Vue.js
+              - generic [ref=e521]: Hono
+              - generic [ref=e522]: Drizzle ORM
+              - generic [ref=e523]: TypeScript
+            - link "Live" [ref=e525] [cursor=pointer]:
+              - /url: https://warehaus.imtaqin.id/#/
+              - img [ref=e526]
+              - text: Live
+        - generic [ref=e527]:
+          - generic [ref=e528]:
+            - img "MauBlast" [ref=e529]
+            - generic [ref=e531]:
+              - generic [ref=e532]:
+                - img [ref=e533]
+                - text: Featured
+              - generic [ref=e534]: Web
+          - generic [ref=e535]:
+            - heading "MauBlast" [level=3] [ref=e536]
+            - paragraph [ref=e537]: WhatsApp API gateway for businesses — no Meta Business required. Multi-session, auto-reply, blast with throttling, real-time webhooks. Powered by WA-RS under the hood.
+            - generic [ref=e538]:
+              - generic [ref=e539]: Adonis v7
+              - generic [ref=e540]: WA-RS
+              - generic [ref=e541]: Rust
+              - generic [ref=e542]: REST API
+            - link "Live" [ref=e544] [cursor=pointer]:
+              - /url: https://maublast.net/
+              - img [ref=e545]
+              - text: Live
+        - generic [ref=e546]:
+          - generic [ref=e547]:
+            - img "RentalWA" [ref=e548]
+            - generic [ref=e551]: Web
+          - generic [ref=e552]:
+            - heading "RentalWA" [level=3] [ref=e553]
+            - paragraph [ref=e554]: WhatsApp number rental platform. Rent idle WA numbers for blast campaigns — pay per message, no contract. Full CRM, Redis queue, Terraform infra.
+            - generic [ref=e555]:
+              - generic [ref=e556]: Vue.js
+              - generic [ref=e557]: Express
+              - generic [ref=e558]: Sequelize
+              - generic [ref=e559]: PostgreSQL
+              - generic [ref=e560]: Redis
+              - generic [ref=e561]: Terraform
+            - link "Live" [ref=e563] [cursor=pointer]:
+              - /url: https://rentalwa.com/
+              - img [ref=e564]
+              - text: Live
+        - generic [ref=e565]:
+          - generic [ref=e566]:
+            - img "HarmoniCRM" [ref=e567]
+            - generic [ref=e570]: Web
+          - generic [ref=e571]:
+            - heading "HarmoniCRM" [level=3] [ref=e572]
+            - paragraph [ref=e573]: Client relationship management system built on Laravel 12. Contact management, deal pipeline, task tracking, and team collaboration.
+            - generic [ref=e574]:
+              - generic [ref=e575]: Laravel 12
+              - generic [ref=e576]: PHP
+              - generic [ref=e577]: MySQL
+            - link "Live" [ref=e579] [cursor=pointer]:
+              - /url: https://crm.imtaqin.id/
+              - img [ref=e580]
+              - text: Live
+        - generic [ref=e581]:
+          - generic [ref=e582]:
+            - img "Faskes Network Dashboard" [ref=e583]
+            - generic [ref=e585]:
+              - generic [ref=e586]:
+                - img [ref=e587]
+                - text: Featured
+              - generic [ref=e588]: Web
+          - generic [ref=e589]:
+            - heading "Faskes Network Dashboard" [level=3] [ref=e590]
+            - paragraph [ref=e591]: Dashboard interaktif peta persebaran fasilitas kesehatan — 112 Puskesmas & 98 Rumah Sakit di 24 wilayah. Filter per kabupaten, toggle tipe faskes, satelit/peta, dan popup detail lokasi.
+            - generic [ref=e592]:
+              - generic [ref=e593]: Leaflet.js
+              - generic [ref=e594]: JavaScript
+              - generic [ref=e595]: GeoJSON
+              - generic [ref=e596]: HTML
+            - link "Live" [ref=e598] [cursor=pointer]:
+              - /url: https://faskes.subagakreatif.com
+              - img [ref=e599]
+              - text: Live
+        - generic [ref=e600]:
+          - generic [ref=e601]:
+            - img "WA-RS" [ref=e602]
+            - generic [ref=e603]:
+              - generic [ref=e605]: Web
+              - generic [ref=e606]:
+                - img [ref=e607]
+                - text: "17"
+          - generic [ref=e608]:
+            - heading "WA-RS" [level=3] [ref=e609]
+            - paragraph [ref=e610]: Multi-session WhatsApp REST API gateway rewritten from Node.js to Rust. Dropped memory from 8GB to minimal, eliminated CPU spikes, unlimited sessions.
+            - generic [ref=e611]:
+              - generic [ref=e612]: Rust
+              - generic [ref=e613]: REST API
+              - generic [ref=e614]: WhatsApp
+            - generic [ref=e615]:
+              - link "Code" [ref=e616] [cursor=pointer]:
+                - /url: https://github.com/fdciabdul/wa-rs
+                - img [ref=e617]
+                - text: Code
+              - link "Live" [ref=e618] [cursor=pointer]:
+                - /url: https://wa-rs.imtaqin.id
+                - img [ref=e619]
+                - text: Live
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - img "Pocket Pentester" [ref=e622]
+            - generic [ref=e625]: Security
+          - generic [ref=e626]:
+            - heading "Pocket Pentester" [level=3] [ref=e627]
+            - paragraph [ref=e628]: 21-module native Android offensive security toolkit. 34MB APK, no root, fully offline. Port scan, SQLi, XSS, JWT attack, dir-fuzz, Burp-lite repeater.
+            - generic [ref=e629]:
+              - generic [ref=e630]: Rust
+              - generic [ref=e631]: Tauri 2
+              - generic [ref=e632]: Vue 3
+              - generic [ref=e633]: Android
+            - generic [ref=e634]:
+              - link "Code" [ref=e635] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester
+                - img [ref=e636]
+                - text: Code
+              - link "Live" [ref=e637] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/PocketPentester/releases/latest/download/PocketPentester.apk
+                - img [ref=e638]
+                - text: Live
+        - generic [ref=e639]:
+          - generic [ref=e640]:
+            - img "CiLocks" [ref=e641]
+            - generic [ref=e642]:
+              - generic [ref=e644]: Security
+              - generic [ref=e645]:
+                - img [ref=e646]
+                - text: 2,916
+          - generic [ref=e647]:
+            - heading "CiLocks" [level=3] [ref=e648]
+            - paragraph [ref=e649]: Android lockscreen interface crack tool with Metasploit integration and iOS/Android hacking utilities. Most-starred project across all accounts.
+            - generic [ref=e650]:
+              - generic [ref=e651]: HTML
+              - generic [ref=e652]: Android
+              - generic [ref=e653]: Metasploit
+            - link "Code" [ref=e655] [cursor=pointer]:
+              - /url: https://github.com/tegal1337/CiLocks
+              - img [ref=e656]
+              - text: Code
+        - generic [ref=e657]:
+          - generic [ref=e658]:
+            - img "Frida Multiple Bypass" [ref=e659]
+            - generic [ref=e660]:
+              - generic [ref=e662]: Security
+              - generic [ref=e663]:
+                - img [ref=e664]
+                - text: "175"
+          - generic [ref=e665]:
+            - heading "Frida Multiple Bypass" [level=3] [ref=e666]
+            - paragraph [ref=e667]: One-shot Frida script bypassing SSL pinning, root detection, emulator detection, Frida detection, and Flutter TLS simultaneously. 175 stars.
+            - generic [ref=e668]:
+              - generic [ref=e669]: JavaScript
+              - generic [ref=e670]: Frida
+              - generic [ref=e671]: Android
+            - link "Code" [ref=e673] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/Frida-Multiple-Bypass
+              - img [ref=e674]
+              - text: Code
+        - generic [ref=e675]:
+          - generic [ref=e676]:
+            - img "YOMEN" [ref=e677]
+            - generic [ref=e678]:
+              - generic [ref=e680]: Automation
+              - generic [ref=e681]:
+                - img [ref=e682]
+                - text: "227"
+          - generic [ref=e683]:
+            - heading "YOMEN" [level=3] [ref=e684]
+            - paragraph [ref=e685]: YouTube auto-commenter bot using Puppeteer. Multi-account, cookie auth, proxy support, comment rotation. 227 stars.
+            - generic [ref=e686]:
+              - generic [ref=e687]: TypeScript
+              - generic [ref=e688]: Puppeteer
+              - generic [ref=e689]: YouTube
+            - link "Code" [ref=e691] [cursor=pointer]:
+              - /url: https://github.com/tegal1337/YOMEN
+              - img [ref=e692]
+              - text: Code
+        - generic [ref=e693]:
+          - generic [ref=e694]:
+            - img "mapsdumper" [ref=e695]
+            - generic [ref=e696]:
+              - generic [ref=e698]: Automation
+              - generic [ref=e699]:
+                - img [ref=e700]
+                - text: "73"
+          - generic [ref=e701]:
+            - heading "mapsdumper" [level=3] [ref=e702]
+            - paragraph [ref=e703]: Dump Google Maps place details at scale — phones, emails, websites, and reviews. 73 stars.
+            - generic [ref=e704]:
+              - generic [ref=e705]: JavaScript
+              - generic [ref=e706]: Google Maps
+              - generic [ref=e707]: Scraping
+            - generic [ref=e708]:
+              - link "Code" [ref=e709] [cursor=pointer]:
+                - /url: https://github.com/tegal1337/mapsdumper
+                - img [ref=e710]
+                - text: Code
+              - link "Live" [ref=e711] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=GyLzOtsk4_c
+                - img [ref=e712]
+                - text: Live
+        - generic [ref=e713]:
+          - generic [ref=e714]:
+            - img "Satria Proxy" [ref=e715]
+            - generic [ref=e718]: Native
+          - generic [ref=e719]:
+            - heading "Satria Proxy" [level=3] [ref=e720]
+            - paragraph [ref=e721]: Desktop proxy scraper and checker. Scrapes proxies from multiple sources, validates them live for speed and anonymity. Built with Python and PySide6.
+            - generic [ref=e722]:
+              - generic [ref=e723]: Python
+              - generic [ref=e724]: PySide6
+              - generic [ref=e725]: Proxy
+              - generic [ref=e726]: Desktop
+            - link "Live" [ref=e728] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=ISN-_AHxZ9Y
+              - img [ref=e729]
+              - text: Live
+        - generic [ref=e730]:
+          - generic [ref=e731]:
+            - img "Driver Booster Pro" [ref=e732]
+            - generic [ref=e735]: Native
+          - generic [ref=e736]:
+            - heading "Driver Booster Pro" [level=3] [ref=e737]
+            - paragraph [ref=e738]: Native Windows desktop app for driver management. Built with Go + WebView2 + direct Win32 API calls. Frameless window, WinUI3 styling, PowerShell without CMD flash.
+            - generic [ref=e739]:
+              - generic [ref=e740]: Go
+              - generic [ref=e741]: WebView2
+              - generic [ref=e742]: Win32 API
+              - generic [ref=e743]: Windows
+            - link "Live" [ref=e745] [cursor=pointer]:
+              - /url: https://imtaqin.id/building-windows-11-desktop-app-go-webview2
+              - img [ref=e746]
+              - text: Live
+        - generic [ref=e747]:
+          - generic [ref=e748]:
+            - img "GoAMPP" [ref=e749]
+            - generic [ref=e750]:
+              - generic [ref=e752]: Native
+              - generic [ref=e753]:
+                - img [ref=e754]
+                - text: "4"
+          - generic [ref=e755]:
+            - heading "GoAMPP" [level=3] [ref=e756]
+            - paragraph [ref=e757]: 7MB native Windows web stack (Apache + MySQL + PHP) replacing 200MB XAMPP. Single executable, no Docker, no WSL, no Java required.
+            - generic [ref=e758]:
+              - generic [ref=e759]: Go
+              - generic [ref=e760]: Apache
+              - generic [ref=e761]: MySQL
+              - generic [ref=e762]: PHP
+              - generic [ref=e763]: Windows
+            - generic [ref=e764]:
+              - link "Code" [ref=e765] [cursor=pointer]:
+                - /url: https://github.com/imtaqin/goampp
+                - img [ref=e766]
+                - text: Code
+              - link "Live" [ref=e767] [cursor=pointer]:
+                - /url: https://imtaqin.id/goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+                - img [ref=e768]
+                - text: Live
+        - generic [ref=e769]:
+          - generic [ref=e770]:
+            - img "WA Blast Desktop" [ref=e771]
+            - generic [ref=e772]:
+              - generic [ref=e774]: Native
+              - generic [ref=e775]:
+                - img [ref=e776]
+                - text: "10"
+          - generic [ref=e777]:
+            - heading "WA Blast Desktop" [level=3] [ref=e778]
+            - paragraph [ref=e779]: Electron desktop app for managing WhatsApp sessions and sending bulk messages. Dark theme UI, multi-session, contact import.
+            - generic [ref=e780]:
+              - generic [ref=e781]: Electron
+              - generic [ref=e782]: JavaScript
+              - generic [ref=e783]: WhatsApp
+            - link "Code" [ref=e785] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/Whatsapp-Blast-Desktop
+              - img [ref=e786]
+              - text: Code
+        - generic [ref=e787]:
+          - generic [ref=e788]:
+            - img "DroidQEMU" [ref=e789]
+            - generic [ref=e790]:
+              - generic [ref=e792]: Native
+              - generic [ref=e793]:
+                - img [ref=e794]
+                - text: "3"
+          - generic [ref=e795]:
+            - heading "DroidQEMU" [level=3] [ref=e796]
+            - paragraph [ref=e797]: Run a full QEMU virtual machine directly on Android. Native Kotlin app, no root required. Includes virtual keyboard support.
+            - generic [ref=e798]:
+              - generic [ref=e799]: Kotlin
+              - generic [ref=e800]: QEMU
+              - generic [ref=e801]: Android
+            - link "Code" [ref=e803] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/DroidQEMU
+              - img [ref=e804]
+              - text: Code
+        - generic [ref=e805]:
+          - generic [ref=e806]:
+            - img "SHINRAI" [ref=e807]
+            - generic [ref=e808]:
+              - generic [ref=e810]: Native
+              - generic [ref=e811]:
+                - img [ref=e812]
+                - text: "1"
+          - generic [ref=e813]:
+            - heading "SHINRAI" [level=3] [ref=e814]
+            - paragraph [ref=e815]: AI-powered SSH manager and DevOps agent that runs in your terminal. Manage servers, execute commands, and automate ops tasks with AI assistance.
+            - generic [ref=e816]:
+              - generic [ref=e817]: TypeScript
+              - generic [ref=e818]: AI
+              - generic [ref=e819]: SSH
+              - generic [ref=e820]: Terminal
+            - link "Code" [ref=e822] [cursor=pointer]:
+              - /url: https://github.com/tegal1337/SHINRAI
+              - img [ref=e823]
+              - text: Code
+        - generic [ref=e824]:
+          - generic [ref=e825]:
+            - img "Youtube Downloader" [ref=e826]
+            - generic [ref=e827]:
+              - generic [ref=e829]: Native
+              - generic [ref=e830]:
+                - img [ref=e831]
+                - text: "2"
+          - generic [ref=e832]:
+            - heading "Youtube Downloader" [level=3] [ref=e833]
+            - paragraph [ref=e834]: Desktop app wrapping yt-dlp in a native Tauri + Rust shell. Clean GUI, format selection, download queue.
+            - generic [ref=e835]:
+              - generic [ref=e836]: Rust
+              - generic [ref=e837]: Tauri
+              - generic [ref=e838]: JavaScript
+              - generic [ref=e839]: yt-dlp
+            - link "Code" [ref=e841] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/Youtube-Downloader
+              - img [ref=e842]
+              - text: Code
+        - generic [ref=e843]:
+          - generic [ref=e844]:
+            - img "Absensi Siswa Digital" [ref=e845]
+            - generic [ref=e846]:
+              - generic [ref=e848]: Web
+              - generic [ref=e849]:
+                - img [ref=e850]
+                - text: "4"
+          - generic [ref=e851]:
+            - heading "Absensi Siswa Digital" [level=3] [ref=e852]
+            - paragraph [ref=e853]: Student attendance system integrated with fingerprint scanner and face detection. Replaces manual roll call for schools.
+            - generic [ref=e854]:
+              - generic [ref=e855]: Fingerprint
+              - generic [ref=e856]: Face Detection
+              - generic [ref=e857]: IoT
+            - link "Code" [ref=e859] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/ABSENSI-SISWA-DIGITAL
+              - img [ref=e860]
+              - text: Code
+        - generic [ref=e861]:
+          - generic [ref=e862]:
+            - img "Frida Launcher" [ref=e863]
+            - generic [ref=e864]:
+              - generic [ref=e866]: Native
+              - generic [ref=e867]:
+                - img [ref=e868]
+                - text: "4"
+          - generic [ref=e869]:
+            - heading "Frida Launcher" [level=3] [ref=e870]
+            - paragraph [ref=e871]: Android app that automatically downloads and runs the latest Frida server — no manual ADB setup needed.
+            - generic [ref=e872]:
+              - generic [ref=e873]: Kotlin
+              - generic [ref=e874]: Frida
+              - generic [ref=e875]: Android
+            - link "Code" [ref=e877] [cursor=pointer]:
+              - /url: https://github.com/fdciabdul/Frida-Launcher
+              - img [ref=e878]
+              - text: Code
+        - generic [ref=e879]:
+          - generic [ref=e880]:
+            - img "Auto-Bid Bot" [ref=e881]
+            - generic [ref=e884]: Native
+          - generic [ref=e885]:
+            - heading "Auto-Bid Bot" [level=3] [ref=e886]
+            - paragraph [ref=e887]: Auto-bid bot for Projects.co.id. Grok AI solves captchas, scans listings by keyword, 24/7 loop with Rezi TUI dashboard. TLS-impersonated to bypass Cloudflare.
+            - generic [ref=e888]:
+              - generic [ref=e889]: TypeScript
+              - generic [ref=e890]: Grok AI
+              - generic [ref=e891]: TUI
+            - generic [ref=e892]:
+              - link "Code" [ref=e893] [cursor=pointer]:
+                - /url: https://github.com/ReverserID/Projects.co.id-Auto-Bid
+                - img [ref=e894]
+                - text: Code
+              - link "Live" [ref=e895] [cursor=pointer]:
+                - /url: https://imtaqin.id/auto-bid-bot-projects-co-id
+                - img [ref=e896]
+                - text: Live
+      - generic [ref=e897]:
+        - link "fdciabdul" [ref=e898] [cursor=pointer]:
+          - /url: https://github.com/fdciabdul
+          - img [ref=e899]
+          - text: fdciabdul
+        - link "tegal1337" [ref=e900] [cursor=pointer]:
+          - /url: https://github.com/tegal1337
+          - img [ref=e901]
+          - text: tegal1337
+        - link "imtaqin" [ref=e902] [cursor=pointer]:
+          - /url: https://github.com/imtaqin
+          - img [ref=e903]
+          - text: imtaqin
+        - link "ReverserID" [ref=e904] [cursor=pointer]:
+          - /url: https://github.com/ReverserID
+          - img [ref=e905]
+          - text: ReverserID
+    - generic [ref=e908]:
+      - generic [ref=e909]:
+        - generic [ref=e910]: Get In Touch
+        - heading "Let's Work Together" [level=2] [ref=e911]
+        - paragraph [ref=e912]: Have a project in mind? Want to collaborate? Or just want to say hi? Drop me a message and I will get back to you within 24 hours.
+        - generic [ref=e913]:
+          - link "Email taqin2731@gmail.com" [ref=e914] [cursor=pointer]:
+            - /url: mailto:taqin2731@gmail.com
+            - img [ref=e916]
+            - generic [ref=e917]:
+              - generic [ref=e918]: Email
+              - generic [ref=e919]: taqin2731@gmail.com
+            - img [ref=e920]
+          - link "GitHub github.com/fdciabdul" [ref=e921] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul
+            - img [ref=e923]
+            - generic [ref=e924]:
+              - generic [ref=e925]: GitHub
+              - generic [ref=e926]: github.com/fdciabdul
+            - img [ref=e927]
+          - link "Blog imtaqin.id" [ref=e928] [cursor=pointer]:
+            - /url: https://imtaqin.id
+            - img [ref=e930]
+            - generic [ref=e931]:
+              - generic [ref=e932]: Blog
+              - generic [ref=e933]: imtaqin.id
+            - img [ref=e934]
+          - link "WhatsApp Chat on WhatsApp" [ref=e935] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e937]
+            - generic [ref=e938]:
+              - generic [ref=e939]: WhatsApp
+              - generic [ref=e940]: Chat on WhatsApp
+            - img [ref=e941]
+      - generic [ref=e944]:
+        - generic [ref=e945]:
+          - generic [ref=e946]:
+            - generic [ref=e947]: Your Name
+            - textbox "Your Name" [ref=e948]:
+              - /placeholder: John Doe
+          - generic [ref=e949]:
+            - generic [ref=e950]: Email
+            - textbox "Email" [ref=e951]:
+              - /placeholder: john@example.com
+        - generic [ref=e952]:
+          - generic [ref=e953]: Subject
+          - textbox "Subject" [ref=e954]:
+            - /placeholder: Project Inquiry
+        - generic [ref=e955]:
+          - generic [ref=e956]: Message
+          - textbox "Message" [ref=e957]:
+            - /placeholder: Tell me about your project...
+        - button "Send Message" [ref=e958] [cursor=pointer]:
+          - img [ref=e959]
+          - text: Send Message
+  - contentinfo [ref=e960]:
+    - generic [ref=e961]:
+      - generic [ref=e962]:
+        - generic [ref=e963]:
+          - generic [ref=e964]: IMTAQIN
+          - paragraph [ref=e965]: Building the web, one commit at a time.
+        - navigation [ref=e966]:
+          - button "About" [ref=e967] [cursor=pointer]
+          - button "Skills" [ref=e968] [cursor=pointer]
+          - button "Projects" [ref=e969] [cursor=pointer]
+          - button "Contact" [ref=e970] [cursor=pointer]
+        - generic [ref=e971]:
+          - link "GitHub" [ref=e972] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul
+            - img [ref=e973]
+          - link "Blog" [ref=e974] [cursor=pointer]:
+            - /url: https://imtaqin.id
+            - img [ref=e975]
+          - link "Email" [ref=e976] [cursor=pointer]:
+            - /url: mailto:taqin2731@gmail.com
+            - img [ref=e977]
+      - generic [ref=e978]:
+        - generic [ref=e979]: 2026 IMTAQIN. All rights reserved.
+        - generic [ref=e980]:
+          - text: Built with
+          - img [ref=e981]
+          - text: Vue.js +
+          - img [ref=e982]
+          - text: Vite
