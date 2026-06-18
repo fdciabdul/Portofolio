@@ -18,14 +18,17 @@ function downloadPdf() {
     <article class="cv">
       <!-- Header -->
       <header class="cv-head">
-        <h1>Abdul Muttaqin</h1>
-        <p class="cv-role">Software Engineer &middot; Fullstack Developer</p>
-        <p class="cv-contact">
-          taqin2731@gmail.com &nbsp;|&nbsp; +62 851-1782-2731 &nbsp;|&nbsp; Jakarta Selatan, DKI Jakarta
-        </p>
-        <p class="cv-contact">
-          github.com/fdciabdul &nbsp;|&nbsp; linkedin.com/in/fdciabdul &nbsp;|&nbsp; imtaqin.id
-        </p>
+        <img class="cv-photo" src="/abdul.jpg" alt="Abdul Muttaqin" />
+        <div class="cv-head-text">
+          <h1>Abdul Muttaqin</h1>
+          <p class="cv-role">Software Engineer &middot; Fullstack Developer</p>
+          <p class="cv-contact">
+            taqin2731@gmail.com &nbsp;|&nbsp; +62 851-1782-2731 &nbsp;|&nbsp; Jakarta Selatan, DKI Jakarta
+          </p>
+          <p class="cv-contact">
+            github.com/fdciabdul &nbsp;|&nbsp; linkedin.com/in/fdciabdul &nbsp;|&nbsp; imtaqin.id
+          </p>
+        </div>
       </header>
 
       <hr />
@@ -239,6 +242,22 @@ function downloadPdf() {
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.12);
 }
 
+.cv-head {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.cv-photo {
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+  object-position: top center;
+  border: 2px solid #111;
+  flex-shrink: 0;
+}
+.cv-head-text {
+  flex: 1;
+}
 .cv-head h1 {
   font-size: 24pt;
   font-weight: 700;

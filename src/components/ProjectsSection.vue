@@ -4,7 +4,7 @@ import { Icon } from '@iconify/vue'
 import projects from '../data/projects.json'
 
 const activeFilter = ref('All')
-const filters = ['All', 'Web', 'Security', 'Automation', 'Native']
+const filters = ['All', 'Web', 'Security', 'Automation', 'Native', 'Plugin']
 
 const highlighted = computed(() => projects.filter((p: any) => p.highlight))
 
@@ -265,6 +265,7 @@ const filtered = computed(() =>
 .cat-security { background: var(--coral); color: var(--white); }
 .cat-automation { background: var(--yellow); color: var(--black); }
 .cat-native { background: var(--lime); color: var(--black); }
+.cat-plugin { background: var(--purple); color: var(--black); }
 
 .badge-stars {
   display: inline-flex;

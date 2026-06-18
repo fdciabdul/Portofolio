@@ -1,6 +1,19 @@
 [
   {
     "highlight": true,
+    "title": "Cloudflare Tunnel for aaPanel",
+    "description": "aaPanel plugin that manages Cloudflare Tunnel (cloudflared) end-to-end from the panel UI. 4-step wizard: auto-downloads the binary, reuses cloudflare_manage creds, creates tunnels, upserts proxied CNAMEs, writes config.yml, and installs the systemd service with atomic rollback. Expose NAT/CGNAT servers with no public IP.",
+    "tags": ["aaPanel", "Cloudflare", "Python", "cloudflared", "systemd"],
+    "category": "Plugin",
+    "color": "purple",
+    "stars": null,
+    "github": "https://github.com/fdciabdul/Cloudflare-Tunnel-aaPanel",
+    "live": null,
+    "featured": true,
+    "image": "/screenshots/cf_aapanel.png"
+  },
+  {
+    "highlight": true,
     "title": "WareHaus",
     "description": "Real-time inventory management system. Stock tracking, purchase orders, supplier management, and warehouse activity logs.",
     "tags": ["Vue.js", "Hono", "Drizzle ORM", "TypeScript"],
@@ -51,7 +64,7 @@
     "featured": false,
     "image": "/screenshots/crm.png"
   },
-  
+
   {
   "highlight": false,
   "title": "Faskes Network Dashboard",
@@ -63,7 +76,7 @@
   "github": null,
   "live": "https://faskes.subagakreatif.com",
   "featured": true,
-  "image": "/screenshots/faskes-dashboard.png"
+  "image": "/screenshots/faskes.png"
 },
   {
     "highlight": false,
