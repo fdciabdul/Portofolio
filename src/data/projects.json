@@ -369,6 +369,19 @@
     "image": "https://imtaqin.id/uploads/1775897241317-917319516.png"
   },
   {
+    "highlight": true,
+    "title": "WinRavel",
+    "description": "Bundle any Laravel app into one self-contained Windows .exe. FrankenPHP (PHP 8.5 + Caddy), SQLite or a bundled MariaDB server, composer and git all baked in. Build-time setup (migrate/seed), app/ source obfuscation, and self-extracting output. C#/.NET builder + launcher.",
+    "tags": ["C#", ".NET", "FrankenPHP", "Laravel", "Windows"],
+    "category": "Native",
+    "color": "#7c6cff",
+    "stars": null,
+    "github": "https://github.com/fdciabdul/WinRavel",
+    "live": "https://imtaqin.id/winravel-laravel-to-windows-exe",
+    "featured": true,
+    "image": "https://raw.githubusercontent.com/fdciabdul/WinRavel/main/docs/screenshots/winravel-local.png"
+  },
+  {
     "highlight": false,
     "title": "WA Blast Desktop",
     "description": "Electron desktop app for managing WhatsApp sessions and sending bulk messages. Dark theme UI, multi-session, contact import.",
