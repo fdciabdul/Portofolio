@@ -84,8 +84,9 @@ async function downloadPdf() {
 
     const header = {
       columns: [
-        ...(photo ? [{ image: photo, width: 66, height: 66, margin: [0, 0, 12, 0] as [number, number, number, number] }] : []),
+        ...(photo ? [{ width: 'auto', margin: [0, 2, 14, 0] as [number, number, number, number], stack: [{ image: photo, fit: [72, 72] }] }] : []),
         {
+          width: '*',
           stack: [
             { text: 'Abdul Muttaqin', bold: true, fontSize: 22 },
             { text: 'Software Engineer · Fullstack Developer', bold: true, fontSize: 11, margin: [0, 2, 0, 4] },
@@ -416,7 +417,7 @@ async function downloadPdf() {
 
 .cv-head {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.25rem;
 }
 .cv-photo {
@@ -426,7 +427,6 @@ async function downloadPdf() {
   object-position: top center;
   border: 2px solid #111;
   flex-shrink: 0;
-  align-self: flex-start;
 }
 .cv-head-text {
   flex: 1;
@@ -436,6 +436,7 @@ async function downloadPdf() {
   font-weight: 700;
   letter-spacing: 0.01em;
   margin: 0;
+  line-height: 1;
 }
 .cv-role {
   font-size: 12pt;
