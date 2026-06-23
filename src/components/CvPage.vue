@@ -52,11 +52,33 @@ async function downloadPdf() {
   if (generating.value) return
   generating.value = true
   try {
-    const [{ default: pdfMake }, vfs] = await Promise.all([
+    const [pmMod, vfsMod, { jakartaVfs }] = await Promise.all([
       import('pdfmake/build/pdfmake'),
       import('pdfmake/build/vfs_fonts'),
+      import('../assets/jakartaVfs'),
     ])
-    ;(pdfMake as any).vfs = (vfs as any).default ?? vfs
+    const pdfMake: any = (pmMod as any).default ?? pmMod
+    const baseVfs: any = (vfsMod as any).default ?? (vfsMod as any).vfs ?? vfsMod
+    const vfsMap: any = { ...baseVfs, ...jakartaVfs }
+    if (typeof pdfMake.addVirtualFileSystem === 'function') {
+      pdfMake.addVirtualFileSystem(vfsMap)
+    } else {
+      pdfMake.vfs = vfsMap
+    }
+    pdfMake.fonts = {
+      PlusJakartaSans: {
+        normal: 'PlusJakartaSans-Regular.ttf',
+        bold: 'PlusJakartaSans-Bold.ttf',
+        italics: 'PlusJakartaSans-Italic.ttf',
+        bolditalics: 'PlusJakartaSans-BoldItalic.ttf',
+      },
+      Roboto: {
+        normal: 'Roboto-Regular.ttf',
+        bold: 'Roboto-Medium.ttf',
+        italics: 'Roboto-Italic.ttf',
+        bolditalics: 'Roboto-MediumItalic.ttf',
+      },
+    }
 
     const photo = await imgDataUrl('/abdul.jpg')
 
@@ -77,7 +99,7 @@ async function downloadPdf() {
     const docDefinition: any = {
       pageSize: 'A4',
       pageMargins: [40, 40, 40, 40],
-      defaultStyle: { font: 'Roboto', fontSize: 10, color: DARK, lineHeight: 1.25 },
+      defaultStyle: { font: 'PlusJakartaSans', fontSize: 10, color: DARK, lineHeight: 1.25 },
       content: [
         header,
         rule(),
@@ -140,7 +162,15 @@ async function downloadPdf() {
       ],
     }
 
-    pdfMake.createPdf(docDefinition).download('Abdul-Muttaqin-CV.pdf')
+    const blob: Blob = await (pdfMake.createPdf(docDefinition) as any).getBlob()
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'Abdul-Muttaqin-CV.pdf'
+    document.body.appendChild(a)
+    a.click()
+    a.remove()
+    setTimeout(() => URL.revokeObjectURL(url), 1000)
   } finally {
     generating.value = false
   }
@@ -386,16 +416,17 @@ async function downloadPdf() {
 
 .cv-head {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.25rem;
 }
 .cv-photo {
-  width: 92px;
-  height: 92px;
+  width: 104px;
+  height: 104px;
   object-fit: cover;
   object-position: top center;
   border: 2px solid #111;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 .cv-head-text {
   flex: 1;
