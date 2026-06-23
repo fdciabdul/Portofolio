@@ -2,9 +2,29 @@
 import { ref } from 'vue'
 
 const generating = ref(false)
+const previewUrl = ref<string | null>(null)
+const showPreview = ref(false)
 
 function goHome() {
   window.location.hash = ''
+}
+
+function closePreview() {
+  showPreview.value = false
+  if (previewUrl.value) {
+    URL.revokeObjectURL(previewUrl.value)
+    previewUrl.value = null
+  }
+}
+
+function savePdf() {
+  if (!previewUrl.value) return
+  const a = document.createElement('a')
+  a.href = previewUrl.value
+  a.download = 'Abdul-Muttaqin-CV.pdf'
+  document.body.appendChild(a)
+  a.click()
+  a.remove()
 }
 
 async function imgDataUrl(url: string): Promise<string | null> {
@@ -164,14 +184,9 @@ async function downloadPdf() {
     }
 
     const blob: Blob = await (pdfMake.createPdf(docDefinition) as any).getBlob()
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = 'Abdul-Muttaqin-CV.pdf'
-    document.body.appendChild(a)
-    a.click()
-    a.remove()
-    setTimeout(() => URL.revokeObjectURL(url), 1000)
+    if (previewUrl.value) URL.revokeObjectURL(previewUrl.value)
+    previewUrl.value = URL.createObjectURL(blob)
+    showPreview.value = true
   } finally {
     generating.value = false
   }
@@ -184,8 +199,22 @@ async function downloadPdf() {
     <div class="cv-toolbar no-print">
       <button class="tb-btn" @click="goHome">&larr; Back</button>
       <button class="tb-btn tb-primary" :disabled="generating" @click="downloadPdf">
-        {{ generating ? 'Generating…' : 'Download PDF' }}
+        {{ generating ? 'Generating…' : 'Preview PDF' }}
       </button>
+    </div>
+
+    <!-- PDF preview modal -->
+    <div v-if="showPreview" class="pdf-modal no-print" @click.self="closePreview">
+      <div class="pdf-modal-box">
+        <div class="pdf-modal-bar">
+          <span class="pdf-modal-title">CV Preview</span>
+          <div class="pdf-modal-actions">
+            <button class="tb-btn tb-primary" @click="savePdf">Download</button>
+            <button class="tb-btn" @click="closePreview">Close</button>
+          </div>
+        </div>
+        <iframe v-if="previewUrl" :src="previewUrl" class="pdf-modal-frame" title="CV PDF preview" />
+      </div>
     </div>
 
     <article class="cv">
@@ -399,7 +428,63 @@ async function downloadPdf() {
   box-shadow: 6px 6px 0 #111;
 }
 .tb-primary {
-  background: #facc15;
+  background: #9eff00;
+}
+.tb-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* PDF preview modal */
+.pdf-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.pdf-modal-box {
+  width: 100%;
+  max-width: 860px;
+  height: 92vh;
+  background: #fff;
+  border: 3px solid #111;
+  box-shadow: 10px 10px 0 #111;
+  display: flex;
+  flex-direction: column;
+}
+.pdf-modal-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 3px solid #111;
+  background: #f4f4f4;
+}
+.pdf-modal-title {
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.pdf-modal-actions {
+  display: flex;
+  gap: 0.6rem;
+}
+.pdf-modal-frame {
+  flex: 1;
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .pdf-modal { padding: 0; }
+  .pdf-modal-box { height: 100vh; max-width: none; border: none; box-shadow: none; }
 }
 
 /* The actual CV document — plain, ATS-friendly */
