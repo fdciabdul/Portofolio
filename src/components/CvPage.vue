@@ -1,9 +1,149 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+
+const generating = ref(false)
+
 function goHome() {
   window.location.hash = ''
 }
-function downloadPdf() {
-  window.print()
+
+async function imgDataUrl(url: string): Promise<string | null> {
+  try {
+    const res = await fetch(url)
+    const blob = await res.blob()
+    return await new Promise((resolve) => {
+      const fr = new FileReader()
+      fr.onload = () => resolve(fr.result as string)
+      fr.onerror = () => resolve(null)
+      fr.readAsDataURL(blob)
+    })
+  } catch {
+    return null
+  }
+}
+
+const DARK = '#111111'
+const GRAY = '#444444'
+
+function rule() {
+  return { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: DARK }], margin: [0, 6, 0, 8] as [number, number, number, number] }
+}
+function h2(t: string) {
+  return { text: t.toUpperCase(), bold: true, fontSize: 11, color: DARK, characterSpacing: 1, margin: [0, 0, 0, 6] as [number, number, number, number] }
+}
+function skill(label: string, val: string) {
+  return { text: [{ text: label + ': ', bold: true }, { text: val }], margin: [0, 0, 0, 3] as [number, number, number, number] }
+}
+function job(title: string, meta: string, bullets: string[] = []) {
+  const block: any[] = [{
+    columns: [
+      { text: title, bold: true, fontSize: 11 },
+      { text: meta, color: GRAY, fontSize: 9, alignment: 'right' },
+    ],
+    margin: [0, 0, 0, bullets.length ? 1 : 6],
+  }]
+  if (bullets.length) {
+    block.push({ ul: bullets, margin: [0, 0, 0, 6], fontSize: 10 })
+  }
+  return { stack: block, unbreakable: true }
+}
+
+async function downloadPdf() {
+  if (generating.value) return
+  generating.value = true
+  try {
+    const [{ default: pdfMake }, vfs] = await Promise.all([
+      import('pdfmake/build/pdfmake'),
+      import('pdfmake/build/vfs_fonts'),
+    ])
+    ;(pdfMake as any).vfs = (vfs as any).default ?? vfs
+
+    const photo = await imgDataUrl('/abdul.jpg')
+
+    const header = {
+      columns: [
+        ...(photo ? [{ image: photo, width: 66, height: 66, margin: [0, 0, 12, 0] as [number, number, number, number] }] : []),
+        {
+          stack: [
+            { text: 'Abdul Muttaqin', bold: true, fontSize: 22 },
+            { text: 'Software Engineer · Fullstack Developer', bold: true, fontSize: 11, margin: [0, 2, 0, 4] },
+            { text: 'taqin2731@gmail.com  |  +62 851-1782-2731  |  Kabupaten Bogor, Jawa Barat', fontSize: 9, color: GRAY },
+            { text: 'github.com/fdciabdul  |  linkedin.com/in/fdciabdul  |  imtaqin.id', fontSize: 9, color: GRAY, margin: [0, 1, 0, 0] },
+          ],
+        },
+      ],
+    }
+
+    const docDefinition: any = {
+      pageSize: 'A4',
+      pageMargins: [40, 40, 40, 40],
+      defaultStyle: { font: 'Roboto', fontSize: 10, color: DARK, lineHeight: 1.25 },
+      content: [
+        header,
+        rule(),
+
+        h2('Summary'),
+        { text: 'Fullstack Developer with 5+ years building production-scale systems — backend APIs, frontend, DevOps, and server infrastructure. Experienced with complex platforms: WhatsApp gateways handling hundreds of thousands of transactions per day, banking automation, a VR application for a national energy company, and monitoring stacks on Grafana and Prometheus. Active in open source with 150+ GitHub repositories and ranked Top 10 freelancer on projects.co.id.' },
+        rule(),
+
+        h2('Technical Skills'),
+        skill('Languages', 'Rust, Go, TypeScript, JavaScript, PHP, C#, Kotlin, Python'),
+        skill('Frontend', 'Vue.js, React Native, Svelte, TailwindCSS'),
+        skill('Backend', 'Node.js, AdonisJS, Hono, Laravel, Express'),
+        skill('Databases', 'PostgreSQL, MySQL, Redis'),
+        skill('DevOps & Cloud', 'Docker, Terraform, Nginx, CI/CD, Grafana, Prometheus'),
+        skill('Desktop / Native', 'Tauri, Electron, WebView2, Win32 API'),
+        skill('Security', 'Frida, Burp Suite, Metasploit, JADX'),
+        rule(),
+
+        h2('Work Experience'),
+        job('Software Engineer — Subaga Digital Kreatif', 'Feb 2024 – Present'),
+        job('Software Engineer — Namea Solusi Technology', 'Oct 2023 – Jun 2024'),
+        job('Backend & DevOps Engineer — PT Kilau Energi Infotama', 'Nov 2022 – May 2024', ['Built backend services and DevOps pipelines, including a VR application for a national energy company.']),
+        job('Full Stack Developer — PT Intercity Kerlipan', 'Feb 2021 – Nov 2022'),
+        job('WordPress Developer — Claudela', 'Nov 2019 – Jan 2021'),
+        job('Full Stack Developer — Wablas.id', 'Oct 2019 – Jun 2020', ['Developed a WhatsApp gateway platform processing high-volume daily messaging traffic.']),
+        job('Full Stack Developer — Freelance', 'Jan 2016 – Present', ['Top 10 freelancer on projects.co.id; delivered web, automation, and security projects for clients.']),
+        rule(),
+
+        h2('Selected Open-Source Projects'),
+        { ul: [
+          'CiLocks (2,916 stars) — Android security tool with Metasploit integration.',
+          'YOMEN (227 stars) — multi-account YouTube automation bot (Puppeteer).',
+          'Frida Multiple Bypass (175 stars) — one-shot SSL pinning, root, and Flutter TLS bypass.',
+          'WA-RS — multi-session WhatsApp REST gateway rewritten Node.js to Rust; 8 GB to minimal memory.',
+          'Pocket Pentester — 21-module offline Android security toolkit (Rust, Tauri 2).',
+          'Tenun — Indonesian-keyword programming language with a compiler written in Zig.',
+        ], margin: [0, 0, 0, 6] },
+        rule(),
+
+        h2('Education'),
+        job('IAIN Laa Roiba — Information Technology', 'Oct 2019 – Mar 2021'),
+        job('SMK Pertiwi Cibungbulang — Marketing', 'Jun 2014 – Jun 2017'),
+        job('MTs Muallimien Muhammadiyah', 'Jun 2012 – Jun 2014'),
+        rule(),
+
+        h2('Awards & Organizations'),
+        { ul: [
+          'Top 10 Freelancer, projects.co.id — 2026.',
+          'Tegal Security — Developer, Jan 2015 – Present (security research community).',
+        ], margin: [0, 0, 0, 6] },
+        rule(),
+
+        h2('Links'),
+        { ul: [
+          'Portfolio: porto.imtaqin.id',
+          'GitHub: github.com/fdciabdul',
+          'LinkedIn: linkedin.com/in/fdciabdul',
+          'YouTube: youtube.com/@taqintimur',
+        ] },
+      ],
+    }
+
+    pdfMake.createPdf(docDefinition).download('Abdul-Muttaqin-CV.pdf')
+  } finally {
+    generating.value = false
+  }
 }
 </script>
 
@@ -12,7 +152,9 @@ function downloadPdf() {
     <!-- screen-only toolbar, hidden when printing -->
     <div class="cv-toolbar no-print">
       <button class="tb-btn" @click="goHome">&larr; Back</button>
-      <button class="tb-btn tb-primary" @click="downloadPdf">Download PDF</button>
+      <button class="tb-btn tb-primary" :disabled="generating" @click="downloadPdf">
+        {{ generating ? 'Generating…' : 'Download PDF' }}
+      </button>
     </div>
 
     <article class="cv">
@@ -23,7 +165,7 @@ function downloadPdf() {
           <h1>Abdul Muttaqin</h1>
           <p class="cv-role">Software Engineer &middot; Fullstack Developer</p>
           <p class="cv-contact">
-            taqin2731@gmail.com &nbsp;|&nbsp; +62 851-1782-2731 &nbsp;|&nbsp; Jakarta Selatan, DKI Jakarta
+            taqin2731@gmail.com &nbsp;|&nbsp; +62 851-1782-2731 &nbsp;|&nbsp; Kabupaten Bogor, Jawa Barat
           </p>
           <p class="cv-contact">
             github.com/fdciabdul &nbsp;|&nbsp; linkedin.com/in/fdciabdul &nbsp;|&nbsp; imtaqin.id
@@ -56,7 +198,7 @@ function downloadPdf() {
           <li><strong>Frontend:</strong> Vue.js, React Native, Svelte, TailwindCSS</li>
           <li><strong>Backend:</strong> Node.js, AdonisJS, Hono, Laravel, Express</li>
           <li><strong>Databases:</strong> PostgreSQL, MySQL, Redis</li>
-          <li><strong>DevOps &amp; Cloud:</strong> Docker, Terraform, Nginx, CI/CD, Grafana, Prometheus</li>
+          <li><strong>DevOps &amp; Cloud:</strong> Docker, Terraform, Nginx, CI/CD, Grafana, Prometheus , OpenStack</li>
           <li><strong>Desktop / Native:</strong> Tauri, Electron, WebView2, Win32 API</li>
           <li><strong>Security:</strong> Frida, Burp Suite, Metasploit, JADX</li>
         </ul>
