@@ -10,7 +10,7 @@
     "github": null,
     "live": null,
     "featured": true,
-    "image": "https://placehold.co/600x360/111111/9eff00?text=Marspedia"
+    "image": "/screenshots/marspedia.png"
   },
   {
     "highlight": true,
@@ -23,7 +23,7 @@
     "github": null,
     "live": null,
     "featured": true,
-    "image": "https://placehold.co/600x360/111111/9eff00?text=Fit+Motor+AI+CRM"
+    "image": "/screenshots/fitmotor.png"
   },
   {
     "highlight": true,

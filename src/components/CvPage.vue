@@ -140,9 +140,9 @@ async function downloadPdf() {
         rule(),
 
         h2('Work Experience'),
+        job('Full-Stack Engineer — Fit Motor', 'Jun 2026 – Present', ['Built an end-to-end AI WhatsApp customer-service platform for a multi-branch motorcycle workshop chain (Honda, Yamaha): FAQ, service booking, pickup, complaints, broadcasts.', 'Hono + TypeScript backend, Drizzle ORM (PostgreSQL + pgvector) RAG knowledge base with 3-tier answer cache, BullMQ/Redis scheduled jobs.', '2-stage LLM pipeline (intent + slot extraction to reply) cut LLM calls per message from 3 to 2 and booking response from ~90 s to ~5 s; wa-rs gateway with HMAC webhooks, dedup, and per-conversation locks.', 'Vue 3 + shadcn-vue admin dashboard (role-based, per-branch) and an LLM-as-judge eval harness benchmarking 14 models.']),
         job('Full-Stack Developer — Marspedia (PT Marspedia Digital Indonesia)', 'Jan 2026 – Present', ['Built and maintain a game top-up / PPOB platform (Laravel 12, Alpine.js, Tailwind CSS) handling production-scale daily transactions.', 'Integrated iPaymu payment gateway (QRIS, VA, e-wallet) and Digiflazz PPOB (~5,000 SKUs synced via queue); migrated image storage to Cloudflare R2 and cut image serving from 300 ms to 5 ms.']),
         job('Full-Stack Developer — Dr. Angga Clinic (Freelance)', 'Nov 2025 – Feb 2026', ['Built a WhatsApp dashboard + AI chatbot (OpenAI) automating clinic customer service for ~10,000 patients and 290,000+ messages.', 'Node.js, Express, Sequelize (MySQL), Redis, multi-instance WhatsApp via WUZAPI, Socket.io real-time dashboard, Dockerized (6 services).']),
-        job('Full-Stack Engineer — Fit Motor', 'Jun 2025 – Nov 2025', ['End-to-end AI WhatsApp CRM for a multi-branch motorcycle workshop chain; Hono + TypeScript, Drizzle (PostgreSQL + pgvector) RAG, BullMQ/Redis.', '2-stage LLM pipeline cut booking response from ~90 s to ~5 s; Vue 3 admin dashboard and an LLM-as-judge eval across 14 models.']),
         job('Software Engineer — Subaga Digital Kreatif', 'Feb 2024 – Present'),
         job('Software Engineer — Namea Solusi Technology', 'Oct 2023 – Jun 2024'),
         job('Backend & DevOps Engineer — PT Kilau Energi Infotama', 'Nov 2022 – May 2024', ['Built backend services and DevOps pipelines, including a VR application for a national energy company.']),
@@ -275,6 +275,19 @@ async function downloadPdf() {
 
         <div class="cv-job">
           <div class="cv-job-head">
+            <span class="cv-job-title">Full-Stack Engineer &mdash; Fit Motor</span>
+            <span class="cv-job-meta">Jun 2026 &ndash; Present</span>
+          </div>
+          <ul>
+            <li>Built an end-to-end AI WhatsApp customer-service platform for a multi-branch motorcycle workshop chain (Honda, Yamaha): FAQ, service booking, pickup, complaints, broadcasts.</li>
+            <li>Hono + TypeScript backend, Drizzle ORM (PostgreSQL + pgvector) RAG knowledge base with 3-tier answer cache, BullMQ/Redis scheduled jobs.</li>
+            <li>2-stage LLM pipeline (intent + slot extraction to reply) cut LLM calls per message from 3 to 2 and booking response from ~90 s to ~5 s; wa-rs gateway with HMAC webhooks, dedup, and per-conversation locks.</li>
+            <li>Vue 3 + shadcn-vue admin dashboard (role-based, per-branch) and an LLM-as-judge eval harness benchmarking 14 models.</li>
+          </ul>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
             <span class="cv-job-title">Full-Stack Developer &mdash; Marspedia (PT Marspedia Digital Indonesia)</span>
             <span class="cv-job-meta">Jan 2026 &ndash; Present</span>
           </div>
@@ -292,17 +305,6 @@ async function downloadPdf() {
           <ul>
             <li>Built a WhatsApp dashboard + AI chatbot (OpenAI) automating clinic customer service for ~10,000 patients and 290,000+ messages.</li>
             <li>Node.js, Express, Sequelize (MySQL), Redis, multi-instance WhatsApp via WUZAPI, Socket.io real-time dashboard, Dockerized (6 services).</li>
-          </ul>
-        </div>
-
-        <div class="cv-job">
-          <div class="cv-job-head">
-            <span class="cv-job-title">Full-Stack Engineer &mdash; Fit Motor</span>
-            <span class="cv-job-meta">Jun 2025 &ndash; Nov 2025</span>
-          </div>
-          <ul>
-            <li>End-to-end AI WhatsApp CRM for a multi-branch motorcycle workshop chain; Hono + TypeScript, Drizzle (PostgreSQL + pgvector) RAG, BullMQ/Redis.</li>
-            <li>2-stage LLM pipeline cut booking response from ~90 s to ~5 s; Vue 3 admin dashboard and an LLM-as-judge eval across 14 models.</li>
           </ul>
         </div>
 
