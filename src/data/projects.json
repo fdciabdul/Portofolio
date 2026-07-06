@@ -1,6 +1,45 @@
 [
   {
     "highlight": true,
+    "title": "Marspedia",
+    "description": "Game top-up / PPOB platform (Laravel 12, Alpine.js, Tailwind). Integrated iPaymu payment gateway (QRIS + VA + e-wallet) and Digiflazz PPOB provider (~5000 SKUs auto-synced via queue). Migrated image storage to Cloudflare R2 and cut image serving from 300ms to 5ms via static-file symlink.",
+    "tags": ["Laravel 12", "Alpine.js", "iPaymu", "Digiflazz", "Cloudflare R2"],
+    "category": "Web",
+    "color": "coral",
+    "stars": null,
+    "github": null,
+    "live": null,
+    "featured": true,
+    "image": "https://placehold.co/600x360/111111/9eff00?text=Marspedia"
+  },
+  {
+    "highlight": true,
+    "title": "Fit Motor — AI WhatsApp CRM",
+    "description": "End-to-end AI-powered WhatsApp customer-service platform for a multi-branch motorcycle workshop chain. Hono + TypeScript, Drizzle (PostgreSQL + pgvector) RAG knowledge base, BullMQ/Redis queues. 2-stage LLM pipeline cut booking response from ~90s to ~5s; Vue 3 admin dashboard + LLM-as-judge eval across 14 models.",
+    "tags": ["TypeScript", "Hono", "Vue 3", "pgvector", "LLM"],
+    "category": "Web",
+    "color": "purple",
+    "stars": null,
+    "github": null,
+    "live": null,
+    "featured": true,
+    "image": "https://placehold.co/600x360/111111/9eff00?text=Fit+Motor+AI+CRM"
+  },
+  {
+    "highlight": true,
+    "title": "Klinik Dr. Angga — WhatsApp AI",
+    "description": "WhatsApp dashboard + AI chatbot (OpenAI) automating a healthcare clinic's customer service — ~10,000 patients and 290,000+ messages processed automatically. Node.js, Express, Sequelize (MySQL), Redis, multi-instance WhatsApp via WUZAPI, Socket.io real-time dashboard, Dockerized (6 services).",
+    "tags": ["Node.js", "Express", "OpenAI", "WUZAPI", "Docker"],
+    "category": "Web",
+    "color": "sky",
+    "stars": null,
+    "github": null,
+    "live": null,
+    "featured": false,
+    "image": "https://placehold.co/600x360/111111/9eff00?text=Klinik+WA+AI"
+  },
+  {
+    "highlight": true,
     "title": "Tenun",
     "description": "Programming language with full Indonesian keywords (kalau, selama, untuk, fungsi, kembali) and a compiler written in Zig. Statically typed, with three execution backends from one source — tree-walking interpreter, bytecode VM, and native via C transpilation. Ships a REPL, formatter, package manager, VSCode + Neovim extensions, and a 25+ module ecosystem (web, ORM, Redis, mail, scraping).",
     "tags": ["Zig", "Compiler", "Language Design", "C"],
