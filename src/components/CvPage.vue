@@ -140,6 +140,9 @@ async function downloadPdf() {
         rule(),
 
         h2('Work Experience'),
+        job('Full-Stack Developer — Marspedia (PT Marspedia Digital Indonesia)', 'Jan 2026 – Present', ['Built and maintain a game top-up / PPOB platform (Laravel 12, Alpine.js, Tailwind CSS) handling production-scale daily transactions.', 'Integrated iPaymu payment gateway (QRIS, VA, e-wallet) and Digiflazz PPOB (~5,000 SKUs synced via queue); migrated image storage to Cloudflare R2 and cut image serving from 300 ms to 5 ms.']),
+        job('Full-Stack Developer — Dr. Angga Clinic (Freelance)', 'Nov 2025 – Feb 2026', ['Built a WhatsApp dashboard + AI chatbot (OpenAI) automating clinic customer service for ~10,000 patients and 290,000+ messages.', 'Node.js, Express, Sequelize (MySQL), Redis, multi-instance WhatsApp via WUZAPI, Socket.io real-time dashboard, Dockerized (6 services).']),
+        job('Full-Stack Engineer — Fit Motor', 'Jun 2025 – Nov 2025', ['End-to-end AI WhatsApp CRM for a multi-branch motorcycle workshop chain; Hono + TypeScript, Drizzle (PostgreSQL + pgvector) RAG, BullMQ/Redis.', '2-stage LLM pipeline cut booking response from ~90 s to ~5 s; Vue 3 admin dashboard and an LLM-as-judge eval across 14 models.']),
         job('Software Engineer — Subaga Digital Kreatif', 'Feb 2024 – Present'),
         job('Software Engineer — Namea Solusi Technology', 'Oct 2023 – Jun 2024'),
         job('Backend & DevOps Engineer — PT Kilau Energi Infotama', 'Nov 2022 – May 2024', ['Built backend services and DevOps pipelines, including a VR application for a national energy company.']),
@@ -269,6 +272,39 @@ async function downloadPdf() {
       <!-- Experience -->
       <section>
         <h2>Work Experience</h2>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">Full-Stack Developer &mdash; Marspedia (PT Marspedia Digital Indonesia)</span>
+            <span class="cv-job-meta">Jan 2026 &ndash; Present</span>
+          </div>
+          <ul>
+            <li>Built and maintain a game top-up / PPOB platform (Laravel 12, Alpine.js, Tailwind CSS) handling production-scale daily transactions.</li>
+            <li>Integrated iPaymu payment gateway (QRIS, VA, e-wallet) and Digiflazz PPOB (~5,000 SKUs synced via queue); migrated image storage to Cloudflare R2 and cut image serving from 300 ms to 5 ms.</li>
+          </ul>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">Full-Stack Developer &mdash; Dr. Angga Clinic (Freelance)</span>
+            <span class="cv-job-meta">Nov 2025 &ndash; Feb 2026</span>
+          </div>
+          <ul>
+            <li>Built a WhatsApp dashboard + AI chatbot (OpenAI) automating clinic customer service for ~10,000 patients and 290,000+ messages.</li>
+            <li>Node.js, Express, Sequelize (MySQL), Redis, multi-instance WhatsApp via WUZAPI, Socket.io real-time dashboard, Dockerized (6 services).</li>
+          </ul>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-head">
+            <span class="cv-job-title">Full-Stack Engineer &mdash; Fit Motor</span>
+            <span class="cv-job-meta">Jun 2025 &ndash; Nov 2025</span>
+          </div>
+          <ul>
+            <li>End-to-end AI WhatsApp CRM for a multi-branch motorcycle workshop chain; Hono + TypeScript, Drizzle (PostgreSQL + pgvector) RAG, BullMQ/Redis.</li>
+            <li>2-stage LLM pipeline cut booking response from ~90 s to ~5 s; Vue 3 admin dashboard and an LLM-as-judge eval across 14 models.</li>
+          </ul>
+        </div>
 
         <div class="cv-job">
           <div class="cv-job-head">
