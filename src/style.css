@@ -5,18 +5,18 @@
 }
 
 :root {
-  --bg: #FAFAF0;
-  --black: #000000;
-  --white: #FFFFFF;
-  --yellow: #9EFF00;
-  --coral: #FF4F4F;
-  --lime: #00E0B8;
-  --sky: #87CEEB;
-  --purple: #C084FC;
-  --border: 3px solid #000000;
-  --shadow-sm: 3px 3px 0px #000000;
-  --shadow-md: 5px 5px 0px #000000;
-  --shadow-lg: 8px 8px 0px #000000;
+  /* Editorial minimal — paper, ink, one accent */
+  --paper: #FBFBF9;
+  --ink: #101010;
+  --muted: #77776F;
+  --rule: #E6E6E1;
+  --lime: #9EFF00;
+
+  --display: 'Bricolage Grotesque', 'Plus Jakarta Sans', sans-serif;
+  --body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --measure: 760px;
 }
 
 html {
@@ -24,16 +24,12 @@ html {
 }
 
 body {
-  font-family: 'Arial Black', 'Arial Bold', Arial, sans-serif;
-  background-color: var(--bg);
-  color: var(--black);
-  line-height: 1.5;
+  font-family: var(--body);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 900;
-  line-height: 1.1;
 }
 
 a {
@@ -43,77 +39,70 @@ a {
 
 button {
   font-family: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
 }
 
+::selection {
+  background: var(--lime);
+  color: var(--ink);
+}
+
+/* single reading column — the whole site lives here */
 .container {
-  max-width: 1200px;
+  max-width: var(--measure);
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.75rem;
 }
 
 section {
-  padding: 6rem 0;
+  padding: 7rem 0;
 }
 
-.section-label {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 700;
+/* Section eyebrow — mono, tiny, muted. Structure, not decoration. */
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  background: var(--black);
-  color: var(--yellow);
-  padding: 0.25rem 0.75rem;
-  margin-bottom: 1rem;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 2.5rem;
 }
 
-.section-title {
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 1;
-  margin-bottom: 3rem;
+/* The one flourish: a lime marker swipe behind text */
+.mark {
+  background-image: linear-gradient(var(--lime), var(--lime));
+  background-repeat: no-repeat;
+  background-size: 100% 0.42em;
+  background-position: 0 78%;
+  padding: 0 0.06em;
 }
 
-.neo-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.875rem 1.75rem;
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border: 3px solid var(--black);
-  cursor: pointer;
-  transition: transform 0.1s, box-shadow 0.1s;
-  user-select: none;
+.link-underline {
+  border-bottom: 1px solid var(--rule);
+  transition: border-color 0.2s;
+}
+.link-underline:hover {
+  border-color: var(--ink);
 }
 
-.neo-btn:hover {
-  transform: translate(-3px, -3px);
-  box-shadow: 6px 6px 0 var(--black);
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
-.neo-btn:active {
-  transform: translate(2px, 2px);
-  box-shadow: 1px 1px 0 var(--black);
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
 }
 
-.neo-btn-primary {
-  background: var(--yellow);
-  box-shadow: var(--shadow-md);
-  color: var(--black);
-}
-
-.neo-btn-dark {
-  background: var(--black);
-  color: var(--yellow);
-  box-shadow: var(--shadow-md);
-}
-
-.neo-btn-outline {
-  background: transparent;
-  box-shadow: var(--shadow-md);
+@media (max-width: 640px) {
+  section { padding: 4.5rem 0; }
 }

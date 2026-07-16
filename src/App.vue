@@ -3,7 +3,6 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
-import SkillsSection from './components/SkillsSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import FooterSection from './components/FooterSection.vue'
@@ -29,9 +28,8 @@ onUnmounted(() => window.removeEventListener('hashchange', onHashChange))
     <NavBar />
     <main>
       <HeroSection />
-      <AboutSection />
-      <SkillsSection />
       <ProjectsSection />
+      <AboutSection />
       <ContactSection />
     </main>
     <FooterSection />
@@ -39,7 +37,7 @@ onUnmounted(() => window.removeEventListener('hashchange', onHashChange))
 </template>
 
 <style>
-main {
-  padding-top: 64px;
+main > section:first-child {
+  padding-top: 2rem;
 }
 </style>

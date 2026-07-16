@@ -1,231 +1,71 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { Icon } from '@iconify/vue'
+const links = ['Work', 'About', 'Contact']
 
-const menuOpen = ref(false)
-const navLinks = ['About', 'Skills', 'Projects', 'Contact']
-
-function scrollTo(section: string) {
-  const el = document.getElementById(section.toLowerCase())
-  el?.scrollIntoView({ behavior: 'smooth' })
-  menuOpen.value = false
+function scrollTo(id: string) {
+  const map: Record<string, string> = { Work: 'projects', About: 'about', Contact: 'contact' }
+  document.getElementById(map[id] ?? id.toLowerCase())?.scrollIntoView({ behavior: 'smooth' })
 }
 </script>
 
 <template>
-  <nav class="navbar">
+  <nav class="nav">
     <div class="container nav-inner">
-      <button class="nav-logo" @click="scrollTo('hero')">IMTAQIN</button>
-
-      <ul class="nav-links">
-        <li v-for="link in navLinks" :key="link">
-          <button class="nav-link-btn" @click="scrollTo(link)">{{ link }}</button>
-        </li>
-      </ul>
-
-      <div class="nav-actions">
-        <a href="#/cv" class="nav-cv-btn">CV</a>
-        <a href="https://github.com/fdciabdul" target="_blank" rel="noopener" class="neo-icon-btn" aria-label="GitHub">
-          <Icon icon="mdi:github" width="22" />
-        </a>
-        <a href="https://imtaqin.id" target="_blank" rel="noopener" class="neo-icon-btn" aria-label="Blog">
-          <Icon icon="mdi:web" width="22" />
-        </a>
-      </div>
-
-      <button class="hamburger" @click="menuOpen = !menuOpen" aria-label="Toggle menu">
-        <Icon :icon="menuOpen ? 'mdi:close' : 'mdi:menu'" width="26" />
-      </button>
-    </div>
-
-    <div class="mobile-menu" :class="{ open: menuOpen }">
-      <ul>
-        <li v-for="link in navLinks" :key="link">
-          <button class="mobile-nav-btn" @click="scrollTo(link)">{{ link }}</button>
-        </li>
-        <li>
-          <a class="mobile-nav-btn" href="#/cv" @click="menuOpen = false">CV / Resume</a>
-        </li>
-      </ul>
-      <div class="mobile-social">
-        <a href="https://github.com/fdciabdul" target="_blank" rel="noopener" class="neo-icon-btn">
-          <Icon icon="mdi:github" width="22" />
-        </a>
-        <a href="https://imtaqin.id" target="_blank" rel="noopener" class="neo-icon-btn">
-          <Icon icon="mdi:web" width="22" />
-        </a>
+      <button class="nav-name" @click="scrollTo('hero')">Abdul Muttaqin</button>
+      <div class="nav-links">
+        <button v-for="l in links" :key="l" @click="scrollTo(l)">{{ l }}</button>
+        <a href="#/cv">CV</a>
       </div>
     </div>
   </nav>
 </template>
 
 <style scoped>
-.navbar {
-  position: fixed;
+.nav {
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  background: var(--yellow);
-  border-bottom: 3px solid var(--black);
+  z-index: 50;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(8px);
 }
 
 .nav-inner {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
-  height: 64px;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.nav-logo {
-  font-size: 1.25rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: -0.02em;
-  background: none;
-  border: none;
-  cursor: pointer;
+.nav-name {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
   padding: 0;
-  color: var(--black);
 }
 
 .nav-links {
   display: flex;
-  list-style: none;
-  gap: 0.125rem;
+  gap: 1.5rem;
 }
 
-.nav-link-btn {
-  background: none;
-  border: 2px solid transparent;
-  font-size: 0.875rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  cursor: pointer;
-  padding: 0.4rem 0.875rem;
-  color: var(--black);
-  transition: all 0.1s;
+.nav-links button,
+.nav-links a {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  padding: 0;
+  transition: color 0.15s;
 }
 
-.nav-link-btn:hover {
-  border-color: var(--black);
-  background: var(--black);
-  color: var(--yellow);
+.nav-links button:hover,
+.nav-links a:hover {
+  color: var(--ink);
 }
 
-.nav-actions {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-
-.nav-cv-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 38px;
-  padding: 0 1rem;
-  border: 2px solid var(--black);
-  background: var(--black);
-  color: var(--yellow);
-  font-size: 0.875rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.1s, box-shadow 0.1s;
-}
-
-.nav-cv-btn:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 5px 5px 0 var(--black);
-}
-
-.neo-icon-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border: 2px solid var(--black);
-  background: var(--white);
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.1s, box-shadow 0.1s;
-  color: var(--black);
-}
-
-.neo-icon-btn:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 5px 5px 0 var(--black);
-}
-
-.hamburger {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  background: var(--black);
-  border: none;
-  color: var(--yellow);
-  padding: 0.375rem;
-  cursor: pointer;
-  width: 38px;
-  height: 38px;
-}
-
-.mobile-menu {
-  display: none;
-  background: var(--yellow);
-  border-top: 2px solid var(--black);
-  padding: 1.25rem 1.5rem;
-}
-
-.mobile-menu.open {
-  display: block;
-}
-
-.mobile-menu ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.375rem;
-  margin-bottom: 1rem;
-}
-
-.mobile-nav-btn {
-  width: 100%;
-  background: var(--white);
-  border: 2px solid var(--black);
-  padding: 0.75rem 1rem;
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: left;
-  cursor: pointer;
-  box-shadow: var(--shadow-sm);
-  transition: all 0.1s;
-  color: var(--black);
-}
-
-.mobile-nav-btn:hover {
-  background: var(--black);
-  color: var(--yellow);
-}
-
-.mobile-social {
-  display: flex;
-  gap: 0.5rem;
-}
-
-@media (max-width: 768px) {
-  .nav-links,
-  .nav-actions {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
-  }
+@media (max-width: 520px) {
+  .nav-links { gap: 1rem; }
+  .nav-name { max-width: 8rem; }
 }
 </style>

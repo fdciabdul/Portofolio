@@ -1,399 +1,110 @@
 <script setup lang="ts">
-import { defineAsyncComponent } from 'vue'
-import { Icon } from '@iconify/vue'
+const stats = [
+  { value: '4,000+', label: 'GitHub stars' },
+  { value: '200+', label: 'Repositories' },
+  { value: '5 yrs', label: 'In production' },
+]
 
-const HeroCanvas = defineAsyncComponent(() => import('./HeroCanvas.vue'))
-
-function scrollTo(section: string) {
-  const el = document.getElementById(section)
-  el?.scrollIntoView({ behavior: 'smooth' })
+function scrollTo(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
 }
 </script>
 
 <template>
   <section id="hero" class="hero">
-    <HeroCanvas />
+    <div class="container">
+      <h1 class="hero-line">
+        I build systems that
+        <span class="mark">survive production</span>.
+      </h1>
 
-    <!-- readability scrim over the 3D scene -->
-    <div class="hero-scrim" aria-hidden="true" />
+      <p class="hero-body">
+        Abdul Muttaqin — software engineer and security researcher, based in Indonesia.
+        Five years shipping WhatsApp gateways at national scale, AI customer-service
+        platforms, native desktop tools, and Android security research. I also wrote a
+        programming language whose keywords are Indonesian.
+      </p>
 
-    <!-- scanline overlay -->
-    <div class="scanlines" aria-hidden="true" />
-
-    <!-- horizon divider -->
-    <div class="horizon-line" aria-hidden="true" />
-
-    <div class="container hero-inner">
-      <div class="hero-left">
-        <p class="hero-greeting">Hello, I am</p>
-        <h1 class="hero-name">IMTAQIN</h1>
-
-        <div class="hero-role">
-          <span class="role-block">Developer</span>
-          <span class="role-amp">&amp;</span>
-          <span class="role-block">Security Researcher</span>
+      <dl class="hero-stats">
+        <div v-for="s in stats" :key="s.label" class="stat">
+          <dt>{{ s.value }}</dt>
+          <dd>{{ s.label }}</dd>
         </div>
+      </dl>
 
-        <p class="hero-desc">
-          Building web apps, native tools, and security research.
-          Rust, Go, TypeScript, Vue. Based in Indonesia.
-        </p>
-
-        <div class="hero-cta">
-          <button class="neo-btn neo-btn-primary" @click="scrollTo('projects')">
-            View Projects
-            <Icon icon="mdi:arrow-right" width="18" />
-          </button>
-          <button class="neo-btn hero-btn-ghost" @click="scrollTo('contact')">
-            Contact Me
-          </button>
-        </div>
-
-        <div class="hero-stats">
-          <div class="stat-card">
-            <span class="stat-num">4000+</span>
-            <span class="stat-label">GitHub Stars</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-num">200+</span>
-            <span class="stat-label">Repositories</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-num">4 Orgs</span>
-            <span class="stat-label">GitHub Orgs</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-right">
-        <div class="avatar-wrap">
-          <div class="avatar-label">IMTAQIN.DEV</div>
-          <div class="avatar-frame">
-            <img src="/avatar.jpg" alt="IMTAQIN" class="avatar-img" />
-          </div>
-          <div class="avatar-tag">
-            <Icon icon="mdi:map-marker" width="14" />
-            Indonesia
-          </div>
-          <div class="avatar-shadow" aria-hidden="true" />
-        </div>
+      <div class="hero-actions">
+        <button class="link-underline" @click="scrollTo('projects')">See the work</button>
+        <a class="link-underline" href="#/cv">Read the CV</a>
       </div>
     </div>
-
-    <button class="scroll-hint" @click="scrollTo('about')" aria-label="Scroll down">
-      <Icon icon="mdi:chevron-double-down" width="26" />
-    </button>
   </section>
 </template>
 
 <style scoped>
 .hero {
-  min-height: 100vh;
-  background: #000;
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-top: 64px;
-  overflow: hidden;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
 }
 
-/* dark scrim — keeps text readable over the bright voxel city */
-.hero-scrim {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(to right, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.78) 32%, rgba(0,0,0,0.25) 60%, rgba(0,0,0,0) 80%),
-    linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 35%);
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* CRT scanlines overlay */
-.scanlines {
-  position: absolute;
-  inset: 0;
-  background: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 2px,
-    rgba(0,0,0,0.12) 2px,
-    rgba(0,0,0,0.12) 4px
-  );
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* Glowing horizon line */
-.horizon-line {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 36%;
-  height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent 0%,
-    rgba(158,255,0,0.6) 20%,
-    #9eff00 50%,
-    rgba(158,255,0,0.6) 80%,
-    transparent 100%
-  );
-  box-shadow: 0 0 18px 4px rgba(158,255,0,0.25);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.container.hero-inner {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 340px;
-  gap: 4rem;
-  align-items: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-/* ─── LEFT ─── */
-.hero-left {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.hero-greeting {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  color: var(--yellow);
-  margin-bottom: 0.5rem;
-}
-
-.hero-name {
-  font-size: clamp(4.5rem, 11vw, 8rem);
-  font-weight: 900;
-  color: #fff;
-  line-height: 0.88;
-  text-transform: uppercase;
-  letter-spacing: -0.04em;
-  margin-bottom: 1.25rem;
-  /* text stroke neo-brutalism feel */
-  -webkit-text-stroke: 1px rgba(158,255,0,0.15);
-}
-
-.hero-role {
-  display: flex;
-  align-items: center;
-  gap: 0.625rem;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.role-block {
-  display: inline-block;
-  background: var(--yellow);
-  color: var(--black);
-  font-size: 0.82rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0.35rem 0.75rem;
-  border: 3px solid var(--black);
-}
-
-.role-amp {
-  font-size: 0.9rem;
-  font-weight: 900;
-  color: rgba(255,255,255,0.25);
-}
-
-.hero-desc {
-  font-size: 0.95rem;
-  font-weight: 400;
-  color: rgba(255,255,255,0.82);
-  max-width: 460px;
+.hero-line {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(2.6rem, 7.4vw, 4.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  max-width: 15ch;
   margin-bottom: 2rem;
-  line-height: 1.8;
-  font-family: Arial, sans-serif;
-  text-shadow: 0 1px 6px rgba(0,0,0,0.9);
+  animation: rise 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-.hero-cta {
-  display: flex;
-  gap: 0.875rem;
-  margin-bottom: 2.5rem;
-  flex-wrap: wrap;
-}
-
-.hero-btn-ghost {
-  background: transparent;
-  color: #fff;
-  border: 3px solid rgba(255,255,255,0.3);
-  box-shadow: 4px 4px 0 rgba(255,255,255,0.1);
-}
-
-.hero-btn-ghost:hover {
-  border-color: var(--white);
-  background: var(--white);
-  color: var(--black);
-  box-shadow: 6px 6px 0 rgba(255,255,255,0.25);
+.hero-body {
+  font-size: 1.05rem;
+  color: var(--muted);
+  max-width: 58ch;
+  margin-bottom: 3rem;
+  animation: rise 0.7s 0.08s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
 .hero-stats {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+  animation: rise 0.7s 0.16s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-.stat-card {
-  display: flex;
-  flex-direction: column;
-  border-left: 3px solid var(--yellow);
-  padding-left: 0.875rem;
-}
-
-.stat-num {
+.stat dt {
+  font-family: var(--display);
+  font-weight: 700;
   font-size: 1.6rem;
-  font-weight: 900;
-  color: var(--yellow);
+  letter-spacing: -0.02em;
   line-height: 1;
 }
 
-.stat-label {
-  font-size: 0.65rem;
-  font-weight: 700;
+.stat dd {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: rgba(255,255,255,0.35);
-  margin-top: 0.25rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
 }
 
-/* ─── RIGHT / AVATAR ─── */
-.hero-right {
+.hero-actions {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 2rem;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  animation: rise 0.7s 0.24s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-.avatar-wrap {
-  position: relative;
-  width: 280px;
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
 }
 
-.avatar-label {
-  position: absolute;
-  top: -14px;
-  left: 12px;
-  background: var(--yellow);
-  color: var(--black);
-  border: 3px solid var(--black);
-  font-size: 0.65rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 0.2rem 0.6rem;
-  z-index: 3;
-}
-
-.avatar-frame {
-  width: 280px;
-  height: 320px;
-  border: 4px solid var(--yellow);
-  overflow: hidden;
-  position: relative;
-  z-index: 2;
-  background: #111;
-}
-
-.avatar-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top center;
-  filter: contrast(1.05) brightness(0.95);
-  display: block;
-}
-
-/* Neo-brutalist offset shadow */
-.avatar-shadow {
-  position: absolute;
-  inset: 0;
-  border: 4px solid var(--yellow);
-  transform: translate(10px, 10px);
-  z-index: 1;
-  opacity: 0.35;
-}
-
-.avatar-tag {
-  position: absolute;
-  bottom: -14px;
-  right: 12px;
-  background: var(--black);
-  color: var(--yellow);
-  border: 3px solid var(--yellow);
-  font-size: 0.65rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 0.2rem 0.6rem;
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  z-index: 3;
-}
-
-/* scroll hint */
-.scroll-hint {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 3;
-  background: none;
-  border: 2px solid rgba(255,255,255,0.18);
-  color: rgba(255,255,255,0.35);
-  padding: 0.4rem;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: bounce 2s infinite;
-  transition: border-color 0.2s, color 0.2s;
-}
-
-.scroll-hint:hover {
-  border-color: var(--yellow);
-  color: var(--yellow);
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50%       { transform: translateX(-50%) translateY(6px); }
-}
-
-/* ─── RESPONSIVE ─── */
-@media (max-width: 900px) {
-  .container.hero-inner {
-    grid-template-columns: 1fr;
-  }
-  .hero-right {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-cta {
-    flex-direction: column;
-  }
-  .hero-cta .neo-btn {
-    width: 100%;
-    justify-content: center;
-  }
-  .hero-stats {
-    gap: 1.25rem;
-  }
+@media (max-width: 640px) {
+  .hero { padding-top: 3rem; }
+  .hero-stats { gap: 1.75rem; }
+  .stat dt { font-size: 1.3rem; }
 }
 </style>

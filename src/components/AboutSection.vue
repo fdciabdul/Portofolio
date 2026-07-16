@@ -1,98 +1,55 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
+const stack = [
+  { label: 'Languages', items: 'Rust · Go · TypeScript · JavaScript · PHP · Kotlin · Python · C#' },
+  { label: 'Frontend', items: 'Vue.js · Svelte · React Native · TailwindCSS' },
+  { label: 'Backend', items: 'Node.js · Hono · AdonisJS · Laravel · Express' },
+  { label: 'Data', items: 'PostgreSQL · MySQL · Redis · Drizzle · pgvector' },
+  { label: 'Infra', items: 'Docker · Terraform · Nginx · Grafana · Prometheus' },
+  { label: 'Desktop', items: 'Tauri · Electron · WebView2 · Win32 API' },
+  { label: 'Security', items: 'Frida · Burp Suite · Metasploit · JADX' },
+]
 </script>
 
 <template>
-  <section id="about" class="about-section">
+  <section id="about" class="about">
     <div class="container">
-      <div class="about-grid">
-        <div class="about-left">
-          <span class="section-label">About Me</span>
-          <h2 class="section-title">Who Am I?</h2>
+      <span class="eyebrow">About</span>
 
-          <div class="about-text">
-            <p>
-              Developer and security researcher. I build full-stack web
-              apps, native desktop tools, and Android security toolkits.
-              I write in Rust, Go, TypeScript, and Vue.
-            </p>
-            <p>
-              Creator of WA-RS (multi-session WhatsApp gateway in Rust),
-              Pocket Pentester (native Android security toolkit), and
-              several open-source tools with 400+ GitHub stars combined.
-            </p>
-          </div>
+      <div class="prose">
+        <p>
+          I started freelancing in 2016 and never really stopped. Since then I've built
+          WhatsApp gateways that move hundreds of thousands of messages a day, an AI
+          customer-service platform for a motorcycle workshop chain, a PPOB payments
+          platform, and a VR application for a national energy company.
+        </p>
+        <p>
+          The other half of my work is security research — Android tooling, SSL pinning
+          bypasses, and offensive toolkits. Roughly 200 repositories and
+          <span class="mark">4,000+ GitHub stars</span> came out of that habit.
+        </p>
+        <p>
+          Somewhere in between, I wrote <a class="link-underline" href="https://github.com/TenunLang/Tenun" target="_blank" rel="noopener">Tenun</a> —
+          a statically typed programming language whose keywords are Indonesian, with a
+          compiler in Zig and three execution backends. It looks like this:
+        </p>
+      </div>
 
-          <div class="about-details">
-            <div class="detail-item">
-              <Icon icon="mdi:map-marker" width="20" />
-              <span>Indonesia</span>
-            </div>
-            <div class="detail-item">
-              <Icon icon="mdi:email" width="20" />
-              <span>taqin2731@gmail.com</span>
-            </div>
-            <div class="detail-item">
-              <Icon icon="mdi:github" width="20" />
-              <span>github.com/fdciabdul</span>
-            </div>
-            <div class="detail-item">
-              <Icon icon="mdi:web" width="20" />
-              <span>imtaqin.id</span>
-            </div>
-          </div>
+      <pre class="artifact"><code>fungsi salam(nama: teks): kosong {
+    cetak("Halo, " + nama);
+}
 
-          <a href="#/cv" class="neo-btn neo-btn-primary" style="margin-top: 2rem; display: inline-flex;">
-            <Icon icon="mdi:file-document-outline" width="18" />
-            View CV / Resume
-          </a>
-        </div>
+biar angka: bulat = 10;
 
-        <div class="about-right">
-          <div class="services-grid">
-            <div class="service-card service-yellow">
-              <div class="service-icon">
-                <Icon icon="mdi:monitor-dashboard" width="32" />
-              </div>
-              <h3>Web Dev</h3>
-              <p>Vue.js, TypeScript, Node.js, REST APIs</p>
-            </div>
-            <div class="service-card service-white">
-              <div class="service-icon">
-                <Icon icon="mdi:desktop-tower" width="32" />
-              </div>
-              <h3>Desktop Apps</h3>
-              <p>Rust, Go, Tauri, Electron, WebView2, Win32 API</p>
-            </div>
-            <div class="service-card service-lime">
-              <div class="service-icon">
-                <Icon icon="mdi:cellphone" width="32" />
-              </div>
-              <h3>Mobile Apps</h3>
-              <p>Kotlin, React Native, Tauri Android, Android SDK</p>
-            </div>
-            <div class="service-card service-sky">
-              <div class="service-icon">
-                <Icon icon="mdi:shield-bug" width="32" />
-              </div>
-              <h3>Security</h3>
-              <p>Frida, SSL bypass, pentest tooling, Android</p>
-            </div>
-            <div class="service-card service-coral">
-              <div class="service-icon">
-                <Icon icon="mdi:robot" width="32" />
-              </div>
-              <h3>Automation</h3>
-              <p>WhatsApp bots, AI agents, scrapers</p>
-            </div>
-            <div class="service-card service-purple">
-              <div class="service-icon">
-                <Icon icon="mdi:server-network" width="32" />
-              </div>
-              <h3>DevOps</h3>
-              <p>Docker, Terraform, Nginx, CI/CD</p>
-            </div>
-          </div>
+<span class="kw">kalau</span> angka > 5 {
+    salam("Tenun");
+} <span class="kw">lain</span> {
+    cetak("kecil");
+}</code></pre>
+
+      <div class="stack">
+        <div v-for="s in stack" :key="s.label" class="stack-row">
+          <span class="stack-label">{{ s.label }}</span>
+          <span class="stack-items">{{ s.items }}</span>
         </div>
       </div>
     </div>
@@ -100,105 +57,58 @@ import { Icon } from '@iconify/vue'
 </template>
 
 <style scoped>
-.about-section {
-  background: var(--white);
-  border-top: 3px solid var(--black);
-  border-bottom: 3px solid var(--black);
-}
-
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
-  align-items: start;
-}
-
-.about-text {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 2rem;
+.prose p {
   font-size: 1.05rem;
-  font-family: Arial, sans-serif;
-  font-weight: 400;
+  max-width: 62ch;
+  margin-bottom: 1.25rem;
+}
+.prose p:last-child { margin-bottom: 0; }
+
+/* his own language, shown as the artifact it is */
+.artifact {
+  font-family: var(--mono);
+  font-size: 0.8rem;
   line-height: 1.75;
-  color: #333;
+  color: var(--ink);
+  background: #F2F2EE;
+  padding: 1.5rem 1.5rem;
+  margin: 2.25rem 0 3.5rem;
+  overflow-x: auto;
+  white-space: pre;
+}
+.artifact .kw {
+  background-image: linear-gradient(var(--lime), var(--lime));
+  background-repeat: no-repeat;
+  background-size: 100% 0.9em;
+  background-position: 0 62%;
 }
 
-.about-details {
+.stack-row {
   display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  border: 3px solid var(--black);
-  padding: 1.25rem;
-  box-shadow: var(--shadow-md);
-  background: var(--bg);
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--rule);
 }
+.stack-row:last-child { border-bottom: 1px solid var(--rule); }
 
-.detail-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 0.9rem;
-  font-weight: 700;
+.stack-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  color: var(--muted);
+  width: 7.5rem;
+  flex-shrink: 0;
+  padding-top: 0.15rem;
 }
 
-.services-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+.stack-items {
+  font-size: 0.95rem;
 }
 
-.service-card {
-  border: 3px solid var(--black);
-  padding: 1.5rem;
-  box-shadow: var(--shadow-md);
-  transition: transform 0.1s, box-shadow 0.1s;
-}
-
-.service-card:hover {
-  transform: translate(-3px, -3px);
-  box-shadow: 8px 8px 0 var(--black);
-}
-
-.service-yellow { background: var(--yellow); }
-.service-white { background: var(--white); }
-.service-lime { background: var(--lime); }
-.service-sky { background: var(--sky); }
-.service-coral { background: var(--coral); }
-.service-purple { background: var(--purple); }
-
-.service-icon {
-  margin-bottom: 0.75rem;
-}
-
-.service-card h3 {
-  font-size: 1rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
-}
-
-.service-card p {
-  font-family: Arial, sans-serif;
-  font-size: 0.85rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #333;
-}
-
-@media (max-width: 900px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 3rem;
-  }
-}
-
-@media (max-width: 520px) {
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 640px) {
+  .stack-row { flex-direction: column; gap: 0.3rem; }
+  .stack-label { width: auto; }
+  .artifact { font-size: 0.72rem; padding: 1.1rem; }
 }
 </style>

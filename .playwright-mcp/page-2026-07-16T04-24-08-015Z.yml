@@ -1,0 +1,454 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - button "Abdul Muttaqin" [ref=e5] [cursor=pointer]
+      - generic [ref=e6]:
+        - button "Work" [ref=e7] [cursor=pointer]
+        - button "About" [ref=e8] [cursor=pointer]
+        - button "Contact" [ref=e9] [cursor=pointer]
+        - link "CV" [ref=e10] [cursor=pointer]:
+          - /url: "#/cv"
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - heading "I build systems that survive production." [level=1] [ref=e14]
+      - paragraph [ref=e15]: Abdul Muttaqin — software engineer and security researcher, based in Indonesia. Five years shipping WhatsApp gateways at national scale, AI customer-service platforms, native desktop tools, and Android security research. I also wrote a programming language whose keywords are Indonesian.
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - term [ref=e18]: 4,000+
+          - definition [ref=e19]: GitHub stars
+        - generic [ref=e20]:
+          - term [ref=e21]: 200+
+          - definition [ref=e22]: Repositories
+        - generic [ref=e23]:
+          - term [ref=e24]: 5 yrs
+          - definition [ref=e25]: In production
+      - generic [ref=e26]:
+        - button "See the work" [ref=e27] [cursor=pointer]
+        - link "Read the CV" [ref=e28] [cursor=pointer]:
+          - /url: "#/cv"
+    - generic [ref=e30]:
+      - generic [ref=e31]: Selected work — 39 projects
+      - generic [ref=e32]:
+        - button [ref=e33] [cursor=pointer]:
+          - text: All
+          - superscript [ref=e34]: "39"
+        - button [ref=e35] [cursor=pointer]:
+          - text: Web
+          - superscript [ref=e36]: "10"
+        - button [ref=e37] [cursor=pointer]:
+          - text: Security
+          - superscript [ref=e38]: "3"
+        - button [ref=e39] [cursor=pointer]:
+          - text: Automation
+          - superscript [ref=e40]: "2"
+        - button [ref=e41] [cursor=pointer]:
+          - text: Native
+          - superscript [ref=e42]: "11"
+        - button [ref=e43] [cursor=pointer]:
+          - text: Module
+          - superscript [ref=e44]: "12"
+        - button [ref=e45] [cursor=pointer]:
+          - text: Language
+          - superscript [ref=e46]: "1"
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - heading "Marspedia" [level=3] [ref=e51]
+              - paragraph [ref=e52]: Game top-up / PPOB platform (Laravel 12, Alpine.js, Tailwind). Integrated iPaymu payment gateway (QRIS + VA + e-wallet) and Digiflazz PPOB provider (~5000 SKUs auto-synced via queue). Migrated image storage to Cloudflare R2 and cut image serving from 300ms to 5ms via static-file symlink.
+              - paragraph [ref=e53]: Laravel 12 · Alpine.js · iPaymu · Digiflazz · Cloudflare R2
+            - generic [ref=e54]: Web
+        - listitem [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - heading "Fit Motor — AI WhatsApp CRM" [level=3] [ref=e59]
+              - paragraph [ref=e60]: End-to-end AI-powered WhatsApp customer-service platform for a multi-branch motorcycle workshop chain. Hono + TypeScript, Drizzle (PostgreSQL + pgvector) RAG knowledge base, BullMQ/Redis queues. 2-stage LLM pipeline cut booking response from ~90s to ~5s; Vue 3 admin dashboard + LLM-as-judge eval across 14 models.
+              - paragraph [ref=e61]: TypeScript · Hono · Vue 3 · pgvector · LLM
+            - generic [ref=e62]: Web
+        - listitem [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - heading "Klinik Dr. Angga — WhatsApp AI" [level=3] [ref=e67]
+              - paragraph [ref=e68]: WhatsApp dashboard + AI chatbot (OpenAI) automating a healthcare clinic's customer service — ~10,000 patients and 290,000+ messages processed automatically. Node.js, Express, Sequelize (MySQL), Redis, multi-instance WhatsApp via WUZAPI, Socket.io real-time dashboard, Dockerized (6 services).
+              - paragraph [ref=e69]: Node.js · Express · OpenAI · WUZAPI · Docker
+            - generic [ref=e70]: Web
+        - listitem [ref=e72]:
+          - link "Tenun Programming language with full Indonesian keywords (kalau, selama, untuk, fungsi, kembali) and a compiler written in Zig. Statically typed, with three execution backends from one source — tree-walking interpreter, bytecode VM, and native via C transpilation. Ships a REPL, formatter, package manager, VSCode + Neovim extensions, and a 25+ module ecosystem (web, ORM, Redis, mail, scraping). Zig · Compiler · Language Design · C Language" [ref=e73] [cursor=pointer]:
+            - /url: https://github.com/TenunLang/Tenun
+            - generic [ref=e74]:
+              - heading "Tenun" [level=3] [ref=e75]
+              - paragraph [ref=e76]: Programming language with full Indonesian keywords (kalau, selama, untuk, fungsi, kembali) and a compiler written in Zig. Statically typed, with three execution backends from one source — tree-walking interpreter, bytecode VM, and native via C transpilation. Ships a REPL, formatter, package manager, VSCode + Neovim extensions, and a 25+ module ecosystem (web, ORM, Redis, mail, scraping).
+              - paragraph [ref=e77]: Zig · Compiler · Language Design · C
+            - generic [ref=e78]: Language
+        - listitem [ref=e80]:
+          - 'link "Cloudflare Tunnel for aaPanel aaPanel plugin that manages Cloudflare Tunnel (cloudflared) end-to-end from the panel UI. 4-step wizard: auto-downloads the binary, reuses cloudflare_manage creds, creates tunnels, upserts proxied CNAMEs, writes config.yml, and installs the systemd service with atomic rollback. Expose NAT/CGNAT servers with no public IP. aaPanel · Cloudflare · Python · cloudflared · systemd Module" [ref=e81] [cursor=pointer]':
+            - /url: https://github.com/fdciabdul/Cloudflare-Tunnel-aaPanel
+            - generic [ref=e82]:
+              - heading "Cloudflare Tunnel for aaPanel" [level=3] [ref=e83]
+              - paragraph [ref=e84]: "aaPanel plugin that manages Cloudflare Tunnel (cloudflared) end-to-end from the panel UI. 4-step wizard: auto-downloads the binary, reuses cloudflare_manage creds, creates tunnels, upserts proxied CNAMEs, writes config.yml, and installs the systemd service with atomic rollback. Expose NAT/CGNAT servers with no public IP."
+              - paragraph [ref=e85]: aaPanel · Cloudflare · Python · cloudflared · systemd
+            - generic [ref=e86]: Module
+        - listitem [ref=e88]:
+          - link "node-smpp-next SMPP client and server implementation in Node.js — a modern, TypeScript-typed rewrite for sending and receiving SMS over the SMPP protocol. Published as an npm module. TypeScript · Node.js · SMPP · npm Module" [ref=e89] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/node-smpp-next
+            - generic [ref=e90]:
+              - heading "node-smpp-next" [level=3] [ref=e91]
+              - paragraph [ref=e92]: SMPP client and server implementation in Node.js — a modern, TypeScript-typed rewrite for sending and receiving SMS over the SMPP protocol. Published as an npm module.
+              - paragraph [ref=e93]: TypeScript · Node.js · SMPP · npm
+            - generic [ref=e94]: Module
+        - listitem [ref=e96]:
+          - link "mcp-cpanel-api MCP server for cPanel UAPI — manage email, domains, databases, files, Git, SSL, DNS, and security directly from Claude and other AI assistants. MCP · cPanel · TypeScript · AI Module" [ref=e97] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/mcp-cpanel-api
+            - generic [ref=e98]:
+              - heading "mcp-cpanel-api" [level=3] [ref=e99]
+              - paragraph [ref=e100]: MCP server for cPanel UAPI — manage email, domains, databases, files, Git, SSL, DNS, and security directly from Claude and other AI assistants.
+              - paragraph [ref=e101]: MCP · cPanel · TypeScript · AI
+            - generic [ref=e102]: Module
+        - listitem [ref=e104]:
+          - link "httptoolkit-mcp MCP server for HTTP Toolkit — intercept, inspect, and debug HTTP traffic via AI assistants. MCP · HTTP Toolkit · AI · Node.js Module" [ref=e105] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/httptoolkit-mcp
+            - generic [ref=e106]:
+              - heading "httptoolkit-mcp" [level=3] [ref=e107]
+              - paragraph [ref=e108]: MCP server for HTTP Toolkit — intercept, inspect, and debug HTTP traffic via AI assistants.
+              - paragraph [ref=e109]: MCP · HTTP Toolkit · AI · Node.js
+            - generic [ref=e110]: Module
+        - listitem [ref=e112]:
+          - link "mcpimg MCP server for AI image generation via OpenRouter, Together AI, Replicate, and fal.ai. MCP · Image Gen · AI · Node.js Module" [ref=e113] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/mcpimg
+            - generic [ref=e114]:
+              - heading "mcpimg" [level=3] [ref=e115]
+              - paragraph [ref=e116]: MCP server for AI image generation via OpenRouter, Together AI, Replicate, and fal.ai.
+              - paragraph [ref=e117]: MCP · Image Gen · AI · Node.js
+            - generic [ref=e118]: Module
+        - listitem [ref=e120]:
+          - link "gtranslate-api Free and unlimited Google Translate API wrapper for Node.js. Node.js · Translate · API Module" [ref=e121] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/gtranslate-api
+            - generic [ref=e122]:
+              - heading "gtranslate-api" [level=3] [ref=e123]
+              - paragraph [ref=e124]: Free and unlimited Google Translate API wrapper for Node.js.
+              - paragraph [ref=e125]: Node.js · Translate · API
+            - generic [ref=e126]: Module
+        - listitem [ref=e128]:
+          - link "cpanel-uapi JavaScript/TypeScript client library for the cPanel UAPI. TypeScript · cPanel · API Module" [ref=e129] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/cpanel-uapi
+            - generic [ref=e130]:
+              - heading "cpanel-uapi" [level=3] [ref=e131]
+              - paragraph [ref=e132]: JavaScript/TypeScript client library for the cPanel UAPI.
+              - paragraph [ref=e133]: TypeScript · cPanel · API
+            - generic [ref=e134]: Module
+        - listitem [ref=e136]:
+          - link "olx-scraper Unofficial OLX client API and scraper for Node.js. Node.js · Scraping · OLX Module" [ref=e137] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/olx-scraper
+            - generic [ref=e138]:
+              - heading "olx-scraper" [level=3] [ref=e139]
+              - paragraph [ref=e140]: Unofficial OLX client API and scraper for Node.js.
+              - paragraph [ref=e141]: Node.js · Scraping · OLX
+            - generic [ref=e142]: Module
+        - listitem [ref=e144]:
+          - link "puppeteer-auto-position Launch Puppeteer with automatic browser window positioning. Puppeteer · Node.js · Automation Module" [ref=e145] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/puppeteer-auto-position
+            - generic [ref=e146]:
+              - heading "puppeteer-auto-position" [level=3] [ref=e147]
+              - paragraph [ref=e148]: Launch Puppeteer with automatic browser window positioning.
+              - paragraph [ref=e149]: Puppeteer · Node.js · Automation
+            - generic [ref=e150]: Module
+        - listitem [ref=e152]:
+          - link "indonesia-number-provider-checker Return the Indonesian mobile operator name from a phone number. Node.js · Indonesia · Telco Module" [ref=e153] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/indonesia-number-provider-checker
+            - generic [ref=e154]:
+              - heading "indonesia-number-provider-checker" [level=3] [ref=e155]
+              - paragraph [ref=e156]: Return the Indonesian mobile operator name from a phone number.
+              - paragraph [ref=e157]: Node.js · Indonesia · Telco
+            - generic [ref=e158]: Module
+        - listitem [ref=e160]:
+          - link "maillogmonitor Monitor mail.log for delivery events and parse SMTP activity in real time. Node.js · Mail · Monitoring Module" [ref=e161] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/maillogmonitor
+            - generic [ref=e162]:
+              - heading "maillogmonitor" [level=3] [ref=e163]
+              - paragraph [ref=e164]: Monitor mail.log for delivery events and parse SMTP activity in real time.
+              - paragraph [ref=e165]: Node.js · Mail · Monitoring
+            - generic [ref=e166]: Module
+        - listitem [ref=e168]:
+          - link "bahlib Package manager dengan rasa Indonesia — NPM tapi ada drama SPBU-nya. A satirical Node package manager. Node.js · CLI · Package Manager Module" [ref=e169] [cursor=pointer]:
+            - /url: https://www.npmjs.com/package/bahlib
+            - generic [ref=e170]:
+              - heading "bahlib" [level=3] [ref=e171]
+              - paragraph [ref=e172]: Package manager dengan rasa Indonesia — NPM tapi ada drama SPBU-nya. A satirical Node package manager.
+              - paragraph [ref=e173]: Node.js · CLI · Package Manager
+            - generic [ref=e174]: Module
+        - listitem [ref=e176]:
+          - link "telegram-cli Telegram client that runs entirely in your terminal. Built in Go — chat, send, and read messages without leaving the command line. Go · Telegram · CLI · TUI 1★ Native" [ref=e177] [cursor=pointer]:
+            - /url: https://github.com/tegal1337/telegram-cli
+            - generic [ref=e178]:
+              - heading "telegram-cli" [level=3] [ref=e179]
+              - paragraph [ref=e180]: Telegram client that runs entirely in your terminal. Built in Go — chat, send, and read messages without leaving the command line.
+              - paragraph [ref=e181]: Go · Telegram · CLI · TUI
+            - generic [ref=e182]:
+              - generic [ref=e183]: 1★
+              - generic [ref=e184]: Native
+        - listitem [ref=e185]:
+          - link "WareHaus Real-time inventory management system. Stock tracking, purchase orders, supplier management, and warehouse activity logs. Vue.js · Hono · Drizzle ORM · TypeScript Web" [ref=e186] [cursor=pointer]:
+            - /url: https://warehaus.imtaqin.id/#/
+            - generic [ref=e187]:
+              - heading "WareHaus" [level=3] [ref=e188]
+              - paragraph [ref=e189]: Real-time inventory management system. Stock tracking, purchase orders, supplier management, and warehouse activity logs.
+              - paragraph [ref=e190]: Vue.js · Hono · Drizzle ORM · TypeScript
+            - generic [ref=e191]: Web
+        - listitem [ref=e193]:
+          - link "MauBlast WhatsApp API gateway for businesses — no Meta Business required. Multi-session, auto-reply, blast with throttling, real-time webhooks. Powered by WA-RS under the hood. Adonis v7 · WA-RS · Rust · REST API Web" [ref=e194] [cursor=pointer]:
+            - /url: https://maublast.net/
+            - generic [ref=e195]:
+              - heading "MauBlast" [level=3] [ref=e196]
+              - paragraph [ref=e197]: WhatsApp API gateway for businesses — no Meta Business required. Multi-session, auto-reply, blast with throttling, real-time webhooks. Powered by WA-RS under the hood.
+              - paragraph [ref=e198]: Adonis v7 · WA-RS · Rust · REST API
+            - generic [ref=e199]: Web
+        - listitem [ref=e201]:
+          - link "RentalWA WhatsApp number rental platform. Rent idle WA numbers for blast campaigns — pay per message, no contract. Full CRM, Redis queue, Terraform infra. Vue.js · Express · Sequelize · PostgreSQL · Redis · Terraform Web" [ref=e202] [cursor=pointer]:
+            - /url: https://rentalwa.com/
+            - generic [ref=e203]:
+              - heading "RentalWA" [level=3] [ref=e204]
+              - paragraph [ref=e205]: WhatsApp number rental platform. Rent idle WA numbers for blast campaigns — pay per message, no contract. Full CRM, Redis queue, Terraform infra.
+              - paragraph [ref=e206]: Vue.js · Express · Sequelize · PostgreSQL · Redis · Terraform
+            - generic [ref=e207]: Web
+        - listitem [ref=e209]:
+          - link "HarmoniCRM Client relationship management system built on Laravel 12. Contact management, deal pipeline, task tracking, and team collaboration. Laravel 12 · PHP · MySQL Web" [ref=e210] [cursor=pointer]:
+            - /url: https://crm.imtaqin.id/
+            - generic [ref=e211]:
+              - heading "HarmoniCRM" [level=3] [ref=e212]
+              - paragraph [ref=e213]: Client relationship management system built on Laravel 12. Contact management, deal pipeline, task tracking, and team collaboration.
+              - paragraph [ref=e214]: Laravel 12 · PHP · MySQL
+            - generic [ref=e215]: Web
+        - listitem [ref=e217]:
+          - link "Faskes Network Dashboard Dashboard interaktif peta persebaran fasilitas kesehatan — 112 Puskesmas & 98 Rumah Sakit di 24 wilayah. Filter per kabupaten, toggle tipe faskes, satelit/peta, dan popup detail lokasi. Leaflet.js · JavaScript · GeoJSON · HTML Web" [ref=e218] [cursor=pointer]:
+            - /url: https://faskes.subagakreatif.com
+            - generic [ref=e219]:
+              - heading "Faskes Network Dashboard" [level=3] [ref=e220]
+              - paragraph [ref=e221]: Dashboard interaktif peta persebaran fasilitas kesehatan — 112 Puskesmas & 98 Rumah Sakit di 24 wilayah. Filter per kabupaten, toggle tipe faskes, satelit/peta, dan popup detail lokasi.
+              - paragraph [ref=e222]: Leaflet.js · JavaScript · GeoJSON · HTML
+            - generic [ref=e223]: Web
+        - listitem [ref=e225]:
+          - link "WA-RS Multi-session WhatsApp REST API gateway rewritten from Node.js to Rust. Dropped memory from 8GB to minimal, eliminated CPU spikes, unlimited sessions. Rust · REST API · WhatsApp 17★ Web" [ref=e226] [cursor=pointer]:
+            - /url: https://wa-rs.imtaqin.id
+            - generic [ref=e227]:
+              - heading "WA-RS" [level=3] [ref=e228]
+              - paragraph [ref=e229]: Multi-session WhatsApp REST API gateway rewritten from Node.js to Rust. Dropped memory from 8GB to minimal, eliminated CPU spikes, unlimited sessions.
+              - paragraph [ref=e230]: Rust · REST API · WhatsApp
+            - generic [ref=e231]:
+              - generic [ref=e232]: 17★
+              - generic [ref=e233]: Web
+        - listitem [ref=e234]:
+          - link "Pocket Pentester 21-module native Android offensive security toolkit. 34MB APK, no root, fully offline. Port scan, SQLi, XSS, JWT attack, dir-fuzz, Burp-lite repeater. Rust · Tauri 2 · Vue 3 · Android Security" [ref=e235] [cursor=pointer]:
+            - /url: https://github.com/tegal1337/PocketPentester/releases/latest/download/PocketPentester.apk
+            - generic [ref=e236]:
+              - heading "Pocket Pentester" [level=3] [ref=e237]
+              - paragraph [ref=e238]: 21-module native Android offensive security toolkit. 34MB APK, no root, fully offline. Port scan, SQLi, XSS, JWT attack, dir-fuzz, Burp-lite repeater.
+              - paragraph [ref=e239]: Rust · Tauri 2 · Vue 3 · Android
+            - generic [ref=e240]: Security
+        - listitem [ref=e242]:
+          - link "CiLocks Android lockscreen interface crack tool with Metasploit integration and iOS/Android hacking utilities. Most-starred project across all accounts. HTML · Android · Metasploit 2,916★ Security" [ref=e243] [cursor=pointer]:
+            - /url: https://github.com/tegal1337/CiLocks
+            - generic [ref=e244]:
+              - heading "CiLocks" [level=3] [ref=e245]
+              - paragraph [ref=e246]: Android lockscreen interface crack tool with Metasploit integration and iOS/Android hacking utilities. Most-starred project across all accounts.
+              - paragraph [ref=e247]: HTML · Android · Metasploit
+            - generic [ref=e248]:
+              - generic [ref=e249]: 2,916★
+              - generic [ref=e250]: Security
+        - listitem [ref=e251]:
+          - link "Frida Multiple Bypass One-shot Frida script bypassing SSL pinning, root detection, emulator detection, Frida detection, and Flutter TLS simultaneously. 175 stars. JavaScript · Frida · Android 175★ Security" [ref=e252] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul/Frida-Multiple-Bypass
+            - generic [ref=e253]:
+              - heading "Frida Multiple Bypass" [level=3] [ref=e254]
+              - paragraph [ref=e255]: One-shot Frida script bypassing SSL pinning, root detection, emulator detection, Frida detection, and Flutter TLS simultaneously. 175 stars.
+              - paragraph [ref=e256]: JavaScript · Frida · Android
+            - generic [ref=e257]:
+              - generic [ref=e258]: 175★
+              - generic [ref=e259]: Security
+        - listitem [ref=e260]:
+          - link "YOMEN YouTube auto-commenter bot using Puppeteer. Multi-account, cookie auth, proxy support, comment rotation. 227 stars. TypeScript · Puppeteer · YouTube 227★ Automation" [ref=e261] [cursor=pointer]:
+            - /url: https://github.com/tegal1337/YOMEN
+            - generic [ref=e262]:
+              - heading "YOMEN" [level=3] [ref=e263]
+              - paragraph [ref=e264]: YouTube auto-commenter bot using Puppeteer. Multi-account, cookie auth, proxy support, comment rotation. 227 stars.
+              - paragraph [ref=e265]: TypeScript · Puppeteer · YouTube
+            - generic [ref=e266]:
+              - generic [ref=e267]: 227★
+              - generic [ref=e268]: Automation
+        - listitem [ref=e269]:
+          - link "mapsdumper Dump Google Maps place details at scale — phones, emails, websites, and reviews. 73 stars. JavaScript · Google Maps · Scraping 73★ Automation" [ref=e270] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=GyLzOtsk4_c
+            - generic [ref=e271]:
+              - heading "mapsdumper" [level=3] [ref=e272]
+              - paragraph [ref=e273]: Dump Google Maps place details at scale — phones, emails, websites, and reviews. 73 stars.
+              - paragraph [ref=e274]: JavaScript · Google Maps · Scraping
+            - generic [ref=e275]:
+              - generic [ref=e276]: 73★
+              - generic [ref=e277]: Automation
+        - listitem [ref=e278]:
+          - link "Satria Proxy Desktop proxy scraper and checker. Scrapes proxies from multiple sources, validates them live for speed and anonymity. Built with Python and PySide6. Python · PySide6 · Proxy · Desktop Native" [ref=e279] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=ISN-_AHxZ9Y
+            - generic [ref=e280]:
+              - heading "Satria Proxy" [level=3] [ref=e281]
+              - paragraph [ref=e282]: Desktop proxy scraper and checker. Scrapes proxies from multiple sources, validates them live for speed and anonymity. Built with Python and PySide6.
+              - paragraph [ref=e283]: Python · PySide6 · Proxy · Desktop
+            - generic [ref=e284]: Native
+        - listitem [ref=e286]:
+          - link "Driver Booster Pro Native Windows desktop app for driver management. Built with Go + WebView2 + direct Win32 API calls. Frameless window, WinUI3 styling, PowerShell without CMD flash. Go · WebView2 · Win32 API · Windows Native" [ref=e287] [cursor=pointer]:
+            - /url: https://imtaqin.id/building-windows-11-desktop-app-go-webview2
+            - generic [ref=e288]:
+              - heading "Driver Booster Pro" [level=3] [ref=e289]
+              - paragraph [ref=e290]: Native Windows desktop app for driver management. Built with Go + WebView2 + direct Win32 API calls. Frameless window, WinUI3 styling, PowerShell without CMD flash.
+              - paragraph [ref=e291]: Go · WebView2 · Win32 API · Windows
+            - generic [ref=e292]: Native
+        - listitem [ref=e294]:
+          - link "GoAMPP 7MB native Windows web stack (Apache + MySQL + PHP) replacing 200MB XAMPP. Single executable, no Docker, no WSL, no Java required. Go · Apache · MySQL · PHP · Windows 4★ Native" [ref=e295] [cursor=pointer]:
+            - /url: https://imtaqin.id/goampp-a-7-mb-native-windows-web-stack-that-skips-docker-wsl-and-the-java-jdk
+            - generic [ref=e296]:
+              - heading "GoAMPP" [level=3] [ref=e297]
+              - paragraph [ref=e298]: 7MB native Windows web stack (Apache + MySQL + PHP) replacing 200MB XAMPP. Single executable, no Docker, no WSL, no Java required.
+              - paragraph [ref=e299]: Go · Apache · MySQL · PHP · Windows
+            - generic [ref=e300]:
+              - generic [ref=e301]: 4★
+              - generic [ref=e302]: Native
+        - listitem [ref=e303]:
+          - link "WinRavel Bundle any Laravel app into one self-contained Windows .exe. FrankenPHP (PHP 8.5 + Caddy), SQLite or a bundled MariaDB server, composer and git all baked in. Build-time setup (migrate/seed), app/ source obfuscation, and self-extracting output. C#/.NET builder + launcher. C# · .NET · FrankenPHP · Laravel · Windows Native" [ref=e304] [cursor=pointer]:
+            - /url: https://imtaqin.id/winravel-laravel-to-windows-exe
+            - generic [ref=e305]:
+              - heading "WinRavel" [level=3] [ref=e306]
+              - paragraph [ref=e307]: Bundle any Laravel app into one self-contained Windows .exe. FrankenPHP (PHP 8.5 + Caddy), SQLite or a bundled MariaDB server, composer and git all baked in. Build-time setup (migrate/seed), app/ source obfuscation, and self-extracting output. C#/.NET builder + launcher.
+              - paragraph [ref=e308]: C# · .NET · FrankenPHP · Laravel · Windows
+            - generic [ref=e309]: Native
+        - listitem [ref=e311]:
+          - link "WA Blast Desktop Electron desktop app for managing WhatsApp sessions and sending bulk messages. Dark theme UI, multi-session, contact import. Electron · JavaScript · WhatsApp 10★ Native" [ref=e312] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul/Whatsapp-Blast-Desktop
+            - generic [ref=e313]:
+              - heading "WA Blast Desktop" [level=3] [ref=e314]
+              - paragraph [ref=e315]: Electron desktop app for managing WhatsApp sessions and sending bulk messages. Dark theme UI, multi-session, contact import.
+              - paragraph [ref=e316]: Electron · JavaScript · WhatsApp
+            - generic [ref=e317]:
+              - generic [ref=e318]: 10★
+              - generic [ref=e319]: Native
+        - listitem [ref=e320]:
+          - link "DroidQEMU Run a full QEMU virtual machine directly on Android. Native Kotlin app, no root required. Includes virtual keyboard support. Kotlin · QEMU · Android 3★ Native" [ref=e321] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul/DroidQEMU
+            - generic [ref=e322]:
+              - heading "DroidQEMU" [level=3] [ref=e323]
+              - paragraph [ref=e324]: Run a full QEMU virtual machine directly on Android. Native Kotlin app, no root required. Includes virtual keyboard support.
+              - paragraph [ref=e325]: Kotlin · QEMU · Android
+            - generic [ref=e326]:
+              - generic [ref=e327]: 3★
+              - generic [ref=e328]: Native
+        - listitem [ref=e329]:
+          - link "SHINRAI AI-powered SSH manager and DevOps agent that runs in your terminal. Manage servers, execute commands, and automate ops tasks with AI assistance. TypeScript · AI · SSH · Terminal 1★ Native" [ref=e330] [cursor=pointer]:
+            - /url: https://github.com/tegal1337/SHINRAI
+            - generic [ref=e331]:
+              - heading "SHINRAI" [level=3] [ref=e332]
+              - paragraph [ref=e333]: AI-powered SSH manager and DevOps agent that runs in your terminal. Manage servers, execute commands, and automate ops tasks with AI assistance.
+              - paragraph [ref=e334]: TypeScript · AI · SSH · Terminal
+            - generic [ref=e335]:
+              - generic [ref=e336]: 1★
+              - generic [ref=e337]: Native
+        - listitem [ref=e338]:
+          - link "Youtube Downloader Desktop app wrapping yt-dlp in a native Tauri + Rust shell. Clean GUI, format selection, download queue. Rust · Tauri · JavaScript · yt-dlp 2★ Native" [ref=e339] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul/Youtube-Downloader
+            - generic [ref=e340]:
+              - heading "Youtube Downloader" [level=3] [ref=e341]
+              - paragraph [ref=e342]: Desktop app wrapping yt-dlp in a native Tauri + Rust shell. Clean GUI, format selection, download queue.
+              - paragraph [ref=e343]: Rust · Tauri · JavaScript · yt-dlp
+            - generic [ref=e344]:
+              - generic [ref=e345]: 2★
+              - generic [ref=e346]: Native
+        - listitem [ref=e347]:
+          - link "Absensi Siswa Digital Student attendance system integrated with fingerprint scanner and face detection. Replaces manual roll call for schools. Fingerprint · Face Detection · IoT 4★ Web" [ref=e348] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul/ABSENSI-SISWA-DIGITAL
+            - generic [ref=e349]:
+              - heading "Absensi Siswa Digital" [level=3] [ref=e350]
+              - paragraph [ref=e351]: Student attendance system integrated with fingerprint scanner and face detection. Replaces manual roll call for schools.
+              - paragraph [ref=e352]: Fingerprint · Face Detection · IoT
+            - generic [ref=e353]:
+              - generic [ref=e354]: 4★
+              - generic [ref=e355]: Web
+        - listitem [ref=e356]:
+          - link "Frida Launcher Android app that automatically downloads and runs the latest Frida server — no manual ADB setup needed. Kotlin · Frida · Android 4★ Native" [ref=e357] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul/Frida-Launcher
+            - generic [ref=e358]:
+              - heading "Frida Launcher" [level=3] [ref=e359]
+              - paragraph [ref=e360]: Android app that automatically downloads and runs the latest Frida server — no manual ADB setup needed.
+              - paragraph [ref=e361]: Kotlin · Frida · Android
+            - generic [ref=e362]:
+              - generic [ref=e363]: 4★
+              - generic [ref=e364]: Native
+        - listitem [ref=e365]:
+          - link "Auto-Bid Bot Auto-bid bot for Projects.co.id. Grok AI solves captchas, scans listings by keyword, 24/7 loop with Rezi TUI dashboard. TLS-impersonated to bypass Cloudflare. TypeScript · Grok AI · TUI Native" [ref=e366] [cursor=pointer]:
+            - /url: https://imtaqin.id/auto-bid-bot-projects-co-id
+            - generic [ref=e367]:
+              - heading "Auto-Bid Bot" [level=3] [ref=e368]
+              - paragraph [ref=e369]: Auto-bid bot for Projects.co.id. Grok AI solves captchas, scans listings by keyword, 24/7 loop with Rezi TUI dashboard. TLS-impersonated to bypass Cloudflare.
+              - paragraph [ref=e370]: TypeScript · Grok AI · TUI
+            - generic [ref=e371]: Native
+    - generic [ref=e374]:
+      - generic [ref=e375]: About
+      - generic [ref=e376]:
+        - paragraph [ref=e377]: I started freelancing in 2016 and never really stopped. Since then I've built WhatsApp gateways that move hundreds of thousands of messages a day, an AI customer-service platform for a motorcycle workshop chain, a PPOB payments platform, and a VR application for a national energy company.
+        - paragraph [ref=e378]: The other half of my work is security research — Android tooling, SSL pinning bypasses, and offensive toolkits. Roughly 200 repositories and 4,000+ GitHub stars came out of that habit.
+        - paragraph [ref=e379]:
+          - text: Somewhere in between, I wrote
+          - link "Tenun" [ref=e380] [cursor=pointer]:
+            - /url: https://github.com/TenunLang/Tenun
+          - text: "— a statically typed programming language whose keywords are Indonesian, with a compiler in Zig and three execution backends. It looks like this:"
+      - code [ref=e382]: "fungsi salam(nama: teks): kosong { cetak(\"Halo, \" + nama); } biar angka: bulat = 10; kalau angka > 5 { salam(\"Tenun\"); } lain { cetak(\"kecil\"); }"
+      - generic [ref=e383]:
+        - generic [ref=e384]:
+          - generic [ref=e385]: Languages
+          - generic [ref=e386]: Rust · Go · TypeScript · JavaScript · PHP · Kotlin · Python · C#
+        - generic [ref=e387]:
+          - generic [ref=e388]: Frontend
+          - generic [ref=e389]: Vue.js · Svelte · React Native · TailwindCSS
+        - generic [ref=e390]:
+          - generic [ref=e391]: Backend
+          - generic [ref=e392]: Node.js · Hono · AdonisJS · Laravel · Express
+        - generic [ref=e393]:
+          - generic [ref=e394]: Data
+          - generic [ref=e395]: PostgreSQL · MySQL · Redis · Drizzle · pgvector
+        - generic [ref=e396]:
+          - generic [ref=e397]: Infra
+          - generic [ref=e398]: Docker · Terraform · Nginx · Grafana · Prometheus
+        - generic [ref=e399]:
+          - generic [ref=e400]: Desktop
+          - generic [ref=e401]: Tauri · Electron · WebView2 · Win32 API
+        - generic [ref=e402]:
+          - generic [ref=e403]: Security
+          - generic [ref=e404]: Frida · Burp Suite · Metasploit · JADX
+    - generic [ref=e406]:
+      - generic [ref=e407]: Contact
+      - heading "Got something that needs to actually ship?" [level=2] [ref=e408]
+      - paragraph [ref=e409]: Open to full-time roles, contract work, and freelance projects — remote or around Jakarta. I usually reply within a day.
+      - list [ref=e410]:
+        - listitem [ref=e411]:
+          - link "Email taqin2731@gmail.com" [ref=e412] [cursor=pointer]:
+            - /url: mailto:taqin2731@gmail.com
+            - generic [ref=e413]: Email
+            - generic [ref=e414]: taqin2731@gmail.com
+            - generic [ref=e415]: ↗
+        - listitem [ref=e416]:
+          - link "GitHub github.com/fdciabdul" [ref=e417] [cursor=pointer]:
+            - /url: https://github.com/fdciabdul
+            - generic [ref=e418]: GitHub
+            - generic [ref=e419]: github.com/fdciabdul
+            - generic [ref=e420]: ↗
+        - listitem [ref=e421]:
+          - link "LinkedIn linkedin.com/in/fdciabdul" [ref=e422] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/fdciabdul
+            - generic [ref=e423]: LinkedIn
+            - generic [ref=e424]: linkedin.com/in/fdciabdul
+            - generic [ref=e425]: ↗
+        - listitem [ref=e426]:
+          - link "Writing imtaqin.id" [ref=e427] [cursor=pointer]:
+            - /url: https://imtaqin.id
+            - generic [ref=e428]: Writing
+            - generic [ref=e429]: imtaqin.id
+            - generic [ref=e430]: ↗
+  - contentinfo [ref=e431]:
+    - generic [ref=e432]:
+      - generic [ref=e433]: © 2026 Abdul Muttaqin
+      - generic [ref=e434]: Built with Vue. Hosted on GitHub Pages.
