@@ -136,6 +136,11 @@ function href(p: any) {
   color: var(--muted);
   margin-top: 0.45rem;
   max-width: 62ch;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .row-tags {

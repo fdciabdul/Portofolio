@@ -77,8 +77,8 @@ section {
 .mark {
   background-image: linear-gradient(var(--lime), var(--lime));
   background-repeat: no-repeat;
-  background-size: 100% 0.42em;
-  background-position: 0 78%;
+  background-size: 100% 0.26em;
+  background-position: 0 96%;
   padding: 0 0.06em;
 }
 
