@@ -14,8 +14,8 @@ function scrollTo(id: string) {
   <section id="hero" class="hero">
     <div class="container">
       <h1 class="hero-line">
-        I build systems that
-        <span class="mark">survive production</span>.
+        I build web apps, developer tools, and
+        <span class="mark">one programming language</span>.
       </h1>
 
       <p class="hero-body">
