@@ -1,6 +1,19 @@
 [
   {
     "highlight": true,
+    "title": "Waxum",
+    "description": "Multi-session REST API gateway for the WhatsApp Web client, built in Rust. Manage many WhatsApp sessions behind one API with low memory footprint and high throughput.",
+    "tags": ["Rust", "REST API", "WhatsApp", "Multi-session"],
+    "category": "Web",
+    "color": "coral",
+    "stars": 34,
+    "github": "https://github.com/imtaqin/waxum",
+    "live": "https://waxum.imtaqin.id",
+    "featured": true,
+    "image": "https://opengraph.githubassets.com/1/imtaqin/waxum"
+  },
+  {
+    "highlight": true,
     "title": "Marspedia",
     "description": "Game top-up / PPOB platform (Laravel 12, Alpine.js, Tailwind). Integrated iPaymu payment gateway (QRIS + VA + e-wallet) and Digiflazz PPOB provider (~5000 SKUs auto-synced via queue). Migrated image storage to Cloudflare R2 and cut image serving from 300ms to 5ms via static-file symlink.",
     "tags": ["Laravel 12", "Alpine.js", "iPaymu", "Digiflazz", "Cloudflare R2"],
