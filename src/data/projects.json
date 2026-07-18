@@ -1,6 +1,19 @@
 [
   {
     "highlight": true,
+    "title": "bidintel.id",
+    "description": "Tender intelligence platform for Indonesia's LPSE/SPSE e-procurement. Search tenders, trace company track records and profiles, and compare auction winners — centralized, continuously updated data ready for analysis.",
+    "tags": ["Tender", "LPSE", "Data", "Analytics", "Scraping"],
+    "category": "Web",
+    "color": "lime",
+    "stars": null,
+    "github": null,
+    "live": "https://bidintel.id",
+    "featured": true,
+    "image": "https://placehold.co/600x360/111111/9eff00?text=bidintel.id"
+  },
+  {
+    "highlight": true,
     "title": "Waxum",
     "description": "Multi-session REST API gateway for the WhatsApp Web client, built in Rust. Manage many WhatsApp sessions behind one API with low memory footprint and high throughput.",
     "tags": ["Rust", "REST API", "WhatsApp", "Multi-session"],
