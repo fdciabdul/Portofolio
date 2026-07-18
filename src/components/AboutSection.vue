@@ -27,24 +27,10 @@ const stack = [
           bypasses, and offensive toolkits. Roughly 200 repositories and
           <span class="mark">4,000+ GitHub stars</span> came out of that habit.
         </p>
-        <p>
-          Somewhere in between, I wrote <a class="link-underline" href="https://github.com/TenunLang/Tenun" target="_blank" rel="noopener">Tenun</a> —
-          a statically typed programming language whose keywords are Indonesian, with a
-          compiler in Zig and three execution backends. It looks like this:
-        </p>
+      
       </div>
 
-      <pre class="artifact"><code>fungsi salam(nama: teks): kosong {
-    cetak("Halo, " + nama);
-}
-
-biar angka: bulat = 10;
-
-<span class="kw">kalau</span> angka > 5 {
-    salam("Tenun");
-} <span class="kw">lain</span> {
-    cetak("kecil");
-}</code></pre>
+    
 
       <div class="stack">
         <div v-for="s in stack" :key="s.label" class="stack-row">
